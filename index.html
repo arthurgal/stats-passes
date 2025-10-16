@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de Times</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .select-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        .select-box {
+            width: 45%;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .comparison-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .team-stats {
+            width: 45%;
+            padding: 15px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+        }
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .stat-label {
+            font-weight: bold;
+            position: relative;
+            cursor: help;
+        }
+        .stat-label[data-tooltip]:hover::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            left: 0;
+            top: 100%;
+            z-index: 1;
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            width: 250px;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 1.4;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .league-select {
+            margin-bottom: 20px;
+        }
+        .btn-compare {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn-compare:hover {
+            background-color: #45a049;
+        }
+        .no-data {
+            text-align: center;
+            color: #999;
+            padding: 20px;
+        }
+        .advanced-analysis {
+            width: 100%;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .advanced-analysis h3 {
+            text-align: center;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .glossary {
+            margin-top: 30px;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #4CAF50;
+        }
+        .glossary h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .glossary-item {
+            margin-bottom: 10px;
+        }
+        .glossary-term {
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Comparador de Times</h1>
+        
+        <div class="league-select">
+            <label for="league">Selecione a Liga:</label>
+            <select id="league" onchange="loadTeams()">
+                <!-- Ligas serão carregadas aqui -->
+            </select>
+        </div>
+        
+        <div class="select-container">
+            <div class="select-box">
+                <label for="team1">Time 1:</label>
+                <select id="team1">
+                    <option value="">Selecione um time</option>
+                </select>
+            </div>
+            <div class="select-box">
+                <label for="team2">Time 2:</label>
+                <select id="team2">
+                    <option value="">Selecione um time</option>
+                </select>
+            </div>
+        </div>
+        
+        <button class="btn-compare" onclick="compareTeams()">Comparar</button>
+        
+        <div class="comparison-container" id="comparison-results">
+            <div class="no-data">Selecione dois times para comparar</div>
+        </div>
+    </div>
+
+    <script>
+        // Dados JSON embutidos (substitua pelo seu JSON real)
+        let jsonData = null;
+
+        // Função para carregar os dados do JSON
+        function loadData() {
+            // Aqui vamos usar um script separado para carregar os dados
+            const script = document.createElement('script');
+            script.src = 'load-data.js';
+            script.onload = function() {
+                // Após carregar o script, jsonData estará disponível
+                // Carregar as ligas no select
+                const leagueSelect = document.getElementById('league');
+                leagueSelect.innerHTML = '<option value="">Selecione uma liga</option>';
+                
+                for (const league in jsonData) {
+                    const option = document.createElement('option');
+                    option.value = league;
+                    option.textContent = league;
+                    leagueSelect.appendChild(option);
+                }
+            };
+            script.onerror = function() {
+                console.error('Erro ao carregar os dados');
+                alert('Erro ao carregar os dados. Verifique se o arquivo load-data.js existe.');
+            };
+            document.head.appendChild(script);
+        }
+
+        // Carregar times com base na liga selecionada
+        function loadTeams() {
+            const leagueSelect = document.getElementById('league');
+            const team1Select = document.getElementById('team1');
+            const team2Select = document.getElementById('team2');
+            
+            // Limpar os selects de times
+            team1Select.innerHTML = '<option value="">Selecione um time</option>';
+            team2Select.innerHTML = '<option value="">Selecione um time</option>';
+            
+            // Limpar a área de comparação
+            document.getElementById('comparison-results').innerHTML = '<div class="no-data">Selecione dois times para comparar</div>';
+            
+            const selectedLeague = leagueSelect.value;
+            if (!selectedLeague || !jsonData[selectedLeague]) return;
+            
+            const teams = jsonData[selectedLeague].times;
+            
+            teams.forEach(team => {
+                // Adicionar ao select do Time 1
+                const option1 = document.createElement('option');
+                option1.value = team.time;
+                option1.textContent = team.time;
+                team1Select.appendChild(option1);
+                
+                // Adicionar ao select do Time 2
+                const option2 = document.createElement('option');
+                option2.value = team.time;
+                option2.textContent = team.time;
+                team2Select.appendChild(option2);
+            });
+        }
+
+        // Comparar os times selecionados
+        function compareTeams() {
+            const leagueSelect = document.getElementById('league');
+            const team1Select = document.getElementById('team1');
+            const team2Select = document.getElementById('team2');
+            const comparisonResults = document.getElementById('comparison-results');
+            
+            const selectedLeague = leagueSelect.value;
+            const selectedTeam1 = team1Select.value;
+            const selectedTeam2 = team2Select.value;
+            
+            if (!selectedLeague || !selectedTeam1 || !selectedTeam2) {
+                comparisonResults.innerHTML = '<div class="no-data">Selecione dois times para comparar</div>';
+                return;
+            }
+            
+            if (selectedTeam1 === selectedTeam2) {
+                comparisonResults.innerHTML = '<div class="no-data">Selecione times diferentes para comparar</div>';
+                return;
+            }
+            
+            const teams = jsonData[selectedLeague].times;
+            const team1Data = teams.find(team => team.time === selectedTeam1);
+            const team2Data = teams.find(team => team.time === selectedTeam2);
+            
+            if (!team1Data || !team2Data) {
+                comparisonResults.innerHTML = '<div class="no-data">Dados não encontrados para um ou ambos os times</div>';
+                return;
+            }
+            
+            // Cálculos da análise avançada
+            // 1. Total de Passes
+            const totalPasses = team1Data.passes_por_jogo + team2Data.passes_por_jogo;
+            
+            // 2. Posse Ajustada
+            const posseAjustadaTime1 = team1Data.posse_media / (team1Data.posse_media + team2Data.posse_media);
+            const posseAjustadaTime2 = team2Data.posse_media / (team1Data.posse_media + team2Data.posse_media);
+            
+            // 3. Previsão de Passes
+            const previsaoPassesTime1 = posseAjustadaTime1 * totalPasses;
+            const previsaoPassesTime2 = posseAjustadaTime2 * totalPasses;
+            
+            // 4. Eficiência de Posse (Passes/Posse)
+            const eficienciaPosseTime1 = team1Data.passes_por_jogo / team1Data.posse_media;
+            const eficienciaPosseTime2 = team2Data.passes_por_jogo / team2Data.posse_media;
+            
+            // 5. Eficiência de Criação (ICJ/Posse)
+            const eficienciaCriacaoTime1 = team1Data.icj / team1Data.posse_media;
+            const eficienciaCriacaoTime2 = team2Data.icj / team2Data.posse_media;
+            
+            // 6. Índice de Efetividade (ICJ * EC)
+            const indiceEfetividadeTime1 = team1Data.icj * team1Data.ec;
+            const indiceEfetividadeTime2 = team2Data.icj * team2Data.ec;
+            
+            // Criar a visualização da comparação
+            comparisonResults.innerHTML = `
+                <div class="team-stats">
+                    <h2>${team1Data.time}</h2>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Percentual médio de tempo que o time mantém a posse de bola durante as partidas.">Posse Média:</span>
+                        <span>${team1Data.posse_media}%</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Média de passes completados pelo time por partida.">Passes por Jogo:</span>
+                        <span>${team1Data.passes_por_jogo.toFixed(1)}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Percentual de passes que são completados com sucesso.">Precisão de Passes:</span>
+                        <span>${team1Data.precisao_passes}%</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Índice de Criação de Jogadas: Métrica que avalia a capacidade do time de criar oportunidades de gol, considerando passes-chave, cruzamentos e finalizações.">ICJ:</span>
+                        <span>${team1Data.icj}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Eficiência de Conversão: Métrica que avalia a capacidade do time de converter oportunidades em gols.">EC:</span>
+                        <span>${team1Data.ec}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Caracterização do padrão tático e estratégico do time durante as partidas.">Estilo de Jogo:</span>
+                        <span>${team1Data.estilo_jogo}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Posse de bola ajustada considerando o confronto direto entre os dois times selecionados.">Posse Ajustada:</span>
+                        <span>${(posseAjustadaTime1 * 100).toFixed(2)}%</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Estimativa de passes que o time realizaria em um confronto direto, baseado na posse ajustada.">Previsão de Passes:</span>
+                        <span>${previsaoPassesTime1.toFixed(1)}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Relação entre passes por jogo e posse média. Indica quantos passes o time consegue realizar para cada 1% de posse de bola, mostrando a velocidade de circulação da bola.">Eficiência de Posse:</span>
+                        <span>${eficienciaPosseTime1.toFixed(2)}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Relação entre o Índice de Criação de Jogadas (ICJ) e a posse média. Indica a capacidade do time de criar oportunidades de gol em relação ao tempo que mantém a posse de bola.">Eficiência de Criação:</span>
+                        <span>${eficienciaCriacaoTime1.toFixed(3)}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Produto do Índice de Criação de Jogadas (ICJ) e Eficiência de Conversão (EC). Representa a efetividade geral do time, combinando criação de jogadas e capacidade de finalização.">Índice de Efetividade:</span>
+                        <span>${indiceEfetividadeTime1.toFixed(2)}</span>
+                    </div>
+                </div>
+                <div class="team-stats">
+                    <h2>${team2Data.time}</h2>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Percentual médio de tempo que o time mantém a posse de bola durante as partidas.">Posse Média:</span>
+                        <span>${team2Data.posse_media}%</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Média de passes completados pelo time por partida.">Passes por Jogo:</span>
+                        <span>${team2Data.passes_por_jogo.toFixed(1)}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Percentual de passes que são completados com sucesso.">Precisão de Passes:</span>
+                        <span>${team2Data.precisao_passes}%</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Índice de Criação de Jogadas: Métrica que avalia a capacidade do time de criar oportunidades de gol, considerando passes-chave, cruzamentos e finalizações.">ICJ:</span>
+                        <span>${team2Data.icj}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Eficiência de Conversão: Métrica que avalia a capacidade do time de converter oportunidades em gols.">EC:</span>
+                        <span>${team2Data.ec}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Caracterização do padrão tático e estratégico do time durante as partidas.">Estilo de Jogo:</span>
+                        <span>${team2Data.estilo_jogo}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Posse de bola ajustada considerando o confronto direto entre os dois times selecionados.">Posse Ajustada:</span>
+                        <span>${(posseAjustadaTime2 * 100).toFixed(2)}%</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Estimativa de passes que o time realizaria em um confronto direto, baseado na posse ajustada.">Previsão de Passes:</span>
+                        <span>${previsaoPassesTime2.toFixed(1)}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Relação entre passes por jogo e posse média. Indica quantos passes o time consegue realizar para cada 1% de posse de bola, mostrando a velocidade de circulação da bola.">Eficiência de Posse:</span>
+                        <span>${eficienciaPosseTime2.toFixed(2)}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Relação entre o Índice de Criação de Jogadas (ICJ) e a posse média. Indica a capacidade do time de criar oportunidades de gol em relação ao tempo que mantém a posse de bola.">Eficiência de Criação:</span>
+                        <span>${eficienciaCriacaoTime2.toFixed(3)}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label" data-tooltip="Produto do Índice de Criação de Jogadas (ICJ) e Eficiência de Conversão (EC). Representa a efetividade geral do time, combinando criação de jogadas e capacidade de finalização.">Índice de Efetividade:</span>
+                        <span>${indiceEfetividadeTime2.toFixed(2)}</span>
+                    </div>
+                </div>
+            `;
+            
+            // Criar o elemento do glossário
+            const glossaryDiv = document.createElement('div');
+            glossaryDiv.className = 'glossary';
+            glossaryDiv.innerHTML = `
+                <h3>Glossário de Termos</h3>
+                <div class="glossary-item">
+                    <span class="glossary-term">ICJ (Índice de Criação de Jogadas):</span> Métrica que avalia a capacidade do time de criar oportunidades de gol, considerando passes-chave, cruzamentos e finalizações.
+                </div>
+                <div class="glossary-item">
+                    <span class="glossary-term">EC (Eficiência de Conversão):</span> Métrica que avalia a capacidade do time de converter oportunidades em gols.
+                </div>
+                <div class="glossary-item">
+                    <span class="glossary-term">Eficiência de Posse:</span> Relação entre passes por jogo e posse média. Indica quantos passes o time consegue realizar para cada 1% de posse de bola, mostrando a velocidade de circulação da bola.
+                </div>
+                <div class="glossary-item">
+                    <span class="glossary-term">Eficiência de Criação:</span> Relação entre o ICJ e a posse média. Indica a capacidade do time de criar oportunidades de gol em relação ao tempo que mantém a posse de bola.
+                </div>
+                <div class="glossary-item">
+                    <span class="glossary-term">Índice de Efetividade:</span> Produto do ICJ e EC. Representa a efetividade geral do time, combinando criação de jogadas e capacidade de finalização.
+                </div>
+            `;
+            
+            // Adicionar o glossário após os resultados da comparação
+            comparisonResults.parentNode.insertBefore(glossaryDiv, comparisonResults.nextSibling);
+        }
+
+        // Carregar os dados quando a página for carregada
+        window.onload = loadData;
+    </script>
+</body>
+</html>
