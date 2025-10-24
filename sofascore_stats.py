@@ -141,6 +141,82 @@ def analyze_team(overall: dict) -> dict:
 
 
 # =========================
+# �LTIMOS CONFRONTOS (forma)
+# =========================
+def _ev_score_pair(ev: dict):
+    hs = (ev.get("homeScore") or {}).get("current") if isinstance(ev.get("homeScore"), dict) else ev.get("homeScore")
+    as_ = (ev.get("awayScore") or {}).get("current") if isinstance(ev.get("awayScore"), dict) else ev.get("awayScore")
+    return hs, as_
+
+
+def _ev_result_for_team(ev: dict, team_id: int):
+    hs, as_ = _ev_score_pair(ev)
+    if hs is None or as_ is None:
+        return None, None, None
+    hid = (ev.get("homeTeam") or {}).get("id")
+    aid = (ev.get("awayTeam") or {}).get("id")
+    if team_id == hid:
+        gf, ga = hs, as_
+    elif team_id == aid:
+        gf, ga = as_, hs
+    else:
+        return None, None, None
+    if gf > ga:
+        res = "W"
+    elif gf == ga:
+        res = "D"
+    else:
+        res = "L"
+    return res, gf, ga
+
+
+def aggregate_last_events(events: list, team_id: int, n: int = 5) -> dict:
+    # Considera apenas jogos finalizados, ordenando do mais novo para o mais antigo
+    evs = [e for e in events if ((e.get("status") or {}).get("type") == "finished")]
+    evs.sort(key=lambda e: e.get("startTimestamp") or 0, reverse=True)
+    evs = evs[:n]
+    form = []
+    w = d = l = 0
+    gf = ga = 0
+    for e in evs:
+        res, g1, g2 = _ev_result_for_team(e, team_id)
+        if not res:
+            continue
+        form.append(res)
+        if res == "W":
+            w += 1
+        elif res == "D":
+            d += 1
+        else:
+            l += 1
+        gf += int(g1)
+        ga += int(g2)
+    count = len(form) if form else 0
+    avg_gf = (gf / count) if count else 0.0
+    avg_ga = (ga / count) if count else 0.0
+    return {
+        "form": "".join(form),
+        "w": w,
+        "d": d,
+        "l": l,
+        "gf": gf,
+        "ga": ga,
+        "avg_gf": round(avg_gf, 2),
+        "avg_ga": round(avg_ga, 2),
+        "count": count,
+    }
+
+
+def get_last_events_summary(page, team_id: int) -> dict:
+    url = f"https://www.sofascore.com/api/v1/team/{team_id}/events/last/0"
+    payload = fetch_json(page, url) or {}
+    events = (payload.get("events") or payload.get("data") or [])
+    last5 = aggregate_last_events(events, team_id, 5)
+    last10 = aggregate_last_events(events, team_id, 10)
+    return {"events": events, "last5": last5, "last10": last10}
+
+
+# =========================
 # PERSISTÊNCIA EM BANCO (MySQL)
 # =========================
 MYSQL_DDL = [
@@ -471,6 +547,29 @@ def main():
                 # Inclui o ID do time na saída para uso no banco de dados
                 row = {"team_id": team_id, "time": team_name}
                 row.update(analyze_team(overall))
+                # �ltimos confrontos (forma recente)
+                try:
+                    ev_summary = get_last_events_summary(page, int(team_id))
+                except Exception:
+                    ev_summary = {"last5": {}, "last10": {}, "events": []}
+                l5 = ev_summary.get("last5") or {}
+                l10 = ev_summary.get("last10") or {}
+                row.update({
+                    "form5": l5.get("form"),
+                    "w5": l5.get("w"), "d5": l5.get("d"), "l5": l5.get("l"),
+                    "gf5": l5.get("gf"), "ga5": l5.get("ga"),
+                    "form10": l10.get("form"),
+                    "w10": l10.get("w"), "d10": l10.get("d"), "l10": l10.get("l"),
+                    "gf10": l10.get("gf"), "ga10": l10.get("ga"),
+                })
+                # Salva JSON bruto dos eventos recentes por time (para consulta)
+                try:
+                    import os as _os, json as _json
+                    _os.makedirs("last_events", exist_ok=True)
+                    with open(_os.path.join("last_events", f"last_events_{team_id}.json"), "w", encoding="utf-8") as f:
+                        _json.dump({"team_id": team_id, "team": team_name, **ev_summary}, f, ensure_ascii=False, indent=2)
+                except Exception:
+                    pass
                 league_rows.append(row)
 
                 print(
