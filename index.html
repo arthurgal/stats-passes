@@ -398,8 +398,32 @@
           try {
             const res = await fetch('featured-events.json', { cache: 'no-store' });
             const data = await res.json();
-            const leagueBlock = data[this.selectedLeague];
-            this.fixtures = (leagueBlock && leagueBlock.events) ? leagueBlock.events : [];
+            const tid = (jsonData?.[this.selectedLeague]?.tournament_id) || null;
+            let events = [];
+            if (data && Array.isArray(data.featuredEvents)) {
+              // Formato bruto do endpoint
+              for (const block of data.featuredEvents) {
+                if (Array.isArray(block?.events)) {
+                  events.push(...block.events);
+                } else if (block && block.id && (block.homeTeam || block.awayTeam)) {
+                  events.push(block);
+                }
+              }
+              if (tid) {
+                events = events.filter(e => (e.tournament?.uniqueTournament?.id) === tid || (e.uniqueTournament?.id) === tid);
+              }
+            } else if (data && data[this.selectedLeague]?.events) {
+              events = data[this.selectedLeague].events;
+            } else if (data && Array.isArray(data.events)) {
+              events = data.events;
+            }
+            this.fixtures = events.map(e => ({
+              id: e.id,
+              startTimestamp: e.startTimestamp,
+              homeTeam: e.homeTeam,
+              awayTeam: e.awayTeam,
+              tournament: e.tournament || { name: this.selectedLeague },
+            }));
           } catch (e) {
             this.fixturesError = 'Não foi possível carregar os confrontos futuros.';
             console.error(e);
