@@ -308,6 +308,8 @@
           selectedLeague: '',
           selectedTeam1: '',
           selectedTeam2: '',
+          selectedTeam1Id: null,
+          selectedTeam2Id: null,
           last5Team1: [],
           last5Team2: [],
           fixtures: [],
@@ -369,15 +371,24 @@
         }
       },
       watch: {
-        selectedTeam1() {
+        selectedTeam1(newVal) {
+          // Quando o nome muda manualmente, tenta sincronizar o ID
+          const t = this.teams.find(x => x.time === newVal);
+          this.selectedTeam1Id = t ? t.team_id : null;
           this.loadLast5For(1);
         },
-        selectedTeam2() {
+        selectedTeam2(newVal) {
+          const t = this.teams.find(x => x.time === newVal);
+          this.selectedTeam2Id = t ? t.team_id : null;
           this.loadLast5For(2);
         },
+        selectedTeam1Id() { this.loadLast5For(1); },
+        selectedTeam2Id() { this.loadLast5For(2); },
         async selectedLeague(newVal) {
           this.selectedTeam1 = '';
           this.selectedTeam2 = '';
+          this.selectedTeam1Id = null;
+          this.selectedTeam2Id = null;
           this.last5Team1 = [];
           this.last5Team2 = [];
           this.fixtures = [];
@@ -401,6 +412,8 @@
         resetTeams() {
           this.selectedTeam1 = '';
           this.selectedTeam2 = '';
+          this.selectedTeam1Id = null;
+          this.selectedTeam2Id = null;
           this.last5Team1 = [];
           this.last5Team2 = [];
         },
@@ -410,8 +423,13 @@
         },
         chooseFixture(fx) {
           if (!fx || !fx.homeTeam || !fx.awayTeam) return;
-          this.selectedTeam1 = fx.homeTeam.name;
-          this.selectedTeam2 = fx.awayTeam.name;
+          // Sincroniza por ID para evitar divergência de nomes
+          this.selectedTeam1Id = fx.homeTeam.id || null;
+          this.selectedTeam2Id = fx.awayTeam.id || null;
+          const t1 = this.teams.find(t => t.team_id === this.selectedTeam1Id) || this.teams.find(t => t.time === (fx.homeTeam?.name || ''));
+          const t2 = this.teams.find(t => t.team_id === this.selectedTeam2Id) || this.teams.find(t => t.time === (fx.awayTeam?.name || ''));
+          this.selectedTeam1 = t1 ? t1.time : (fx.homeTeam?.name || '');
+          this.selectedTeam2 = t2 ? t2.time : (fx.awayTeam?.name || '');
           this.scrollToResults();
         },
         async loadLast5For(side) {
