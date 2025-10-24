@@ -82,6 +82,29 @@
           </div>
         </div>
 
+        <!-- Próximos jogos da liga selecionada -->
+        <div v-if="selectedLeague" class="mt-6">
+          <div class="flex items-center justify-between mb-2">
+            <h3 class="text-base font-semibold text-gray-800">Próximos jogos</h3>
+            <span v-if="fixturesLoading" class="text-xs text-gray-500">Carregando…</span>
+          </div>
+          <div v-if="fixturesError" class="text-sm text-red-600">{{ fixturesError }}</div>
+          <div v-else>
+            <div v-if="fixtures.length" class="rounded-lg border border-gray-200 divide-y bg-white">
+              <button v-for="fx in fixtures" :key="fx.id" @click="chooseFixture(fx)" class="w-full flex items-center justify-between p-3 hover:bg-gray-50 text-left">
+                <div class="text-xs text-gray-500 w-24">{{ new Date((fx.startTimestamp||0)*1000).toLocaleDateString('pt-BR', { day:'2-digit', month:'2-digit'}) }}</div>
+                <div class="flex-1 px-2 text-sm text-gray-800">
+                  <span class="font-medium">{{ fx.homeTeam?.name }}</span>
+                  <span class="text-gray-500"> vs </span>
+                  <span class="font-medium">{{ fx.awayTeam?.name }}</span>
+                </div>
+                <div class="text-xs text-gray-500 w-32 truncate">{{ fx.tournament?.name }}</div>
+              </button>
+            </div>
+            <div v-else class="text-sm text-gray-500">Nenhum confronto futuro listado nesta liga.</div>
+          </div>
+        </div>
+
         <!-- Compare Button -->
         <div class="flex justify-center mt-6">
           <button @click="scrollToResults" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-md bg-primary-600 text-white font-medium hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500">
@@ -287,6 +310,9 @@
           selectedTeam2: '',
           last5Team1: [],
           last5Team2: [],
+          fixtures: [],
+          fixturesLoading: false,
+          fixturesError: '',
         }
       },
       mounted() {
@@ -348,6 +374,27 @@
         },
         selectedTeam2() {
           this.loadLast5For(2);
+        },
+        async selectedLeague(newVal) {
+          this.selectedTeam1 = '';
+          this.selectedTeam2 = '';
+          this.last5Team1 = [];
+          this.last5Team2 = [];
+          this.fixtures = [];
+          this.fixturesError = '';
+          if (!newVal) return;
+          this.fixturesLoading = true;
+          try {
+            const res = await fetch('featured-events.json', { cache: 'no-store' });
+            const data = await res.json();
+            const leagueBlock = data[this.selectedLeague];
+            this.fixtures = (leagueBlock && leagueBlock.events) ? leagueBlock.events : [];
+          } catch (e) {
+            this.fixturesError = 'Não foi possível carregar os confrontos futuros.';
+            console.error(e);
+          } finally {
+            this.fixturesLoading = false;
+          }
         }
       },
       methods: {
@@ -360,6 +407,12 @@
         scrollToResults() {
           const el = document.getElementById('results');
           if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        },
+        chooseFixture(fx) {
+          if (!fx || !fx.homeTeam || !fx.awayTeam) return;
+          this.selectedTeam1 = fx.homeTeam.name;
+          this.selectedTeam2 = fx.awayTeam.name;
+          this.scrollToResults();
         },
         async loadLast5For(side) {
           const team = side === 1 ? this.team1Data : this.team2Data;
