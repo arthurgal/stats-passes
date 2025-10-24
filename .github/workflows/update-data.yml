@@ -32,6 +32,10 @@ jobs:
         run: |
           python sofascore_stats.py || echo "Scraper failed, continuing to try update_data.py"
 
+      - name: Fetch featured events (next fixtures)
+        run: |
+          python fetch_featured_events.py || echo "Featured events fetch failed, continuing"
+
       - name: Build load-data.js from latest JSON
         run: |
           python update_data.py
@@ -44,7 +48,8 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add load-data.js sofascore_analysis_*.json || true
-            git commit -m "chore(data): update load-data.js [skip ci]"
+            git add featured-events.json || true
+            git add -A last_events || true
+            git commit -m "chore(data): update load-data.js, featured-events.json e last_events [skip ci]" || echo "Nothing new to commit"
             git push
           fi
-
