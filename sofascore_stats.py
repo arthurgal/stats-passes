@@ -8,7 +8,7 @@ SofaScore Analyzer (versão final com fallback /standings/total)
 
 from playwright.sync_api import sync_playwright
 from datetime import datetime
-import json, time, random
+import json, time, random, os
 
 # =========================
 # CONFIGURAÇÃO
@@ -114,15 +114,13 @@ def analyze_block(stats: dict) -> dict:
     return {"posse": possession, "passes_jogo": ppg, "precisao": accurate}
 
 
-def analyze_team(overall: dict, home: dict, away: dict) -> dict:
+def analyze_team(overall: dict) -> dict:
     """Calcula métricas derivadas e estilo de jogo."""
     o = analyze_block(overall or {})
-    h = analyze_block(home or {})
-    a = analyze_block(away or {})
 
     icj = (o["posse"] * o["precisao"]) / 100.0 if o["posse"] and o["precisao"] else 0.0
     ec = (o["passes_jogo"] / o["posse"]) if o["posse"] else 0.0
-    const = abs((h["posse"] or 0.0) - (a["posse"] or 0.0))
+
 
     estilo = "Transição direta"
     if o["posse"] > 56 and o["precisao"] > 87:
@@ -140,6 +138,299 @@ def analyze_team(overall: dict, home: dict, away: dict) -> dict:
         "ec": round(ec, 2),
         "estilo_jogo": estilo,
     }
+
+
+# =========================
+# PERSISTÊNCIA EM BANCO (MySQL)
+# =========================
+MYSQL_DDL = [
+    """
+    CREATE TABLE IF NOT EXISTS run (
+      run_id BIGINT AUTO_INCREMENT PRIMARY KEY,
+      created_at DATETIME NOT NULL,
+      source_file VARCHAR(255) NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    """,
+    """
+    CREATE TABLE IF NOT EXISTS league (
+      tournament_id BIGINT PRIMARY KEY,
+      name VARCHAR(100) NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    """,
+    """
+    CREATE TABLE IF NOT EXISTS season (
+      season_id BIGINT PRIMARY KEY,
+      tournament_id BIGINT NOT NULL,
+      name VARCHAR(50) NULL,
+      CONSTRAINT fk_season_league
+        FOREIGN KEY (tournament_id) REFERENCES league (tournament_id)
+        ON UPDATE CASCADE ON DELETE RESTRICT
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    """,
+    """
+    CREATE TABLE IF NOT EXISTS team (
+      team_id BIGINT PRIMARY KEY,
+      name VARCHAR(120) NOT NULL,
+      KEY idx_team_name (name)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    """,
+    """
+    CREATE TABLE IF NOT EXISTS run_league (
+      id BIGINT AUTO_INCREMENT PRIMARY KEY,
+      run_id BIGINT NOT NULL,
+      tournament_id BIGINT NOT NULL,
+      season_id BIGINT NOT NULL,
+      league_name VARCHAR(100) NOT NULL,
+      status ENUM('ok','erro') NOT NULL DEFAULT 'ok',
+      error_msg VARCHAR(255) NULL,
+      CONSTRAINT fk_runleague_run
+        FOREIGN KEY (run_id) REFERENCES run(run_id)
+        ON UPDATE CASCADE ON DELETE CASCADE,
+      CONSTRAINT fk_runleague_league
+        FOREIGN KEY (tournament_id) REFERENCES league(tournament_id)
+        ON UPDATE CASCADE ON DELETE RESTRICT,
+      CONSTRAINT fk_runleague_season
+        FOREIGN KEY (season_id) REFERENCES season(season_id)
+        ON UPDATE CASCADE ON DELETE RESTRICT,
+      UNIQUE KEY uq_runleague (run_id, tournament_id, season_id)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    """,
+    """
+    CREATE TABLE IF NOT EXISTS team_metrics (
+      id BIGINT AUTO_INCREMENT PRIMARY KEY,
+      run_id BIGINT NOT NULL,
+      tournament_id BIGINT NOT NULL,
+      season_id BIGINT NOT NULL,
+      league_name VARCHAR(100) NOT NULL,
+      team_id BIGINT NOT NULL,
+      team_name VARCHAR(120) NOT NULL,
+      posse_media DOUBLE NOT NULL,
+      passes_por_jogo DOUBLE NOT NULL,
+      precisao_passes DOUBLE NOT NULL,
+      icj DOUBLE NOT NULL,
+      ec DOUBLE NOT NULL,
+      estilo_jogo VARCHAR(50) NOT NULL,
+      rank_icj INT NULL,
+      CONSTRAINT fk_metrics_run
+        FOREIGN KEY (run_id) REFERENCES run(run_id)
+        ON UPDATE CASCADE ON DELETE CASCADE,
+      CONSTRAINT fk_metrics_league
+        FOREIGN KEY (tournament_id) REFERENCES league(tournament_id)
+        ON UPDATE CASCADE ON DELETE RESTRICT,
+      CONSTRAINT fk_metrics_season
+        FOREIGN KEY (season_id) REFERENCES season(season_id)
+        ON UPDATE CASCADE ON DELETE RESTRICT,
+      CONSTRAINT fk_metrics_team
+        FOREIGN KEY (team_id) REFERENCES team(team_id)
+        ON UPDATE CASCADE ON DELETE RESTRICT,
+      UNIQUE KEY uq_metrics (run_id, tournament_id, season_id, team_id),
+      KEY idx_metrics_lookup (tournament_id, season_id, team_id),
+      KEY idx_metrics_icj (tournament_id, season_id, icj),
+      KEY idx_metrics_teamname (tournament_id, season_id, team_name)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    """,
+]
+
+
+def _mysql_connect_from_env():
+    """Abre conexão MySQL.
+    Prioriza variáveis de ambiente; se ausentes, usa fallback padrão local:
+      host=localhost, port=3306, user=root, password=12345678, database=apostar_stats
+    Também cria o database se não existir (erro 1049).
+    """
+    try:
+        import pymysql  # type: ignore
+    except Exception:
+        print("[DB] PyMySQL não encontrado. Instale com: pip install pymysql")
+        raise
+
+    host = os.getenv("DB_HOST", "127.0.0.1")
+    user = os.getenv("DB_USER", "apostar")
+    password = os.getenv("DB_PASS", "12345678")
+    database = os.getenv("DB_NAME", "apostar_stats")
+    port = int(os.getenv("DB_PORT", "3306"))
+
+    try:
+        return pymysql.connect(
+            host=host,
+            port=port,
+            user=user,
+            password=password,
+            database=database,
+            charset="utf8mb4",
+            autocommit=False,
+            cursorclass=pymysql.cursors.DictCursor,
+        )
+    except Exception as e:
+        try:
+            # Unknown database 'X'
+            from pymysql.err import OperationalError  # type: ignore
+        except Exception:
+            raise
+        if isinstance(e, OperationalError) and getattr(e, 'args', [None])[0] == 1049:
+            # Conecta sem DB, cria o schema e reconecta
+            tmp = pymysql.connect(
+                host=host,
+                port=port,
+                user=user,
+                password=password,
+                charset="utf8mb4",
+                autocommit=True,
+            )
+            try:
+                with tmp.cursor() as cur:
+                    cur.execute(
+                        f"CREATE DATABASE IF NOT EXISTS `{database}` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci"
+                    )
+            finally:
+                tmp.close()
+            return pymysql.connect(
+                host=host,
+                port=port,
+                user=user,
+                password=password,
+                database=database,
+                charset="utf8mb4",
+                autocommit=False,
+                cursorclass=pymysql.cursors.DictCursor,
+            )
+        raise
+
+
+def _mysql_ensure_schema(conn):
+    with conn.cursor() as cur:
+        for stmt in MYSQL_DDL:
+            cur.execute(stmt)
+    conn.commit()
+
+
+def _mysql_save_run(conn, created_at_dt, source_file):
+    created_at_str = created_at_dt.strftime("%Y-%m-%d %H:%M:%S")
+    with conn.cursor() as cur:
+        cur.execute(
+            "INSERT INTO run (created_at, source_file) VALUES (%s, %s)",
+            (created_at_str, source_file),
+        )
+        run_id = cur.lastrowid
+    conn.commit()
+    return run_id
+
+
+def _mysql_upsert_league_and_season(conn, tournament_id, season_id, league_name):
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO league (tournament_id, name)
+            VALUES (%s, %s)
+            ON DUPLICATE KEY UPDATE name=VALUES(name)
+            """,
+            (tournament_id, league_name),
+        )
+        cur.execute(
+            """
+            INSERT INTO season (season_id, tournament_id)
+            VALUES (%s, %s)
+            ON DUPLICATE KEY UPDATE tournament_id=VALUES(tournament_id)
+            """,
+            (season_id, tournament_id),
+        )
+    conn.commit()
+
+
+def _mysql_insert_run_league(conn, run_id, tournament_id, season_id, league_name, status, error_msg):
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO run_league (run_id, tournament_id, season_id, league_name, status, error_msg)
+            VALUES (%s, %s, %s, %s, %s, %s)
+            ON DUPLICATE KEY UPDATE status=VALUES(status), error_msg=VALUES(error_msg), league_name=VALUES(league_name)
+            """,
+            (run_id, tournament_id, season_id, league_name, status, error_msg),
+        )
+    conn.commit()
+
+
+def _mysql_upsert_team(conn, team_id, team_name):
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO team (team_id, name)
+            VALUES (%s, %s)
+            ON DUPLICATE KEY UPDATE name=VALUES(name)
+            """,
+            (team_id, team_name),
+        )
+
+
+def _mysql_insert_team_metrics(conn, run_id, tournament_id, season_id, league_name, row, rank_icj):
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO team_metrics (
+              run_id, tournament_id, season_id, league_name,
+              team_id, team_name, posse_media, passes_por_jogo, precisao_passes, icj, ec, estilo_jogo, rank_icj
+            ) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+            ON DUPLICATE KEY UPDATE
+              team_name=VALUES(team_name),
+              posse_media=VALUES(posse_media),
+              passes_por_jogo=VALUES(passes_por_jogo),
+              precisao_passes=VALUES(precisao_passes),
+              icj=VALUES(icj),
+              ec=VALUES(ec),
+              estilo_jogo=VALUES(estilo_jogo),
+              rank_icj=VALUES(rank_icj)
+            """,
+            (
+                run_id,
+                tournament_id,
+                season_id,
+                league_name,
+                int(row.get("team_id")),
+                str(row.get("time")),
+                float(row.get("posse_media")),
+                float(row.get("passes_por_jogo")),
+                float(row.get("precisao_passes")),
+                float(row.get("icj")),
+                float(row.get("ec")),
+                str(row.get("estilo_jogo")),
+                int(rank_icj),
+            ),
+        )
+
+
+def save_to_mysql(resultado_final, ts, source_file):
+    conn = _mysql_connect_from_env()
+    try:
+        _mysql_ensure_schema(conn)
+        dt = datetime.strptime(ts, "%Y%m%d_%H%M%S")
+        run_id = _mysql_save_run(conn, dt, source_file)
+
+        for league_name, payload in resultado_final.items():
+            tournament_id = int((payload or {}).get("tournament_id", 0) or 0)
+            season_id = int((payload or {}).get("season_id", 0) or 0)
+
+            if tournament_id and season_id:
+                _mysql_upsert_league_and_season(conn, tournament_id, season_id, league_name)
+
+            if isinstance(payload, dict) and payload.get("erro"):
+                _mysql_insert_run_league(conn, run_id, tournament_id, season_id, league_name, "erro", str(payload.get("erro")))
+                continue
+            else:
+                _mysql_insert_run_league(conn, run_id, tournament_id, season_id, league_name, "ok", None)
+
+            rows = (payload or {}).get("times") or []
+            for rank, row in enumerate(rows, start=1):
+                if row.get("team_id") is not None:
+                    _mysql_upsert_team(conn, int(row["team_id"]), str(row["time"]))
+                _mysql_insert_team_metrics(conn, run_id, tournament_id, season_id, league_name, row, rank)
+
+        conn.commit()
+        print(f"[DB] Dados salvos com sucesso (run_id={run_id}).")
+    finally:
+        try:
+            conn.close()
+        except Exception:
+            pass
 
 
 # =========================
@@ -171,18 +462,15 @@ def main():
 
                 overall = fetch_json(page, f"{base}/overall")
                 overall = overall.get("statistics") if isinstance(overall, dict) else None
-                home = fetch_json(page, f"{base}/home")
-                home = home.get("statistics") if isinstance(home, dict) else None
-                away = fetch_json(page, f"{base}/away")
-                away = away.get("statistics") if isinstance(away, dict) else None
 
                 if not overall:
                     print(f"   ⚠️ {team_name}: sem dados ou bloqueado")
                     _sleep()
                     continue
 
-                row = {"time": team_name}
-                row.update(analyze_team(overall, home or {}, away or {}))
+                # Inclui o ID do time na saída para uso no banco de dados
+                row = {"team_id": team_id, "time": team_name}
+                row.update(analyze_team(overall))
                 league_rows.append(row)
 
                 print(
@@ -206,7 +494,11 @@ def main():
         json.dump(resultado_final, f, ensure_ascii=False, indent=2)
 
     print(f"\n✅ JSON salvo em: {file_name}")
-
+    # Persistência no MySQL, se configurado via variáveis de ambiente
+    try:
+        save_to_mysql(resultado_final, ts, file_name)
+    except Exception as e:
+        print(f"[DB] Persistência MySQL não executada: {e}")
 
 if __name__ == "__main__":
     main()
