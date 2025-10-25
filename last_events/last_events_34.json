@@ -6629,6 +6629,8 @@
       "isEditor": false
     },
     {
+      "correctAiInsight": true,
+      "correctHalftimeAiInsight": true,
       "tournament": {
         "name": "Premier League",
         "slug": "premier-league",
@@ -6728,10 +6730,11 @@
       },
       "customId": "JsM",
       "status": {
-        "code": 6,
-        "description": "1st half",
-        "type": "inprogress"
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
       },
+      "winnerCode": 1,
       "homeTeam": {
         "id": 34,
         "country": {
@@ -6818,27 +6821,31 @@
         "current": 2,
         "display": 2,
         "period1": 2,
+        "period2": 0,
         "normaltime": 2
       },
       "awayScore": {
-        "current": 0,
-        "display": 0,
+        "current": 1,
+        "display": 1,
         "period1": 0,
-        "normaltime": 0
+        "period2": 1,
+        "normaltime": 1
       },
       "time": {
-        "initial": 0,
-        "max": 2700,
-        "extra": 540,
-        "currentPeriodStartTimestamp": 1761332488
+        "injuryTime1": 13,
+        "injuryTime2": 4,
+        "currentPeriodStartTimestamp": 1761336924
       },
       "changes": {
         "changes": [
+          "status.code",
+          "status.description",
+          "status.type",
           "time.currentPeriodStart"
         ],
-        "changeTimestamp": 1761334282
+        "changeTimestamp": 1761339902
       },
-      "hasGlobalHighlights": false,
+      "hasGlobalHighlights": true,
       "hasXg": true,
       "hasEventPlayerStatistics": true,
       "hasEventPlayerHeatMap": true,
@@ -6849,40 +6856,32 @@
         "homeTeam": false,
         "awayTeam": false
       },
-      "statusTime": {
-        "prefix": "",
-        "initial": 0,
-        "max": 2700,
-        "timestamp": 1761332488,
-        "extra": 540
-      },
       "slug": "west-ham-united-leeds-united",
       "startTimestamp": 1761332400,
-      "lastPeriod": "period1",
       "finalResultOnly": false,
       "feedLocked": true,
       "isEditor": false
     }
   ],
   "last5": {
-    "form": "LLDWL",
-    "w": 1,
+    "form": "WLLDW",
+    "w": 2,
     "d": 1,
-    "l": 3,
-    "gf": 6,
+    "l": 2,
+    "gf": 8,
     "ga": 8,
-    "avg_gf": 1.2,
+    "avg_gf": 1.6,
     "avg_ga": 1.6,
     "count": 5
   },
   "last10": {
-    "form": "LLDWLDLLWD",
-    "w": 2,
-    "d": 3,
+    "form": "WLLDWLDLLW",
+    "w": 3,
+    "d": 2,
     "l": 5,
-    "gf": 9,
+    "gf": 10,
     "ga": 18,
-    "avg_gf": 0.9,
+    "avg_gf": 1.0,
     "avg_ga": 1.8,
     "count": 10
   }
