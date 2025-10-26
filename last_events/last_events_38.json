@@ -3,231 +3,6 @@
   "team": "Chelsea",
   "events": [
     {
-      "tournament": {
-        "name": "Premier League",
-        "slug": "premier-league",
-        "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
-          "name": "England",
-          "slug": "england",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "flag": "england",
-          "alpha2": "EN",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "إنجلترا",
-              "hi": "इंग्लैंड",
-              "bn": "ইংল্যান্ড"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "Premier League",
-          "slug": "premier-league",
-          "primaryColorHex": "#3c1c5a",
-          "secondaryColorHex": "#f80158",
-          "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
-            "name": "England",
-            "slug": "england",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "flag": "england",
-            "alpha2": "EN",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "إنجلترا",
-                "hi": "इंग्लैंड",
-                "bn": "ইংল্যান্ড"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 1251920,
-          "id": 17,
-          "country": {},
-          "hasPerformanceGraphFeature": true,
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "الدوري الإنجليزي الممتاز",
-              "hi": "प्रिमियर लीग",
-              "bn": "প্রিমিয়ার লীগ"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 693,
-        "isGroup": false,
-        "isLive": false,
-        "id": 1,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "الدوري الإنجليزي الممتاز",
-            "hi": "प्रिमियर लीग",
-            "bn": "প্রিমিয়ার লীগ"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Premier League 24/25",
-        "year": "24/25",
-        "editor": false,
-        "id": 61627
-      },
-      "roundInfo": {
-        "round": 33
-      },
-      "customId": "NsT",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 2,
-      "homeTeam": {
-        "id": 43,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
-        "name": "Fulham",
-        "slug": "fulham",
-        "shortName": "Fulham",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 355843,
-        "nameCode": "FUL",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ffffff",
-          "secondary": "#000000",
-          "text": "#000000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "فولهام",
-            "ru": "Фулхэм",
-            "hi": "फुलहम",
-            "bn": "ফুলহাম"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "awayTeam": {
-        "name": "Chelsea",
-        "slug": "chelsea",
-        "shortName": "Chelsea",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 2657678,
-        "nameCode": "CHE",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#0310a7",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "تشيلسي",
-            "ru": "Челси",
-            "hi": "चेल्सी",
-            "bn": "চেলসি"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "homeScore": {
-        "current": 1,
-        "display": 1,
-        "period1": 1,
-        "period2": 0,
-        "normaltime": 1
-      },
-      "awayScore": {
-        "current": 2,
-        "display": 2,
-        "period1": 0,
-        "period2": 2,
-        "normaltime": 2
-      },
-      "time": {
-        "injuryTime1": 1,
-        "injuryTime2": 6,
-        "currentPeriodStartTimestamp": 1745157734
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1745160873
-      },
-      "hasGlobalHighlights": true,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 12436618,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
-      "slug": "fulham-chelsea",
-      "startTimestamp": 1745154000,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
       "correctAiInsight": true,
       "tournament": {
         "name": "Premier League",
@@ -289,7 +64,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1251127,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -334,13 +109,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -350,11 +118,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -372,6 +147,13 @@
         }
       },
       "awayTeam": {
+        "id": 48,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Everton",
         "slug": "everton",
         "shortName": "Everton",
@@ -381,18 +163,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 410329,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 48,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#274488",
@@ -502,7 +277,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 266697,
+          "userCount": 266459,
           "id": 17015,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -550,13 +325,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 1759,
-        "country": {
-          "alpha2": "SE",
-          "alpha3": "SWE",
-          "name": "Sweden",
-          "slug": "sweden"
-        },
         "name": "Djurgårdens IF",
         "slug": "djurgardens-if",
         "shortName": "Djurgården",
@@ -566,11 +334,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 44297,
+        "userCount": 44252,
         "nameCode": "DIF",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1759,
+        "country": {
+          "alpha2": "SE",
+          "alpha3": "SWE",
+          "name": "Sweden",
+          "slug": "sweden"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#33ccff",
@@ -590,6 +365,13 @@
         }
       },
       "awayTeam": {
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -599,18 +381,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -733,7 +508,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1251127,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -778,13 +553,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -794,11 +562,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -816,6 +591,13 @@
         }
       },
       "awayTeam": {
+        "id": 44,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Liverpool",
         "slug": "liverpool",
         "shortName": "Liverpool",
@@ -825,18 +607,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3272124,
+        "userCount": 3271761,
         "nameCode": "LIV",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 44,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -948,7 +723,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 266697,
+          "userCount": 266459,
           "id": 17015,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -997,13 +772,6 @@
       "winnerCode": 1,
       "aggregatedWinnerCode": 1,
       "homeTeam": {
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -1013,11 +781,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -1035,6 +810,13 @@
         }
       },
       "awayTeam": {
+        "id": 1759,
+        "country": {
+          "alpha2": "SE",
+          "alpha3": "SWE",
+          "name": "Sweden",
+          "slug": "sweden"
+        },
         "name": "Djurgårdens IF",
         "slug": "djurgardens-if",
         "shortName": "Djurgården",
@@ -1044,18 +826,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 44297,
+        "userCount": 44252,
         "nameCode": "DIF",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1759,
-        "country": {
-          "alpha2": "SE",
-          "alpha3": "SWE",
-          "name": "Sweden",
-          "slug": "sweden"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#33ccff",
@@ -1183,7 +958,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1251127,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -1228,13 +1003,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 39,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Newcastle United",
         "slug": "newcastle-united",
         "shortName": "Newcastle",
@@ -1244,11 +1012,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 909193,
+        "userCount": 907469,
         "nameCode": "NUN",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 39,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -1269,6 +1044,13 @@
         }
       },
       "awayTeam": {
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -1278,18 +1060,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -1413,7 +1188,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1251127,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -1458,13 +1233,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -1474,11 +1242,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -1496,6 +1271,13 @@
         }
       },
       "awayTeam": {
+        "id": 35,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Manchester United",
         "slug": "manchester-united",
         "shortName": "Man Utd",
@@ -1505,18 +1287,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2936990,
+        "userCount": 2936126,
         "nameCode": "MUN",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 35,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ff0000",
@@ -1642,7 +1417,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1251127,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -1687,13 +1462,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -1703,11 +1471,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 420135,
+        "userCount": 419707,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -1728,6 +1503,13 @@
         }
       },
       "awayTeam": {
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -1737,18 +1519,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -1858,7 +1633,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 266697,
+          "userCount": 266459,
           "id": 17015,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -1906,13 +1681,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 2816,
-        "country": {
-          "alpha2": "ES",
-          "alpha3": "ESP",
-          "name": "Spain",
-          "slug": "spain"
-        },
         "name": "Real Betis",
         "slug": "real-betis",
         "shortName": "Real Betis",
@@ -1922,11 +1690,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 569577,
+        "userCount": 568352,
         "nameCode": "RBB",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 2816,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -1946,6 +1721,13 @@
         }
       },
       "awayTeam": {
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -1955,18 +1737,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -2077,7 +1852,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 609547,
+          "userCount": 609289,
           "id": 357,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -2124,13 +1899,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -2140,11 +1908,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -2162,6 +1937,13 @@
         }
       },
       "awayTeam": {
+        "id": 274650,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
         "name": "Los Angeles FC",
         "slug": "los-angeles-fc",
         "shortName": "Los Angeles",
@@ -2171,18 +1953,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 72618,
+        "userCount": 72541,
         "nameCode": "LAF",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 274650,
-        "country": {
-          "alpha2": "US",
-          "alpha3": "USA",
-          "name": "USA",
-          "slug": "usa"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#303030",
@@ -2291,7 +2066,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 609547,
+          "userCount": 609289,
           "id": 357,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -2338,13 +2113,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 5981,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Flamengo",
         "slug": "flamengo",
         "shortName": "Flamengo",
@@ -2354,11 +2122,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 902702,
+        "userCount": 902547,
         "nameCode": "FLA",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 5981,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ff0000",
@@ -2376,6 +2151,13 @@
         }
       },
       "awayTeam": {
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -2385,18 +2167,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -2508,7 +2283,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 609547,
+          "userCount": 609289,
           "id": 357,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -2555,13 +2330,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 59628,
-        "country": {
-          "alpha2": "TN",
-          "alpha3": "TUN",
-          "name": "Tunisia",
-          "slug": "tunisia"
-        },
         "name": "Espérance Tunis",
         "slug": "esperance-tunis",
         "shortName": "Espérance",
@@ -2571,11 +2339,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 110786,
+        "userCount": 110681,
         "nameCode": "ETU",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 59628,
+        "country": {
+          "alpha2": "TN",
+          "alpha3": "TUN",
+          "name": "Tunisia",
+          "slug": "tunisia"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ede664",
@@ -2595,6 +2370,13 @@
         }
       },
       "awayTeam": {
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -2604,18 +2386,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -2729,7 +2504,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 609547,
+          "userCount": 609289,
           "id": 357,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -2778,13 +2553,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 3006,
-        "country": {
-          "alpha2": "PT",
-          "alpha3": "PRT",
-          "name": "Portugal",
-          "slug": "portugal"
-        },
         "name": "Benfica",
         "slug": "benfica",
         "shortName": "Benfica",
@@ -2794,11 +2562,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 885089,
+        "userCount": 882912,
         "nameCode": "BEN",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 3006,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -2816,6 +2591,13 @@
         }
       },
       "awayTeam": {
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -2825,18 +2607,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -2956,7 +2731,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 609547,
+          "userCount": 609289,
           "id": 357,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -3005,13 +2780,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 1963,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Palmeiras",
         "slug": "palmeiras",
         "shortName": "Palmeiras",
@@ -3021,11 +2789,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 593029,
+        "userCount": 592356,
         "nameCode": "PAL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1963,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#339966",
@@ -3043,6 +2818,13 @@
         }
       },
       "awayTeam": {
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -3052,18 +2834,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -3174,7 +2949,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 609547,
+          "userCount": 609289,
           "id": 357,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -3223,13 +2998,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 1961,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Fluminense",
         "slug": "fluminense",
         "shortName": "Fluminense",
@@ -3239,11 +3007,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 339723,
+        "userCount": 339075,
         "nameCode": "FLU",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1961,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#660000",
@@ -3261,6 +3036,13 @@
         }
       },
       "awayTeam": {
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -3270,18 +3052,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -3391,7 +3166,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 609547,
+          "userCount": 609289,
           "id": 357,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -3440,13 +3215,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -3456,11 +3224,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -3478,6 +3253,13 @@
         }
       },
       "awayTeam": {
+        "id": 1644,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
         "name": "Paris Saint-Germain",
         "slug": "paris-saint-germain",
         "shortName": "PSG",
@@ -3487,18 +3269,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2653891,
+        "userCount": 2653800,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1644,
-        "country": {
-          "alpha2": "FR",
-          "alpha3": "FRA",
-          "name": "France",
-          "slug": "france"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000066",
@@ -3610,7 +3385,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 31778,
+          "userCount": 31732,
           "id": 853,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -3652,13 +3427,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -3668,11 +3436,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -3690,6 +3465,13 @@
         }
       },
       "awayTeam": {
+        "id": 2681,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
         "name": "Bayer 04 Leverkusen",
         "slug": "bayer-04-leverkusen",
         "shortName": "Leverkusen",
@@ -3699,18 +3481,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1135065,
+        "userCount": 1131647,
         "nameCode": "B0L",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 2681,
-        "country": {
-          "alpha2": "DE",
-          "alpha3": "DEU",
-          "name": "Germany",
-          "slug": "germany"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -3819,7 +3594,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 31778,
+          "userCount": 31732,
           "id": 853,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -3861,13 +3636,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -3877,11 +3645,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -3899,6 +3674,13 @@
         }
       },
       "awayTeam": {
+        "id": 2692,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
         "name": "Milan",
         "slug": "milan",
         "shortName": "Milan",
@@ -3908,18 +3690,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1689392,
+        "userCount": 1692658,
         "nameCode": "MIL",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 2692,
-        "country": {
-          "alpha2": "IT",
-          "alpha3": "ITA",
-          "name": "Italy",
-          "slug": "italy"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -4045,7 +3820,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1251127,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -4090,13 +3865,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -4106,11 +3874,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -4128,6 +3903,13 @@
         }
       },
       "awayTeam": {
+        "id": 7,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Crystal Palace",
         "slug": "crystal-palace",
         "shortName": "Crystal Palace",
@@ -4137,18 +3919,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 421936,
+        "userCount": 420987,
         "nameCode": "CRY",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 7,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0033ff",
@@ -4272,7 +4047,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1251127,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -4317,13 +4092,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 37,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "West Ham United",
         "slug": "west-ham-united",
         "shortName": "West Ham",
@@ -4333,11 +4101,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 506007,
+        "userCount": 506187,
         "nameCode": "WHU",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 37,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#66192c",
@@ -4358,6 +4133,13 @@
         }
       },
       "awayTeam": {
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -4367,18 +4149,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -4502,7 +4277,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1251127,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -4547,13 +4322,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -4563,11 +4331,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -4585,6 +4360,13 @@
         }
       },
       "awayTeam": {
+        "id": 43,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Fulham",
         "slug": "fulham",
         "shortName": "Fulham",
@@ -4594,18 +4376,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 355843,
+        "userCount": 354956,
         "nameCode": "FUL",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 43,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -4729,7 +4504,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1251127,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -4774,13 +4549,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 50,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Brentford",
         "slug": "brentford",
         "shortName": "Brentford",
@@ -4790,11 +4558,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 311745,
+        "userCount": 311079,
         "nameCode": "BRE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 50,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -4812,6 +4587,13 @@
         }
       },
       "awayTeam": {
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -4821,18 +4603,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -4944,7 +4719,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1231975,
+          "userCount": 1230067,
           "id": 7,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -4986,13 +4761,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 2672,
-        "country": {
-          "alpha2": "DE",
-          "alpha3": "DEU",
-          "name": "Germany",
-          "slug": "germany"
-        },
         "name": "FC Bayern München",
         "slug": "fc-bayern-munchen",
         "shortName": "Bayern",
@@ -5002,11 +4770,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2289999,
+        "userCount": 2288073,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 2672,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cf142f",
@@ -5026,6 +4801,13 @@
         }
       },
       "awayTeam": {
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -5035,18 +4817,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -5171,7 +4946,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1251127,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -5216,13 +4991,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 35,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Manchester United",
         "slug": "manchester-united",
         "shortName": "Man Utd",
@@ -5232,11 +5000,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2936990,
+        "userCount": 2936126,
         "nameCode": "MUN",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 35,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ff0000",
@@ -5257,6 +5032,13 @@
         }
       },
       "awayTeam": {
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -5266,18 +5048,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -5403,7 +5178,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150702,
+          "userCount": 150556,
           "id": 21,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -5450,13 +5225,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 92,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Lincoln City",
         "slug": "lincoln-city",
         "shortName": "Lincoln",
@@ -5466,11 +5234,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 13377,
+        "userCount": 13358,
         "nameCode": "LIC",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 92,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ff0000",
@@ -5487,6 +5262,13 @@
         }
       },
       "awayTeam": {
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -5496,18 +5278,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -5630,7 +5405,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1251127,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -5675,13 +5450,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -5691,11 +5459,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -5713,6 +5488,13 @@
         }
       },
       "awayTeam": {
+        "id": 30,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Brighton & Hove Albion",
         "slug": "brighton-and-hove-albion",
         "shortName": "Brighton",
@@ -5722,18 +5504,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 509803,
+        "userCount": 508408,
         "nameCode": "BHA",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 30,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0054a6",
@@ -5851,7 +5626,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1231975,
+          "userCount": 1230067,
           "id": 7,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -5893,13 +5668,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -5909,11 +5677,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -5931,6 +5706,13 @@
         }
       },
       "awayTeam": {
+        "id": 3006,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
         "name": "Benfica",
         "slug": "benfica",
         "shortName": "Benfica",
@@ -5940,18 +5722,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 885089,
+        "userCount": 882912,
         "nameCode": "BEN",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 3006,
-        "country": {
-          "alpha2": "PT",
-          "alpha3": "PRT",
-          "name": "Portugal",
-          "slug": "portugal"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -6077,7 +5852,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1251127,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -6122,13 +5897,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -6138,11 +5906,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -6160,6 +5935,13 @@
         }
       },
       "awayTeam": {
+        "id": 44,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Liverpool",
         "slug": "liverpool",
         "shortName": "Liverpool",
@@ -6169,18 +5951,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3272124,
+        "userCount": 3271761,
         "nameCode": "LIV",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 44,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -6306,7 +6081,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1251127,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -6351,13 +6126,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -6367,11 +6135,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 420135,
+        "userCount": 419707,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -6392,6 +6167,13 @@
         }
       },
       "awayTeam": {
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -6401,18 +6183,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -6525,7 +6300,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1231975,
+          "userCount": 1230067,
           "id": 7,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -6567,13 +6342,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -6583,11 +6351,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2657658,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -6605,6 +6380,13 @@
         }
       },
       "awayTeam": {
+        "id": 2953,
+        "country": {
+          "alpha2": "NL",
+          "alpha3": "NLD",
+          "name": "Netherlands",
+          "slug": "netherlands"
+        },
         "name": "AFC Ajax",
         "slug": "ajax",
         "shortName": "Ajax",
@@ -6614,18 +6396,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 567770,
+        "userCount": 566432,
         "nameCode": "AAJ",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 2953,
-        "country": {
-          "alpha2": "NL",
-          "alpha3": "NLD",
-          "name": "Netherlands",
-          "slug": "netherlands"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#bb002b",
@@ -6689,28 +6464,253 @@
       "finalResultOnly": false,
       "feedLocked": true,
       "isEditor": false
+    },
+    {
+      "correctAiInsight": false,
+      "correctHalftimeAiInsight": false,
+      "tournament": {
+        "name": "Premier League",
+        "slug": "premier-league",
+        "category": {
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "name": "England",
+          "slug": "england",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "flag": "england",
+          "alpha2": "EN",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إنجلترا",
+              "hi": "इंग्लैंड",
+              "bn": "ইংল্যান্ড"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Premier League",
+          "slug": "premier-league",
+          "primaryColorHex": "#3c1c5a",
+          "secondaryColorHex": "#f80158",
+          "category": {
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "name": "England",
+            "slug": "england",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "flag": "england",
+            "alpha2": "EN",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إنجلترا",
+                "hi": "इंग्लैंड",
+                "bn": "ইংল্যান্ড"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1251127,
+          "id": 17,
+          "country": {},
+          "hasPerformanceGraphFeature": true,
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الإنجليزي الممتاز",
+              "hi": "प्रिमियर लीग",
+              "bn": "প্রিমিয়ার লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 693,
+        "isGroup": false,
+        "isLive": false,
+        "id": 1,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإنجليزي الممتاز",
+            "hi": "प्रिमियर लीग",
+            "bn": "প্রিমিয়ার লীগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Premier League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76986
+      },
+      "roundInfo": {
+        "round": 9
+      },
+      "customId": "NsQ",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 2,
+      "homeTeam": {
+        "name": "Chelsea",
+        "slug": "chelsea",
+        "shortName": "Chelsea",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 2657658,
+        "nameCode": "CHE",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#0310a7",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تشيلسي",
+            "ru": "Челси",
+            "hi": "चेल्सी",
+            "bn": "চেলসি"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "awayTeam": {
+        "id": 41,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "name": "Sunderland",
+        "slug": "sunderland",
+        "shortName": "Sunderland",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 127288,
+        "nameCode": "SUN",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#ca0000",
+          "text": "#ca0000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سندرلاند",
+            "ru": "АФК Сандерленд"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 1,
+        "period2": 0,
+        "normaltime": 1
+      },
+      "awayScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1,
+        "normaltime": 2
+      },
+      "time": {
+        "injuryTime1": 3,
+        "injuryTime2": 6,
+        "currentPeriodStartTimestamp": 1761404683
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1761407833
+      },
+      "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14025261,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "sunderland-chelsea",
+      "startTimestamp": 1761400800,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false
     }
   ],
   "last5": {
-    "form": "WWWWL",
+    "form": "LWWWW",
     "w": 4,
     "d": 0,
     "l": 1,
     "gf": 12,
-    "ga": 5,
+    "ga": 4,
     "avg_gf": 2.4,
-    "avg_ga": 1.0,
+    "avg_ga": 0.8,
     "count": 5
   },
   "last10": {
-    "form": "WWWWLWLLDW",
-    "w": 6,
+    "form": "LWWWWLWLLD",
+    "w": 5,
     "d": 1,
-    "l": 3,
-    "gf": 20,
-    "ga": 13,
-    "avg_gf": 2.0,
-    "avg_ga": 1.3,
+    "l": 4,
+    "gf": 19,
+    "ga": 15,
+    "avg_gf": 1.9,
+    "avg_ga": 1.5,
     "count": 10
   }
 }

@@ -3,221 +3,6 @@
   "team": "Corinthians",
   "events": [
     {
-      "tournament": {
-        "name": "CONMEBOL Sudamericana, Group C",
-        "slug": "copa-sudamericana-group-c",
-        "category": {
-          "id": 1470,
-          "country": {},
-          "name": "South America",
-          "slug": "south-america",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "flag": "south-america",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "أمريكا الجنوبية"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "CONMEBOL Sudamericana",
-          "slug": "conmebol-sudamericana",
-          "primaryColorHex": "#e3c000",
-          "secondaryColorHex": "#13489c",
-          "category": {
-            "id": 1470,
-            "country": {},
-            "name": "South America",
-            "slug": "south-america",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "flag": "south-america",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "أمريكا الجنوبية"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 127730,
-          "id": 480,
-          "country": {},
-          "hasPerformanceGraphFeature": false,
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "كأس أمريكا الجنوبية لكرة القدم",
-              "hi": "कॉनमेबोल सुदामेरिकाना",
-              "bn": "কনমেবল সুদাআমেরিকানা"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 518,
-        "isGroup": true,
-        "groupName": "Group C",
-        "isLive": false,
-        "id": 91438,
-        "groupSign": "C",
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "كوبا سود أمريكانا، المجموعة C",
-            "hi": "कॉनमेबोल सुदामेरिकाना, ग्रुप सी",
-            "bn": "কনমেবল সুদামেরিকানা, গ্রুপ সি"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "CONMEBOL Sudamericana 2025",
-        "year": "2025",
-        "editor": false,
-        "id": 70070
-      },
-      "roundInfo": {
-        "round": 4
-      },
-      "customId": "hOscxc",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 3,
-      "homeTeam": {
-        "name": "Corinthians",
-        "slug": "corinthians",
-        "shortName": "Corinthians",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 553969,
-        "nameCode": "COR",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ffffff",
-          "secondary": "#000000",
-          "text": "#000000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "كورينثيانز",
-            "ru": "Коринтианс"
-          },
-          "shortNameTranslation": {
-            "ar": "كورينثيانز"
-          }
-        }
-      },
-      "awayTeam": {
-        "id": 6102,
-        "country": {
-          "alpha2": "CO",
-          "alpha3": "COL",
-          "name": "Colombia",
-          "slug": "colombia"
-        },
-        "name": "América de Cali",
-        "slug": "america-de-cali",
-        "shortName": "América",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 57526,
-        "nameCode": "ADC",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ff0000",
-          "secondary": "#ff0000",
-          "text": "#ff0000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "أمريكا دي كالي",
-            "ru": "Америка Кали"
-          },
-          "shortNameTranslation": {
-            "ar": "أمريكا"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 1,
-        "display": 1,
-        "period1": 1,
-        "period2": 0,
-        "normaltime": 1
-      },
-      "awayScore": {
-        "current": 1,
-        "display": 1,
-        "period1": 0,
-        "period2": 1,
-        "normaltime": 1
-      },
-      "time": {
-        "injuryTime1": 8,
-        "injuryTime2": 5,
-        "currentPeriodStartTimestamp": 1746585189
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type",
-          "homeScore.period2",
-          "homeScore.normaltime",
-          "awayScore.period2",
-          "awayScore.normaltime",
-          "time.currentPeriodStart"
-        ],
-        "changeTimestamp": 1746585193
-      },
-      "hasGlobalHighlights": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 13640439,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
-      "slug": "america-de-cali-corinthians",
-      "startTimestamp": 1746577800,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
       "correctAiInsight": false,
       "tournament": {
         "name": "Brasileirão Betano",
@@ -275,7 +60,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -320,6 +105,13 @@
       },
       "winnerCode": 1,
       "homeTeam": {
+        "id": 21982,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Mirassol",
         "slug": "mirassol",
         "shortName": "Mirassol",
@@ -329,18 +121,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 61231,
+        "userCount": 61295,
         "nameCode": "MIR",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 21982,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#e8c728",
@@ -357,13 +142,6 @@
         }
       },
       "awayTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -373,11 +151,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -482,7 +267,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 127730,
+          "userCount": 127653,
           "id": 480,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -529,6 +314,13 @@
       },
       "winnerCode": 2,
       "homeTeam": {
+        "id": 25010,
+        "country": {
+          "alpha2": "UY",
+          "alpha3": "URY",
+          "name": "Uruguay",
+          "slug": "uruguay"
+        },
         "name": "Racing de Montevideo",
         "slug": "racing-de-montevideo",
         "shortName": "Racing",
@@ -538,18 +330,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 9964,
+        "userCount": 9933,
         "nameCode": "RCM",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 25010,
-        "country": {
-          "alpha2": "UY",
-          "alpha3": "URY",
-          "name": "Uruguay",
-          "slug": "uruguay"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#339900",
@@ -567,13 +352,6 @@
         }
       },
       "awayTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -583,11 +361,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -710,7 +495,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -755,6 +540,13 @@
       },
       "winnerCode": 1,
       "homeTeam": {
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -764,18 +556,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -793,13 +578,6 @@
         }
       },
       "awayTeam": {
-        "id": 1968,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Santos",
         "slug": "santos",
         "shortName": "Santos",
@@ -809,11 +587,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 427312,
+        "userCount": 427103,
         "nameCode": "SAN",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1968,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -934,7 +719,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 140273,
+          "userCount": 140210,
           "id": 373,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -985,6 +770,13 @@
       "winnerCode": 1,
       "aggregatedWinnerCode": 1,
       "homeTeam": {
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -994,18 +786,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -1023,13 +808,6 @@
         }
       },
       "awayTeam": {
-        "id": 135514,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Grêmio Novorizontino",
         "slug": "novorizontino",
         "shortName": "Novorizontino",
@@ -1039,11 +817,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 32356,
+        "userCount": 33238,
         "nameCode": "NOV",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 135514,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#b4982d",
@@ -1164,7 +949,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -1209,6 +994,13 @@
       },
       "winnerCode": 3,
       "homeTeam": {
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Atlético Mineiro",
         "slug": "atletico-mineiro",
         "shortName": "Atlético-MG",
@@ -1218,18 +1010,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264986,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -1247,13 +1032,6 @@
         }
       },
       "awayTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -1263,11 +1041,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -1372,7 +1157,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 127730,
+          "userCount": 127653,
           "id": 480,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -1419,6 +1204,13 @@
       },
       "winnerCode": 1,
       "homeTeam": {
+        "id": 7629,
+        "country": {
+          "alpha2": "AR",
+          "alpha3": "ARG",
+          "name": "Argentina",
+          "slug": "argentina"
+        },
         "name": "Huracán",
         "slug": "huracan",
         "shortName": "Huracán",
@@ -1428,18 +1220,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 28994,
+        "userCount": 28918,
         "nameCode": "HUR",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 7629,
-        "country": {
-          "alpha2": "AR",
-          "alpha3": "ARG",
-          "name": "Argentina",
-          "slug": "argentina"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -1457,13 +1242,6 @@
         }
       },
       "awayTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -1473,11 +1251,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -1600,7 +1385,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -1645,6 +1430,13 @@
       },
       "winnerCode": 3,
       "homeTeam": {
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -1654,18 +1446,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -1683,13 +1468,6 @@
         }
       },
       "awayTeam": {
-        "id": 1962,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Vitória",
         "slug": "vitoria",
         "shortName": "Vitória",
@@ -1699,11 +1477,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 115534,
+        "userCount": 115411,
         "nameCode": "VIT",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1962,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ff0000",
@@ -1822,7 +1607,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -1867,6 +1652,13 @@
       },
       "winnerCode": 3,
       "homeTeam": {
+        "id": 5926,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Grêmio",
         "slug": "gremio",
         "shortName": "Grêmio",
@@ -1876,18 +1668,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 235733,
+        "userCount": 235291,
         "nameCode": "GRM",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 5926,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#3399ff",
@@ -1905,13 +1690,6 @@
         }
       },
       "awayTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -1921,11 +1699,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -2045,7 +1830,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -2090,6 +1875,13 @@
       },
       "winnerCode": 2,
       "homeTeam": {
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -2099,18 +1891,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -2128,13 +1913,6 @@
         }
       },
       "awayTeam": {
-        "id": 1999,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Red Bull Bragantino",
         "slug": "red-bull-bragantino",
         "shortName": "RB Bragantino",
@@ -2144,11 +1922,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120210,
+        "userCount": 119906,
         "nameCode": "RBB",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1999,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#363636",
@@ -2266,7 +2051,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -2311,6 +2096,13 @@
       },
       "winnerCode": 2,
       "homeTeam": {
+        "id": 2001,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Ceará",
         "slug": "ceara",
         "shortName": "Ceará",
@@ -2320,18 +2112,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 92087,
+        "userCount": 91951,
         "nameCode": "CEA",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 2001,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -2349,13 +2134,6 @@
         }
       },
       "awayTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -2365,11 +2143,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -2489,7 +2274,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -2534,6 +2319,13 @@
       },
       "winnerCode": 1,
       "homeTeam": {
+        "id": 1981,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
@@ -2543,18 +2335,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 413304,
+        "userCount": 412715,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1981,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -2572,13 +2357,6 @@
         }
       },
       "awayTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -2588,11 +2366,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -2712,7 +2497,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -2757,6 +2542,13 @@
       },
       "winnerCode": 3,
       "homeTeam": {
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -2766,18 +2558,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -2795,13 +2580,6 @@
         }
       },
       "awayTeam": {
-        "id": 1954,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Cruzeiro",
         "slug": "cruzeiro",
         "shortName": "Cruzeiro",
@@ -2811,11 +2589,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 273552,
+        "userCount": 273078,
         "nameCode": "CRU",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1954,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0033cc",
@@ -2935,7 +2720,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -2980,6 +2765,13 @@
       },
       "winnerCode": 3,
       "homeTeam": {
+        "id": 1958,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Botafogo",
         "slug": "botafogo",
         "shortName": "Botafogo",
@@ -2989,18 +2781,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 322446,
+        "userCount": 321843,
         "nameCode": "BOT",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1958,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -3018,13 +2803,6 @@
         }
       },
       "awayTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -3034,11 +2812,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -3158,7 +2943,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 140273,
+          "userCount": 140210,
           "id": 373,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -3209,6 +2994,13 @@
       },
       "winnerCode": 1,
       "homeTeam": {
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -3218,18 +3010,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -3247,13 +3032,6 @@
         }
       },
       "awayTeam": {
-        "id": 1963,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Palmeiras",
         "slug": "palmeiras",
         "shortName": "Palmeiras",
@@ -3263,11 +3041,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 593029,
+        "userCount": 592356,
         "nameCode": "PAL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1963,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#339966",
@@ -3386,7 +3171,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -3431,6 +3216,13 @@
       },
       "winnerCode": 3,
       "homeTeam": {
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -3440,18 +3232,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -3469,13 +3254,6 @@
         }
       },
       "awayTeam": {
-        "id": 2020,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Fortaleza",
         "slug": "fortaleza",
         "shortName": "Fortaleza",
@@ -3485,11 +3263,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 163334,
+        "userCount": 162987,
         "nameCode": "FOR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 2020,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0000ff",
@@ -3607,7 +3392,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 140273,
+          "userCount": 140210,
           "id": 373,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -3659,6 +3444,13 @@
       "winnerCode": 2,
       "aggregatedWinnerCode": 2,
       "homeTeam": {
+        "id": 1963,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Palmeiras",
         "slug": "palmeiras",
         "shortName": "Palmeiras",
@@ -3668,18 +3460,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 593029,
+        "userCount": 592356,
         "nameCode": "PAL",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1963,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#339966",
@@ -3697,13 +3482,6 @@
         }
       },
       "awayTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -3713,11 +3491,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -3840,7 +3625,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -3885,6 +3670,13 @@
       },
       "winnerCode": 1,
       "homeTeam": {
+        "id": 1980,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Juventude",
         "slug": "juventude",
         "shortName": "Juventude",
@@ -3894,18 +3686,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 67979,
+        "userCount": 67794,
         "nameCode": "JUV",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1980,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#006600",
@@ -3922,13 +3707,6 @@
         }
       },
       "awayTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -3938,11 +3716,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -4063,7 +3848,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -4108,6 +3893,13 @@
       },
       "winnerCode": 2,
       "homeTeam": {
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -4117,18 +3909,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -4146,13 +3931,6 @@
         }
       },
       "awayTeam": {
-        "id": 1955,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Bahia",
         "slug": "bahia",
         "shortName": "Bahia",
@@ -4162,11 +3940,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 217268,
+        "userCount": 216913,
         "nameCode": "BAH",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1955,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -4286,7 +4071,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -4331,6 +4116,13 @@
       },
       "winnerCode": 2,
       "homeTeam": {
+        "id": 1974,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Vasco da Gama",
         "slug": "vasco-da-gama",
         "shortName": "Vasco",
@@ -4340,18 +4132,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 312259,
+        "userCount": 311951,
         "nameCode": "VDG",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1974,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -4369,13 +4154,6 @@
         }
       },
       "awayTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -4385,11 +4163,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -4511,7 +4296,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 140273,
+          "userCount": 140210,
           "id": 373,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -4562,6 +4347,13 @@
       },
       "winnerCode": 2,
       "homeTeam": {
+        "id": 1967,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Athletico",
         "slug": "athletico",
         "shortName": "Athletico",
@@ -4571,18 +4363,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 121212,
+        "userCount": 120900,
         "nameCode": "ATH",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1967,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -4600,13 +4385,6 @@
         }
       },
       "awayTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -4616,11 +4394,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -4739,7 +4524,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -4784,6 +4569,13 @@
       },
       "winnerCode": 3,
       "homeTeam": {
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -4793,18 +4585,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -4822,13 +4607,6 @@
         }
       },
       "awayTeam": {
-        "id": 1963,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Palmeiras",
         "slug": "palmeiras",
         "shortName": "Palmeiras",
@@ -4838,11 +4616,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 593029,
+        "userCount": 592356,
         "nameCode": "PAL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1963,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#339966",
@@ -4960,7 +4745,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 140273,
+          "userCount": 140210,
           "id": 373,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -5012,6 +4797,13 @@
       "winnerCode": 1,
       "aggregatedWinnerCode": 1,
       "homeTeam": {
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -5021,18 +4813,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -5050,13 +4835,6 @@
         }
       },
       "awayTeam": {
-        "id": 1967,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Athletico",
         "slug": "athletico",
         "shortName": "Athletico",
@@ -5066,11 +4844,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 121212,
+        "userCount": 120900,
         "nameCode": "ATH",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1967,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -5190,7 +4975,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -5235,6 +5020,13 @@
       },
       "winnerCode": 2,
       "homeTeam": {
+        "id": 1961,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Fluminense",
         "slug": "fluminense",
         "shortName": "Fluminense",
@@ -5244,18 +5036,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 339723,
+        "userCount": 339075,
         "nameCode": "FLU",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1961,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#660000",
@@ -5273,13 +5058,6 @@
         }
       },
       "awayTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -5289,11 +5067,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -5413,7 +5198,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -5458,6 +5243,13 @@
       },
       "winnerCode": 1,
       "homeTeam": {
+        "id": 1959,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Sport Recife",
         "slug": "sport-recife",
         "shortName": "Sport",
@@ -5467,18 +5259,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 106339,
+        "userCount": 106166,
         "nameCode": "SRE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1959,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -5496,13 +5281,6 @@
         }
       },
       "awayTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -5512,11 +5290,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -5633,7 +5418,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -5678,6 +5463,13 @@
       },
       "winnerCode": 2,
       "homeTeam": {
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -5687,18 +5479,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -5716,13 +5501,6 @@
         }
       },
       "awayTeam": {
-        "id": 5981,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Flamengo",
         "slug": "flamengo",
         "shortName": "Flamengo",
@@ -5732,11 +5510,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 902702,
+        "userCount": 902547,
         "nameCode": "FLA",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 5981,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ff0000",
@@ -5856,7 +5641,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -5901,6 +5686,13 @@
       },
       "winnerCode": 3,
       "homeTeam": {
+        "id": 1966,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Internacional",
         "slug": "internacional",
         "shortName": "Internacional",
@@ -5910,18 +5702,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 209656,
+        "userCount": 209280,
         "nameCode": "INT",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1966,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -5939,13 +5724,6 @@
         }
       },
       "awayTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -5955,11 +5733,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -6081,7 +5866,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -6126,6 +5911,13 @@
       },
       "winnerCode": 1,
       "homeTeam": {
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -6135,18 +5927,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -6164,13 +5949,6 @@
         }
       },
       "awayTeam": {
-        "id": 21982,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Mirassol",
         "slug": "mirassol",
         "shortName": "Mirassol",
@@ -6180,11 +5958,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 61231,
+        "userCount": 61295,
         "nameCode": "MIR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 21982,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#e8c728",
@@ -6305,7 +6090,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -6350,6 +6135,13 @@
       },
       "winnerCode": 1,
       "homeTeam": {
+        "id": 1968,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Santos",
         "slug": "santos",
         "shortName": "Santos",
@@ -6359,18 +6151,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 427312,
+        "userCount": 427103,
         "nameCode": "SAN",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1968,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -6388,13 +6173,6 @@
         }
       },
       "awayTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -6404,11 +6182,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -6528,7 +6313,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316500,
           "id": 325,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -6573,6 +6358,13 @@
       },
       "winnerCode": 1,
       "homeTeam": {
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -6582,18 +6374,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 553551,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -6611,13 +6396,6 @@
         }
       },
       "awayTeam": {
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Atlético Mineiro",
         "slug": "atletico-mineiro",
         "shortName": "Atlético-MG",
@@ -6627,11 +6405,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264986,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -6689,21 +6474,245 @@
       "finalResultOnly": false,
       "feedLocked": true,
       "isEditor": false
+    },
+    {
+      "correctAiInsight": false,
+      "correctHalftimeAiInsight": true,
+      "tournament": {
+        "name": "Brasileirão Betano",
+        "slug": "brasileirao-serie-a",
+        "category": {
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "name": "Brazil",
+          "slug": "brazil",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "flag": "brazil",
+          "alpha2": "BR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "البرازيل"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Brasileirão Betano",
+          "slug": "brasileirao-serie-a",
+          "primaryColorHex": "#C7FF00",
+          "secondaryColorHex": "#969696",
+          "category": {
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
+            },
+            "name": "Brazil",
+            "slug": "brazil",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "flag": "brazil",
+            "alpha2": "BR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "البرازيل"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 316500,
+          "id": 325,
+          "country": {},
+          "hasPerformanceGraphFeature": true,
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة بيتانو البرازيلية",
+              "hi": "ब्राज़ीलेइराओ बेटानो",
+              "bn": "ব্রাসিলিরাও বেতানো"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 505,
+        "isGroup": false,
+        "isLive": false,
+        "id": 83,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري البرازيلي الممتاز بيتانو",
+            "hi": "ब्रासिलेइराओ बेटानो",
+            "bn": "ব্রাসিলিরাও বেতানো"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Brasileiro Serie A 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 72034
+      },
+      "roundInfo": {
+        "round": 30
+      },
+      "customId": "hOsmO",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 2,
+      "homeTeam": {
+        "id": 1962,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "name": "Vitória",
+        "slug": "vitoria",
+        "shortName": "Vitória",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 115411,
+        "nameCode": "VIT",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ff0000",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيتوريا",
+            "ru": "Виториа БА"
+          },
+          "shortNameTranslation": {
+            "ar": "فيتوريا"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "Corinthians",
+        "slug": "corinthians",
+        "shortName": "Corinthians",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 553551,
+        "nameCode": "COR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كورينثيانز",
+            "ru": "Коринтианс"
+          },
+          "shortNameTranslation": {
+            "ar": "كورينثيانز"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "awayScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 0,
+        "period2": 1,
+        "normaltime": 1
+      },
+      "time": {
+        "injuryTime1": 5,
+        "injuryTime2": 7,
+        "currentPeriodStartTimestamp": 1761422887
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1761426023
+      },
+      "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 13472846,
+      "awayRedCards": 1,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "vitoria-corinthians",
+      "startTimestamp": 1761418800,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false
     }
   ],
   "last5": {
-    "form": "WLWDL",
-    "w": 2,
+    "form": "WWLWD",
+    "w": 3,
     "d": 1,
-    "l": 2,
+    "l": 1,
     "gf": 7,
-    "ga": 6,
+    "ga": 4,
     "avg_gf": 1.4,
-    "avg_ga": 1.2,
+    "avg_ga": 0.8,
     "count": 5
   },
   "last10": {
-    "form": "WLWDLLWWDW",
+    "form": "WWLWDLLWWD",
     "w": 5,
     "d": 2,
     "l": 3,
