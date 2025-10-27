@@ -4,253 +4,6 @@
   "events": [
     {
       "tournament": {
-        "name": "FA Cup",
-        "slug": "fa-cup",
-        "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
-          "name": "England",
-          "slug": "england",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "flag": "england",
-          "alpha2": "EN",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "إنجلترا",
-              "hi": "इंग्लैंड",
-              "bn": "ইংল্যান্ড"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "FA Cup",
-          "slug": "fa-cup",
-          "primaryColorHex": "#bc1821",
-          "secondaryColorHex": "#e60411",
-          "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
-            "name": "England",
-            "slug": "england",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "flag": "england",
-            "alpha2": "EN",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "إنجلترا",
-                "hi": "इंग्लैंड",
-                "bn": "ইংল্যান্ড"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 217823,
-          "id": 19,
-          "country": {},
-          "hasPerformanceGraphFeature": false,
-          "hasEventPlayerStatistics": false,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "كأس الاتحاد الإنجليزي",
-              "hi": "एफए कप",
-              "bn": "এফএ কাপ"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 479,
-        "isGroup": false,
-        "isLive": false,
-        "id": 16,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "كأس الاتحاد الإنجليزي",
-            "hi": "एफए कप",
-            "bn": "এফএ কাপ"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "FA Cup 24/25",
-        "year": "24/25",
-        "editor": false,
-        "id": 67958
-      },
-      "roundInfo": {
-        "round": 27,
-        "name": "Quarterfinals",
-        "slug": "quarterfinals",
-        "cupRoundType": 4
-      },
-      "customId": "osF",
-      "status": {
-        "code": 120,
-        "description": "AP",
-        "type": "finished"
-      },
-      "winnerCode": 2,
-      "homeTeam": {
-        "id": 30,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
-        "name": "Brighton & Hove Albion",
-        "slug": "brighton-and-hove-albion",
-        "shortName": "Brighton",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 508408,
-        "nameCode": "BHA",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#0054a6",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "برايتون أند هوف ألبيون",
-            "ru": "Брайтон энд Хоув Альбион",
-            "hi": "ब्राइटोन एंड होव एल्बिओन ऍफ़सी"
-          },
-          "shortNameTranslation": {
-            "ar": "برايتون",
-            "hi": "ब्राइटन",
-            "bn": "ব্রাইটন"
-          }
-        }
-      },
-      "awayTeam": {
-        "name": "Nottingham Forest",
-        "slug": "nottingham-forest",
-        "shortName": "Forest",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 419707,
-        "nameCode": "NFO",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#cc0000",
-          "secondary": "#cc0000",
-          "text": "#cc0000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "نوتنجهام فوريست",
-            "ru": "Ноттингем Форест",
-            "hi": "नाटिंन्ग्हम फारेस्ट"
-          },
-          "shortNameTranslation": {
-            "ar": "فورست",
-            "hi": "फॉरेस्ट",
-            "bn": "ফরেস্ট"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 3,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0,
-        "extra1": 0,
-        "extra2": 0,
-        "overtime": 0,
-        "penalties": 3
-      },
-      "awayScore": {
-        "current": 4,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0,
-        "extra1": 0,
-        "extra2": 0,
-        "overtime": 0,
-        "penalties": 4
-      },
-      "time": {
-        "injuryTime1": 1,
-        "injuryTime2": 8,
-        "injuryTime3": 1,
-        "injuryTime4": 1,
-        "currentPeriodStartTimestamp": 1743277199
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type",
-          "homeScore.display",
-          "homeScore.penalties",
-          "awayScore.display",
-          "awayScore.penalties"
-        ],
-        "changeTimestamp": 1743279068
-      },
-      "hasGlobalHighlights": false,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 13562121,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
-      "slug": "brighton-and-hove-albion-nottingham-forest",
-      "startTimestamp": 1743268500,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "tournament": {
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
@@ -310,7 +63,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251127,
+          "userCount": 1253994,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -355,13 +108,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -371,11 +117,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -396,6 +149,13 @@
         }
       },
       "awayTeam": {
+        "id": 35,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Manchester United",
         "slug": "manchester-united",
         "shortName": "Man Utd",
@@ -405,18 +165,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2936126,
+        "userCount": 2951350,
         "nameCode": "MUN",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 35,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ff0000",
@@ -541,7 +294,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251127,
+          "userCount": 1253994,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -586,13 +339,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 40,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Aston Villa",
         "slug": "aston-villa",
         "shortName": "Aston Villa",
@@ -602,11 +348,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 886447,
+        "userCount": 886262,
         "nameCode": "AVL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 40,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#670e36",
@@ -624,6 +377,13 @@
         }
       },
       "awayTeam": {
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -633,18 +393,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -769,7 +522,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251127,
+          "userCount": 1253994,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -814,13 +567,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -830,11 +576,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -855,6 +608,13 @@
         }
       },
       "awayTeam": {
+        "id": 48,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Everton",
         "slug": "everton",
         "shortName": "Everton",
@@ -864,18 +624,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 410329,
+        "userCount": 409968,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 48,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#274488",
@@ -997,7 +750,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251127,
+          "userCount": 1253994,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -1042,13 +795,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 33,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Tottenham Hotspur",
         "slug": "tottenham-hotspur",
         "shortName": "Tottenham ",
@@ -1058,11 +804,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1432995,
+        "userCount": 1434407,
         "nameCode": "THO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 33,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -1083,6 +836,13 @@
         }
       },
       "awayTeam": {
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -1092,18 +852,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -1229,7 +982,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 217823,
+          "userCount": 217679,
           "id": 19,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -1277,13 +1030,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -1293,11 +1039,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -1318,6 +1071,13 @@
         }
       },
       "awayTeam": {
+        "id": 17,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Manchester City",
         "slug": "manchester-city",
         "shortName": "Man City",
@@ -1327,18 +1087,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3343125,
+        "userCount": 3349258,
         "nameCode": "MCI",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 17,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#66ccff",
@@ -1463,7 +1216,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251127,
+          "userCount": 1253994,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -1508,13 +1261,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -1524,11 +1270,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -1549,6 +1302,13 @@
         }
       },
       "awayTeam": {
+        "id": 50,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Brentford",
         "slug": "brentford",
         "shortName": "Brentford",
@@ -1558,18 +1318,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 311079,
+        "userCount": 315602,
         "nameCode": "BRE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 50,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -1692,7 +1445,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251127,
+          "userCount": 1253994,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -1737,13 +1490,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 7,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Crystal Palace",
         "slug": "crystal-palace",
         "shortName": "Crystal Palace",
@@ -1753,11 +1499,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 420987,
+        "userCount": 420562,
         "nameCode": "CRY",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 7,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0033ff",
@@ -1775,6 +1528,13 @@
         }
       },
       "awayTeam": {
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -1784,18 +1544,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -1921,7 +1674,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251127,
+          "userCount": 1253994,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -1966,13 +1719,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -1982,11 +1728,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -2007,6 +1760,13 @@
         }
       },
       "awayTeam": {
+        "id": 31,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Leicester City",
         "slug": "leicester-city",
         "shortName": "Leicester",
@@ -2016,18 +1776,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 403710,
+        "userCount": 402994,
         "nameCode": "LCI",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 31,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#003090",
@@ -2153,7 +1906,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251127,
+          "userCount": 1253994,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -2198,13 +1951,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 37,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "West Ham United",
         "slug": "west-ham-united",
         "shortName": "West Ham",
@@ -2214,11 +1960,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 506187,
+        "userCount": 506197,
         "nameCode": "WHU",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 37,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#66192c",
@@ -2239,6 +1992,13 @@
         }
       },
       "awayTeam": {
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -2248,18 +2008,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -2385,7 +2138,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251127,
+          "userCount": 1253994,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -2430,13 +2183,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -2446,11 +2192,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -2471,6 +2224,13 @@
         }
       },
       "awayTeam": {
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -2480,18 +2240,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657658,
+        "userCount": 2667127,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -2601,7 +2354,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 31732,
+          "userCount": 31709,
           "id": 853,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -2643,13 +2396,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 68,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Chesterfield",
         "slug": "chesterfield",
         "gender": "M",
@@ -2658,10 +2404,17 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 9963,
+        "userCount": 9937,
         "nameCode": "CHE",
         "national": false,
         "type": 0,
+        "id": 68,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#083d9b",
@@ -2677,6 +2430,13 @@
         }
       },
       "awayTeam": {
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -2686,18 +2446,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -2804,7 +2557,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 31732,
+          "userCount": 31709,
           "id": 853,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -2846,13 +2599,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -2862,11 +2608,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -2887,6 +2640,13 @@
         }
       },
       "awayTeam": {
+        "id": 1653,
+        "country": {
+          "alpha2": "MC",
+          "alpha3": "MCO",
+          "name": "Monaco",
+          "slug": "monaco"
+        },
         "name": "AS Monaco",
         "slug": "as-monaco",
         "shortName": "AS Monaco",
@@ -2896,18 +2656,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 550126,
+        "userCount": 550754,
         "nameCode": "ASM",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1653,
-        "country": {
-          "alpha2": "MC",
-          "alpha3": "MCO",
-          "name": "Monaco",
-          "slug": "monaco"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -3018,7 +2771,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 31732,
+          "userCount": 31709,
           "id": 853,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -3060,13 +2813,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 43,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Fulham",
         "slug": "fulham",
         "shortName": "Fulham",
@@ -3076,11 +2822,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 354956,
+        "userCount": 355513,
         "nameCode": "FUL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 43,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -3098,6 +2851,13 @@
         }
       },
       "awayTeam": {
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -3107,18 +2867,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -3226,7 +2979,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 31732,
+          "userCount": 31709,
           "id": 853,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -3268,13 +3021,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -3284,11 +3030,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -3309,6 +3062,13 @@
         }
       },
       "awayTeam": {
+        "id": 4500,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
         "name": "Estoril Praia",
         "slug": "estoril-praia",
         "shortName": "Estoril",
@@ -3318,18 +3078,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 23846,
+        "userCount": 23808,
         "nameCode": "EPR",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 4500,
-        "country": {
-          "alpha2": "PT",
-          "alpha3": "PRT",
-          "name": "Portugal",
-          "slug": "portugal"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffff00",
@@ -3432,7 +3185,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 31732,
+          "userCount": 31709,
           "id": 853,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -3474,13 +3227,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 9,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Birmingham City",
         "slug": "birmingham-city",
         "shortName": "Birmingham",
@@ -3490,11 +3236,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 38517,
+        "userCount": 38444,
         "nameCode": "BC",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 9,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000099",
@@ -3511,6 +3264,13 @@
         }
       },
       "awayTeam": {
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -3520,18 +3280,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -3642,7 +3395,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 31732,
+          "userCount": 31709,
           "id": 853,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -3684,13 +3437,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -3700,11 +3446,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -3725,6 +3478,13 @@
         }
       },
       "awayTeam": {
+        "id": 2693,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
         "name": "Fiorentina",
         "slug": "fiorentina",
         "shortName": "Fiorentina",
@@ -3734,18 +3494,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 352053,
+        "userCount": 351447,
         "nameCode": "FIO",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 2693,
-        "country": {
-          "alpha2": "IT",
-          "alpha3": "ITA",
-          "name": "Italy",
-          "slug": "italy"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#542baa",
@@ -3858,7 +3611,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 31732,
+          "userCount": 31709,
           "id": 853,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -3900,13 +3653,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -3916,11 +3662,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -3941,6 +3694,13 @@
         }
       },
       "awayTeam": {
+        "id": 56027,
+        "country": {
+          "alpha2": "SA",
+          "alpha3": "SAU",
+          "name": "Saudi Arabia",
+          "slug": "saudi-arabia"
+        },
         "name": "Al-Qadsiah",
         "slug": "al-qadisiyah",
         "shortName": "Al-Qadsiah",
@@ -3950,18 +3710,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 45692,
+        "userCount": 46694,
         "nameCode": "QAD",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 56027,
-        "country": {
-          "alpha2": "SA",
-          "alpha3": "SAU",
-          "name": "Saudi Arabia",
-          "slug": "saudi-arabia"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -4080,7 +3833,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251127,
+          "userCount": 1253994,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -4125,13 +3878,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -4141,11 +3887,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -4166,6 +3919,13 @@
         }
       },
       "awayTeam": {
+        "id": 50,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Brentford",
         "slug": "brentford",
         "shortName": "Brentford",
@@ -4175,18 +3935,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 311079,
+        "userCount": 315602,
         "nameCode": "BRE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 50,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -4310,7 +4063,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251127,
+          "userCount": 1253994,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -4355,13 +4108,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 7,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Crystal Palace",
         "slug": "crystal-palace",
         "shortName": "Crystal Palace",
@@ -4371,11 +4117,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 420987,
+        "userCount": 420562,
         "nameCode": "CRY",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 7,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0033ff",
@@ -4393,6 +4146,13 @@
         }
       },
       "awayTeam": {
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -4402,18 +4162,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -4540,7 +4293,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251127,
+          "userCount": 1253994,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -4585,13 +4338,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -4601,11 +4347,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -4626,6 +4379,13 @@
         }
       },
       "awayTeam": {
+        "id": 37,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "West Ham United",
         "slug": "west-ham-united",
         "shortName": "West Ham",
@@ -4635,18 +4395,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 506187,
+        "userCount": 506197,
         "nameCode": "WHU",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 37,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#66192c",
@@ -4773,7 +4526,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251127,
+          "userCount": 1253994,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -4818,13 +4571,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 42,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Arsenal",
         "slug": "arsenal",
         "shortName": "Arsenal",
@@ -4834,11 +4580,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2738037,
+        "userCount": 2744007,
         "nameCode": "ARS",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 42,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -4856,6 +4609,13 @@
         }
       },
       "awayTeam": {
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -4865,18 +4625,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -5003,7 +4756,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150556,
+          "userCount": 150541,
           "id": 21,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -5050,13 +4803,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 74,
-        "country": {
-          "alpha2": "WA",
-          "alpha3": "WAL",
-          "name": "Wales",
-          "slug": "wales"
-        },
         "name": "Swansea City",
         "slug": "swansea-city",
         "shortName": "Swansea",
@@ -5066,11 +4812,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 28607,
+        "userCount": 28589,
         "nameCode": "SWA",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 74,
+        "country": {
+          "alpha2": "WA",
+          "alpha3": "WAL",
+          "name": "Wales",
+          "slug": "wales"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -5087,6 +4840,13 @@
         }
       },
       "awayTeam": {
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -5096,18 +4856,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -5235,7 +4988,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251127,
+          "userCount": 1253994,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -5280,13 +5033,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 6,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Burnley",
         "slug": "burnley",
         "shortName": "Burnley",
@@ -5296,11 +5042,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 161345,
+        "userCount": 161234,
         "nameCode": "BUR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 6,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#81204c",
@@ -5318,6 +5071,13 @@
         }
       },
       "awayTeam": {
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -5327,18 +5087,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -5452,7 +5205,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 499826,
+          "userCount": 499366,
           "id": 679,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -5494,13 +5247,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 2816,
-        "country": {
-          "alpha2": "ES",
-          "alpha3": "ESP",
-          "name": "Spain",
-          "slug": "spain"
-        },
         "name": "Real Betis",
         "slug": "real-betis",
         "shortName": "Real Betis",
@@ -5510,11 +5256,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 568352,
+        "userCount": 567597,
         "nameCode": "RBB",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 2816,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -5534,6 +5287,13 @@
         }
       },
       "awayTeam": {
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -5543,18 +5303,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -5682,7 +5435,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251127,
+          "userCount": 1253994,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -5727,13 +5480,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -5743,11 +5489,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -5768,6 +5521,13 @@
         }
       },
       "awayTeam": {
+        "id": 41,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Sunderland",
         "slug": "sunderland",
         "shortName": "Sunderland",
@@ -5777,18 +5537,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 127288,
+        "userCount": 131844,
         "nameCode": "SUN",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 41,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -5897,7 +5650,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 499826,
+          "userCount": 499366,
           "id": 679,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -5939,13 +5692,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -5955,11 +5701,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -5980,6 +5733,13 @@
         }
       },
       "awayTeam": {
+        "id": 1289,
+        "country": {
+          "alpha2": "DK",
+          "alpha3": "DNK",
+          "name": "Denmark",
+          "slug": "denmark"
+        },
         "name": "FC Midtjylland",
         "slug": "fc-midtjylland",
         "shortName": "Midtjylland",
@@ -5989,18 +5749,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 124386,
+        "userCount": 124308,
         "nameCode": "FCM",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 1289,
-        "country": {
-          "alpha2": "DK",
-          "alpha3": "DNK",
-          "name": "Denmark",
-          "slug": "denmark"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -6128,7 +5881,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251127,
+          "userCount": 1253994,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -6173,13 +5926,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 39,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Newcastle United",
         "slug": "newcastle-united",
         "shortName": "Newcastle",
@@ -6189,11 +5935,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 907469,
+        "userCount": 909497,
         "nameCode": "NUN",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 39,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -6214,6 +5967,13 @@
         }
       },
       "awayTeam": {
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -6223,18 +5983,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -6361,7 +6114,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251127,
+          "userCount": 1253994,
           "id": 17,
           "country": {},
           "hasPerformanceGraphFeature": true,
@@ -6406,13 +6159,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -6422,11 +6168,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -6447,6 +6200,13 @@
         }
       },
       "awayTeam": {
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -6456,18 +6216,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657658,
+        "userCount": 2667127,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -6579,7 +6332,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 499826,
+          "userCount": 499366,
           "id": 679,
           "country": {},
           "hasPerformanceGraphFeature": false,
@@ -6621,13 +6374,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -6637,11 +6383,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 419707,
+        "userCount": 419284,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -6662,6 +6415,13 @@
         }
       },
       "awayTeam": {
+        "id": 3002,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
         "name": "FC Porto",
         "slug": "fc-porto",
         "shortName": "Porto",
@@ -6671,18 +6431,11 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 672698,
+        "userCount": 671709,
         "nameCode": "FPO",
         "disabled": false,
         "national": false,
         "type": 0,
-        "id": 3002,
-        "country": {
-          "alpha2": "PT",
-          "alpha3": "PRT",
-          "name": "Portugal",
-          "slug": "portugal"
-        },
         "subTeams": [],
         "teamColors": {
           "primary": "#194f93",
@@ -6746,28 +6499,258 @@
       "finalResultOnly": false,
       "feedLocked": true,
       "isEditor": false
+    },
+    {
+      "correctAiInsight": true,
+      "correctHalftimeAiInsight": true,
+      "tournament": {
+        "name": "Premier League",
+        "slug": "premier-league",
+        "category": {
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "name": "England",
+          "slug": "england",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "flag": "england",
+          "alpha2": "EN",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إنجلترا",
+              "hi": "इंग्लैंड",
+              "bn": "ইংল্যান্ড"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Premier League",
+          "slug": "premier-league",
+          "primaryColorHex": "#3c1c5a",
+          "secondaryColorHex": "#f80158",
+          "category": {
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "name": "England",
+            "slug": "england",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "flag": "england",
+            "alpha2": "EN",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إنجلترا",
+                "hi": "इंग्लैंड",
+                "bn": "ইংল্যান্ড"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1253994,
+          "id": 17,
+          "country": {},
+          "hasPerformanceGraphFeature": true,
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الإنجليزي الممتاز",
+              "hi": "प्रिमियर लीग",
+              "bn": "প্রিমিয়ার লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 693,
+        "isGroup": false,
+        "isLive": false,
+        "id": 1,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإنجليزي الممتاز",
+            "hi": "प्रिमियर लीग",
+            "bn": "প্রিমিয়ার লীগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Premier League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76986
+      },
+      "roundInfo": {
+        "round": 9
+      },
+      "customId": "oskb",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Bournemouth",
+        "slug": "bournemouth",
+        "shortName": "Bournemouth",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 291049,
+        "nameCode": "BOU",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 60,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#cc0000",
+          "text": "#cc0000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بورنموث",
+            "ru": "Борнмут",
+            "hi": "बोर्नमाउथ",
+            "bn": "বোর্নেমাউথ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "awayTeam": {
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "name": "Nottingham Forest",
+        "slug": "nottingham-forest",
+        "shortName": "Forest",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 419284,
+        "nameCode": "NFO",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#cc0000",
+          "secondary": "#cc0000",
+          "text": "#cc0000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نوتنجهام فوريست",
+            "ru": "Ноттингем Форест",
+            "hi": "नाटिंन्ग्हम फारेस्ट"
+          },
+          "shortNameTranslation": {
+            "ar": "فورست",
+            "hi": "फॉरेस्ट",
+            "bn": "ফরেস্ট"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 2,
+        "period2": 0,
+        "normaltime": 2
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "time": {
+        "injuryTime1": 2,
+        "injuryTime2": 3,
+        "currentPeriodStartTimestamp": 1761491053
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1761493984
+      },
+      "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14025253,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "bournemouth-nottingham-forest",
+      "startTimestamp": 1761487200,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false
     }
   ],
   "last5": {
-    "form": "WLLLL",
+    "form": "LWLLL",
     "w": 1,
     "d": 0,
     "l": 4,
     "gf": 4,
-    "ga": 9,
+    "ga": 10,
     "avg_gf": 0.8,
-    "avg_ga": 1.8,
+    "avg_ga": 2.0,
     "count": 5
   },
   "last10": {
-    "form": "WLLLLDDLLL",
+    "form": "LWLLLLDDLL",
     "w": 1,
     "d": 2,
     "l": 7,
     "gf": 9,
-    "ga": 21,
+    "ga": 20,
     "avg_gf": 0.9,
-    "avg_ga": 2.1,
+    "avg_ga": 2.0,
     "count": 10
   }
 }
