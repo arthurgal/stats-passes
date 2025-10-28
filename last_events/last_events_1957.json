@@ -8,19 +8,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -37,19 +37,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -61,9 +61,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -105,13 +105,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 21982,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Mirassol",
         "slug": "mirassol",
         "shortName": "Mirassol",
@@ -126,6 +119,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 21982,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#e8c728",
@@ -227,8 +227,6 @@
         "name": "CONMEBOL Sudamericana, Group C",
         "slug": "copa-sudamericana-group-c",
         "category": {
-          "id": 1470,
-          "country": {},
           "name": "South America",
           "slug": "south-america",
           "sport": {
@@ -236,6 +234,8 @@
             "slug": "football",
             "id": 1
           },
+          "id": 1470,
+          "country": {},
           "flag": "south-america",
           "fieldTranslations": {
             "nameTranslation": {
@@ -250,8 +250,6 @@
           "primaryColorHex": "#e3c000",
           "secondaryColorHex": "#13489c",
           "category": {
-            "id": 1470,
-            "country": {},
             "name": "South America",
             "slug": "south-america",
             "sport": {
@@ -259,6 +257,8 @@
               "slug": "football",
               "id": 1
             },
+            "id": 1470,
+            "country": {},
             "flag": "south-america",
             "fieldTranslations": {
               "nameTranslation": {
@@ -268,9 +268,9 @@
             }
           },
           "userCount": 127503,
+          "hasPerformanceGraphFeature": false,
           "id": 480,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -285,9 +285,9 @@
         "priority": 518,
         "isGroup": true,
         "groupName": "Group C",
+        "groupSign": "C",
         "isLive": false,
         "id": 91438,
-        "groupSign": "C",
         "fieldTranslations": {
           "nameTranslation": {
             "ar": "كوبا سود أمريكانا، المجموعة C",
@@ -314,13 +314,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 25010,
-        "country": {
-          "alpha2": "UY",
-          "alpha3": "URY",
-          "name": "Uruguay",
-          "slug": "uruguay"
-        },
         "name": "Racing de Montevideo",
         "slug": "racing-de-montevideo",
         "shortName": "Racing",
@@ -335,6 +328,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 25010,
+        "country": {
+          "alpha2": "UY",
+          "alpha3": "URY",
+          "name": "Uruguay",
+          "slug": "uruguay"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#339900",
@@ -443,19 +443,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -472,19 +472,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -496,9 +496,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -540,13 +540,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -561,6 +554,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -667,19 +667,19 @@
         "name": "Copa Betano do Brasil",
         "slug": "copa-do-brasil",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -696,19 +696,19 @@
           "primaryColorHex": "#34a348",
           "secondaryColorHex": "#f2ba1c",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -720,9 +720,9 @@
             }
           },
           "userCount": 140139,
+          "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": false,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -770,13 +770,6 @@
       "winnerCode": 1,
       "aggregatedWinnerCode": 1,
       "homeTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -791,6 +784,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -897,19 +897,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -926,19 +926,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -950,9 +950,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -994,13 +994,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Atlético Mineiro",
         "slug": "atletico-mineiro",
         "shortName": "Atlético-MG",
@@ -1015,6 +1008,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -1117,8 +1117,6 @@
         "name": "CONMEBOL Sudamericana, Group C",
         "slug": "copa-sudamericana-group-c",
         "category": {
-          "id": 1470,
-          "country": {},
           "name": "South America",
           "slug": "south-america",
           "sport": {
@@ -1126,6 +1124,8 @@
             "slug": "football",
             "id": 1
           },
+          "id": 1470,
+          "country": {},
           "flag": "south-america",
           "fieldTranslations": {
             "nameTranslation": {
@@ -1140,8 +1140,6 @@
           "primaryColorHex": "#e3c000",
           "secondaryColorHex": "#13489c",
           "category": {
-            "id": 1470,
-            "country": {},
             "name": "South America",
             "slug": "south-america",
             "sport": {
@@ -1149,6 +1147,8 @@
               "slug": "football",
               "id": 1
             },
+            "id": 1470,
+            "country": {},
             "flag": "south-america",
             "fieldTranslations": {
               "nameTranslation": {
@@ -1158,9 +1158,9 @@
             }
           },
           "userCount": 127503,
+          "hasPerformanceGraphFeature": false,
           "id": 480,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -1175,9 +1175,9 @@
         "priority": 518,
         "isGroup": true,
         "groupName": "Group C",
+        "groupSign": "C",
         "isLive": false,
         "id": 91438,
-        "groupSign": "C",
         "fieldTranslations": {
           "nameTranslation": {
             "ar": "كوبا سود أمريكانا، المجموعة C",
@@ -1204,13 +1204,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 7629,
-        "country": {
-          "alpha2": "AR",
-          "alpha3": "ARG",
-          "name": "Argentina",
-          "slug": "argentina"
-        },
         "name": "Huracán",
         "slug": "huracan",
         "shortName": "Huracán",
@@ -1225,6 +1218,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 7629,
+        "country": {
+          "alpha2": "AR",
+          "alpha3": "ARG",
+          "name": "Argentina",
+          "slug": "argentina"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -1333,19 +1333,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -1362,19 +1362,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -1386,9 +1386,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -1430,13 +1430,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -1451,6 +1444,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -1555,19 +1555,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -1584,19 +1584,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -1608,9 +1608,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -1652,13 +1652,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 5926,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Grêmio",
         "slug": "gremio",
         "shortName": "Grêmio",
@@ -1673,6 +1666,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 5926,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#3399ff",
@@ -1778,19 +1778,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -1807,19 +1807,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -1831,9 +1831,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -1875,13 +1875,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -1896,6 +1889,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -1999,19 +1999,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -2028,19 +2028,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -2052,9 +2052,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -2096,13 +2096,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 2001,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Ceará",
         "slug": "ceara",
         "shortName": "Ceará",
@@ -2117,6 +2110,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 2001,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -2222,19 +2222,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -2251,19 +2251,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -2275,9 +2275,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -2319,13 +2319,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 1981,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
@@ -2340,6 +2333,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1981,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -2445,19 +2445,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -2474,19 +2474,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -2498,9 +2498,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -2542,13 +2542,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -2563,6 +2556,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -2668,19 +2668,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -2697,19 +2697,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -2721,9 +2721,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -2765,13 +2765,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 1958,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Botafogo",
         "slug": "botafogo",
         "shortName": "Botafogo",
@@ -2786,6 +2779,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1958,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -2891,19 +2891,19 @@
         "name": "Copa Betano do Brasil",
         "slug": "copa-do-brasil",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -2920,19 +2920,19 @@
           "primaryColorHex": "#34a348",
           "secondaryColorHex": "#f2ba1c",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -2944,9 +2944,9 @@
             }
           },
           "userCount": 140139,
+          "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": false,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -2994,13 +2994,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -3015,6 +3008,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -3119,19 +3119,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -3148,19 +3148,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -3172,9 +3172,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -3216,13 +3216,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -3237,6 +3230,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -3340,19 +3340,19 @@
         "name": "Copa Betano do Brasil",
         "slug": "copa-do-brasil",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -3369,19 +3369,19 @@
           "primaryColorHex": "#34a348",
           "secondaryColorHex": "#f2ba1c",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -3393,9 +3393,9 @@
             }
           },
           "userCount": 140139,
+          "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": false,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -3444,13 +3444,6 @@
       "winnerCode": 2,
       "aggregatedWinnerCode": 2,
       "homeTeam": {
-        "id": 1963,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Palmeiras",
         "slug": "palmeiras",
         "shortName": "Palmeiras",
@@ -3465,6 +3458,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1963,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#339966",
@@ -3573,19 +3573,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -3602,19 +3602,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -3626,9 +3626,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -3670,13 +3670,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 1980,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Juventude",
         "slug": "juventude",
         "shortName": "Juventude",
@@ -3691,6 +3684,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1980,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#006600",
@@ -3796,19 +3796,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -3825,19 +3825,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -3849,9 +3849,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -3893,13 +3893,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -3914,6 +3907,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -4019,19 +4019,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -4048,19 +4048,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -4072,9 +4072,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -4116,13 +4116,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 1974,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Vasco da Gama",
         "slug": "vasco-da-gama",
         "shortName": "Vasco",
@@ -4137,6 +4130,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1974,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -4244,19 +4244,19 @@
         "name": "Copa Betano do Brasil",
         "slug": "copa-do-brasil",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -4273,19 +4273,19 @@
           "primaryColorHex": "#34a348",
           "secondaryColorHex": "#f2ba1c",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -4297,9 +4297,9 @@
             }
           },
           "userCount": 140139,
+          "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": false,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -4347,13 +4347,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 1967,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Athletico",
         "slug": "athletico",
         "shortName": "Athletico",
@@ -4368,6 +4361,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1967,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -4472,19 +4472,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -4501,19 +4501,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -4525,9 +4525,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -4569,13 +4569,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -4590,6 +4583,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -4693,19 +4693,19 @@
         "name": "Copa Betano do Brasil",
         "slug": "copa-do-brasil",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -4722,19 +4722,19 @@
           "primaryColorHex": "#34a348",
           "secondaryColorHex": "#f2ba1c",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -4746,9 +4746,9 @@
             }
           },
           "userCount": 140139,
+          "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": false,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -4797,13 +4797,6 @@
       "winnerCode": 1,
       "aggregatedWinnerCode": 1,
       "homeTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -4818,6 +4811,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -4923,19 +4923,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -4952,19 +4952,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -4976,9 +4976,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -5020,13 +5020,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 1961,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Fluminense",
         "slug": "fluminense",
         "shortName": "Fluminense",
@@ -5041,6 +5034,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1961,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#660000",
@@ -5146,19 +5146,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -5175,19 +5175,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -5199,9 +5199,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -5243,13 +5243,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 1959,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Sport Recife",
         "slug": "sport-recife",
         "shortName": "Sport",
@@ -5264,6 +5257,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1959,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -5366,19 +5366,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -5395,19 +5395,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -5419,9 +5419,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -5463,13 +5463,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -5484,6 +5477,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -5589,19 +5589,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -5618,19 +5618,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -5642,9 +5642,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -5686,13 +5686,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 1966,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Internacional",
         "slug": "internacional",
         "shortName": "Internacional",
@@ -5707,6 +5700,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1966,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -5814,19 +5814,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -5843,19 +5843,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -5867,9 +5867,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -5911,13 +5911,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -5932,6 +5925,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -6038,19 +6038,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -6067,19 +6067,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -6091,9 +6091,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -6135,13 +6135,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 1968,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Santos",
         "slug": "santos",
         "shortName": "Santos",
@@ -6156,6 +6149,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1968,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -6261,19 +6261,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -6290,19 +6290,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -6314,9 +6314,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -6358,13 +6358,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 1957,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Corinthians",
         "slug": "corinthians",
         "shortName": "Corinthians",
@@ -6379,6 +6372,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1957,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -6482,19 +6482,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -6511,19 +6511,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -6535,9 +6535,9 @@
             }
           },
           "userCount": 317600,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -6579,13 +6579,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 1962,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Vitória",
         "slug": "vitoria",
         "shortName": "Vitória",
@@ -6600,6 +6593,13 @@
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1962,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ff0000",
