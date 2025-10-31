@@ -192,6 +192,10 @@
                       </div>
                     </div>
                     <div class="w-10 text-right font-semibold tabular-nums">{{ m.gf }}-{{ m.ga }}</div>
+                    <div class="w-18 text-right text-xs text-gray-600" :title="(() => { const p = findPassStat(1, m); return p ? ('Passes: '+Math.round(p.passes||0) + (p.accurate!=null ? ' | Precisão '+Number(p.accuracy_pct||0).toFixed(1)+'%' : '')) : '' })()">
+                      <span v-if="findPassStat(1,m)">P: {{ Math.round(findPassStat(1,m).passes || 0) }}</span>
+                      <span v-else>-</span>
+                    </div>
                     <div class="w-8 text-right">
                       <span v-if="m.result==='W'" class="px-2 py-0.5 text-xs rounded-full bg-green-100 text-green-700 font-semibold">W</span>
                       <span v-else-if="m.result==='D'" class="px-2 py-0.5 text-xs rounded-full bg-gray-100 text-gray-700 font-semibold">D</span>
@@ -280,6 +284,10 @@
                       </div>
                     </div>
                     <div class="w-10 text-right font-semibold tabular-nums">{{ m.gf }}-{{ m.ga }}</div>
+                    <div class="w-18 text-right text-xs text-gray-600" :title="(() => { const p = findPassStat(2, m); return p ? ('Passes: '+Math.round(p.passes||0) + (p.accurate!=null ? ' | Precisão '+Number(p.accuracy_pct||0).toFixed(1)+'%' : '')) : '' })()">
+                      <span v-if="findPassStat(2,m)">P: {{ Math.round(findPassStat(2,m).passes || 0) }}</span>
+                      <span v-else>-</span>
+                    </div>
                     <div class="w-8 text-right">
                       <span v-if="m.result==='W'" class="px-2 py-0.5 text-xs rounded-full bg-green-100 text-green-700 font-semibold">W</span>
                       <span v-else-if="m.result==='D'" class="px-2 py-0.5 text-xs rounded-full bg-gray-100 text-gray-700 font-semibold">D</span>
@@ -524,6 +532,8 @@
           const dt = new Date(((e.startTimestamp||0) * 1000));
           const dateStr = dt.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: '2-digit'});
           return {
+            id: e.id,
+            ts: e.startTimestamp,
             date: dateStr,
             opponent,
             isHome,
@@ -532,6 +542,14 @@
             result: res,
             tournament: e.tournament?.name || '',
           };
+        },
+        findPassStat(side, m) {
+          const arr = side === 1 ? this.passesEvents1 : this.passesEvents2;
+          if (!Array.isArray(arr) || !m) return null;
+          const byId = arr.find(p => p && m.id != null && p.event_id === m.id);
+          if (byId) return byId;
+          const byTs = arr.find(p => p && m.ts != null && p.startTimestamp === m.ts);
+          return byTs || null;
         }
       }
     }).mount('#app');
