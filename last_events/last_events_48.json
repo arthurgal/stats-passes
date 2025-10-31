@@ -7,19 +7,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -38,19 +38,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -63,235 +63,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "الدوري الإنجليزي الممتاز",
-              "hi": "प्रिमियर लीग",
-              "bn": "প্রিমিয়ার লীগ"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 693,
-        "isGroup": false,
-        "isLive": false,
-        "id": 1,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "الدوري الإنجليزي الممتاز",
-            "hi": "प्रिमियर लीग",
-            "bn": "প্রিমিয়ার লীগ"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Premier League 24/25",
-        "year": "24/25",
-        "editor": false,
-        "id": 61627
-      },
-      "roundInfo": {
-        "round": 25
-      },
-      "customId": "hY",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 2,
-      "homeTeam": {
-        "id": 7,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
-        "name": "Crystal Palace",
-        "slug": "crystal-palace",
-        "shortName": "Crystal Palace",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 421936,
-        "nameCode": "CRY",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#0033ff",
-          "secondary": "#b90d2b",
-          "text": "#b90d2b"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "كريستال بالاس",
-            "ru": "Кристал Пэлас",
-            "hi": "क्रिस्टल पैलेस",
-            "bn": "ক্রিস্টাল প্যালেস"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "awayTeam": {
-        "name": "Everton",
-        "slug": "everton",
-        "shortName": "Everton",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 411376,
-        "nameCode": "EVE",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 48,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#274488",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "إيفرتون",
-            "ru": "Эвертон",
-            "hi": "एवर्टन",
-            "bn": "এভারটন"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "homeScore": {
-        "current": 1,
-        "display": 1,
-        "period1": 0,
-        "period2": 1,
-        "normaltime": 1
-      },
-      "awayScore": {
-        "current": 2,
-        "display": 2,
-        "period1": 1,
-        "period2": 1,
-        "normaltime": 2
-      },
-      "time": {
-        "injuryTime1": 4,
-        "injuryTime2": 6,
-        "currentPeriodStartTimestamp": 1739644523
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1739647613
-      },
-      "hasGlobalHighlights": false,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 12436939,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
-      "slug": "everton-crystal-palace",
-      "startTimestamp": 1739640600,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "tournament": {
-        "name": "Premier League",
-        "slug": "premier-league",
-        "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
-          "name": "England",
-          "slug": "england",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "flag": "england",
-          "alpha2": "EN",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "إنجلترا",
-              "hi": "इंग्लैंड",
-              "bn": "ইংল্যান্ড"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "Premier League",
-          "slug": "premier-league",
-          "primaryColorHex": "#3c1c5a",
-          "secondaryColorHex": "#f80158",
-          "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
-            "name": "England",
-            "slug": "england",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "flag": "england",
-            "alpha2": "EN",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "إنجلترا",
-                "hi": "इंग्लैंड",
-                "bn": "ইংল্যান্ড"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 1251920,
-          "id": 17,
-          "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -333,13 +108,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 48,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Everton",
         "slug": "everton",
         "shortName": "Everton",
@@ -349,11 +117,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 48,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#274488",
@@ -380,7 +155,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2936990,
+        "userCount": 2961383,
         "nameCode": "MUN",
         "disabled": false,
         "national": false,
@@ -460,19 +235,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -491,19 +266,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -516,10 +291,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -561,13 +336,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 50,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Brentford",
         "slug": "brentford",
         "shortName": "Brentford",
@@ -577,11 +345,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 311745,
+        "userCount": 315661,
         "nameCode": "BRE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 50,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -608,7 +383,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
@@ -685,19 +460,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -716,19 +491,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -741,10 +516,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -786,13 +561,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 3,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Wolverhampton",
         "slug": "wolverhampton",
         "shortName": "Wolves",
@@ -802,11 +570,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 329036,
+        "userCount": 327529,
         "nameCode": "WOL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 3,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ff9900",
@@ -835,7 +610,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
@@ -912,19 +687,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -943,19 +718,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -968,10 +743,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -1013,13 +788,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 48,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Everton",
         "slug": "everton",
         "shortName": "Everton",
@@ -1029,11 +797,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 48,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#274488",
@@ -1060,7 +835,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 506007,
+        "userCount": 500931,
         "nameCode": "WHU",
         "disabled": false,
         "national": false,
@@ -1140,19 +915,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -1171,19 +946,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -1196,10 +971,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -1241,13 +1016,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 44,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Liverpool",
         "slug": "liverpool",
         "shortName": "Liverpool",
@@ -1257,11 +1025,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3272124,
+        "userCount": 3294190,
         "nameCode": "LIV",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 44,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -1288,7 +1063,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
@@ -1365,19 +1140,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -1396,19 +1171,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -1421,10 +1196,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -1466,13 +1241,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 48,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Everton",
         "slug": "everton",
         "shortName": "Everton",
@@ -1482,11 +1250,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 48,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#274488",
@@ -1513,7 +1288,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2738999,
+        "userCount": 2757111,
         "nameCode": "ARS",
         "disabled": false,
         "national": false,
@@ -1590,19 +1365,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -1621,19 +1396,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -1646,10 +1421,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -1691,13 +1466,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 14,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Nottingham Forest",
         "slug": "nottingham-forest",
         "shortName": "Forest",
@@ -1707,11 +1475,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 420135,
+        "userCount": 417856,
         "nameCode": "NFO",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 14,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -1741,7 +1516,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
@@ -1818,19 +1593,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -1849,19 +1624,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -1874,10 +1649,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -1919,13 +1694,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 48,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Everton",
         "slug": "everton",
         "shortName": "Everton",
@@ -1935,11 +1703,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 48,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#274488",
@@ -1966,7 +1741,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3345813,
+        "userCount": 3360035,
         "nameCode": "MCI",
         "disabled": false,
         "national": false,
@@ -2047,19 +1822,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -2078,19 +1853,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -2103,10 +1878,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -2148,13 +1923,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 38,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Chelsea",
         "slug": "chelsea",
         "shortName": "Chelsea",
@@ -2164,11 +1932,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2657678,
+        "userCount": 2673083,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0310a7",
@@ -2195,7 +1970,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
@@ -2273,19 +2048,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -2304,19 +2079,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -2329,10 +2104,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -2374,13 +2149,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 48,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Everton",
         "slug": "everton",
         "shortName": "Everton",
@@ -2390,11 +2158,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 48,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#274488",
@@ -2421,7 +2196,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 128909,
+        "userCount": 127392,
         "nameCode": "IPS",
         "disabled": false,
         "national": false,
@@ -2498,19 +2273,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -2529,19 +2304,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -2554,10 +2329,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -2599,13 +2374,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 43,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Fulham",
         "slug": "fulham",
         "shortName": "Fulham",
@@ -2615,11 +2383,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 355843,
+        "userCount": 355141,
         "nameCode": "FUL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 43,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -2646,7 +2421,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
@@ -2724,19 +2499,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -2755,19 +2530,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -2780,10 +2555,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -2825,13 +2600,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 48,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Everton",
         "slug": "everton",
         "shortName": "Everton",
@@ -2841,11 +2609,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 48,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#274488",
@@ -2872,7 +2647,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 162511,
+        "userCount": 159595,
         "nameCode": "SOU",
         "disabled": false,
         "national": false,
@@ -2950,19 +2725,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -2981,19 +2756,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -3006,10 +2781,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -3051,13 +2826,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 39,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Newcastle United",
         "slug": "newcastle-united",
         "shortName": "Newcastle",
@@ -3067,11 +2835,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 909193,
+        "userCount": 906163,
         "nameCode": "NUN",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 39,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -3101,7 +2876,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
@@ -3178,8 +2953,6 @@
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
         "category": {
-          "id": 1468,
-          "country": {},
           "name": "World",
           "slug": "world",
           "sport": {
@@ -3187,6 +2960,8 @@
             "slug": "football",
             "id": 1
           },
+          "id": 1468,
+          "country": {},
           "flag": "international",
           "fieldTranslations": {
             "nameTranslation": {
@@ -3203,8 +2978,6 @@
           "primaryColorHex": "#25497d",
           "secondaryColorHex": "#d38f1d",
           "category": {
-            "id": 1468,
-            "country": {},
             "name": "World",
             "slug": "world",
             "sport": {
@@ -3212,6 +2985,8 @@
               "slug": "football",
               "id": 1
             },
+            "id": 1468,
+            "country": {},
             "flag": "international",
             "fieldTranslations": {
               "nameTranslation": {
@@ -3222,10 +2997,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 31778,
+          "userCount": 31569,
+          "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": false,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -3264,13 +3039,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 187,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Accrington Stanley",
         "slug": "accrington-stanley",
         "shortName": "Accrington",
@@ -3280,11 +3048,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 6569,
+        "userCount": 6581,
         "nameCode": "ACS",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 187,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -3310,7 +3085,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
@@ -3386,8 +3161,6 @@
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
         "category": {
-          "id": 1468,
-          "country": {},
           "name": "World",
           "slug": "world",
           "sport": {
@@ -3395,6 +3168,8 @@
             "slug": "football",
             "id": 1
           },
+          "id": 1468,
+          "country": {},
           "flag": "international",
           "fieldTranslations": {
             "nameTranslation": {
@@ -3411,8 +3186,6 @@
           "primaryColorHex": "#25497d",
           "secondaryColorHex": "#d38f1d",
           "category": {
-            "id": 1468,
-            "country": {},
             "name": "World",
             "slug": "world",
             "sport": {
@@ -3420,6 +3193,8 @@
               "slug": "football",
               "id": 1
             },
+            "id": 1468,
+            "country": {},
             "flag": "international",
             "fieldTranslations": {
               "nameTranslation": {
@@ -3430,10 +3205,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 31778,
+          "userCount": 31569,
+          "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": false,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -3472,13 +3247,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 46,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Blackburn Rovers",
         "slug": "blackburn-rovers",
         "shortName": "Blackburn",
@@ -3488,11 +3256,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 32432,
+        "userCount": 32123,
         "nameCode": "BLA",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 46,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -3518,7 +3293,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
@@ -3594,8 +3369,6 @@
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
         "category": {
-          "id": 1468,
-          "country": {},
           "name": "World",
           "slug": "world",
           "sport": {
@@ -3603,6 +3376,8 @@
             "slug": "football",
             "id": 1
           },
+          "id": 1468,
+          "country": {},
           "flag": "international",
           "fieldTranslations": {
             "nameTranslation": {
@@ -3619,8 +3394,6 @@
           "primaryColorHex": "#25497d",
           "secondaryColorHex": "#d38f1d",
           "category": {
-            "id": 1468,
-            "country": {},
             "name": "World",
             "slug": "world",
             "sport": {
@@ -3628,6 +3401,8 @@
               "slug": "football",
               "id": 1
             },
+            "id": 1468,
+            "country": {},
             "flag": "international",
             "fieldTranslations": {
               "nameTranslation": {
@@ -3638,10 +3413,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 31778,
+          "userCount": 31569,
+          "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": false,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -3683,13 +3458,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 48,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Everton",
         "slug": "everton",
         "shortName": "Everton",
@@ -3699,11 +3467,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 48,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#274488",
@@ -3730,7 +3505,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 291378,
+        "userCount": 293024,
         "nameCode": "BOU",
         "disabled": false,
         "national": false,
@@ -3808,8 +3583,6 @@
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
         "category": {
-          "id": 1468,
-          "country": {},
           "name": "World",
           "slug": "world",
           "sport": {
@@ -3817,6 +3590,8 @@
             "slug": "football",
             "id": 1
           },
+          "id": 1468,
+          "country": {},
           "flag": "international",
           "fieldTranslations": {
             "nameTranslation": {
@@ -3833,8 +3608,6 @@
           "primaryColorHex": "#25497d",
           "secondaryColorHex": "#d38f1d",
           "category": {
-            "id": 1468,
-            "country": {},
             "name": "World",
             "slug": "world",
             "sport": {
@@ -3842,6 +3615,8 @@
               "slug": "football",
               "id": 1
             },
+            "id": 1468,
+            "country": {},
             "flag": "international",
             "fieldTranslations": {
               "nameTranslation": {
@@ -3852,10 +3627,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 31778,
+          "userCount": 31569,
+          "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": false,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -3894,13 +3669,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 37,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "West Ham United",
         "slug": "west-ham-united",
         "shortName": "West Ham",
@@ -3910,11 +3678,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 506007,
+        "userCount": 500931,
         "nameCode": "WHU",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 37,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#66192c",
@@ -3944,7 +3719,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
@@ -4022,8 +3797,6 @@
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
         "category": {
-          "id": 1468,
-          "country": {},
           "name": "World",
           "slug": "world",
           "sport": {
@@ -4031,6 +3804,8 @@
             "slug": "football",
             "id": 1
           },
+          "id": 1468,
+          "country": {},
           "flag": "international",
           "fieldTranslations": {
             "nameTranslation": {
@@ -4047,8 +3822,6 @@
           "primaryColorHex": "#25497d",
           "secondaryColorHex": "#d38f1d",
           "category": {
-            "id": 1468,
-            "country": {},
             "name": "World",
             "slug": "world",
             "sport": {
@@ -4056,6 +3829,8 @@
               "slug": "football",
               "id": 1
             },
+            "id": 1468,
+            "country": {},
             "flag": "international",
             "fieldTranslations": {
               "nameTranslation": {
@@ -4066,10 +3841,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 31778,
+          "userCount": 31569,
+          "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": false,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -4108,13 +3883,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 35,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Manchester United",
         "slug": "manchester-united",
         "shortName": "Man Utd",
@@ -4124,11 +3892,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2936990,
+        "userCount": 2961383,
         "nameCode": "MUN",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 35,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ff0000",
@@ -4158,7 +3933,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
@@ -4229,8 +4004,6 @@
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
         "category": {
-          "id": 1468,
-          "country": {},
           "name": "World",
           "slug": "world",
           "sport": {
@@ -4238,6 +4011,8 @@
             "slug": "football",
             "id": 1
           },
+          "id": 1468,
+          "country": {},
           "flag": "international",
           "fieldTranslations": {
             "nameTranslation": {
@@ -4254,8 +4029,6 @@
           "primaryColorHex": "#25497d",
           "secondaryColorHex": "#d38f1d",
           "category": {
-            "id": 1468,
-            "country": {},
             "name": "World",
             "slug": "world",
             "sport": {
@@ -4263,6 +4036,8 @@
               "slug": "football",
               "id": 1
             },
+            "id": 1468,
+            "country": {},
             "flag": "international",
             "fieldTranslations": {
               "nameTranslation": {
@@ -4273,10 +4048,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 31778,
+          "userCount": 31569,
+          "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": false,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -4315,13 +4090,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 48,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Everton",
         "slug": "everton",
         "shortName": "Everton",
@@ -4331,11 +4099,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 48,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#274488",
@@ -4362,7 +4137,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 823604,
+        "userCount": 820522,
         "nameCode": "ROM",
         "disabled": false,
         "national": false,
@@ -4440,19 +4215,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -4471,19 +4246,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -4496,10 +4271,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -4541,13 +4316,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 34,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Leeds United",
         "slug": "leeds-united",
         "shortName": "Leeds",
@@ -4557,11 +4325,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 230392,
+        "userCount": 229951,
         "nameCode": "LUN",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 34,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -4591,7 +4366,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
@@ -4670,19 +4445,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -4701,19 +4476,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -4726,10 +4501,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -4771,13 +4546,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 48,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Everton",
         "slug": "everton",
         "shortName": "Everton",
@@ -4787,11 +4555,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 48,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#274488",
@@ -4818,7 +4593,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 509803,
+        "userCount": 506858,
         "nameCode": "BHA",
         "disabled": false,
         "national": false,
@@ -4900,19 +4675,19 @@
         "name": "EFL Cup",
         "slug": "efl-cup",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -4931,19 +4706,19 @@
           "primaryColorHex": "#203e93",
           "secondaryColorHex": "#bc1723",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -4956,10 +4731,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150702,
+          "userCount": 159807,
+          "hasPerformanceGraphFeature": false,
           "id": 21,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -5003,13 +4778,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 48,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Everton",
         "slug": "everton",
         "shortName": "Everton",
@@ -5019,11 +4787,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 48,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#274488",
@@ -5050,7 +4825,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 10164,
+        "userCount": 10300,
         "nameCode": "MAT",
         "national": false,
         "type": 0,
@@ -5126,19 +4901,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -5157,19 +4932,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -5182,10 +4957,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -5227,13 +5002,6 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "id": 3,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Wolverhampton",
         "slug": "wolverhampton",
         "shortName": "Wolves",
@@ -5243,11 +5011,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 329036,
+        "userCount": 327529,
         "nameCode": "WOL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 3,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ff9900",
@@ -5276,7 +5051,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
@@ -5355,19 +5130,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -5386,19 +5161,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -5411,10 +5186,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -5456,13 +5231,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 48,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Everton",
         "slug": "everton",
         "shortName": "Everton",
@@ -5472,11 +5240,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 48,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#274488",
@@ -5503,7 +5278,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 888873,
+        "userCount": 884739,
         "nameCode": "AVL",
         "disabled": false,
         "national": false,
@@ -5582,19 +5357,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -5613,19 +5388,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -5638,10 +5413,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -5683,13 +5458,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 44,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Liverpool",
         "slug": "liverpool",
         "shortName": "Liverpool",
@@ -5699,11 +5467,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3272124,
+        "userCount": 3294190,
         "nameCode": "LIV",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 44,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -5730,7 +5505,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
@@ -5809,19 +5584,19 @@
         "name": "EFL Cup",
         "slug": "efl-cup",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -5840,19 +5615,19 @@
           "primaryColorHex": "#203e93",
           "secondaryColorHex": "#bc1723",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -5865,10 +5640,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150702,
+          "userCount": 159807,
+          "hasPerformanceGraphFeature": false,
           "id": 21,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -5912,13 +5687,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 3,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Wolverhampton",
         "slug": "wolverhampton",
         "shortName": "Wolves",
@@ -5928,11 +5696,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 329036,
+        "userCount": 327529,
         "nameCode": "WOL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 3,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ff9900",
@@ -5961,7 +5736,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
@@ -6039,19 +5814,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -6070,19 +5845,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -6095,10 +5870,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -6140,13 +5915,6 @@
       },
       "winnerCode": 3,
       "homeTeam": {
-        "id": 48,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Everton",
         "slug": "everton",
         "shortName": "Everton",
@@ -6156,11 +5924,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 48,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#274488",
@@ -6187,7 +5962,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 506007,
+        "userCount": 500931,
         "nameCode": "WHU",
         "disabled": false,
         "national": false,
@@ -6269,19 +6044,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -6300,19 +6075,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -6325,10 +6100,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -6370,13 +6145,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 48,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Everton",
         "slug": "everton",
         "shortName": "Everton",
@@ -6386,11 +6154,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 48,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#274488",
@@ -6417,7 +6192,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 421936,
+        "userCount": 422874,
         "nameCode": "CRY",
         "disabled": false,
         "national": false,
@@ -6496,19 +6271,19 @@
         "name": "Premier League",
         "slug": "premier-league",
         "category": {
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
           "name": "England",
           "slug": "england",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
           },
           "flag": "england",
           "alpha2": "EN",
@@ -6527,19 +6302,19 @@
           "primaryColorHex": "#3c1c5a",
           "secondaryColorHex": "#f80158",
           "category": {
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
             "name": "England",
             "slug": "england",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
             },
             "flag": "england",
             "alpha2": "EN",
@@ -6552,10 +6327,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1251920,
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -6597,13 +6372,6 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "id": 17,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
         "name": "Manchester City",
         "slug": "manchester-city",
         "shortName": "Man City",
@@ -6613,11 +6381,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3345813,
+        "userCount": 3360035,
         "nameCode": "MCI",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 17,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#66ccff",
@@ -6647,7 +6422,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 411376,
+        "userCount": 408369,
         "nameCode": "EVE",
         "disabled": false,
         "national": false,
@@ -6718,28 +6493,258 @@
       "finalResultOnly": false,
       "feedLocked": true,
       "isEditor": false
+    },
+    {
+      "correctAiInsight": true,
+      "correctHalftimeAiInsight": true,
+      "tournament": {
+        "name": "Premier League",
+        "slug": "premier-league",
+        "category": {
+          "name": "England",
+          "slug": "england",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "flag": "england",
+          "alpha2": "EN",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إنجلترا",
+              "hi": "इंग्लैंड",
+              "bn": "ইংল্যান্ড"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Premier League",
+          "slug": "premier-league",
+          "primaryColorHex": "#3c1c5a",
+          "secondaryColorHex": "#f80158",
+          "category": {
+            "name": "England",
+            "slug": "england",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "flag": "england",
+            "alpha2": "EN",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إنجلترا",
+                "hi": "इंग्लैंड",
+                "bn": "ইংল্যান্ড"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1250004,
+          "hasPerformanceGraphFeature": true,
+          "id": 17,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الإنجليزي الممتاز",
+              "hi": "प्रिमियर लीग",
+              "bn": "প্রিমিয়ার লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 693,
+        "isGroup": false,
+        "isLive": false,
+        "id": 1,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإنجليزي الممتاز",
+            "hi": "प्रिमियर लीग",
+            "bn": "প্রিমিয়ার লীগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Premier League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76986
+      },
+      "roundInfo": {
+        "round": 9
+      },
+      "customId": "UwXh",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 2,
+      "homeTeam": {
+        "name": "Everton",
+        "slug": "everton",
+        "shortName": "Everton",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 408369,
+        "nameCode": "EVE",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 48,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#274488",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفرتون",
+            "ru": "Эвертон",
+            "hi": "एवर्टन",
+            "bn": "এভারটন"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "awayTeam": {
+        "name": "Tottenham Hotspur",
+        "slug": "tottenham-hotspur",
+        "shortName": "Tottenham ",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 1431718,
+        "nameCode": "THO",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 33,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#000066",
+          "text": "#000066"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توتنهام هوتسبير",
+            "ru": "Тоттенхэм Хотспур",
+            "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+          },
+          "shortNameTranslation": {
+            "ar": "توتنهام",
+            "hi": "टॉटनहैम",
+            "bn": "টটেনহ্যাম"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "awayScore": {
+        "current": 3,
+        "display": 3,
+        "period1": 2,
+        "period2": 1,
+        "normaltime": 3
+      },
+      "time": {
+        "injuryTime1": 7,
+        "injuryTime2": 5,
+        "currentPeriodStartTimestamp": 1761500353
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1761503368
+      },
+      "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14025263,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "everton-tottenham-hotspur",
+      "startTimestamp": 1761496200,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false
     }
   ],
   "last5": {
-    "form": "LWDLL",
+    "form": "LLWDL",
     "w": 1,
     "d": 1,
     "l": 3,
-    "gf": 4,
-    "ga": 8,
-    "avg_gf": 0.8,
-    "avg_ga": 1.6,
+    "gf": 3,
+    "ga": 9,
+    "avg_gf": 0.6,
+    "avg_ga": 1.8,
     "count": 5
   },
   "last10": {
-    "form": "LWDLLDWWWL",
+    "form": "LLWDLLDWWW",
     "w": 4,
     "d": 2,
     "l": 4,
     "gf": 11,
-    "ga": 11,
+    "ga": 13,
     "avg_gf": 1.1,
-    "avg_ga": 1.1,
+    "avg_ga": 1.3,
     "count": 10
   }
 }

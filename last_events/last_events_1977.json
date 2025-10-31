@@ -3,24 +3,23 @@
   "team": "Atlético Mineiro",
   "events": [
     {
-      "correctAiInsight": true,
       "tournament": {
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -37,19 +36,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -60,456 +59,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "بطولة بيتانو البرازيلية",
-              "hi": "ब्राज़ीलेइराओ बेटानो",
-              "bn": "ব্রাসিলিরাও বেতানো"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 505,
-        "isGroup": false,
-        "isLive": false,
-        "id": 83,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "الدوري البرازيلي الممتاز بيتانو",
-            "hi": "ब्रासिलेइराओ बेटानो",
-            "bn": "ব্রাসিলিরাও বেতানো"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Brasileiro Serie A 2025",
-        "year": "2025",
-        "editor": false,
-        "id": 72034
-      },
-      "roundInfo": {
-        "round": 12
-      },
-      "customId": "qOsCO",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 1,
-      "homeTeam": {
-        "name": "Atlético Mineiro",
-        "slug": "atletico-mineiro",
-        "shortName": "Atlético-MG",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 265462,
-        "nameCode": "ATL",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#000000",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "أتلتيكو مينيرو",
-            "ru": "Атлетико Минейро"
-          },
-          "shortNameTranslation": {
-            "ar": "أتلتيكو-إم جي"
-          }
-        }
-      },
-      "awayTeam": {
-        "id": 1966,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
-        "name": "Internacional",
-        "slug": "internacional",
-        "shortName": "Internacional",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 209656,
-        "nameCode": "INT",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#cc0000",
-          "secondary": "#cc0000",
-          "text": "#cc0000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "إنترناسيونال",
-            "ru": "Интернаcьонал"
-          },
-          "shortNameTranslation": {
-            "ar": "إنترناسيونال"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 2,
-        "display": 2,
-        "period1": 1,
-        "period2": 1,
-        "normaltime": 2
-      },
-      "awayScore": {
-        "current": 0,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0
-      },
-      "time": {
-        "injuryTime1": 2,
-        "injuryTime2": 6,
-        "currentPeriodStartTimestamp": 1749778403
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1749781502
-      },
-      "hasGlobalHighlights": false,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 13472737,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
-      "slug": "atletico-mineiro-internacional",
-      "startTimestamp": 1749774600,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "correctAiInsight": true,
-      "correctHalftimeAiInsight": true,
-      "tournament": {
-        "name": "Brasileirão Betano",
-        "slug": "brasileirao-serie-a",
-        "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
-          "name": "Brazil",
-          "slug": "brazil",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "flag": "brazil",
-          "alpha2": "BR",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "البرازيل"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "Brasileirão Betano",
-          "slug": "brasileirao-serie-a",
-          "primaryColorHex": "#C7FF00",
-          "secondaryColorHex": "#969696",
-          "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
-            "name": "Brazil",
-            "slug": "brazil",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "flag": "brazil",
-            "alpha2": "BR",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "البرازيل"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 316623,
-          "id": 325,
-          "country": {},
-          "hasPerformanceGraphFeature": true,
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "بطولة بيتانو البرازيلية",
-              "hi": "ब्राज़ीलेइराओ बेटानो",
-              "bn": "ব্রাসিলিরাও বেতানো"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 505,
-        "isGroup": false,
-        "isLive": false,
-        "id": 83,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "الدوري البرازيلي الممتاز بيتانو",
-            "hi": "ब्रासिलेइराओ बेटानो",
-            "bn": "ব্রাসিলিরাও বেতানো"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Brasileiro Serie A 2025",
-        "year": "2025",
-        "editor": false,
-        "id": 72034
-      },
-      "roundInfo": {
-        "round": 13
-      },
-      "customId": "fOsCO",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 1,
-      "homeTeam": {
-        "name": "Bahia",
-        "slug": "bahia",
-        "shortName": "Bahia",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 217268,
-        "nameCode": "BAH",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 1955,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ffffff",
-          "secondary": "#333399",
-          "text": "#333399"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "باهيا",
-            "ru": "Баия"
-          },
-          "shortNameTranslation": {
-            "ar": "باهيا"
-          }
-        }
-      },
-      "awayTeam": {
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
-        "name": "Atlético Mineiro",
-        "slug": "atletico-mineiro",
-        "shortName": "Atlético-MG",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 265462,
-        "nameCode": "ATL",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#000000",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "أتلتيكو مينيرو",
-            "ru": "Атлетико Минейро"
-          },
-          "shortNameTranslation": {
-            "ar": "أتلتيكو-إم جي"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 2,
-        "display": 2,
-        "period1": 0,
-        "period2": 2,
-        "normaltime": 2
-      },
-      "awayScore": {
-        "current": 1,
-        "display": 1,
-        "period1": 0,
-        "period2": 1,
-        "normaltime": 1
-      },
-      "time": {
-        "injuryTime1": 4,
-        "injuryTime2": 7,
-        "currentPeriodStartTimestamp": 1752369037
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type",
-          "homeScore.period2",
-          "homeScore.normaltime"
-        ],
-        "changeTimestamp": 1752372270
-      },
-      "hasGlobalHighlights": false,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 13472786,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
-      "slug": "atletico-mineiro-bahia",
-      "startTimestamp": 1752364800,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "tournament": {
-        "name": "Brasileirão Betano",
-        "slug": "brasileirao-serie-a",
-        "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
-          "name": "Brazil",
-          "slug": "brazil",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "flag": "brazil",
-          "alpha2": "BR",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "البرازيل"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "Brasileirão Betano",
-          "slug": "brasileirao-serie-a",
-          "primaryColorHex": "#C7FF00",
-          "secondaryColorHex": "#969696",
-          "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
-            "name": "Brazil",
-            "slug": "brazil",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "flag": "brazil",
-            "alpha2": "BR",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "البرازيل"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 316623,
-          "id": 325,
-          "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -559,7 +112,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -588,13 +141,6 @@
         }
       },
       "awayTeam": {
-        "id": 1959,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Sport Recife",
         "slug": "sport-recife",
         "shortName": "Sport",
@@ -604,11 +150,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 106339,
+        "userCount": 105615,
         "nameCode": "SRE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1959,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -659,8 +212,6 @@
         "name": "CONMEBOL Sudamericana, Knockout stage",
         "slug": "conmebol-sudamericana",
         "category": {
-          "id": 1470,
-          "country": {},
           "name": "South America",
           "slug": "south-america",
           "sport": {
@@ -668,6 +219,8 @@
             "slug": "football",
             "id": 1
           },
+          "id": 1470,
+          "country": {},
           "flag": "south-america",
           "fieldTranslations": {
             "nameTranslation": {
@@ -682,8 +235,6 @@
           "primaryColorHex": "#e3c000",
           "secondaryColorHex": "#13489c",
           "category": {
-            "id": 1470,
-            "country": {},
             "name": "South America",
             "slug": "south-america",
             "sport": {
@@ -691,6 +242,8 @@
               "slug": "football",
               "id": 1
             },
+            "id": 1470,
+            "country": {},
             "flag": "south-america",
             "fieldTranslations": {
               "nameTranslation": {
@@ -699,10 +252,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 127730,
+          "userCount": 127347,
+          "hasPerformanceGraphFeature": false,
           "id": 480,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -755,7 +308,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 27972,
+        "userCount": 28311,
         "nameCode": "ABU",
         "disabled": false,
         "national": false,
@@ -784,13 +337,6 @@
         }
       },
       "awayTeam": {
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Atlético Mineiro",
         "slug": "atletico-mineiro",
         "shortName": "Atlético-MG",
@@ -800,11 +346,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -873,19 +426,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -902,19 +455,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -925,10 +478,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -979,7 +532,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 593029,
+        "userCount": 593163,
         "nameCode": "PAL",
         "disabled": false,
         "national": false,
@@ -1008,13 +561,6 @@
         }
       },
       "awayTeam": {
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Atlético Mineiro",
         "slug": "atletico-mineiro",
         "shortName": "Atlético-MG",
@@ -1024,11 +570,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -1094,19 +647,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -1123,19 +676,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -1146,10 +699,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -1199,7 +752,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -1228,13 +781,6 @@
         }
       },
       "awayTeam": {
-        "id": 2020,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Fortaleza",
         "slug": "fortaleza",
         "shortName": "Fortaleza",
@@ -1244,11 +790,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 163334,
+        "userCount": 161909,
         "nameCode": "FOR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 2020,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0000ff",
@@ -1296,8 +849,6 @@
         "name": "CONMEBOL Sudamericana, Knockout stage",
         "slug": "conmebol-sudamericana",
         "category": {
-          "id": 1470,
-          "country": {},
           "name": "South America",
           "slug": "south-america",
           "sport": {
@@ -1305,6 +856,8 @@
             "slug": "football",
             "id": 1
           },
+          "id": 1470,
+          "country": {},
           "flag": "south-america",
           "fieldTranslations": {
             "nameTranslation": {
@@ -1319,8 +872,6 @@
           "primaryColorHex": "#e3c000",
           "secondaryColorHex": "#13489c",
           "category": {
-            "id": 1470,
-            "country": {},
             "name": "South America",
             "slug": "south-america",
             "sport": {
@@ -1328,6 +879,8 @@
               "slug": "football",
               "id": 1
             },
+            "id": 1470,
+            "country": {},
             "flag": "south-america",
             "fieldTranslations": {
               "nameTranslation": {
@@ -1336,10 +889,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 127730,
+          "userCount": 127347,
+          "hasPerformanceGraphFeature": false,
           "id": 480,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -1393,7 +946,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -1422,13 +975,6 @@
         }
       },
       "awayTeam": {
-        "id": 6103,
-        "country": {
-          "alpha2": "CO",
-          "alpha3": "COL",
-          "name": "Colombia",
-          "slug": "colombia"
-        },
         "name": "Atlético Bucaramanga",
         "slug": "atletico-bucaramanga",
         "shortName": "Bucaramanga",
@@ -1438,11 +984,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 27972,
+        "userCount": 28311,
         "nameCode": "ABU",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 6103,
+        "country": {
+          "alpha2": "CO",
+          "alpha3": "COL",
+          "name": "Colombia",
+          "slug": "colombia"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#f9ec00",
@@ -1520,19 +1073,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -1549,19 +1102,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -1572,10 +1125,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -1626,7 +1179,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 902702,
+        "userCount": 906150,
         "nameCode": "FLA",
         "disabled": false,
         "national": false,
@@ -1655,13 +1208,6 @@
         }
       },
       "awayTeam": {
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Atlético Mineiro",
         "slug": "atletico-mineiro",
         "shortName": "Atlético-MG",
@@ -1671,11 +1217,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -1743,19 +1296,19 @@
         "name": "Copa Betano do Brasil",
         "slug": "copa-do-brasil",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -1772,19 +1325,19 @@
           "primaryColorHex": "#34a348",
           "secondaryColorHex": "#f2ba1c",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -1795,10 +1348,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 140273,
+          "userCount": 139549,
+          "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": false,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -1855,7 +1408,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 902702,
+        "userCount": 906150,
         "nameCode": "FLA",
         "disabled": false,
         "national": false,
@@ -1884,13 +1437,6 @@
         }
       },
       "awayTeam": {
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Atlético Mineiro",
         "slug": "atletico-mineiro",
         "shortName": "Atlético-MG",
@@ -1900,11 +1446,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -1970,19 +1523,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -1999,19 +1552,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -2022,10 +1575,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -2076,7 +1629,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -2105,13 +1658,6 @@
         }
       },
       "awayTeam": {
-        "id": 1999,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Red Bull Bragantino",
         "slug": "red-bull-bragantino",
         "shortName": "RB Bragantino",
@@ -2121,11 +1667,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120210,
+        "userCount": 119164,
         "nameCode": "RBB",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1999,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#363636",
@@ -2192,19 +1745,19 @@
         "name": "Copa Betano do Brasil",
         "slug": "copa-do-brasil",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -2221,19 +1774,19 @@
           "primaryColorHex": "#34a348",
           "secondaryColorHex": "#f2ba1c",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -2244,10 +1797,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 140273,
+          "userCount": 139549,
+          "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": false,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -2305,7 +1858,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -2334,13 +1887,6 @@
         }
       },
       "awayTeam": {
-        "id": 5981,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Flamengo",
         "slug": "flamengo",
         "shortName": "Flamengo",
@@ -2350,11 +1896,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 902702,
+        "userCount": 906150,
         "nameCode": "FLA",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 5981,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ff0000",
@@ -2432,19 +1985,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -2461,19 +2014,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -2484,10 +2037,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -2538,7 +2091,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 312259,
+        "userCount": 311804,
         "nameCode": "VDG",
         "disabled": false,
         "national": false,
@@ -2567,13 +2120,6 @@
         }
       },
       "awayTeam": {
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Atlético Mineiro",
         "slug": "atletico-mineiro",
         "shortName": "Atlético-MG",
@@ -2583,11 +2129,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -2655,8 +2208,6 @@
         "name": "CONMEBOL Sudamericana, Knockout stage",
         "slug": "conmebol-sudamericana",
         "category": {
-          "id": 1470,
-          "country": {},
           "name": "South America",
           "slug": "south-america",
           "sport": {
@@ -2664,6 +2215,8 @@
             "slug": "football",
             "id": 1
           },
+          "id": 1470,
+          "country": {},
           "flag": "south-america",
           "fieldTranslations": {
             "nameTranslation": {
@@ -2678,8 +2231,6 @@
           "primaryColorHex": "#e3c000",
           "secondaryColorHex": "#13489c",
           "category": {
-            "id": 1470,
-            "country": {},
             "name": "South America",
             "slug": "south-america",
             "sport": {
@@ -2687,6 +2238,8 @@
               "slug": "football",
               "id": 1
             },
+            "id": 1470,
+            "country": {},
             "flag": "south-america",
             "fieldTranslations": {
               "nameTranslation": {
@@ -2695,10 +2248,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 127730,
+          "userCount": 127347,
+          "hasPerformanceGraphFeature": false,
           "id": 480,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -2752,7 +2305,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -2781,13 +2334,6 @@
         }
       },
       "awayTeam": {
-        "id": 6074,
-        "country": {
-          "alpha2": "AR",
-          "alpha3": "ARG",
-          "name": "Argentina",
-          "slug": "argentina"
-        },
         "name": "Godoy Cruz",
         "slug": "godoy-cruz",
         "gender": "M",
@@ -2796,10 +2342,17 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 20513,
+        "userCount": 20258,
         "nameCode": "GOD",
         "national": false,
         "type": 0,
+        "id": 6074,
+        "country": {
+          "alpha2": "AR",
+          "alpha3": "ARG",
+          "name": "Argentina",
+          "slug": "argentina"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#002593",
@@ -2864,19 +2417,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -2893,19 +2446,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -2916,10 +2469,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -2970,7 +2523,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -2999,13 +2552,6 @@
         }
       },
       "awayTeam": {
-        "id": 5926,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Grêmio",
         "slug": "gremio",
         "shortName": "Grêmio",
@@ -3015,11 +2561,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 235733,
+        "userCount": 233789,
         "nameCode": "GRM",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 5926,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#3399ff",
@@ -3089,8 +2642,6 @@
         "name": "CONMEBOL Sudamericana, Knockout stage",
         "slug": "conmebol-sudamericana",
         "category": {
-          "id": 1470,
-          "country": {},
           "name": "South America",
           "slug": "south-america",
           "sport": {
@@ -3098,6 +2649,8 @@
             "slug": "football",
             "id": 1
           },
+          "id": 1470,
+          "country": {},
           "flag": "south-america",
           "fieldTranslations": {
             "nameTranslation": {
@@ -3112,8 +2665,6 @@
           "primaryColorHex": "#e3c000",
           "secondaryColorHex": "#13489c",
           "category": {
-            "id": 1470,
-            "country": {},
             "name": "South America",
             "slug": "south-america",
             "sport": {
@@ -3121,6 +2672,8 @@
               "slug": "football",
               "id": 1
             },
+            "id": 1470,
+            "country": {},
             "flag": "south-america",
             "fieldTranslations": {
               "nameTranslation": {
@@ -3129,10 +2682,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 127730,
+          "userCount": 127347,
+          "hasPerformanceGraphFeature": false,
           "id": 480,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -3186,7 +2739,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 20513,
+        "userCount": 20258,
         "nameCode": "GOD",
         "national": false,
         "type": 0,
@@ -3212,13 +2765,6 @@
         }
       },
       "awayTeam": {
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Atlético Mineiro",
         "slug": "atletico-mineiro",
         "shortName": "Atlético-MG",
@@ -3228,11 +2774,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -3304,19 +2857,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -3333,19 +2886,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -3356,10 +2909,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -3410,7 +2963,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 413304,
+        "userCount": 409855,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -3439,13 +2992,6 @@
         }
       },
       "awayTeam": {
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Atlético Mineiro",
         "slug": "atletico-mineiro",
         "shortName": "Atlético-MG",
@@ -3455,11 +3001,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -3527,19 +3080,19 @@
         "name": "Copa Betano do Brasil",
         "slug": "copa-do-brasil",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -3556,19 +3109,19 @@
           "primaryColorHex": "#34a348",
           "secondaryColorHex": "#f2ba1c",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -3579,10 +3132,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 140273,
+          "userCount": 139549,
+          "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": false,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -3639,7 +3192,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -3668,13 +3221,6 @@
         }
       },
       "awayTeam": {
-        "id": 1954,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Cruzeiro",
         "slug": "cruzeiro",
         "shortName": "Cruzeiro",
@@ -3684,11 +3230,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 273552,
+        "userCount": 272462,
         "nameCode": "CRU",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1954,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0033cc",
@@ -3753,19 +3306,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -3782,19 +3335,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -3805,10 +3358,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -3859,7 +3412,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 115534,
+        "userCount": 115403,
         "nameCode": "VIT",
         "disabled": false,
         "national": false,
@@ -3888,13 +3441,6 @@
         }
       },
       "awayTeam": {
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Atlético Mineiro",
         "slug": "atletico-mineiro",
         "shortName": "Atlético-MG",
@@ -3904,11 +3450,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -3976,19 +3529,19 @@
         "name": "Copa Betano do Brasil",
         "slug": "copa-do-brasil",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -4005,19 +3558,19 @@
           "primaryColorHex": "#34a348",
           "secondaryColorHex": "#f2ba1c",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -4028,10 +3581,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 140273,
+          "userCount": 139549,
+          "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": false,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -4089,7 +3642,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 273552,
+        "userCount": 272462,
         "nameCode": "CRU",
         "disabled": false,
         "national": false,
@@ -4118,13 +3671,6 @@
         }
       },
       "awayTeam": {
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Atlético Mineiro",
         "slug": "atletico-mineiro",
         "shortName": "Atlético-MG",
@@ -4134,11 +3680,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -4207,19 +3760,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -4236,19 +3789,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -4259,10 +3812,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -4313,7 +3866,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -4342,13 +3895,6 @@
         }
       },
       "awayTeam": {
-        "id": 1968,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Santos",
         "slug": "santos",
         "shortName": "Santos",
@@ -4358,11 +3904,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 427312,
+        "userCount": 426299,
         "nameCode": "SAN",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1968,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#ffffff",
@@ -4431,8 +3984,6 @@
         "name": "CONMEBOL Sudamericana, Knockout stage",
         "slug": "conmebol-sudamericana",
         "category": {
-          "id": 1470,
-          "country": {},
           "name": "South America",
           "slug": "south-america",
           "sport": {
@@ -4440,6 +3991,8 @@
             "slug": "football",
             "id": 1
           },
+          "id": 1470,
+          "country": {},
           "flag": "south-america",
           "fieldTranslations": {
             "nameTranslation": {
@@ -4454,8 +4007,6 @@
           "primaryColorHex": "#e3c000",
           "secondaryColorHex": "#13489c",
           "category": {
-            "id": 1470,
-            "country": {},
             "name": "South America",
             "slug": "south-america",
             "sport": {
@@ -4463,6 +4014,8 @@
               "slug": "football",
               "id": 1
             },
+            "id": 1470,
+            "country": {},
             "flag": "south-america",
             "fieldTranslations": {
               "nameTranslation": {
@@ -4471,10 +4024,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 127730,
+          "userCount": 127347,
+          "hasPerformanceGraphFeature": false,
           "id": 480,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -4528,7 +4081,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 53849,
+        "userCount": 54310,
         "nameCode": "BOL",
         "disabled": false,
         "national": false,
@@ -4557,13 +4110,6 @@
         }
       },
       "awayTeam": {
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Atlético Mineiro",
         "slug": "atletico-mineiro",
         "shortName": "Atlético-MG",
@@ -4573,11 +4119,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -4645,19 +4198,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -4674,19 +4227,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -4697,10 +4250,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -4751,7 +4304,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 322446,
+        "userCount": 319372,
         "nameCode": "BOT",
         "disabled": false,
         "national": false,
@@ -4780,13 +4333,6 @@
         }
       },
       "awayTeam": {
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Atlético Mineiro",
         "slug": "atletico-mineiro",
         "shortName": "Atlético-MG",
@@ -4796,11 +4342,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -4869,8 +4422,6 @@
         "name": "CONMEBOL Sudamericana, Knockout stage",
         "slug": "conmebol-sudamericana",
         "category": {
-          "id": 1470,
-          "country": {},
           "name": "South America",
           "slug": "south-america",
           "sport": {
@@ -4878,6 +4429,8 @@
             "slug": "football",
             "id": 1
           },
+          "id": 1470,
+          "country": {},
           "flag": "south-america",
           "fieldTranslations": {
             "nameTranslation": {
@@ -4892,8 +4445,6 @@
           "primaryColorHex": "#e3c000",
           "secondaryColorHex": "#13489c",
           "category": {
-            "id": 1470,
-            "country": {},
             "name": "South America",
             "slug": "south-america",
             "sport": {
@@ -4901,6 +4452,8 @@
               "slug": "football",
               "id": 1
             },
+            "id": 1470,
+            "country": {},
             "flag": "south-america",
             "fieldTranslations": {
               "nameTranslation": {
@@ -4909,10 +4462,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 127730,
+          "userCount": 127347,
+          "hasPerformanceGraphFeature": false,
           "id": 480,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -4967,7 +4520,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -4996,13 +4549,6 @@
         }
       },
       "awayTeam": {
-        "id": 7059,
-        "country": {
-          "alpha2": "BO",
-          "alpha3": "BOL",
-          "name": "Bolivia",
-          "slug": "bolivia"
-        },
         "name": "Bolívar",
         "slug": "bolivar",
         "shortName": "Bolívar",
@@ -5012,11 +4558,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 53849,
+        "userCount": 54310,
         "nameCode": "BOL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 7059,
+        "country": {
+          "alpha2": "BO",
+          "alpha3": "BOL",
+          "name": "Bolivia",
+          "slug": "bolivia"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#33ccff",
@@ -5086,19 +4639,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -5115,19 +4668,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -5138,10 +4691,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -5192,7 +4745,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -5221,13 +4774,6 @@
         }
       },
       "awayTeam": {
-        "id": 21982,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Mirassol",
         "slug": "mirassol",
         "shortName": "Mirassol",
@@ -5237,11 +4783,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 61231,
+        "userCount": 62925,
         "nameCode": "MIR",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 21982,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#e8c728",
@@ -5282,7 +4835,7 @@
         ],
         "changeTimestamp": 1759162023
       },
-      "hasGlobalHighlights": true,
+      "hasGlobalHighlights": false,
       "hasXg": true,
       "hasEventPlayerStatistics": true,
       "hasEventPlayerHeatMap": true,
@@ -5307,19 +4860,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -5336,19 +4889,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -5359,10 +4912,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -5413,7 +4966,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -5442,13 +4995,6 @@
         }
       },
       "awayTeam": {
-        "id": 1980,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Juventude",
         "slug": "juventude",
         "shortName": "Juventude",
@@ -5458,11 +5004,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 67979,
+        "userCount": 66726,
         "nameCode": "JUV",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1980,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#006600",
@@ -5527,19 +5080,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -5556,19 +5109,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -5579,10 +5132,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -5633,7 +5186,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 339723,
+        "userCount": 338069,
         "nameCode": "FLU",
         "disabled": false,
         "national": false,
@@ -5662,13 +5215,6 @@
         }
       },
       "awayTeam": {
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Atlético Mineiro",
         "slug": "atletico-mineiro",
         "shortName": "Atlético-MG",
@@ -5678,11 +5224,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -5750,19 +5303,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -5779,19 +5332,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -5802,10 +5355,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -5856,7 +5409,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -5885,13 +5438,6 @@
         }
       },
       "awayTeam": {
-        "id": 1959,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Sport Recife",
         "slug": "sport-recife",
         "shortName": "Sport",
@@ -5901,11 +5447,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 106339,
+        "userCount": 105615,
         "nameCode": "SRE",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1959,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#cc0000",
@@ -5971,19 +5524,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -6000,19 +5553,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -6023,10 +5576,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -6077,7 +5630,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -6106,13 +5659,6 @@
         }
       },
       "awayTeam": {
-        "id": 1954,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Cruzeiro",
         "slug": "cruzeiro",
         "shortName": "Cruzeiro",
@@ -6122,11 +5668,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 273552,
+        "userCount": 272462,
         "nameCode": "CRU",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1954,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#0033cc",
@@ -6193,19 +5746,19 @@
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
         "category": {
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
           "name": "Brazil",
           "slug": "brazil",
           "sport": {
             "name": "Football",
             "slug": "football",
             "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
           },
           "flag": "brazil",
           "alpha2": "BR",
@@ -6222,19 +5775,19 @@
           "primaryColorHex": "#C7FF00",
           "secondaryColorHex": "#969696",
           "category": {
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
             "name": "Brazil",
             "slug": "brazil",
             "sport": {
               "name": "Football",
               "slug": "football",
               "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
             },
             "flag": "brazil",
             "alpha2": "BR",
@@ -6245,10 +5798,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316623,
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
-          "hasPerformanceGraphFeature": true,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -6299,7 +5852,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 553969,
+        "userCount": 551129,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
@@ -6328,13 +5881,6 @@
         }
       },
       "awayTeam": {
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Atlético Mineiro",
         "slug": "atletico-mineiro",
         "shortName": "Atlético-MG",
@@ -6344,11 +5890,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -6414,8 +5967,6 @@
         "name": "CONMEBOL Sudamericana, Knockout stage",
         "slug": "conmebol-sudamericana",
         "category": {
-          "id": 1470,
-          "country": {},
           "name": "South America",
           "slug": "south-america",
           "sport": {
@@ -6423,6 +5974,8 @@
             "slug": "football",
             "id": 1
           },
+          "id": 1470,
+          "country": {},
           "flag": "south-america",
           "fieldTranslations": {
             "nameTranslation": {
@@ -6437,8 +5990,6 @@
           "primaryColorHex": "#e3c000",
           "secondaryColorHex": "#13489c",
           "category": {
-            "id": 1470,
-            "country": {},
             "name": "South America",
             "slug": "south-america",
             "sport": {
@@ -6446,6 +5997,8 @@
               "slug": "football",
               "id": 1
             },
+            "id": 1470,
+            "country": {},
             "flag": "south-america",
             "fieldTranslations": {
               "nameTranslation": {
@@ -6454,10 +6007,10 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 127730,
+          "userCount": 127347,
+          "hasPerformanceGraphFeature": false,
           "id": 480,
           "country": {},
-          "hasPerformanceGraphFeature": false,
           "hasEventPlayerStatistics": true,
           "displayInverseHomeAwayTeams": false,
           "fieldTranslations": {
@@ -6511,7 +6064,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 49019,
+        "userCount": 49587,
         "nameCode": "IDV",
         "disabled": false,
         "national": false,
@@ -6540,13 +6093,6 @@
         }
       },
       "awayTeam": {
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
         "name": "Atlético Mineiro",
         "slug": "atletico-mineiro",
         "shortName": "Atlético-MG",
@@ -6556,11 +6102,18 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 265462,
+        "userCount": 264783,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
         "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
         "subTeams": [],
         "teamColors": {
           "primary": "#000000",
@@ -6619,28 +6172,468 @@
       "finalResultOnly": false,
       "feedLocked": true,
       "isEditor": false
+    },
+    {
+      "correctAiInsight": true,
+      "correctHalftimeAiInsight": true,
+      "tournament": {
+        "name": "Brasileirão Betano",
+        "slug": "brasileirao-serie-a",
+        "category": {
+          "name": "Brazil",
+          "slug": "brazil",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "flag": "brazil",
+          "alpha2": "BR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "البرازيل"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Brasileirão Betano",
+          "slug": "brasileirao-serie-a",
+          "primaryColorHex": "#C7FF00",
+          "secondaryColorHex": "#969696",
+          "category": {
+            "name": "Brazil",
+            "slug": "brazil",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
+            },
+            "flag": "brazil",
+            "alpha2": "BR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "البرازيل"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 316240,
+          "hasPerformanceGraphFeature": true,
+          "id": 325,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة بيتانو البرازيلية",
+              "hi": "ब्राज़ीलेइराओ बेटानो",
+              "bn": "ব্রাসিলিরাও বেতানো"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 505,
+        "isGroup": false,
+        "isLive": false,
+        "id": 83,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري البرازيلي الممتاز بيتانو",
+            "hi": "ब्रासिलेइराओ बेटानो",
+            "bn": "ব্রাসিলিরাও বেতানো"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Brasileiro Serie A 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 72034
+      },
+      "roundInfo": {
+        "round": 30
+      },
+      "customId": "COsbP",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Atlético Mineiro",
+        "slug": "atletico-mineiro",
+        "shortName": "Atlético-MG",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 264783,
+        "nameCode": "ATL",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أتلتيكو مينيرو",
+            "ru": "Атлетико Минейро"
+          },
+          "shortNameTranslation": {
+            "ar": "أتلتيكو-إم جي"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "Ceará",
+        "slug": "ceara",
+        "shortName": "Ceará",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 91719,
+        "nameCode": "CEA",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2001,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيارا",
+            "ru": "ФК Сеара"
+          },
+          "shortNameTranslation": {
+            "ar": "سيارا"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 1,
+        "period2": 0,
+        "normaltime": 1
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "time": {
+        "injuryTime1": 4,
+        "injuryTime2": 5,
+        "currentPeriodStartTimestamp": 1761422814
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1761425822
+      },
+      "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 13472843,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "ceara-atletico-mineiro",
+      "startTimestamp": 1761418800,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false
+    },
+    {
+      "correctAiInsight": true,
+      "correctHalftimeAiInsight": true,
+      "tournament": {
+        "name": "CONMEBOL Sudamericana, Knockout stage",
+        "slug": "conmebol-sudamericana",
+        "category": {
+          "name": "South America",
+          "slug": "south-america",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1470,
+          "country": {},
+          "flag": "south-america",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أمريكا الجنوبية"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "CONMEBOL Sudamericana",
+          "slug": "conmebol-sudamericana",
+          "primaryColorHex": "#e3c000",
+          "secondaryColorHex": "#13489c",
+          "category": {
+            "name": "South America",
+            "slug": "south-america",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1470,
+            "country": {},
+            "flag": "south-america",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أمريكا الجنوبية"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 127347,
+          "hasPerformanceGraphFeature": false,
+          "id": 480,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس أمريكا الجنوبية لكرة القدم",
+              "hi": "कॉनमेबोल सुदामेरिकाना",
+              "bn": "কনমেবল সুদাআমেরিকানা"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 512,
+        "isGroup": false,
+        "isLive": false,
+        "id": 91444,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كوبا سود أمريكانا، الأدوار الإقصائية",
+            "hi": "कोपा सुदामेरिकाना, नॉकआउट स्टेज",
+            "bn": "কোপা সুদামেরিকানা, নকআউট স্টেজ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "CONMEBOL Sudamericana 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 70070
+      },
+      "roundInfo": {
+        "round": 28,
+        "name": "Semifinals",
+        "slug": "semifinals",
+        "cupRoundType": 2
+      },
+      "customId": "COsyUp",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 1,
+      "aggregatedWinnerCode": 1,
+      "homeTeam": {
+        "name": "Atlético Mineiro",
+        "slug": "atletico-mineiro",
+        "shortName": "Atlético-MG",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 264783,
+        "nameCode": "ATL",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أتلتيكو مينيرو",
+            "ru": "Атлетико Минейро"
+          },
+          "shortNameTranslation": {
+            "ar": "أتلتيكو-إم جي"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "Independiente del Valle",
+        "slug": "independiente-del-valle",
+        "shortName": "Ind. del Valle",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 49587,
+        "nameCode": "IDV",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 39723,
+        "country": {
+          "alpha2": "EC",
+          "alpha3": "ECU",
+          "name": "Ecuador",
+          "slug": "ecuador"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#002945",
+          "secondary": "#e8ac35",
+          "text": "#e8ac35"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إنديبندينتي ديل فالي",
+            "ru": "Индепендьенте дель Валье"
+          },
+          "shortNameTranslation": {
+            "ar": "إند. ديل فالي"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 3,
+        "display": 3,
+        "period1": 2,
+        "period2": 1,
+        "normaltime": 3,
+        "aggregated": 4
+      },
+      "awayScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 0,
+        "period2": 1,
+        "normaltime": 1,
+        "aggregated": 2
+      },
+      "time": {
+        "injuryTime1": 2,
+        "injuryTime2": 5,
+        "currentPeriodStartTimestamp": 1761701531
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1761704531
+      },
+      "hasGlobalHighlights": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14250686,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "independiente-del-valle-atletico-mineiro",
+      "previousLegEventId": 14250684,
+      "startTimestamp": 1761697800,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false
     }
   ],
   "last5": {
-    "form": "DLDWL",
-    "w": 1,
+    "form": "WWDLD",
+    "w": 2,
     "d": 2,
-    "l": 2,
-    "gf": 5,
-    "ga": 7,
-    "avg_gf": 1.0,
-    "avg_ga": 1.4,
+    "l": 1,
+    "gf": 6,
+    "ga": 4,
+    "avg_gf": 1.2,
+    "avg_ga": 0.8,
     "count": 5
   },
   "last10": {
-    "form": "DLDWLDWWLD",
-    "w": 3,
-    "d": 4,
-    "l": 3,
-    "gf": 9,
-    "ga": 10,
-    "avg_gf": 0.9,
-    "avg_ga": 1.0,
+    "form": "WWDLDWLDWW",
+    "w": 5,
+    "d": 3,
+    "l": 2,
+    "gf": 11,
+    "ga": 8,
+    "avg_gf": 1.1,
+    "avg_ga": 0.8,
     "count": 10
   }
 }
