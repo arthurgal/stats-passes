@@ -167,11 +167,11 @@
               <div class="mt-5">
                 <div class="flex items-center justify-between mb-2">
                   <div class="text-sm font-semibold text-gray-800">Últimos confrontos</div>
-                  <div v-if="passesAvg1" class="text-xs text-gray-600 flex items-center gap-3">
-                    <span class="font-semibold text-gray-700">Média (5):</span>
-                    <span title="Passes">P {{ (passesAvg1.avg_passes ?? 0).toFixed(1) }}</span>
-                    <span title="Passes certos">PC {{ (passesAvg1.avg_accurate ?? 0).toFixed(1) }}</span>
-                    <span title="Precisão de passes">% {{ (passesAvg1.avg_accuracy_pct ?? 0).toFixed(1) }}%</span>
+                  <div v-if="passesEvents1 && passesEvents1.length" class="text-xs text-gray-600 flex items-center gap-2">
+                    <span class="font-semibold text-gray-700">Passes (5):</span>
+                    <span v-for="(p,i) in passesEvents1" :key="'ps1-'+i" class="px-2 py-0.5 rounded bg-gray-100 text-gray-700" :title="new Date((p.startTimestamp||0)*1000).toLocaleDateString('pt-BR') + (p.accurate!=null ? ` | Precisão ${Number(p.accuracy_pct||0).toFixed(1)}%` : '')">
+                      {{ p.passes!=null ? Math.round(p.passes) : '-' }}
+                    </span>
                   </div>
                 </div>
                 <div class="grid grid-cols-1 gap-3">
@@ -182,7 +182,7 @@
                   </div>
                 </div>
                 <!-- Lista dos últimos 5 jogos -->
-                <div class="mt-3 rounded-md bg-white ring-1 ring-gray-200 divide-y">
+                <div v-if="last5Team1.length" class="mt-3 rounded-md bg-white ring-1 ring-gray-200 divide-y">
                   <div v-for="(m,i) in last5Team1" :key="'t1-'+i" class="flex items-center justify-between p-2">
                     <div class="text-xs text-gray-500 w-16">{{ m.date }}</div>
                     <div class="flex-1 px-2">
@@ -199,6 +199,7 @@
                     </div>
                   </div>
                 </div>
+                <div v-else class="mt-3 text-xs text-gray-500">{{ last5Err1 || 'Sem dados de jogos recentes.' }}</div>
               </div>
             </div>
 
@@ -253,11 +254,11 @@
               <div class="mt-5">
                 <div class="flex items-center justify-between mb-2">
                   <div class="text-sm font-semibold text-gray-800">Últimos confrontos</div>
-                  <div v-if="passesAvg2" class="text-xs text-gray-600 flex items-center gap-3">
-                    <span class="font-semibold text-gray-700">Média (5):</span>
-                    <span title="Passes">P {{ (passesAvg2.avg_passes ?? 0).toFixed(1) }}</span>
-                    <span title="Passes certos">PC {{ (passesAvg2.avg_accurate ?? 0).toFixed(1) }}</span>
-                    <span title="Precisão de passes">% {{ (passesAvg2.avg_accuracy_pct ?? 0).toFixed(1) }}%</span>
+                  <div v-if="passesEvents2 && passesEvents2.length" class="text-xs text-gray-600 flex items-center gap-2">
+                    <span class="font-semibold text-gray-700">Passes (5):</span>
+                    <span v-for="(p,i) in passesEvents2" :key="'ps2-'+i" class="px-2 py-0.5 rounded bg-gray-100 text-gray-700" :title="new Date((p.startTimestamp||0)*1000).toLocaleDateString('pt-BR') + (p.accurate!=null ? ` | Precisão ${Number(p.accuracy_pct||0).toFixed(1)}%` : '')">
+                      {{ p.passes!=null ? Math.round(p.passes) : '-' }}
+                    </span>
                   </div>
                 </div>
                 <div class="grid grid-cols-1 gap-3">
@@ -269,7 +270,7 @@
                   </div>
                 </div>
                 <!-- Lista dos últimos 5 jogos -->
-                <div class="mt-3 rounded-md bg-white ring-1 ring-gray-200 divide-y">
+                <div v-if="last5Team2.length" class="mt-3 rounded-md bg-white ring-1 ring-gray-200 divide-y">
                   <div v-for="(m,i) in last5Team2" :key="'t2-'+i" class="flex items-center justify-between p-2">
                     <div class="text-xs text-gray-500 w-16">{{ m.date }}</div>
                     <div class="flex-1 px-2">
@@ -286,6 +287,7 @@
                     </div>
                   </div>
                 </div>
+                <div v-else class="mt-3 text-xs text-gray-500">{{ last5Err2 || 'Sem dados de jogos recentes.' }}</div>
               </div>
             </div>
           </div>
@@ -328,8 +330,10 @@
           selectedTeam2Id: null,
           last5Team1: [],
           last5Team2: [],
-          passesAvg1: null,
-          passesAvg2: null,
+          last5Err1: '',
+          last5Err2: '',
+          passesEvents1: [],
+          passesEvents2: [],
           fixtures: [],
           fixturesLoading: false,
           fixturesError: '',
@@ -409,8 +413,10 @@
           this.selectedTeam2Id = null;
           this.last5Team1 = [];
           this.last5Team2 = [];
-          this.passesAvg1 = null;
-          this.passesAvg2 = null;
+          this.last5Err1 = '';
+          this.last5Err2 = '';
+          this.passesEvents1 = [];
+          this.passesEvents2 = [];
           this.fixtures = [];
           this.fixturesError = '';
           if (!newVal) return;
@@ -480,7 +486,7 @@
           const team = side === 1 ? this.team1Data : this.team2Data;
           if (!team || !team.team_id) {
             if (side === 1) this.last5Team1 = []; else this.last5Team2 = [];
-            if (side === 1) this.passesAvg1 = null; else this.passesAvg2 = null;
+            if (side === 1) { this.passesEvents1 = []; this.last5Err1 = ''; } else { this.passesEvents2 = []; this.last5Err2 = ''; }
             return;
           }
           try {
@@ -493,20 +499,23 @@
               .map(e => this.mapEventForTeam(e, team.team_id));
             if (side === 1) {
               this.last5Team1 = events;
-              this.passesAvg1 = payload.passes_avg_last5 || null;
+              this.passesEvents1 = Array.isArray(payload.passes_events_last5) ? payload.passes_events_last5 : [];
+              this.last5Err1 = events.length ? '' : 'Nenhum jogo finalizado recente encontrado.';
             } else {
               this.last5Team2 = events;
-              this.passesAvg2 = payload.passes_avg_last5 || null;
+              this.passesEvents2 = Array.isArray(payload.passes_events_last5) ? payload.passes_events_last5 : [];
+              this.last5Err2 = events.length ? '' : 'Nenhum jogo finalizado recente encontrado.';
             }
           } catch (e) {
             console.error('Falha ao carregar últimos jogos', e);
-            if (side === 1) { this.last5Team1 = []; this.passesAvg1 = null; } else { this.last5Team2 = []; this.passesAvg2 = null; }
+            if (side === 1) { this.last5Team1 = []; this.passesEvents1 = []; this.last5Err1 = 'Falha ao carregar últimos jogos.'; } else { this.last5Team2 = []; this.passesEvents2 = []; this.last5Err2 = 'Falha ao carregar últimos jogos.'; }
           }
         },
         mapEventForTeam(e, teamId) {
+          const tid = Number(teamId);
           const hs = (e.homeScore && e.homeScore.current != null) ? e.homeScore.current : e.homeScore;
           const as = (e.awayScore && e.awayScore.current != null) ? e.awayScore.current : e.awayScore;
-          const isHome = (e.homeTeam && e.homeTeam.id) === teamId;
+          const isHome = (e.homeTeam && Number(e.homeTeam.id)) === tid;
           const opponent = isHome ? (e.awayTeam?.name || '—') : (e.homeTeam?.name || '—');
           const gf = isHome ? hs : as;
           const ga = isHome ? as : hs;

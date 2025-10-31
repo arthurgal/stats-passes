@@ -170,6 +170,31 @@ def compute_passes_averages(page, team_id: int, events: list[dict], limit: int =
     }
 
 
+def compute_passes_events(page, team_id: int, events: list[dict], limit: int = 5) -> list[dict]:
+    """Retorna a lista dos últimos N jogos finalizados com estatísticas de passes do time."""
+    out = []
+    for e in sorted((events or []), key=lambda x: x.get("startTimestamp") or 0, reverse=True):
+        if (e.get("status") or {}).get("type") != "finished":
+            continue
+        event_id = e.get("id")
+        if not event_id:
+            continue
+        stats_url = f"https://www.sofascore.com/api/v1/event/{event_id}/statistics"
+        stats_payload = fetch_json(page, stats_url)
+        vals = _find_pass_stats_for_event(stats_payload or {}, e, int(team_id))
+        out.append({
+            "event_id": event_id,
+            "startTimestamp": e.get("startTimestamp"),
+            "passes": vals.get("passes"),
+            "accurate": vals.get("accurate"),
+            "accuracy_pct": vals.get("accuracy_pct"),
+        })
+        _sleep()
+        if len(out) >= limit:
+            break
+    return out
+
+
 def parse_teams_from_standings(payload: dict) -> dict[int, str]:
     """Extrai {team_id: team_name} de qualquer estrutura de standings."""
     teams = {}
@@ -336,7 +361,18 @@ def get_last_events_summary(page, team_id: int) -> dict:
         passes_avg5 = compute_passes_averages(page, int(team_id), events, limit=5)
     except Exception:
         passes_avg5 = {}
-    return {"events": events, "last5": last5, "last10": last10, "passes_avg_last5": passes_avg5}
+    # Série de passes por jogo (últimos 5 finalizados)
+    try:
+        passes_list5 = compute_passes_events(page, int(team_id), events, limit=5)
+    except Exception:
+        passes_list5 = []
+    return {
+        "events": events,
+        "last5": last5,
+        "last10": last10,
+        "passes_avg_last5": passes_avg5,
+        "passes_events_last5": passes_list5,
+    }
 
 
 # =========================
