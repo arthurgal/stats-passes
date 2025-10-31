@@ -165,7 +165,15 @@
 
               <!-- Últimos Confrontos (Time 1) -->
               <div class="mt-5">
-                <div class="text-sm font-semibold text-gray-800 mb-2">Últimos confrontos</div>
+                <div class="flex items-center justify-between mb-2">
+                  <div class="text-sm font-semibold text-gray-800">Últimos confrontos</div>
+                  <div v-if="passesAvg1" class="text-xs text-gray-600 flex items-center gap-3">
+                    <span class="font-semibold text-gray-700">Média (5):</span>
+                    <span title="Passes">P {{ (passesAvg1.avg_passes ?? 0).toFixed(1) }}</span>
+                    <span title="Passes certos">PC {{ (passesAvg1.avg_accurate ?? 0).toFixed(1) }}</span>
+                    <span title="Precisão de passes">% {{ (passesAvg1.avg_accuracy_pct ?? 0).toFixed(1) }}%</span>
+                  </div>
+                </div>
                 <div class="grid grid-cols-1 gap-3">
                   <div class="rounded-md bg-gray-50 p-3 ring-1 ring-gray-200">
                     <div class="font-semibold tracking-wide">{{ team1Data.form5 || '-' }}</div>
@@ -243,7 +251,15 @@
 
               <!-- Últimos Confrontos (Time 2) -->
               <div class="mt-5">
-                <div class="text-sm font-semibold text-gray-800 mb-2">Últimos confrontos</div>
+                <div class="flex items-center justify-between mb-2">
+                  <div class="text-sm font-semibold text-gray-800">Últimos confrontos</div>
+                  <div v-if="passesAvg2" class="text-xs text-gray-600 flex items-center gap-3">
+                    <span class="font-semibold text-gray-700">Média (5):</span>
+                    <span title="Passes">P {{ (passesAvg2.avg_passes ?? 0).toFixed(1) }}</span>
+                    <span title="Passes certos">PC {{ (passesAvg2.avg_accurate ?? 0).toFixed(1) }}</span>
+                    <span title="Precisão de passes">% {{ (passesAvg2.avg_accuracy_pct ?? 0).toFixed(1) }}%</span>
+                  </div>
+                </div>
                 <div class="grid grid-cols-1 gap-3">
                   <div class="rounded-md bg-gray-50 p-3 ring-1 ring-gray-200">
                     <div class="text-xs text-gray-600">Form (5)</div>
@@ -312,6 +328,8 @@
           selectedTeam2Id: null,
           last5Team1: [],
           last5Team2: [],
+          passesAvg1: null,
+          passesAvg2: null,
           fixtures: [],
           fixturesLoading: false,
           fixturesError: '',
@@ -391,6 +409,8 @@
           this.selectedTeam2Id = null;
           this.last5Team1 = [];
           this.last5Team2 = [];
+          this.passesAvg1 = null;
+          this.passesAvg2 = null;
           this.fixtures = [];
           this.fixturesError = '';
           if (!newVal) return;
@@ -460,6 +480,7 @@
           const team = side === 1 ? this.team1Data : this.team2Data;
           if (!team || !team.team_id) {
             if (side === 1) this.last5Team1 = []; else this.last5Team2 = [];
+            if (side === 1) this.passesAvg1 = null; else this.passesAvg2 = null;
             return;
           }
           try {
@@ -470,10 +491,16 @@
               .sort((a,b) => (b.startTimestamp||0) - (a.startTimestamp||0))
               .slice(0,5)
               .map(e => this.mapEventForTeam(e, team.team_id));
-            if (side === 1) this.last5Team1 = events; else this.last5Team2 = events;
+            if (side === 1) {
+              this.last5Team1 = events;
+              this.passesAvg1 = payload.passes_avg_last5 || null;
+            } else {
+              this.last5Team2 = events;
+              this.passesAvg2 = payload.passes_avg_last5 || null;
+            }
           } catch (e) {
             console.error('Falha ao carregar últimos jogos', e);
-            if (side === 1) this.last5Team1 = []; else this.last5Team2 = [];
+            if (side === 1) { this.last5Team1 = []; this.passesAvg1 = null; } else { this.last5Team2 = []; this.passesAvg2 = null; }
           }
         },
         mapEventForTeam(e, teamId) {

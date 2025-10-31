@@ -52,6 +52,124 @@ def fetch_json(page, url: str):
     return page.evaluate(js)
 
 
+# =========================
+# Estatísticas de passes por partida (para médias dos últimos jogos)
+# =========================
+def _walk(obj):
+    if isinstance(obj, dict):
+        yield obj
+        for v in obj.values():
+            yield from _walk(v)
+    elif isinstance(obj, list):
+        for it in obj:
+            yield from _walk(it)
+
+
+def _norm(s: str | None) -> str:
+    return (s or "").strip().lower()
+
+
+def _pick_team_value(item: dict, side: str, team_id: int):
+    if not isinstance(item, dict):
+        return None
+    if side in ("home", "away") and side in item and isinstance(item.get(side), (int, float)):
+        return item.get(side)
+    t_id = item.get("teamId") or (item.get("team") or {}).get("id")
+    if t_id is not None and int(t_id) == int(team_id):
+        val = item.get("value") or item.get("statValue") or item.get("current")
+        if isinstance(val, (int, float)):
+            return val
+    hv = item.get("homeValue")
+    av = item.get("awayValue")
+    if side == "home" and isinstance(hv, (int, float)):
+        return hv
+    if side == "away" and isinstance(av, (int, float)):
+        return av
+    val = item.get("home") if side == "home" else item.get("away")
+    if isinstance(val, str) and val.endswith("%"):
+        try:
+            return float(val.replace("%", "").strip())
+        except Exception:
+            return None
+    return None
+
+
+def _find_pass_stats_for_event(stats_payload: dict, ev: dict, team_id: int) -> dict:
+    home_id = (ev.get("homeTeam") or {}).get("id")
+    away_id = (ev.get("awayTeam") or {}).get("id")
+    side = "home" if int(team_id) == int(home_id or -1) else "away"
+
+    target_names = {
+        "passes": {"passes"},
+        "accurate": {"accurate passes", "accurate pass"},
+        "accuracy_pct": {"accurate passes %", "accurate passes%", "pass success", "pass accuracy", "pass accuracy %"},
+    }
+
+    found = {"passes": None, "accurate": None, "accuracy_pct": None}
+    for item in _walk(stats_payload):
+        if not isinstance(item, dict):
+            continue
+        name = _norm(item.get("name") or item.get("title") or item.get("label"))
+        if not name:
+            continue
+        for key, names in target_names.items():
+            if found[key] is not None:
+                continue
+            if name in names:
+                val = _pick_team_value(item, side, int(team_id))
+                if isinstance(val, (int, float)):
+                    found[key] = float(val)
+        if found["passes"] is None and name == "passes":
+            val = _pick_team_value(item, side, int(team_id))
+            if isinstance(val, (int, float)):
+                found["passes"] = float(val)
+        if found["accuracy_pct"] is None and ("accuracy" in name or name.endswith("%")) and "pass" in name:
+            val = _pick_team_value(item, side, int(team_id))
+            if isinstance(val, (int, float)):
+                found["accuracy_pct"] = float(val)
+
+    if found["accuracy_pct"] is None and isinstance(found["passes"], (int, float)) and isinstance(found["accurate"], (int, float)) and found["passes"]:
+        found["accuracy_pct"] = 100.0 * (found["accurate"] / found["passes"]) 
+
+    return found
+
+
+def compute_passes_averages(page, team_id: int, events: list[dict], limit: int = 5) -> dict:
+    seen = 0
+    sums = {"passes": 0.0, "accurate": 0.0, "accuracy_pct": 0.0}
+    counts = {"passes": 0, "accurate": 0, "accuracy_pct": 0}
+
+    # Use os to avoid name collision below
+    for e in sorted((events or []), key=lambda x: x.get("startTimestamp") or 0, reverse=True):
+        if (e.get("status") or {}).get("type") != "finished":
+            continue
+        event_id = e.get("id")
+        if not event_id:
+            continue
+        stats_url = f"https://www.sofascore.com/api/v1/event/{event_id}/statistics"
+        stats_payload = fetch_json(page, stats_url)
+        vals = _find_pass_stats_for_event(stats_payload or {}, e, int(team_id))
+        for k in ("passes", "accurate", "accuracy_pct"):
+            v = vals.get(k)
+            if isinstance(v, (int, float)):
+                sums[k] += float(v)
+                counts[k] += 1
+        seen += 1
+        _sleep()
+        if seen >= limit:
+            break
+
+    avgs = {}
+    for k in ("passes", "accurate", "accuracy_pct"):
+        avgs[f"avg_{k}"] = (sums[k] / counts[k]) if counts[k] > 0 else None
+
+    return {
+        "considered": min(seen, limit),
+        "counts_per_metric": counts,
+        **avgs,
+    }
+
+
 def parse_teams_from_standings(payload: dict) -> dict[int, str]:
     """Extrai {team_id: team_name} de qualquer estrutura de standings."""
     teams = {}
@@ -213,7 +331,12 @@ def get_last_events_summary(page, team_id: int) -> dict:
     events = (payload.get("events") or payload.get("data") or [])
     last5 = aggregate_last_events(events, team_id, 5)
     last10 = aggregate_last_events(events, team_id, 10)
-    return {"events": events, "last5": last5, "last10": last10}
+    # Passes médios últimos 5 (buscando estatísticas por partida)
+    try:
+        passes_avg5 = compute_passes_averages(page, int(team_id), events, limit=5)
+    except Exception:
+        passes_avg5 = {}
+    return {"events": events, "last5": last5, "last10": last10, "passes_avg_last5": passes_avg5}
 
 
 # =========================
