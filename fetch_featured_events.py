@@ -7,6 +7,7 @@ import json
 LEAGUES = {
     "Premier League": {"tournament_id": 17},
     "Brasileirão Série A": {"tournament_id": 325},
+    "UEFA Champions League": {"tournament_id": 7},
 }
 
 
@@ -68,4 +69,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

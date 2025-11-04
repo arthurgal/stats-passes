@@ -22,6 +22,11 @@ LEAGUES = {
         "tournament_id": 325,
         "season_id": 72034,  # temporada confirmada por você
     },
+    # Champions League, conforme solicitado (temporada 76953)
+    "UEFA Champions League": {
+        "tournament_id": 7,
+        "season_id": 76953,
+    },
 }
 
 SLEEP_BETWEEN = (1.2, 2.2)
