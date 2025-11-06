@@ -98,237 +98,6 @@
         "id": 61627
       },
       "roundInfo": {
-        "round": 31
-      },
-      "customId": "GO",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 2,
-      "homeTeam": {
-        "name": "Leicester City",
-        "slug": "leicester-city",
-        "shortName": "Leicester",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 394022,
-        "nameCode": "LCI",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 31,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#003090",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "ليستر سيتي",
-            "ru": "Лестер Сити",
-            "hi": "लैस्टर सिटी ऍफ़सी"
-          },
-          "shortNameTranslation": {
-            "ar": "ليستر",
-            "hi": "लीसेस्टर",
-            "bn": "লেস্টার"
-          }
-        }
-      },
-      "awayTeam": {
-        "name": "Newcastle United",
-        "slug": "newcastle-united",
-        "shortName": "Newcastle",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 899717,
-        "nameCode": "NUN",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 39,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#000000",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "نيوكاسل يونايتد",
-            "ru": "Ньюкасл Юнайтед",
-            "hi": "न्यू कास्सेल यूनाइटेड ऍफ़सी"
-          },
-          "shortNameTranslation": {
-            "ar": "نيوكاسل",
-            "hi": "न्यूकैसल",
-            "bn": "নিউক্যাসল"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 0,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0
-      },
-      "awayScore": {
-        "current": 3,
-        "display": 3,
-        "period1": 3,
-        "period2": 0,
-        "normaltime": 3
-      },
-      "time": {
-        "injuryTime1": 2,
-        "injuryTime2": 5,
-        "currentPeriodStartTimestamp": 1744056186
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1744059199
-      },
-      "hasGlobalHighlights": true,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 13560219,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
-      "slug": "newcastle-united-leicester-city",
-      "startTimestamp": 1744052400,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "tournament": {
-        "name": "Premier League",
-        "slug": "premier-league",
-        "category": {
-          "name": "England",
-          "slug": "england",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
-          "flag": "england",
-          "alpha2": "EN",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "إنجلترا",
-              "hi": "इंग्लैंड",
-              "bn": "ইংল্যান্ড"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "Premier League",
-          "slug": "premier-league",
-          "primaryColorHex": "#3c1c5a",
-          "secondaryColorHex": "#f80158",
-          "category": {
-            "name": "England",
-            "slug": "england",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
-            "flag": "england",
-            "alpha2": "EN",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "إنجلترا",
-                "hi": "इंग्लैंड",
-                "bn": "ইংল্যান্ড"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 1247059,
-          "hasPerformanceGraphFeature": true,
-          "id": 17,
-          "country": {},
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "الدوري الإنجليزي الممتاز",
-              "hi": "प्रिमियर लीग",
-              "bn": "প্রিমিয়ার লীগ"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 699,
-        "isGroup": false,
-        "isLive": false,
-        "id": 1,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "الدوري الإنجليزي الممتاز",
-            "hi": "प्रिमियर लीग",
-            "bn": "প্রিমিয়ার লীগ"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Premier League 24/25",
-        "year": "24/25",
-        "editor": false,
-        "id": 61627
-      },
-      "roundInfo": {
         "round": 32
       },
       "customId": "DYBe",
@@ -6773,27 +6542,243 @@
       "finalResultOnly": false,
       "feedLocked": true,
       "isEditor": false
+    },
+    {
+      "correctAiInsight": true,
+      "correctHalftimeAiInsight": true,
+      "tournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1465,
+          "country": {},
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "UEFA Champions League",
+          "slug": "uefa-champions-league",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1232268,
+          "hasPerformanceGraphFeature": false,
+          "id": 7,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أبطال أوروبا",
+              "hi": "यूईएफए चैंपियंस लीग",
+              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 714,
+        "isGroup": false,
+        "id": 138314,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري أبطال أوروبا"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "UEFA Champions League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76953
+      },
+      "roundInfo": {
+        "round": 4
+      },
+      "customId": "OsAgb",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Newcastle United",
+        "slug": "newcastle-united",
+        "shortName": "Newcastle",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 899717,
+        "nameCode": "NUN",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 39,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيوكاسل يونايتد",
+            "ru": "Ньюкасл Юнайтед",
+            "hi": "न्यू कास्सेल यूनाइटेड ऍफ़सी"
+          },
+          "shortNameTranslation": {
+            "ar": "نيوكاسل",
+            "hi": "न्यूकैसल",
+            "bn": "নিউক্যাসল"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "Athletic Club",
+        "slug": "athletic-club",
+        "shortName": "Athletic Club",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 564897,
+        "nameCode": "ATH",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2825,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#aa0000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نادي أتليتيك",
+            "ru": "Атлетик Бильбао",
+            "hi": "एथलेटिक क्लब",
+            "bn": "অ্যাথলেটিক ক্লাব"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1,
+        "normaltime": 2
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "coverage": -1,
+      "time": {
+        "injuryTime1": 2,
+        "injuryTime2": 5,
+        "currentPeriodStartTimestamp": 1762376581
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1762379591
+      },
+      "hasGlobalHighlights": false,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14566958,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "athletic-club-newcastle-united",
+      "startTimestamp": 1762372800,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false
     }
   ],
   "last5": {
-    "form": "LWWWL",
-    "w": 3,
+    "form": "WLWWW",
+    "w": 4,
     "d": 0,
-    "l": 2,
-    "gf": 9,
-    "ga": 6,
-    "avg_gf": 1.8,
-    "avg_ga": 1.2,
+    "l": 1,
+    "gf": 10,
+    "ga": 4,
+    "avg_gf": 2.0,
+    "avg_ga": 0.8,
     "count": 5
   },
   "last10": {
-    "form": "LWWWLWWLWD",
-    "w": 6,
-    "d": 1,
+    "form": "WLWWWLWWLW",
+    "w": 7,
+    "d": 0,
     "l": 3,
-    "gf": 20,
+    "gf": 22,
     "ga": 9,
-    "avg_gf": 2.0,
+    "avg_gf": 2.2,
     "avg_ga": 0.9,
     "count": 10
   },
@@ -6804,11 +6789,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 457.8,
+    "avg_passes": 462.8,
     "avg_accurate": 388.8,
-    "avg_accuracy_pct": 84.87280887264201
+    "avg_accuracy_pct": 84.04590917419397
   },
   "passes_events_last5": [
+    {
+      "event_id": 14566958,
+      "startTimestamp": 1762372800,
+      "passes": 516.0,
+      "accurate": 419.0,
+      "accuracy_pct": 81.2015503875969
+    },
     {
       "event_id": 14025291,
       "startTimestamp": 1762092000,
@@ -6836,13 +6828,6 @@
       "passes": 417.0,
       "accurate": 352.0,
       "accuracy_pct": 84.41247002398082
-    },
-    {
-      "event_id": 14025233,
-      "startTimestamp": 1760796000,
-      "passes": 491.0,
-      "accurate": 419.0,
-      "accuracy_pct": 85.33604887983707
     }
   ]
 }

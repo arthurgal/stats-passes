@@ -1,244 +1,7 @@
 {
   "team_id": 1981,
-  "team": "São Paulo Futebol Clube",
+  "team": "São Paulo",
   "events": [
-    {
-      "correctAiInsight": true,
-      "tournament": {
-        "name": "Copa Betano do Brasil",
-        "slug": "copa-do-brasil",
-        "category": {
-          "name": "Brazil",
-          "slug": "brazil",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
-          "flag": "brazil",
-          "alpha2": "BR",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "البرازيل"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "Copa Betano do Brasil",
-          "slug": "copa-do-brasil",
-          "primaryColorHex": "#34a348",
-          "secondaryColorHex": "#f2ba1c",
-          "category": {
-            "name": "Brazil",
-            "slug": "brazil",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
-            "flag": "brazil",
-            "alpha2": "BR",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "البرازيل"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 139049,
-          "hasPerformanceGraphFeature": false,
-          "id": 373,
-          "country": {},
-          "hasEventPlayerStatistics": false,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "كأس بيتانو البرازيلية",
-              "hi": "कोपा बेटानो डो ब्रासिल",
-              "bn": "কোপা বেতানো দো ব্রাসিল"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 0,
-        "isGroup": false,
-        "isLive": false,
-        "id": 283,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "كأس بيتانو البرازيل",
-            "hi": "कोपा बेटानो डो ब्रासिल",
-            "bn": "কোপা বেতানো দো ব্রাজিল"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Copa do Brasil 2025",
-        "year": "2025",
-        "editor": false,
-        "seasonCoverageInfo": {
-          "editorCoverageLevel": 3
-        },
-        "id": 71944
-      },
-      "roundInfo": {
-        "round": 3,
-        "name": "Round 3",
-        "slug": "round-3"
-      },
-      "customId": "GOslP",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 2,
-      "aggregatedWinnerCode": 2,
-      "homeTeam": {
-        "name": "Náutico",
-        "slug": "nautico",
-        "shortName": "Náutico",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 19682,
-        "nameCode": "NAU",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 2011,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ff3300",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "ناوتيكو",
-            "ru": "ФК Наутико"
-          },
-          "shortNameTranslation": {
-            "ar": "ناوتيكو"
-          }
-        }
-      },
-      "awayTeam": {
-        "name": "São Paulo Futebol Clube",
-        "slug": "sao-paulo",
-        "shortName": "São Paulo",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 407848,
-        "nameCode": "SPA",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 1981,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ffffff",
-          "secondary": "#000000",
-          "text": "#000000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "ساو باولو",
-            "ru": "ФК Сан-Паулу"
-          },
-          "shortNameTranslation": {
-            "ar": "ساو باولو"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 1,
-        "display": 1,
-        "period1": 0,
-        "period2": 1,
-        "normaltime": 1,
-        "aggregated": 2
-      },
-      "awayScore": {
-        "current": 2,
-        "display": 2,
-        "period1": 1,
-        "period2": 1,
-        "normaltime": 2,
-        "aggregated": 4
-      },
-      "time": {
-        "injuryTime1": 7,
-        "injuryTime2": 9,
-        "currentPeriodStartTimestamp": 1747795144
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type",
-          "homeScore.period2",
-          "homeScore.normaltime",
-          "awayScore.period2",
-          "awayScore.normaltime",
-          "time.currentPeriodStart"
-        ],
-        "changeTimestamp": 1747795147
-      },
-      "hasGlobalHighlights": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 13742607,
-      "homeRedCards": 1,
-      "awayRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
-      "slug": "nautico-sao-paulo",
-      "previousLegEventId": 13742598,
-      "startTimestamp": 1747787400,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
     {
       "correctAiInsight": false,
       "tournament": {
@@ -297,7 +60,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -342,7 +105,7 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -351,7 +114,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -389,7 +152,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 64098,
+        "userCount": 64016,
         "nameCode": "MIR",
         "disabled": false,
         "national": false,
@@ -504,7 +267,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 221792,
+          "userCount": 221712,
           "hasPerformanceGraphFeature": false,
           "id": 384,
           "country": {},
@@ -551,7 +314,7 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -560,7 +323,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -598,7 +361,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 29099,
+        "userCount": 29052,
         "nameCode": "TAL",
         "disabled": false,
         "national": false,
@@ -728,7 +491,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -773,7 +536,7 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "name": "Esporte Clube Bahia",
+        "name": "Bahia",
         "slug": "bahia",
         "shortName": "Bahia",
         "gender": "M",
@@ -782,7 +545,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 214979,
+        "userCount": 214603,
         "nameCode": "BAH",
         "disabled": false,
         "national": false,
@@ -811,7 +574,7 @@
         }
       },
       "awayTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -820,7 +583,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -950,7 +713,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -995,7 +758,7 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -1004,7 +767,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -1042,7 +805,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 312140,
+        "userCount": 311760,
         "nameCode": "VDG",
         "disabled": false,
         "national": false,
@@ -1176,7 +939,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -1230,7 +993,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 908498,
+        "userCount": 908143,
         "nameCode": "FLA",
         "disabled": false,
         "national": false,
@@ -1259,7 +1022,7 @@
         }
       },
       "awayTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -1268,7 +1031,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -1397,7 +1160,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -1451,7 +1214,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 118106,
+        "userCount": 117850,
         "nameCode": "RBB",
         "disabled": false,
         "national": false,
@@ -1480,7 +1243,7 @@
         }
       },
       "awayTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -1489,7 +1252,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -1620,7 +1383,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -1665,7 +1428,7 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -1674,7 +1437,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -1712,7 +1475,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 549651,
+        "userCount": 549306,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
@@ -1843,7 +1606,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -1897,7 +1660,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 66814,
+        "userCount": 66711,
         "nameCode": "JUV",
         "disabled": false,
         "national": false,
@@ -1925,7 +1688,7 @@
         }
       },
       "awayTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -1934,7 +1697,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -2065,7 +1828,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -2110,7 +1873,7 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -2119,7 +1882,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -2157,7 +1920,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 335865,
+        "userCount": 335350,
         "nameCode": "FLU",
         "disabled": false,
         "national": false,
@@ -2288,7 +2051,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 139049,
+          "userCount": 138970,
           "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
@@ -2339,7 +2102,7 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -2348,7 +2111,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -2386,7 +2149,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 119301,
+        "userCount": 119025,
         "nameCode": "ATH",
         "disabled": false,
         "national": false,
@@ -2516,7 +2279,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -2570,7 +2333,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 205633,
+        "userCount": 205361,
         "nameCode": "INT",
         "disabled": false,
         "national": false,
@@ -2599,7 +2362,7 @@
         }
       },
       "awayTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -2608,7 +2371,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -2739,7 +2502,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 139049,
+          "userCount": 138970,
           "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
@@ -2800,7 +2563,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 119301,
+        "userCount": 119025,
         "nameCode": "ATH",
         "disabled": false,
         "national": false,
@@ -2829,7 +2592,7 @@
         }
       },
       "awayTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -2838,7 +2601,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -2978,7 +2741,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -3023,7 +2786,7 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -3032,7 +2795,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -3070,7 +2833,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 114688,
+        "userCount": 114598,
         "nameCode": "VIT",
         "disabled": false,
         "national": false,
@@ -3189,7 +2952,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 221792,
+          "userCount": 221712,
           "hasPerformanceGraphFeature": false,
           "id": 384,
           "country": {},
@@ -3246,7 +3009,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 102091,
+        "userCount": 102263,
         "nameCode": "ANA",
         "disabled": false,
         "national": false,
@@ -3275,7 +3038,7 @@
         }
       },
       "awayTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -3284,7 +3047,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -3416,7 +3179,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -3470,7 +3233,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 105358,
+        "userCount": 105220,
         "nameCode": "SRE",
         "disabled": false,
         "national": false,
@@ -3499,7 +3262,7 @@
         }
       },
       "awayTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -3508,7 +3271,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -3627,7 +3390,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 221792,
+          "userCount": 221712,
           "hasPerformanceGraphFeature": false,
           "id": 384,
           "country": {},
@@ -3676,7 +3439,7 @@
       "winnerCode": 3,
       "aggregatedWinnerCode": 1,
       "homeTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -3685,7 +3448,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -3723,7 +3486,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 102091,
+        "userCount": 102263,
         "nameCode": "ANA",
         "disabled": false,
         "national": false,
@@ -3866,7 +3629,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -3911,7 +3674,7 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -3920,7 +3683,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -3958,7 +3721,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 263470,
+        "userCount": 262982,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -4089,7 +3852,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -4143,7 +3906,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 271757,
+        "userCount": 271528,
         "nameCode": "CRU",
         "disabled": false,
         "national": false,
@@ -4172,7 +3935,7 @@
         }
       },
       "awayTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -4181,7 +3944,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -4312,7 +4075,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -4357,7 +4120,7 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -4366,7 +4129,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -4404,7 +4167,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 316734,
+        "userCount": 316223,
         "nameCode": "BOT",
         "disabled": false,
         "national": false,
@@ -4523,7 +4286,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 221792,
+          "userCount": 221712,
           "hasPerformanceGraphFeature": false,
           "id": 384,
           "country": {},
@@ -4580,7 +4343,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 61345,
+        "userCount": 61980,
         "nameCode": "LDU",
         "disabled": false,
         "national": false,
@@ -4609,7 +4372,7 @@
         }
       },
       "awayTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -4618,7 +4381,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -4749,7 +4512,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -4803,7 +4566,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 427914,
+        "userCount": 427846,
         "nameCode": "SAN",
         "disabled": false,
         "national": false,
@@ -4832,7 +4595,7 @@
         }
       },
       "awayTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -4841,7 +4604,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -4960,7 +4723,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 221792,
+          "userCount": 221712,
           "hasPerformanceGraphFeature": false,
           "id": 384,
           "country": {},
@@ -5009,7 +4772,7 @@
       "winnerCode": 2,
       "aggregatedWinnerCode": 2,
       "homeTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -5018,7 +4781,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -5056,7 +4819,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 61345,
+        "userCount": 61980,
         "nameCode": "LDU",
         "disabled": false,
         "national": false,
@@ -5190,7 +4953,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -5235,7 +4998,7 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -5244,7 +5007,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -5282,7 +5045,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 91424,
+        "userCount": 91346,
         "nameCode": "CEA",
         "disabled": false,
         "national": false,
@@ -5413,7 +5176,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -5467,7 +5230,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 159986,
+        "userCount": 159572,
         "nameCode": "FOR",
         "disabled": false,
         "national": false,
@@ -5496,7 +5259,7 @@
         }
       },
       "awayTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -5505,7 +5268,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -5637,7 +5400,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -5682,7 +5445,7 @@
       },
       "winnerCode": 2,
       "homeTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -5691,7 +5454,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -5729,7 +5492,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 601189,
+        "userCount": 601329,
         "nameCode": "PAL",
         "disabled": false,
         "national": false,
@@ -5784,7 +5547,7 @@
         ],
         "changeTimestamp": 1759698127
       },
-      "hasGlobalHighlights": true,
+      "hasGlobalHighlights": false,
       "hasXg": true,
       "hasEventPlayerStatistics": true,
       "hasEventPlayerHeatMap": true,
@@ -5860,7 +5623,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -5914,7 +5677,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 232137,
+        "userCount": 231756,
         "nameCode": "GRM",
         "disabled": false,
         "national": false,
@@ -5943,7 +5706,7 @@
         }
       },
       "awayTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -5952,7 +5715,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -6083,7 +5846,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -6137,7 +5900,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 64098,
+        "userCount": 64016,
         "nameCode": "MIR",
         "disabled": false,
         "national": false,
@@ -6165,7 +5928,7 @@
         }
       },
       "awayTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -6174,7 +5937,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -6303,7 +6066,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -6348,7 +6111,7 @@
       },
       "winnerCode": 1,
       "homeTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -6357,7 +6120,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -6386,7 +6149,7 @@
         }
       },
       "awayTeam": {
-        "name": "Esporte Clube Bahia",
+        "name": "Bahia",
         "slug": "bahia",
         "shortName": "Bahia",
         "gender": "M",
@@ -6395,7 +6158,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 214979,
+        "userCount": 214603,
         "nameCode": "BAH",
         "disabled": false,
         "national": false,
@@ -6524,7 +6287,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 316481,
+          "userCount": 316376,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -6578,7 +6341,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 312140,
+        "userCount": 311760,
         "nameCode": "VDG",
         "disabled": false,
         "national": false,
@@ -6607,7 +6370,7 @@
         }
       },
       "awayTeam": {
-        "name": "São Paulo Futebol Clube",
+        "name": "São Paulo",
         "slug": "sao-paulo",
         "shortName": "São Paulo",
         "gender": "M",
@@ -6616,7 +6379,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 407848,
+        "userCount": 407407,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -6688,27 +6451,251 @@
       "finalResultOnly": false,
       "feedLocked": true,
       "isEditor": false
+    },
+    {
+      "correctAiInsight": false,
+      "correctHalftimeAiInsight": false,
+      "tournament": {
+        "name": "Brasileirão Betano",
+        "slug": "brasileirao-serie-a",
+        "category": {
+          "name": "Brazil",
+          "slug": "brazil",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "flag": "brazil",
+          "alpha2": "BR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "البرازيل"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Brasileirão Betano",
+          "slug": "brasileirao-serie-a",
+          "primaryColorHex": "#C7FF00",
+          "secondaryColorHex": "#969696",
+          "category": {
+            "name": "Brazil",
+            "slug": "brazil",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
+            },
+            "flag": "brazil",
+            "alpha2": "BR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "البرازيل"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 316376,
+          "hasPerformanceGraphFeature": true,
+          "id": 325,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة بيتانو البرازيلية",
+              "hi": "ब्राज़ीलेइराओ बेटानो",
+              "bn": "ব্রাসিলিরাও বেতানো"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 511,
+        "isGroup": false,
+        "isLive": false,
+        "id": 83,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري البرازيلي الممتاز بيتانو",
+            "hi": "ब्रासिलेइराओ बेटानो",
+            "bn": "ব্রাসিলিরাও বেতানো"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Brasileiro Serie A 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 72034
+      },
+      "roundInfo": {
+        "round": 32
+      },
+      "customId": "GOsGuc",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 3,
+      "homeTeam": {
+        "name": "São Paulo",
+        "slug": "sao-paulo",
+        "shortName": "São Paulo",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 407407,
+        "nameCode": "SPA",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1981,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ساو باولو",
+            "ru": "ФК Сан-Паулу"
+          },
+          "shortNameTranslation": {
+            "ar": "ساو باولو"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "Flamengo",
+        "slug": "flamengo",
+        "shortName": "Flamengo",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 908143,
+        "nameCode": "FLA",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 5981,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ff0000",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فلامينغو",
+            "ru": "ФК Фламенго РЖ"
+          },
+          "shortNameTranslation": {
+            "ar": "فلامينغو"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1,
+        "normaltime": 2
+      },
+      "awayScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1,
+        "normaltime": 2
+      },
+      "time": {
+        "injuryTime1": 3,
+        "injuryTime2": 7,
+        "currentPeriodStartTimestamp": 1762393071
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1762396178
+      },
+      "hasGlobalHighlights": false,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 13472710,
+      "awayRedCards": 1,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "flamengo-sao-paulo",
+      "startTimestamp": 1762389000,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false
     }
   ],
   "last5": {
-    "form": "WWLLL",
+    "form": "DWWLL",
     "w": 2,
-    "d": 0,
-    "l": 3,
+    "d": 1,
+    "l": 2,
     "gf": 6,
-    "ga": 8,
+    "ga": 7,
     "avg_gf": 1.2,
-    "avg_ga": 1.6,
+    "avg_ga": 1.4,
     "count": 5
   },
   "last10": {
-    "form": "WWLLLWLLLL",
+    "form": "DWWLLLWLLL",
     "w": 3,
-    "d": 0,
-    "l": 7,
-    "gf": 8,
+    "d": 1,
+    "l": 6,
+    "gf": 10,
     "ga": 13,
-    "avg_gf": 0.8,
+    "avg_gf": 1.0,
     "avg_ga": 1.3,
     "count": 10
   },
@@ -6719,11 +6706,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 474.0,
-    "avg_accurate": 408.8,
-    "avg_accuracy_pct": 85.00139773590934
+    "avg_passes": 493.4,
+    "avg_accurate": 430.2,
+    "avg_accuracy_pct": 86.60648704346991
   },
   "passes_events_last5": [
+    {
+      "event_id": 13472710,
+      "startTimestamp": 1762389000,
+      "passes": 402.0,
+      "accurate": 342.0,
+      "accuracy_pct": 85.07462686567165
+    },
     {
       "event_id": 13472666,
       "startTimestamp": 1762126200,
@@ -6751,13 +6745,6 @@
       "passes": 619.0,
       "accurate": 557.0,
       "accuracy_pct": 89.98384491114702
-    },
-    {
-      "event_id": 13472788,
-      "startTimestamp": 1759690800,
-      "passes": 305.0,
-      "accurate": 235.0,
-      "accuracy_pct": 77.04918032786885
     }
   ]
 }
