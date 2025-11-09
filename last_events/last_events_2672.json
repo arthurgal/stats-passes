@@ -4,226 +4,6 @@
   "events": [
     {
       "tournament": {
-        "name": "UEFA Champions League, Knockout Phase",
-        "slug": "uefa-champions-league-knockout-phase",
-        "category": {
-          "name": "Europe",
-          "slug": "europe",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "id": 1465,
-          "country": {},
-          "flag": "europe",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "أوروبا",
-              "hi": "यूरोप",
-              "bn": "ইউরোপ"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "UEFA Champions League",
-          "slug": "uefa-champions-league",
-          "primaryColorHex": "#062b5c",
-          "secondaryColorHex": "#086aab",
-          "category": {
-            "name": "Europe",
-            "slug": "europe",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "id": 1465,
-            "country": {},
-            "flag": "europe",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "أوروبا",
-                "hi": "यूरोप",
-                "bn": "ইউরোপ"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 1234883,
-          "hasPerformanceGraphFeature": false,
-          "id": 7,
-          "country": {},
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "دوري أبطال أوروبا",
-              "hi": "यूईएफए चैंपियंस लीग",
-              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 703,
-        "isGroup": false,
-        "id": 145109,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "دوري أبطال أوروبا، مرحلة خروج المغلوب"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "UEFA Champions League 24/25",
-        "year": "24/25",
-        "editor": false,
-        "seasonCoverageInfo": {},
-        "id": 61644
-      },
-      "roundInfo": {
-        "round": 27,
-        "name": "Quarterfinals",
-        "slug": "quarterfinals",
-        "cupRoundType": 4
-      },
-      "customId": "xdbsXdb",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 3,
-      "aggregatedWinnerCode": 1,
-      "homeTeam": {
-        "name": "Inter",
-        "slug": "inter",
-        "shortName": "Inter",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 1825802,
-        "nameCode": "INT",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 2697,
-        "country": {
-          "alpha2": "IT",
-          "alpha3": "ITA",
-          "name": "Italy",
-          "slug": "italy"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#1a57cc",
-          "secondary": "#000000",
-          "text": "#000000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "انتر",
-            "ru": "Интер",
-            "hi": "इंटर",
-            "bn": "ইন্টার"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "awayTeam": {
-        "name": "FC Bayern München",
-        "slug": "fc-bayern-munchen",
-        "shortName": "Bayern",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 2332644,
-        "nameCode": "FBM",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 2672,
-        "country": {
-          "alpha2": "DE",
-          "alpha3": "DEU",
-          "name": "Germany",
-          "slug": "germany"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#cf142f",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "إف سي بايرن ميونيخ",
-            "ru": "Бавария Мюнхен"
-          },
-          "shortNameTranslation": {
-            "ar": "بايرن",
-            "hi": "बायर्न",
-            "bn": "বায়ার্ন"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 2,
-        "display": 2,
-        "period1": 0,
-        "period2": 2,
-        "normaltime": 2,
-        "aggregated": 4
-      },
-      "awayScore": {
-        "current": 2,
-        "display": 2,
-        "period1": 0,
-        "period2": 2,
-        "normaltime": 2,
-        "aggregated": 3
-      },
-      "time": {
-        "injuryTime1": 2,
-        "injuryTime2": 6,
-        "currentPeriodStartTimestamp": 1744833848
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1744836953
-      },
-      "hasGlobalHighlights": true,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 13513420,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
-      "slug": "inter-fc-bayern-munchen",
-      "previousLegEventId": 13513402,
-      "startTimestamp": 1744830000,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "tournament": {
         "name": "Bundesliga",
         "slug": "bundesliga",
         "category": {
@@ -283,7 +63,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 554303,
+          "userCount": 554199,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -337,7 +117,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 69693,
+        "userCount": 69663,
         "nameCode": "1FH",
         "disabled": false,
         "national": false,
@@ -378,7 +158,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -514,7 +294,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 554303,
+          "userCount": 554199,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -568,7 +348,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -608,7 +388,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 93925,
+        "userCount": 93786,
         "nameCode": "M05",
         "disabled": false,
         "national": false,
@@ -744,7 +524,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 554303,
+          "userCount": 554199,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -798,7 +578,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 477983,
+        "userCount": 477303,
         "nameCode": "RLE",
         "disabled": false,
         "national": false,
@@ -839,7 +619,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -977,7 +757,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 554303,
+          "userCount": 554199,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -1031,7 +811,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -1071,7 +851,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 119569,
+        "userCount": 119448,
         "nameCode": "BMG",
         "disabled": false,
         "national": false,
@@ -1208,7 +988,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 554303,
+          "userCount": 554199,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -1262,7 +1042,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 97543,
+        "userCount": 97488,
         "nameCode": "TSG",
         "disabled": false,
         "national": false,
@@ -1303,7 +1083,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -1427,7 +1207,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 605308,
+          "userCount": 605153,
           "hasPerformanceGraphFeature": false,
           "id": 357,
           "country": {},
@@ -1483,7 +1263,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -1523,7 +1303,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 23826,
+        "userCount": 23885,
         "nameCode": "ACI",
         "disabled": false,
         "national": false,
@@ -1645,7 +1425,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 605308,
+          "userCount": 605153,
           "hasPerformanceGraphFeature": false,
           "id": 357,
           "country": {},
@@ -1701,7 +1481,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -1741,7 +1521,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 270759,
+        "userCount": 270607,
         "nameCode": "BJU",
         "disabled": false,
         "national": false,
@@ -1862,7 +1642,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 605308,
+          "userCount": 605153,
           "hasPerformanceGraphFeature": false,
           "id": 357,
           "country": {},
@@ -1918,7 +1698,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 874451,
+        "userCount": 873400,
         "nameCode": "BEN",
         "disabled": false,
         "national": false,
@@ -1956,7 +1736,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -2081,7 +1861,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 605308,
+          "userCount": 605153,
           "hasPerformanceGraphFeature": false,
           "id": 357,
           "country": {},
@@ -2139,7 +1919,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 910207,
+        "userCount": 910044,
         "nameCode": "FLA",
         "disabled": false,
         "national": false,
@@ -2177,7 +1957,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -2301,7 +2081,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 605308,
+          "userCount": 605153,
           "hasPerformanceGraphFeature": false,
           "id": 357,
           "country": {},
@@ -2359,7 +2139,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2706234,
+        "userCount": 2707044,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -2399,7 +2179,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -2522,7 +2302,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 31320,
+          "userCount": 31267,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -2573,7 +2353,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -2613,7 +2393,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 390709,
+        "userCount": 390032,
         "nameCode": "OLY",
         "disabled": false,
         "national": false,
@@ -2735,7 +2515,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 3209,
+          "userCount": 3206,
           "hasPerformanceGraphFeature": false,
           "id": 889,
           "country": {},
@@ -2792,7 +2572,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -2832,7 +2612,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1435048,
+        "userCount": 1435013,
         "nameCode": "THO",
         "disabled": false,
         "national": false,
@@ -2953,7 +2733,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 31320,
+          "userCount": 31267,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -3004,7 +2784,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 14727,
+        "userCount": 14720,
         "nameCode": "GCZ",
         "disabled": false,
         "national": false,
@@ -3040,7 +2820,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -3176,7 +2956,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 27761,
+          "userCount": 27760,
           "hasPerformanceGraphFeature": false,
           "id": 799,
           "country": {},
@@ -3234,7 +3014,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 255649,
+        "userCount": 255005,
         "nameCode": "VST",
         "disabled": false,
         "national": false,
@@ -3275,7 +3055,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -3413,7 +3193,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 554303,
+          "userCount": 554199,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -3467,7 +3247,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -3507,7 +3287,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 477983,
+        "userCount": 477303,
         "nameCode": "RLE",
         "disabled": false,
         "national": false,
@@ -3645,7 +3425,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 78773,
+          "userCount": 78725,
           "hasPerformanceGraphFeature": false,
           "id": 217,
           "country": {},
@@ -3701,7 +3481,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 8628,
+        "userCount": 8619,
         "nameCode": "WEH",
         "disabled": false,
         "national": false,
@@ -3740,7 +3520,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -3878,7 +3658,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 554303,
+          "userCount": 554199,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -3932,7 +3712,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 77499,
+        "userCount": 77350,
         "nameCode": "FAU",
         "disabled": false,
         "national": false,
@@ -3973,7 +3753,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -4110,7 +3890,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 554303,
+          "userCount": 554199,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -4164,7 +3944,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -4204,7 +3984,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 75908,
+        "userCount": 75954,
         "nameCode": "HSV",
         "disabled": false,
         "national": false,
@@ -4330,7 +4110,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1234883,
+          "userCount": 1233633,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -4381,7 +4161,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -4421,7 +4201,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2694678,
+        "userCount": 2696152,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
@@ -4557,7 +4337,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 554303,
+          "userCount": 554199,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -4611,7 +4391,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 97543,
+        "userCount": 97488,
         "nameCode": "TSG",
         "disabled": false,
         "national": false,
@@ -4652,7 +4432,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -4791,7 +4571,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 554303,
+          "userCount": 554199,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -4845,7 +4625,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -4885,7 +4665,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 92725,
+        "userCount": 94732,
         "nameCode": "SWB",
         "disabled": false,
         "national": false,
@@ -5010,7 +4790,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1234883,
+          "userCount": 1233633,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -5061,7 +4841,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 79885,
+        "userCount": 80109,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -5100,7 +4880,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -5238,7 +5018,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 554303,
+          "userCount": 554199,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -5292,7 +5072,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 297817,
+        "userCount": 297466,
         "nameCode": "SGE",
         "disabled": false,
         "national": false,
@@ -5333,7 +5113,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -5470,7 +5250,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 554303,
+          "userCount": 554199,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -5524,7 +5304,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -5564,7 +5344,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1432125,
+        "userCount": 1430697,
         "nameCode": "BVB",
         "disabled": false,
         "national": false,
@@ -5690,7 +5470,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1234883,
+          "userCount": 1233633,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -5741,7 +5521,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -5781,7 +5561,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 295757,
+        "userCount": 295880,
         "nameCode": "BRU",
         "disabled": false,
         "national": false,
@@ -5919,7 +5699,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 554303,
+          "userCount": 554199,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -5973,7 +5753,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 119569,
+        "userCount": 119448,
         "nameCode": "BMG",
         "disabled": false,
         "national": false,
@@ -6013,7 +5793,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -6151,7 +5931,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 78773,
+          "userCount": 78725,
           "hasPerformanceGraphFeature": false,
           "id": 217,
           "country": {},
@@ -6207,7 +5987,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81446,
+        "userCount": 81398,
         "nameCode": "1FK",
         "disabled": false,
         "national": false,
@@ -6247,7 +6027,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -6383,7 +6163,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 554303,
+          "userCount": 554199,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -6437,7 +6217,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -6477,7 +6257,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1117231,
+        "userCount": 1115854,
         "nameCode": "B0L",
         "disabled": false,
         "national": false,
@@ -6602,7 +6382,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1234883,
+          "userCount": 1233633,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -6653,7 +6433,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2706234,
+        "userCount": 2707044,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -6693,7 +6473,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2332644,
+        "userCount": 2333701,
         "nameCode": "FBM",
         "disabled": false,
         "national": false,
@@ -6768,28 +6548,259 @@
       "finalResultOnly": false,
       "feedLocked": true,
       "isEditor": false
+    },
+    {
+      "correctAiInsight": false,
+      "correctHalftimeAiInsight": false,
+      "tournament": {
+        "name": "Bundesliga",
+        "slug": "bundesliga",
+        "category": {
+          "name": "Germany",
+          "slug": "germany",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 30,
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "flag": "germany",
+          "alpha2": "DE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألمانيا",
+              "hi": "जर्मनी",
+              "bn": "জার্মানি"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Bundesliga",
+          "slug": "bundesliga",
+          "primaryColorHex": "#e2080e",
+          "secondaryColorHex": "#8e0902",
+          "category": {
+            "name": "Germany",
+            "slug": "germany",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 30,
+            "country": {
+              "alpha2": "DE",
+              "alpha3": "DEU",
+              "name": "Germany",
+              "slug": "germany"
+            },
+            "flag": "germany",
+            "alpha2": "DE",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ألمانيا",
+                "hi": "जर्मनी",
+                "bn": "জার্মানি"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 554199,
+          "hasPerformanceGraphFeature": true,
+          "id": 35,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الألماني",
+              "hi": "बुंडेसलीगा",
+              "bn": "বুন্দেসলীগা"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 695,
+        "isGroup": false,
+        "isLive": false,
+        "id": 42,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الألماني",
+            "hi": "बुंडेसलीगा",
+            "bn": "বুন্দেসলীগা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Bundesliga 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 77333
+      },
+      "roundInfo": {
+        "round": 10
+      },
+      "customId": "Xabsxdb",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 3,
+      "homeTeam": {
+        "name": "1. FC Union Berlin",
+        "slug": "1-fc-union-berlin",
+        "shortName": "Union Berlin",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 141220,
+        "nameCode": "1FU",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2547,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ff0000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "1 إف سي يونيون برلين",
+            "ru": "Унион Берлин"
+          },
+          "shortNameTranslation": {
+            "ar": "يونيون برلين",
+            "hi": "यूनियन बर्लिन",
+            "bn": "ইউনিয়ন বার্লিন"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "FC Bayern München",
+        "slug": "fc-bayern-munchen",
+        "shortName": "Bayern",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 2333701,
+        "nameCode": "FBM",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2672,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#cf142f",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إف سي بايرن ميونيخ",
+            "ru": "Бавария Мюнхен"
+          },
+          "shortNameTranslation": {
+            "ar": "بايرن",
+            "hi": "बायर्न",
+            "bn": "বায়ার্ন"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1,
+        "normaltime": 2
+      },
+      "awayScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1,
+        "normaltime": 2
+      },
+      "time": {
+        "injuryTime1": 5,
+        "injuryTime2": 5,
+        "currentPeriodStartTimestamp": 1762616199
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1762619278
+      },
+      "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14065143,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "fc-bayern-munchen-1-fc-union-berlin",
+      "startTimestamp": 1762612200,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false
     }
   ],
   "last5": {
-    "form": "WWWWW",
-    "w": 5,
-    "d": 0,
+    "form": "DWWWW",
+    "w": 4,
+    "d": 1,
     "l": 0,
-    "gf": 16,
-    "ga": 2,
-    "avg_gf": 3.2,
-    "avg_ga": 0.4,
+    "gf": 14,
+    "ga": 4,
+    "avg_gf": 2.8,
+    "avg_ga": 0.8,
     "count": 5
   },
   "last10": {
-    "form": "WWWWWWWWWW",
-    "w": 10,
-    "d": 0,
+    "form": "DWWWWWWWWW",
+    "w": 9,
+    "d": 1,
     "l": 0,
-    "gf": 34,
-    "ga": 5,
-    "avg_gf": 3.4,
-    "avg_ga": 0.5,
+    "gf": 32,
+    "ga": 6,
+    "avg_gf": 3.2,
+    "avg_ga": 0.6,
     "count": 10
   },
   "passes_avg_last5": {
@@ -6799,11 +6810,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 622.2,
-    "avg_accurate": 559.0,
-    "avg_accuracy_pct": 87.74811270135541
+    "avg_passes": 629.0,
+    "avg_accurate": 558.0,
+    "avg_accuracy_pct": 86.7738490849268
   },
   "passes_events_last5": [
+    {
+      "event_id": 14065143,
+      "startTimestamp": 1762612200,
+      "passes": 752.0,
+      "accurate": 663.0,
+      "accuracy_pct": 88.16489361702128
+    },
     {
       "event_id": 14566656,
       "startTimestamp": 1762286400,
@@ -6831,13 +6849,6 @@
       "passes": 897.0,
       "accurate": 846.0,
       "accuracy_pct": 94.31438127090301
-    },
-    {
-      "event_id": 14566571,
-      "startTimestamp": 1761159600,
-      "passes": 718.0,
-      "accurate": 668.0,
-      "accuracy_pct": 93.03621169916435
     }
   ]
 }
