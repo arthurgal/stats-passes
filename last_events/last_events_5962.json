@@ -94,233 +94,6 @@
         "id": 64075
       },
       "roundInfo": {
-        "round": 34
-      },
-      "customId": "mucsqGX",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 1,
-      "homeTeam": {
-        "name": "Qarabağ FK",
-        "slug": "qarabag",
-        "shortName": "Qarabağ",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 268226,
-        "nameCode": "QAR",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 5962,
-        "country": {
-          "alpha2": "AZ",
-          "alpha3": "AZE",
-          "name": "Azerbaijan",
-          "slug": "azerbaijan"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#000000",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "كاراباج",
-            "ru": "Карабах",
-            "hi": "करबाख",
-            "bn": "কারাবাগ"
-          },
-          "shortNameTranslation": {
-            "ar": "كاراباج"
-          }
-        }
-      },
-      "awayTeam": {
-        "name": "Araz Naxçıvan",
-        "slug": "araz-naxcivan-pfk",
-        "shortName": "Araz Naxçıvan",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 11607,
-        "nameCode": "ANP",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 119066,
-        "country": {
-          "alpha2": "AZ",
-          "alpha3": "AZE",
-          "name": "Azerbaijan",
-          "slug": "azerbaijan"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#374df5",
-          "secondary": "#374df5",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "أراز ناخشيفان بي إف كيه",
-            "ru": "Араз Нахичевань"
-          },
-          "shortNameTranslation": {
-            "ar": "أراز"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 2,
-        "display": 2,
-        "period1": 1,
-        "period2": 1,
-        "normaltime": 2
-      },
-      "awayScore": {
-        "current": 0,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0
-      },
-      "time": {
-        "injuryTime1": 5,
-        "injuryTime2": 3,
-        "currentPeriodStartTimestamp": 1746986397
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type",
-          "homeScore.period2",
-          "homeScore.normaltime",
-          "awayScore.period2",
-          "awayScore.normaltime",
-          "time.currentPeriodStart"
-        ],
-        "changeTimestamp": 1746986399
-      },
-      "hasGlobalHighlights": true,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 12797981,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
-      "slug": "araz-naxcivan-pfk-qarabag",
-      "startTimestamp": 1746979200,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "tournament": {
-        "name": "Premier League",
-        "slug": "premier-league",
-        "category": {
-          "name": "Azerbaijan",
-          "slug": "azerbaijan",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "id": 297,
-          "country": {
-            "alpha2": "AZ",
-            "alpha3": "AZE",
-            "name": "Azerbaijan",
-            "slug": "azerbaijan"
-          },
-          "flag": "azerbaijan",
-          "alpha2": "AZ",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "أذربيجان"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "Misli Premier League",
-          "slug": "misli-premier-league",
-          "primaryColorHex": "#3449b2",
-          "secondaryColorHex": "#1b157f",
-          "category": {
-            "name": "Azerbaijan",
-            "slug": "azerbaijan",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "id": 297,
-            "country": {
-              "alpha2": "AZ",
-              "alpha3": "AZE",
-              "name": "Azerbaijan",
-              "slug": "azerbaijan"
-            },
-            "flag": "azerbaijan",
-            "alpha2": "AZ",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "أذربيجان"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 12128,
-          "hasPerformanceGraphFeature": true,
-          "id": 709,
-          "country": {},
-          "hasEventPlayerStatistics": false,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "دوري ميسلي الممتاز",
-              "hi": "मिसली प्रीमियर लीग",
-              "bn": "মিসলি প্রিমিয়ার লীগ"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 0,
-        "isGroup": false,
-        "isLive": false,
-        "id": 3590,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "الدوري الممتاز",
-            "hi": "प्रीमियर लीग",
-            "bn": "প্রিমিয়ার লীগ"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Premier League 24/25",
-        "year": "24/25",
-        "editor": false,
-        "id": 64075
-      },
-      "roundInfo": {
         "round": 35
       },
       "customId": "mucsafp",
@@ -6530,42 +6303,275 @@
       "finalResultOnly": false,
       "feedLocked": true,
       "isEditor": false
+    },
+    {
+      "tournament": {
+        "name": "Premier League",
+        "slug": "premier-league",
+        "category": {
+          "name": "Azerbaijan",
+          "slug": "azerbaijan",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 297,
+          "country": {
+            "alpha2": "AZ",
+            "alpha3": "AZE",
+            "name": "Azerbaijan",
+            "slug": "azerbaijan"
+          },
+          "flag": "azerbaijan",
+          "alpha2": "AZ",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أذربيجان"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Misli Premier League",
+          "slug": "misli-premier-league",
+          "primaryColorHex": "#3449b2",
+          "secondaryColorHex": "#1b157f",
+          "category": {
+            "name": "Azerbaijan",
+            "slug": "azerbaijan",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 297,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "flag": "azerbaijan",
+            "alpha2": "AZ",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أذربيجان"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 12128,
+          "hasPerformanceGraphFeature": true,
+          "id": 709,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري ميسلي الممتاز",
+              "hi": "मिसली प्रीमियर लीग",
+              "bn": "মিসলি প্রিমিয়ার লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "isLive": false,
+        "id": 3590,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الممتاز",
+            "hi": "प्रीमियर लीग",
+            "bn": "প্রিমিয়ার লীগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Premier League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 78700
+      },
+      "roundInfo": {
+        "round": 11
+      },
+      "customId": "pecsmuc",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Qarabağ FK",
+        "slug": "qarabag",
+        "shortName": "Qarabağ",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 268226,
+        "nameCode": "QAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 5962,
+        "country": {
+          "alpha2": "AZ",
+          "alpha3": "AZE",
+          "name": "Azerbaijan",
+          "slug": "azerbaijan"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاراباج",
+            "ru": "Карабах",
+            "hi": "करबाख",
+            "bn": "কারাবাগ"
+          },
+          "shortNameTranslation": {
+            "ar": "كاراباج"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "Neftçi Baku PFK",
+        "slug": "neftci-baku-pfk",
+        "shortName": "Neftçi",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 18505,
+        "nameCode": "NBP",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 5215,
+        "country": {
+          "alpha2": "AZ",
+          "alpha3": "AZE",
+          "name": "Azerbaijan",
+          "slug": "azerbaijan"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نفطجي باكو إف سي كيه",
+            "ru": "ФК Нефтчи Баку"
+          },
+          "shortNameTranslation": {
+            "ar": "نفطجي",
+            "hi": "नेफ्त्ची",
+            "bn": "নেফটসি"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 0,
+        "period2": 2,
+        "normaltime": 2
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "time": {
+        "injuryTime1": 1,
+        "injuryTime2": 4,
+        "currentPeriodStartTimestamp": 1762706249
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type",
+          "homeScore.period2",
+          "homeScore.normaltime",
+          "awayScore.period2",
+          "awayScore.normaltime",
+          "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1762706252
+      },
+      "hasGlobalHighlights": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14527056,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "qarabag-neftci-baku-pfk",
+      "startTimestamp": 1762699440,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false
     }
   ],
   "last5": {
-    "form": "DWDLW",
+    "form": "WDWDL",
     "w": 2,
     "d": 2,
     "l": 1,
     "gf": 7,
-    "ga": 6,
+    "ga": 5,
     "avg_gf": 1.4,
-    "avg_ga": 1.2,
+    "avg_ga": 1.0,
     "count": 5
   },
   "last10": {
-    "form": "DWDLWWWWWW",
+    "form": "WDWDLWWWWW",
     "w": 7,
     "d": 2,
     "l": 1,
-    "gf": 20,
-    "ga": 8,
-    "avg_gf": 2.0,
-    "avg_ga": 0.8,
+    "gf": 19,
+    "ga": 6,
+    "avg_gf": 1.9,
+    "avg_ga": 0.6,
     "count": 10
   },
   "passes_avg_last5": {
     "considered": 5,
     "counts_per_metric": {
-      "passes": 5,
-      "accurate": 5,
-      "accuracy_pct": 5
+      "passes": 4,
+      "accurate": 4,
+      "accuracy_pct": 4
     },
-    "avg_passes": 456.4,
-    "avg_accurate": 379.2,
-    "avg_accuracy_pct": 81.50185292954255
+    "avg_passes": 472.75,
+    "avg_accurate": 395.25,
+    "avg_accuracy_pct": 81.73665120029136
   },
   "passes_events_last5": [
+    {
+      "event_id": 14527056,
+      "startTimestamp": 1762699440,
+      "passes": null,
+      "accurate": null,
+      "accuracy_pct": null
+    },
     {
       "event_id": 14566919,
       "startTimestamp": 1762364700,
@@ -6593,13 +6599,6 @@
       "passes": 336.0,
       "accurate": 246.0,
       "accuracy_pct": 73.21428571428571
-    },
-    {
-      "event_id": 14530020,
-      "startTimestamp": 1760713200,
-      "passes": 391.0,
-      "accurate": 315.0,
-      "accuracy_pct": 80.56265984654732
     }
   ]
 }
