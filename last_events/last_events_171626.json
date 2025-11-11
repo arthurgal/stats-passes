@@ -6580,6 +6580,9 @@
         "changeTimestamp": 1762714792
       },
       "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14222767,
       "varInProgress": {
@@ -6589,7 +6592,7 @@
       "slug": "pafos-fc-anorthosis-famagusta",
       "startTimestamp": 1762707600,
       "finalResultOnly": false,
-      "feedLocked": false,
+      "feedLocked": true,
       "isEditor": false
     }
   ],
@@ -6618,21 +6621,21 @@
   "passes_avg_last5": {
     "considered": 5,
     "counts_per_metric": {
-      "passes": 3,
-      "accurate": 3,
-      "accuracy_pct": 3
+      "passes": 4,
+      "accurate": 4,
+      "accuracy_pct": 4
     },
-    "avg_passes": 375.0,
-    "avg_accurate": 308.0,
-    "avg_accuracy_pct": 81.46859461277724
+    "avg_passes": 377.5,
+    "avg_accurate": 310.75,
+    "avg_accuracy_pct": 81.81573167386864
   },
   "passes_events_last5": [
     {
       "event_id": 14222767,
       "startTimestamp": 1762707600,
-      "passes": null,
-      "accurate": null,
-      "accuracy_pct": null
+      "passes": 385.0,
+      "accurate": 319.0,
+      "accuracy_pct": 82.85714285714286
     },
     {
       "event_id": 14566966,
