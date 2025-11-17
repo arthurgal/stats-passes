@@ -3,230 +3,6 @@
   "team": "Atlético Mineiro",
   "events": [
     {
-      "correctAiInsight": false,
-      "correctHalftimeAiInsight": false,
-      "tournament": {
-        "name": "CONMEBOL Sudamericana, Knockout stage",
-        "slug": "conmebol-sudamericana",
-        "category": {
-          "name": "South America",
-          "slug": "south-america",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "id": 1470,
-          "country": {},
-          "flag": "south-america",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "أمريكا الجنوبية"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "CONMEBOL Sudamericana",
-          "slug": "conmebol-sudamericana",
-          "primaryColorHex": "#e3c000",
-          "secondaryColorHex": "#13489c",
-          "category": {
-            "name": "South America",
-            "slug": "south-america",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "id": 1470,
-            "country": {},
-            "flag": "south-america",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "أمريكا الجنوبية"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 120262,
-          "hasPerformanceGraphFeature": false,
-          "id": 480,
-          "country": {},
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "كأس أمريكا الجنوبية لكرة القدم",
-              "hi": "कॉनमेबोल सुदामेरिकाना",
-              "bn": "কনমেবল সুদাআমেরিকানা"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 518,
-        "isGroup": false,
-        "isLive": false,
-        "id": 91444,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "كوبا سود أمريكانا، الأدوار الإقصائية",
-            "hi": "कोपा सुदामेरिकाना, नॉकआउट स्टेज",
-            "bn": "কোপা সুদামেরিকানা, নকআউট স্টেজ"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "CONMEBOL Sudamericana 2025",
-        "year": "2025",
-        "editor": false,
-        "id": 70070
-      },
-      "roundInfo": {
-        "round": 636,
-        "name": "Playoff round",
-        "slug": "playoff-round"
-      },
-      "customId": "COsdxc",
-      "status": {
-        "code": 120,
-        "description": "AP",
-        "type": "finished"
-      },
-      "winnerCode": 2,
-      "aggregatedWinnerCode": 1,
-      "homeTeam": {
-        "name": "Atlético Mineiro",
-        "slug": "atletico-mineiro",
-        "shortName": "Atlético-MG",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 251981,
-        "nameCode": "ATL",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 1977,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#000000",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "أتلتيكو مينيرو",
-            "ru": "Атлетико Минейро"
-          },
-          "shortNameTranslation": {
-            "ar": "أتلتيكو-إم جي"
-          }
-        }
-      },
-      "awayTeam": {
-        "name": "Atlético Bucaramanga",
-        "slug": "atletico-bucaramanga",
-        "shortName": "Bucaramanga",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 27805,
-        "nameCode": "ABU",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 6103,
-        "country": {
-          "alpha2": "CO",
-          "alpha3": "COL",
-          "name": "Colombia",
-          "slug": "colombia"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#f9ec00",
-          "secondary": "#f9ec00",
-          "text": "#f9ec00"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "أتلتيكو بوكارامانغا",
-            "ru": "Атлетико Букараманга"
-          },
-          "shortNameTranslation": {
-            "ar": "بوكارامانغا"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 3,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0,
-        "penalties": 3,
-        "aggregated": 1
-      },
-      "awayScore": {
-        "current": 2,
-        "display": 1,
-        "period1": 1,
-        "period2": 0,
-        "normaltime": 1,
-        "penalties": 1,
-        "aggregated": 1
-      },
-      "time": {
-        "injuryTime1": 1,
-        "injuryTime2": 5,
-        "currentPeriodStartTimestamp": 1753407125
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type",
-          "homeScore.display",
-          "homeScore.penalties",
-          "homeScore.aggregated",
-          "awayScore.display",
-          "awayScore.penalties",
-          "awayScore.aggregated"
-        ],
-        "changeTimestamp": 1753411067
-      },
-      "hasGlobalHighlights": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 13955167,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
-      "slug": "atletico-bucaramanga-atletico-mineiro",
-      "previousLegEventId": 13955159,
-      "startTimestamp": 1753403400,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
       "correctAiInsight": true,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -285,7 +61,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -339,7 +115,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 890886,
+        "userCount": 893600,
         "nameCode": "FLA",
         "disabled": false,
         "national": false,
@@ -377,7 +153,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -508,7 +284,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 132517,
+          "userCount": 132429,
           "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
@@ -568,7 +344,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 890886,
+        "userCount": 893600,
         "nameCode": "FLA",
         "disabled": false,
         "national": false,
@@ -606,7 +382,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -735,7 +511,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -789,7 +565,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -827,7 +603,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 110731,
+        "userCount": 110533,
         "nameCode": "RBB",
         "disabled": false,
         "national": false,
@@ -957,7 +733,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 132517,
+          "userCount": 132429,
           "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
@@ -1018,7 +794,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -1056,7 +832,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 890886,
+        "userCount": 893600,
         "nameCode": "FLA",
         "disabled": false,
         "national": false,
@@ -1197,7 +973,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -1251,7 +1027,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 300872,
+        "userCount": 300427,
         "nameCode": "VDG",
         "disabled": false,
         "national": false,
@@ -1289,7 +1065,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -1408,7 +1184,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 120262,
+          "userCount": 120157,
           "hasPerformanceGraphFeature": false,
           "id": 480,
           "country": {},
@@ -1465,7 +1241,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -1502,7 +1278,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 19603,
+        "userCount": 19857,
         "nameCode": "GOD",
         "disabled": false,
         "national": false,
@@ -1630,7 +1406,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -1684,7 +1460,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -1722,7 +1498,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 220538,
+        "userCount": 220293,
         "nameCode": "GRM",
         "disabled": false,
         "national": false,
@@ -1843,7 +1619,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 120262,
+          "userCount": 120157,
           "hasPerformanceGraphFeature": false,
           "id": 480,
           "country": {},
@@ -1900,7 +1676,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 19603,
+        "userCount": 19857,
         "nameCode": "GOD",
         "disabled": false,
         "national": false,
@@ -1936,7 +1712,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -2071,7 +1847,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -2125,7 +1901,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 392174,
+        "userCount": 391768,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -2163,7 +1939,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -2294,7 +2070,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 132517,
+          "userCount": 132429,
           "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
@@ -2354,7 +2130,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -2392,7 +2168,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 262549,
+        "userCount": 262381,
         "nameCode": "CRU",
         "disabled": false,
         "national": false,
@@ -2520,7 +2296,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -2574,7 +2350,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 111562,
+        "userCount": 111560,
         "nameCode": "VIT",
         "disabled": false,
         "national": false,
@@ -2612,7 +2388,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -2743,7 +2519,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 132517,
+          "userCount": 132429,
           "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
@@ -2804,7 +2580,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 262549,
+        "userCount": 262381,
         "nameCode": "CRU",
         "disabled": false,
         "national": false,
@@ -2842,7 +2618,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -2974,7 +2750,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -3028,7 +2804,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -3066,7 +2842,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 423217,
+        "userCount": 427242,
         "nameCode": "SAN",
         "disabled": false,
         "national": false,
@@ -3186,7 +2962,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 120262,
+          "userCount": 120157,
           "hasPerformanceGraphFeature": false,
           "id": 480,
           "country": {},
@@ -3243,7 +3019,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 52952,
+        "userCount": 52883,
         "nameCode": "BOL",
         "disabled": false,
         "national": false,
@@ -3281,7 +3057,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -3412,7 +3188,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -3466,7 +3242,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 303010,
+        "userCount": 302504,
         "nameCode": "BOT",
         "disabled": false,
         "national": false,
@@ -3504,7 +3280,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -3624,7 +3400,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 120262,
+          "userCount": 120157,
           "hasPerformanceGraphFeature": false,
           "id": 480,
           "country": {},
@@ -3682,7 +3458,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -3720,7 +3496,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 52952,
+        "userCount": 52883,
         "nameCode": "BOL",
         "disabled": false,
         "national": false,
@@ -3853,7 +3629,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -3907,7 +3683,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -3945,7 +3721,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 66677,
+        "userCount": 66788,
         "nameCode": "MIR",
         "disabled": false,
         "national": false,
@@ -4074,7 +3850,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -4128,7 +3904,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -4166,7 +3942,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 63769,
+        "userCount": 63635,
         "nameCode": "JUV",
         "disabled": false,
         "national": false,
@@ -4294,7 +4070,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -4348,7 +4124,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 321380,
+        "userCount": 321015,
         "nameCode": "FLU",
         "disabled": false,
         "national": false,
@@ -4386,7 +4162,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -4517,7 +4293,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -4571,7 +4347,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -4609,7 +4385,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 100878,
+        "userCount": 102076,
         "nameCode": "SRE",
         "disabled": false,
         "national": false,
@@ -4738,7 +4514,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -4792,7 +4568,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -4830,7 +4606,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 262549,
+        "userCount": 262381,
         "nameCode": "CRU",
         "disabled": false,
         "national": false,
@@ -4960,7 +4736,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -5014,7 +4790,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 533851,
+        "userCount": 533558,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
@@ -5052,7 +4828,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -5169,7 +4945,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 120262,
+          "userCount": 120157,
           "hasPerformanceGraphFeature": false,
           "id": 480,
           "country": {},
@@ -5226,7 +5002,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 47324,
+        "userCount": 47234,
         "nameCode": "IDV",
         "disabled": false,
         "national": false,
@@ -5264,7 +5040,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -5394,7 +5170,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -5448,7 +5224,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -5486,7 +5262,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 88953,
+        "userCount": 88804,
         "nameCode": "CEA",
         "disabled": false,
         "national": false,
@@ -5605,7 +5381,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 120262,
+          "userCount": 120157,
           "hasPerformanceGraphFeature": false,
           "id": 480,
           "country": {},
@@ -5663,7 +5439,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -5701,7 +5477,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 47324,
+        "userCount": 47234,
         "nameCode": "IDV",
         "disabled": false,
         "national": false,
@@ -5834,7 +5610,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -5888,7 +5664,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 195019,
+        "userCount": 194794,
         "nameCode": "INT",
         "disabled": false,
         "national": false,
@@ -5926,7 +5702,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -6058,7 +5834,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -6112,7 +5888,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -6150,7 +5926,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 205793,
+        "userCount": 205467,
         "nameCode": "BAH",
         "disabled": false,
         "national": false,
@@ -6282,7 +6058,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -6336,7 +6112,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 100878,
+        "userCount": 102076,
         "nameCode": "SRE",
         "disabled": false,
         "national": false,
@@ -6374,7 +6150,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -6505,7 +6281,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 303449,
+          "userCount": 303626,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -6559,7 +6335,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 251981,
+        "userCount": 251653,
         "nameCode": "ATL",
         "disabled": false,
         "national": false,
@@ -6597,7 +6373,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 152469,
+        "userCount": 151998,
         "nameCode": "FOR",
         "disabled": false,
         "national": false,
@@ -6668,28 +6444,250 @@
       "finalResultOnly": false,
       "feedLocked": true,
       "isEditor": false
+    },
+    {
+      "correctAiInsight": true,
+      "correctHalftimeAiInsight": false,
+      "tournament": {
+        "name": "Brasileirão Betano",
+        "slug": "brasileirao-serie-a",
+        "category": {
+          "name": "Brazil",
+          "slug": "brazil",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "flag": "brazil",
+          "alpha2": "BR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "البرازيل"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Brasileirão Betano",
+          "slug": "brasileirao-serie-a",
+          "primaryColorHex": "#C7FF00",
+          "secondaryColorHex": "#969696",
+          "category": {
+            "name": "Brazil",
+            "slug": "brazil",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
+            },
+            "flag": "brazil",
+            "alpha2": "BR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "البرازيل"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 303626,
+          "hasPerformanceGraphFeature": true,
+          "id": 325,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة بيتانو البرازيلية",
+              "hi": "ब्राज़ीलेइराओ बेटानो",
+              "bn": "ব্রাসিলিরাও বেতানো"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 511,
+        "isGroup": false,
+        "isLive": false,
+        "id": 83,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري البرازيلي الممتاز بيتانو",
+            "hi": "ब्रासिलेइराओ बेटानो",
+            "bn": "ব্রাসিলিরাও বেতানো"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Brasileiro Serie A 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 72034
+      },
+      "roundInfo": {
+        "round": 37
+      },
+      "customId": "COsZO",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Red Bull Bragantino",
+        "slug": "red-bull-bragantino",
+        "shortName": "RB Bragantino",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 110533,
+        "nameCode": "RBB",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1999,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#363636",
+          "secondary": "#d8d8d6",
+          "text": "#d8d8d6"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريد بول براغانتينو",
+            "ru": "Ред Булл Брагантино"
+          },
+          "shortNameTranslation": {
+            "ar": "إر بي براغانتينو"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "Atlético Mineiro",
+        "slug": "atletico-mineiro",
+        "shortName": "Atlético-MG",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 251653,
+        "nameCode": "ATL",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أتلتيكو مينيرو",
+            "ru": "Атлетико Минейро"
+          },
+          "shortNameTranslation": {
+            "ar": "أتلتيكو-إم جي"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 0,
+        "period2": 2,
+        "normaltime": 2
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "time": {
+        "injuryTime1": 2,
+        "injuryTime2": 3,
+        "currentPeriodStartTimestamp": 1763334287
+      },
+      "changes": {
+        "changes": [
+          "time.injuryTime2"
+        ],
+        "changeTimestamp": 1763337176
+      },
+      "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 13472632,
+      "awayRedCards": 1,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "red-bull-bragantino-atletico-mineiro",
+      "startTimestamp": 1763330400,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false
     }
   ],
   "last5": {
-    "form": "DWWDW",
-    "w": 3,
+    "form": "LDWWD",
+    "w": 2,
     "d": 2,
-    "l": 0,
-    "gf": 13,
-    "ga": 6,
-    "avg_gf": 2.6,
-    "avg_ga": 1.2,
+    "l": 1,
+    "gf": 10,
+    "ga": 7,
+    "avg_gf": 2.0,
+    "avg_ga": 1.4,
     "count": 5
   },
   "last10": {
-    "form": "DWWDWWDLDW",
-    "w": 5,
+    "form": "LDWWDWWDLD",
+    "w": 4,
     "d": 4,
-    "l": 1,
-    "gf": 19,
-    "ga": 10,
-    "avg_gf": 1.9,
-    "avg_ga": 1.0,
+    "l": 2,
+    "gf": 16,
+    "ga": 11,
+    "avg_gf": 1.6,
+    "avg_ga": 1.1,
     "count": 10
   },
   "passes_avg_last5": {
@@ -6699,11 +6697,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 439.8,
-    "avg_accurate": 375.6,
-    "avg_accuracy_pct": 81.86800367650746
+    "avg_passes": 422.8,
+    "avg_accurate": 357.4,
+    "avg_accuracy_pct": 80.61538438445464
   },
   "passes_events_last5": [
+    {
+      "event_id": 13472632,
+      "startTimestamp": 1763330400,
+      "passes": 337.0,
+      "accurate": 256.0,
+      "accuracy_pct": 75.96439169139467
+    },
     {
       "event_id": 15011357,
       "startTimestamp": 1762990200,
@@ -6731,13 +6736,6 @@
       "passes": 179.0,
       "accurate": 107.0,
       "accuracy_pct": 59.77653631284916
-    },
-    {
-      "event_id": 14250686,
-      "startTimestamp": 1761697800,
-      "passes": 422.0,
-      "accurate": 347.0,
-      "accuracy_pct": 82.22748815165876
     }
   ]
 }
