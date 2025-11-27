@@ -4,235 +4,6 @@
   "events": [
     {
       "tournament": {
-        "name": "Cyprus Cup",
-        "slug": "cyprus-cup",
-        "category": {
-          "name": "Cyprus",
-          "slug": "cyprus",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "id": 102,
-          "country": {
-            "alpha2": "CY",
-            "alpha3": "CYP",
-            "name": "Cyprus",
-            "slug": "cyprus"
-          },
-          "flag": "cyprus",
-          "alpha2": "CY",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "قبرص"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "Cyprus Cup",
-          "slug": "cyprus-cup",
-          "primaryColorHex": "#f4020d",
-          "secondaryColorHex": "#0b35ff",
-          "category": {
-            "name": "Cyprus",
-            "slug": "cyprus",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "id": 102,
-            "country": {
-              "alpha2": "CY",
-              "alpha3": "CYP",
-              "name": "Cyprus",
-              "slug": "cyprus"
-            },
-            "flag": "cyprus",
-            "alpha2": "CY",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "قبرص"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 3750,
-          "hasPerformanceGraphFeature": false,
-          "id": 315,
-          "country": {},
-          "hasEventPlayerStatistics": false,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "كأس قبرص",
-              "hi": "साइप्रस कप",
-              "bn": "সাইপ্রাস কাপ"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 0,
-        "isGroup": false,
-        "isLive": false,
-        "id": 838,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "كأس قبرص",
-            "hi": "साइप्रस कप",
-            "bn": "সাইপ্রাস কাপ"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Cyprus Cup 24/25",
-        "year": "24/25",
-        "editor": false,
-        "id": 66778
-      },
-      "roundInfo": {
-        "round": 28,
-        "name": "Semifinals",
-        "slug": "semifinals",
-        "cupRoundType": 2
-      },
-      "customId": "ctbsBHtb",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 2,
-      "aggregatedWinnerCode": 2,
-      "homeTeam": {
-        "name": "Apollon Limassol",
-        "slug": "apollon-limassol",
-        "shortName": "Apollon",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 15147,
-        "nameCode": "APO",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 3402,
-        "country": {
-          "alpha2": "CY",
-          "alpha3": "CYP",
-          "name": "Cyprus",
-          "slug": "cyprus"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#2424ff",
-          "secondary": "#000000",
-          "text": "#000000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "أبولون ليماسول",
-            "ru": "Аполлон Лимасол",
-            "hi": "एपोल्लोन लिमास्सोल"
-          },
-          "shortNameTranslation": {
-            "ar": "أبولون",
-            "hi": "अपोलोन",
-            "bn": "অ্যাপোলন"
-          }
-        }
-      },
-      "awayTeam": {
-        "name": "Pafos FC",
-        "slug": "pafos-fc",
-        "shortName": "Pafos",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 81409,
-        "nameCode": "PAF",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 171626,
-        "country": {
-          "alpha2": "CY",
-          "alpha3": "CYP",
-          "name": "Cyprus",
-          "slug": "cyprus"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ffffff",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "بافوس",
-            "ru": "ФК Пафос",
-            "hi": "पाफोस एफसी"
-          },
-          "shortNameTranslation": {
-            "ar": "بافوس"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 0,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0,
-        "aggregated": 2
-      },
-      "awayScore": {
-        "current": 2,
-        "display": 2,
-        "period1": 0,
-        "period2": 2,
-        "normaltime": 2,
-        "aggregated": 6
-      },
-      "time": {
-        "currentPeriodStartTimestamp": 1746641263
-      },
-      "changes": {
-        "changes": [
-          "homeScore.period2",
-          "homeScore.normaltime",
-          "awayScore.period2",
-          "awayScore.normaltime",
-          "time.injuryTime1"
-        ],
-        "changeTimestamp": 1746641281
-      },
-      "hasGlobalHighlights": true,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 13774612,
-      "homeRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
-      "slug": "pafos-fc-apollon-limassol",
-      "previousLegEventId": 13769775,
-      "startTimestamp": 1746633600,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "tournament": {
         "name": "Cyprus League by Stoiximan, Championship group",
         "slug": "1st-division-championship-group",
         "category": {
@@ -288,7 +59,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 13851,
+          "userCount": 13857,
           "hasPerformanceGraphFeature": false,
           "id": 171,
           "country": {},
@@ -343,8 +114,8 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 46456,
-        "nameCode": "ANI",
+        "userCount": 46404,
+        "nameCode": "APO",
         "disabled": false,
         "national": false,
         "type": 0,
@@ -383,7 +154,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -516,7 +287,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 13851,
+          "userCount": 13857,
           "hasPerformanceGraphFeature": false,
           "id": 171,
           "country": {},
@@ -571,7 +342,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -610,8 +381,8 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 32328,
-        "nameCode": "ALA",
+        "userCount": 32347,
+        "nameCode": "AEK",
         "disabled": false,
         "national": false,
         "type": 0,
@@ -745,7 +516,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 3750,
+          "userCount": 3752,
           "hasPerformanceGraphFeature": false,
           "id": 315,
           "country": {},
@@ -803,8 +574,8 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 32328,
-        "nameCode": "ALA",
+        "userCount": 32347,
+        "nameCode": "AEK",
         "disabled": false,
         "national": false,
         "type": 0,
@@ -843,7 +614,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -962,7 +733,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 28283,
+          "userCount": 28267,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -1013,7 +784,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 11202,
+        "userCount": 11200,
         "nameCode": "WIM",
         "disabled": false,
         "national": false,
@@ -1050,7 +821,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -1172,7 +943,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 28283,
+          "userCount": 28267,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -1223,7 +994,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -1262,7 +1033,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 13956,
+        "userCount": 13955,
         "nameCode": "LEY",
         "disabled": false,
         "national": false,
@@ -1379,7 +1150,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 28283,
+          "userCount": 28267,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -1430,8 +1201,8 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 114397,
-        "nameCode": "OPI",
+        "userCount": 114452,
+        "nameCode": "ORL",
         "disabled": false,
         "national": false,
         "type": 0,
@@ -1468,7 +1239,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -1585,7 +1356,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1176091,
+          "userCount": 1181220,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -1641,7 +1412,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -1680,7 +1451,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 71051,
+        "userCount": 71065,
         "nameCode": "MTA",
         "disabled": false,
         "national": false,
@@ -1801,7 +1572,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1176091,
+          "userCount": 1181220,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -1858,7 +1629,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 71051,
+        "userCount": 71065,
         "nameCode": "MTA",
         "disabled": false,
         "national": false,
@@ -1898,7 +1669,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -2020,7 +1791,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1176091,
+          "userCount": 1181220,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -2076,7 +1847,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 91916,
+        "userCount": 91889,
         "nameCode": "DYK",
         "disabled": false,
         "national": false,
@@ -2114,7 +1885,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -2232,7 +2003,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1176091,
+          "userCount": 1181220,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -2289,7 +2060,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -2328,7 +2099,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 91916,
+        "userCount": 91889,
         "nameCode": "DYK",
         "disabled": false,
         "national": false,
@@ -2450,7 +2221,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1176091,
+          "userCount": 1181220,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -2507,7 +2278,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 220998,
+        "userCount": 221014,
         "nameCode": "FCZ",
         "disabled": false,
         "national": false,
@@ -2547,7 +2318,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -2676,7 +2447,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 13851,
+          "userCount": 13857,
           "hasPerformanceGraphFeature": false,
           "id": 171,
           "country": {},
@@ -2729,7 +2500,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -2768,7 +2539,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3941,
+        "userCount": 3943,
         "nameCode": "ENP",
         "national": false,
         "type": 0,
@@ -2870,7 +2641,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1176091,
+          "userCount": 1181220,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -2928,7 +2699,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -2967,7 +2738,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 220998,
+        "userCount": 221014,
         "nameCode": "FCZ",
         "disabled": false,
         "national": false,
@@ -3100,7 +2871,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 13851,
+          "userCount": 13857,
           "hasPerformanceGraphFeature": false,
           "id": 171,
           "country": {},
@@ -3154,8 +2925,8 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 46456,
-        "nameCode": "ANI",
+        "userCount": 46404,
+        "nameCode": "APO",
         "disabled": false,
         "national": false,
         "type": 0,
@@ -3194,7 +2965,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -3328,7 +3099,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 13851,
+          "userCount": 13857,
           "hasPerformanceGraphFeature": false,
           "id": 171,
           "country": {},
@@ -3382,7 +3153,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -3421,7 +3192,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 15147,
+        "userCount": 15140,
         "nameCode": "APO",
         "disabled": false,
         "national": false,
@@ -3546,7 +3317,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1176091,
+          "userCount": 1181220,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -3597,8 +3368,8 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 260035,
-        "nameCode": "OFC",
+        "userCount": 271148,
+        "nameCode": "OLY",
         "disabled": false,
         "national": false,
         "type": 0,
@@ -3635,7 +3406,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -3767,7 +3538,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 13851,
+          "userCount": 13857,
           "hasPerformanceGraphFeature": false,
           "id": 171,
           "country": {},
@@ -3821,8 +3592,8 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3823,
-        "nameCode": "OAR",
+        "userCount": 3824,
+        "nameCode": "OMO",
         "national": false,
         "type": 0,
         "id": 25542,
@@ -3856,7 +3627,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -3983,7 +3754,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 13851,
+          "userCount": 13857,
           "hasPerformanceGraphFeature": false,
           "id": 171,
           "country": {},
@@ -4037,7 +3808,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -4076,7 +3847,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3941,
+        "userCount": 3943,
         "nameCode": "ENP",
         "national": false,
         "type": 0,
@@ -4208,7 +3979,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 13851,
+          "userCount": 13857,
           "hasPerformanceGraphFeature": false,
           "id": 171,
           "country": {},
@@ -4262,7 +4033,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -4301,7 +4072,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3513,
+        "userCount": 3506,
         "nameCode": "OLY",
         "disabled": false,
         "national": false,
@@ -4426,7 +4197,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1176091,
+          "userCount": 1181220,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -4477,7 +4248,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -4516,7 +4287,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2291890,
+        "userCount": 2303735,
         "nameCode": "FCB",
         "disabled": false,
         "national": false,
@@ -4648,7 +4419,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 13851,
+          "userCount": 13857,
           "hasPerformanceGraphFeature": false,
           "id": 171,
           "country": {},
@@ -4702,8 +4473,8 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 32328,
-        "nameCode": "ALA",
+        "userCount": 32347,
+        "nameCode": "AEK",
         "disabled": false,
         "national": false,
         "type": 0,
@@ -4742,7 +4513,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -4868,7 +4639,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 13851,
+          "userCount": 13857,
           "hasPerformanceGraphFeature": false,
           "id": 171,
           "country": {},
@@ -4922,7 +4693,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -4961,8 +4732,8 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 4591,
-        "nameCode": "EAC",
+        "userCount": 4592,
+        "nameCode": "ETH",
         "disabled": false,
         "national": false,
         "type": 0,
@@ -5088,7 +4859,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1176091,
+          "userCount": 1181220,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -5139,8 +4910,8 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 72801,
-        "nameCode": "KAL",
+        "userCount": 75160,
+        "nameCode": "ALM",
         "disabled": false,
         "national": false,
         "type": 0,
@@ -5179,7 +4950,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -5311,7 +5082,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 13851,
+          "userCount": 13857,
           "hasPerformanceGraphFeature": false,
           "id": 171,
           "country": {},
@@ -5365,8 +5136,8 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 40271,
-        "nameCode": "ONI",
+        "userCount": 40320,
+        "nameCode": "OMO",
         "disabled": false,
         "national": false,
         "type": 0,
@@ -5405,7 +5176,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -5532,7 +5303,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1062,
+          "userCount": 1063,
           "hasPerformanceGraphFeature": false,
           "id": 550,
           "country": {},
@@ -5586,7 +5357,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -5625,8 +5396,8 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 32328,
-        "nameCode": "ALA",
+        "userCount": 32347,
+        "nameCode": "AEK",
         "disabled": false,
         "national": false,
         "type": 0,
@@ -5755,7 +5526,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 13851,
+          "userCount": 13857,
           "hasPerformanceGraphFeature": false,
           "id": 171,
           "country": {},
@@ -5809,7 +5580,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -5848,8 +5619,8 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 11097,
-        "nameCode": "ALI",
+        "userCount": 11090,
+        "nameCode": "LIM",
         "national": false,
         "type": 0,
         "id": 3407,
@@ -5977,7 +5748,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1176091,
+          "userCount": 1181220,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -6028,7 +5799,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -6067,7 +5838,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 405670,
+        "userCount": 406506,
         "nameCode": "VIL",
         "disabled": false,
         "national": false,
@@ -6195,7 +5966,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 13851,
+          "userCount": 13857,
           "hasPerformanceGraphFeature": false,
           "id": 171,
           "country": {},
@@ -6250,7 +6021,7 @@
           "id": 1
         },
         "userCount": 12910,
-        "nameCode": "AFA",
+        "nameCode": "ANO",
         "disabled": false,
         "national": false,
         "type": 0,
@@ -6290,7 +6061,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -6424,7 +6195,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 13851,
+          "userCount": 13857,
           "hasPerformanceGraphFeature": false,
           "id": 171,
           "country": {},
@@ -6478,7 +6249,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81409,
+        "userCount": 84657,
         "nameCode": "PAF",
         "disabled": false,
         "national": false,
@@ -6517,7 +6288,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 25692,
+        "userCount": 25676,
         "nameCode": "ALI",
         "disabled": false,
         "national": false,
@@ -6594,42 +6365,265 @@
       "finalResultOnly": false,
       "feedLocked": true,
       "isEditor": false
+    },
+    {
+      "correctAiInsight": false,
+      "correctHalftimeAiInsight": false,
+      "tournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1465,
+          "country": {},
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "UEFA Champions League",
+          "slug": "uefa-champions-league",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1181220,
+          "hasPerformanceGraphFeature": false,
+          "id": 7,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أبطال أوروبا",
+              "hi": "यूईएफए चैंपियंस लीग",
+              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 714,
+        "isGroup": false,
+        "id": 138314,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري أبطال أوروبا"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "UEFA Champions League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76953
+      },
+      "roundInfo": {
+        "round": 5
+      },
+      "customId": "dIsBHtb",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 3,
+      "homeTeam": {
+        "name": "Pafos FC",
+        "slug": "pafos-fc",
+        "shortName": "Pafos",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 84657,
+        "nameCode": "PAF",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 171626,
+        "country": {
+          "alpha2": "CY",
+          "alpha3": "CYP",
+          "name": "Cyprus",
+          "slug": "cyprus"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بافوس",
+            "ru": "ФК Пафос",
+            "hi": "पाफोस एफसी"
+          },
+          "shortNameTranslation": {
+            "ar": "بافوس"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "AS Monaco",
+        "slug": "as-monaco",
+        "shortName": "AS Monaco",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 525019,
+        "nameCode": "ASM",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1653,
+        "country": {
+          "alpha2": "MC",
+          "alpha3": "MCO",
+          "name": "Monaco",
+          "slug": "monaco"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#ff0000",
+          "text": "#ff0000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نادي موناكو",
+            "ru": "Монако",
+            "hi": "एएस मोनाको",
+            "bn": "এএস মোনাকো"
+          },
+          "shortNameTranslation": {
+            "ar": "موناكو"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1,
+        "normaltime": 2
+      },
+      "awayScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 2,
+        "period2": 0,
+        "normaltime": 2
+      },
+      "coverage": -1,
+      "time": {
+        "injuryTime1": 1,
+        "injuryTime2": 4,
+        "currentPeriodStartTimestamp": 1764183028
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1764185988
+      },
+      "hasGlobalHighlights": false,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14566968,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "pafos-fc-as-monaco",
+      "startTimestamp": 1764179100,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false
     }
   ],
   "last5": {
-    "form": "WDWWL",
+    "form": "DWDWW",
     "w": 3,
-    "d": 1,
-    "l": 1,
-    "gf": 10,
-    "ga": 8,
-    "avg_gf": 2.0,
-    "avg_ga": 1.6,
+    "d": 2,
+    "l": 0,
+    "gf": 7,
+    "ga": 4,
+    "avg_gf": 1.4,
+    "avg_ga": 0.8,
     "count": 5
   },
   "last10": {
-    "form": "WDWWLLDWWL",
+    "form": "DWDWWLLDWW",
     "w": 5,
-    "d": 2,
-    "l": 3,
-    "gf": 20,
-    "ga": 17,
-    "avg_gf": 2.0,
-    "avg_ga": 1.7,
+    "d": 3,
+    "l": 2,
+    "gf": 21,
+    "ga": 14,
+    "avg_gf": 2.1,
+    "avg_ga": 1.4,
     "count": 10
   },
   "passes_avg_last5": {
     "considered": 5,
     "counts_per_metric": {
-      "passes": 4,
-      "accurate": 4,
-      "accuracy_pct": 4
+      "passes": 5,
+      "accurate": 5,
+      "accuracy_pct": 5
     },
-    "avg_passes": 406.25,
-    "avg_accurate": 333.25,
-    "avg_accuracy_pct": 81.65645698629206
+    "avg_passes": 404.8,
+    "avg_accurate": 329.4,
+    "avg_accuracy_pct": 81.06451395996096
   },
   "passes_events_last5": [
+    {
+      "event_id": 14566968,
+      "startTimestamp": 1764179100,
+      "passes": 399.0,
+      "accurate": 314.0,
+      "accuracy_pct": 78.69674185463658
+    },
     {
       "event_id": 14222772,
       "startTimestamp": 1763744400,
@@ -6657,13 +6651,6 @@
       "passes": 483.0,
       "accurate": 422.0,
       "accuracy_pct": 87.37060041407867
-    },
-    {
-      "event_id": 14636354,
-      "startTimestamp": 1761843600,
-      "passes": null,
-      "accurate": null,
-      "accuracy_pct": null
     }
   ]
 }
