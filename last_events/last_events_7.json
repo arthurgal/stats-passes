@@ -3,237 +3,6 @@
   "team": "Crystal Palace",
   "events": [
     {
-      "correctAiInsight": false,
-      "tournament": {
-        "name": "FA Cup",
-        "slug": "fa-cup",
-        "category": {
-          "name": "England",
-          "slug": "england",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
-          "flag": "england",
-          "alpha2": "EN",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "إنجلترا",
-              "hi": "इंग्लैंड",
-              "bn": "ইংল্যান্ড"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "FA Cup",
-          "slug": "fa-cup",
-          "primaryColorHex": "#bc1821",
-          "secondaryColorHex": "#e60411",
-          "category": {
-            "name": "England",
-            "slug": "england",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
-            "flag": "england",
-            "alpha2": "EN",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "إنجلترا",
-                "hi": "इंग्लैंड",
-                "bn": "ইংল্যান্ড"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 182644,
-          "hasPerformanceGraphFeature": false,
-          "id": 19,
-          "country": {},
-          "hasEventPlayerStatistics": false,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "كأس الاتحاد الإنجليزي",
-              "hi": "एफए कप",
-              "bn": "এফএ কাপ"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 485,
-        "isGroup": false,
-        "isLive": false,
-        "id": 16,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "كأس الاتحاد الإنجليزي",
-            "hi": "एफए कप",
-            "bn": "এফএ কাপ"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "FA Cup 24/25",
-        "year": "24/25",
-        "editor": false,
-        "id": 67958
-      },
-      "roundInfo": {
-        "round": 29,
-        "name": "Final",
-        "slug": "final",
-        "cupRoundType": 1
-      },
-      "customId": "hr",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 1,
-      "homeTeam": {
-        "name": "Crystal Palace",
-        "slug": "crystal-palace",
-        "shortName": "Crystal Palace",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 401977,
-        "nameCode": "CRY",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 7,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#0033ff",
-          "secondary": "#b90d2b",
-          "text": "#b90d2b"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "كريستال بالاس",
-            "ru": "Кристал Пэлас",
-            "hi": "क्रिस्टल पैलेस",
-            "bn": "ক্রিস্টাল প্যালেস"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "awayTeam": {
-        "name": "Manchester City",
-        "slug": "manchester-city",
-        "shortName": "Man City",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 3371914,
-        "nameCode": "MCI",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 17,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#66ccff",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "مانشستر سيتي",
-            "ru": "Манчестер Сити",
-            "hi": "मेनचेस्टर सिटी ऍफ़सी"
-          },
-          "shortNameTranslation": {
-            "ar": "مان سيتي",
-            "hi": "मैन सिटी",
-            "bn": "ম্যান সিটি"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 1,
-        "display": 1,
-        "period1": 1,
-        "period2": 0,
-        "normaltime": 1
-      },
-      "awayScore": {
-        "current": 0,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0
-      },
-      "time": {
-        "injuryTime1": 3,
-        "injuryTime2": 10,
-        "currentPeriodStartTimestamp": 1747499732
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1747503056
-      },
-      "hasGlobalHighlights": false,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 13822363,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
-      "slug": "manchester-city-crystal-palace",
-      "startTimestamp": 1747495800,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
       "correctAiInsight": true,
       "tournament": {
         "name": "Premier League",
@@ -295,7 +64,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1180958,
+          "userCount": 1181949,
           "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
@@ -523,7 +292,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1180958,
+          "userCount": 1181949,
           "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
@@ -737,7 +506,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 28184,
+          "userCount": 28151,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -947,7 +716,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 28184,
+          "userCount": 28151,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -1157,7 +926,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 28184,
+          "userCount": 28151,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -1372,7 +1141,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 28184,
+          "userCount": 28151,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -1577,7 +1346,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 28184,
+          "userCount": 28151,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -1792,7 +1561,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 28184,
+          "userCount": 28151,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -2017,7 +1786,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 38163,
+          "userCount": 38139,
           "hasPerformanceGraphFeature": false,
           "id": 346,
           "country": {},
@@ -2252,7 +2021,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1180958,
+          "userCount": 1181949,
           "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
@@ -2466,7 +2235,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 242638,
+          "userCount": 242211,
           "hasPerformanceGraphFeature": false,
           "id": 17015,
           "country": {},
@@ -2693,7 +2462,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1180958,
+          "userCount": 1181949,
           "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
@@ -2910,7 +2679,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 242638,
+          "userCount": 242211,
           "hasPerformanceGraphFeature": false,
           "id": 17015,
           "country": {},
@@ -3141,7 +2910,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1180958,
+          "userCount": 1181949,
           "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
@@ -3368,7 +3137,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1180958,
+          "userCount": 1181949,
           "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
@@ -3593,7 +3362,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 147216,
+          "userCount": 147103,
           "hasPerformanceGraphFeature": false,
           "id": 21,
           "country": {},
@@ -3827,7 +3596,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1180958,
+          "userCount": 1181949,
           "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
@@ -4057,7 +3826,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1180958,
+          "userCount": 1181949,
           "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
@@ -4273,7 +4042,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 242638,
+          "userCount": 242211,
           "hasPerformanceGraphFeature": false,
           "id": 17015,
           "country": {},
@@ -4501,7 +4270,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1180958,
+          "userCount": 1181949,
           "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
@@ -4728,7 +4497,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1180958,
+          "userCount": 1181949,
           "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
@@ -4942,7 +4711,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 242638,
+          "userCount": 242211,
           "hasPerformanceGraphFeature": false,
           "id": 17015,
           "country": {},
@@ -5171,7 +4940,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1180958,
+          "userCount": 1181949,
           "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
@@ -5398,7 +5167,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 147216,
+          "userCount": 147103,
           "hasPerformanceGraphFeature": false,
           "id": 21,
           "country": {},
@@ -5627,7 +5396,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1180958,
+          "userCount": 1181949,
           "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
@@ -5841,7 +5610,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 242638,
+          "userCount": 242211,
           "hasPerformanceGraphFeature": false,
           "id": 17015,
           "country": {},
@@ -6071,7 +5840,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1180958,
+          "userCount": 1181949,
           "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
@@ -6301,7 +6070,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1180958,
+          "userCount": 1181949,
           "hasPerformanceGraphFeature": true,
           "id": 17,
           "country": {},
@@ -6517,7 +6286,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 242638,
+          "userCount": 242211,
           "hasPerformanceGraphFeature": false,
           "id": 17015,
           "country": {},
@@ -6682,21 +6451,251 @@
       "finalResultOnly": false,
       "feedLocked": true,
       "isEditor": false
+    },
+    {
+      "correctAiInsight": false,
+      "correctHalftimeAiInsight": false,
+      "tournament": {
+        "name": "Premier League",
+        "slug": "premier-league",
+        "category": {
+          "name": "England",
+          "slug": "england",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "flag": "england",
+          "alpha2": "EN",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إنجلترا",
+              "hi": "इंग्लैंड",
+              "bn": "ইংল্যান্ড"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Premier League",
+          "slug": "premier-league",
+          "primaryColorHex": "#3c1c5a",
+          "secondaryColorHex": "#f80158",
+          "category": {
+            "name": "England",
+            "slug": "england",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "flag": "england",
+            "alpha2": "EN",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إنجلترا",
+                "hi": "इंग्लैंड",
+                "bn": "ইংল্যান্ড"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1181949,
+          "hasPerformanceGraphFeature": true,
+          "id": 17,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الإنجليزي الممتاز",
+              "hi": "प्रिमियर लीग",
+              "bn": "প্রিমিয়ার লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 699,
+        "isGroup": false,
+        "isLive": false,
+        "id": 1,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإنجليزي الممتاز",
+            "hi": "प्रिमियर लीग",
+            "bn": "প্রিমিয়ার লীগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Premier League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76986
+      },
+      "roundInfo": {
+        "round": 13
+      },
+      "customId": "hK",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 2,
+      "homeTeam": {
+        "name": "Crystal Palace",
+        "slug": "crystal-palace",
+        "shortName": "Crystal Palace",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 401977,
+        "nameCode": "CRY",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 7,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#0033ff",
+          "secondary": "#b90d2b",
+          "text": "#b90d2b"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستال بالاس",
+            "ru": "Кристал Пэлас",
+            "hi": "क्रिस्टल पैलेस",
+            "bn": "ক্রিস্টাল প্যালেস"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "awayTeam": {
+        "name": "Manchester United",
+        "slug": "manchester-united",
+        "shortName": "Man Utd",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 2930153,
+        "nameCode": "MUN",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 35,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ff0000",
+          "secondary": "#373737",
+          "text": "#373737"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانتشستر يونايتد",
+            "ru": "Манчестер Юнайтед",
+            "hi": "मेनचेस्टर यूनाइटेड ऍफ़सी"
+          },
+          "shortNameTranslation": {
+            "ar": "مان يونايتد",
+            "hi": "मैन यूनाइटेड",
+            "bn": "ম্যান ইউনাইটেড"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 1,
+        "period2": 0,
+        "normaltime": 1
+      },
+      "awayScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 0,
+        "period2": 2,
+        "normaltime": 2
+      },
+      "time": {
+        "injuryTime1": 5,
+        "injuryTime2": 4,
+        "currentPeriodStartTimestamp": 1764507961
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1764510989
+      },
+      "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14025102,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "manchester-united-crystal-palace",
+      "startTimestamp": 1764504000,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false
     }
   ],
   "last5": {
-    "form": "LWDWW",
-    "w": 3,
+    "form": "LLWDW",
+    "w": 2,
     "d": 1,
-    "l": 1,
-    "gf": 8,
-    "ga": 3,
-    "avg_gf": 1.6,
-    "avg_ga": 0.6,
+    "l": 2,
+    "gf": 7,
+    "ga": 5,
+    "avg_gf": 1.4,
+    "avg_ga": 1.0,
     "count": 5
   },
   "last10": {
-    "form": "LWDWWWLLDL",
+    "form": "LLWDWWWLLD",
     "w": 4,
     "d": 2,
     "l": 4,
@@ -6713,11 +6712,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 346.2,
-    "avg_accurate": 256.4,
-    "avg_accuracy_pct": 73.02542472419266
+    "avg_passes": 360.4,
+    "avg_accurate": 269.6,
+    "avg_accuracy_pct": 74.13712287062863
   },
   "passes_events_last5": [
+    {
+      "event_id": 14025102,
+      "startTimestamp": 1764504000,
+      "passes": 339.0,
+      "accurate": 244.0,
+      "accuracy_pct": 71.976401179941
+    },
     {
       "event_id": 14573048,
       "startTimestamp": 1764273600,
@@ -6745,13 +6751,6 @@
       "passes": 274.0,
       "accurate": 188.0,
       "accuracy_pct": 68.61313868613139
-    },
-    {
-      "event_id": 14025277,
-      "startTimestamp": 1762009200,
-      "passes": 268.0,
-      "accurate": 178.0,
-      "accuracy_pct": 66.4179104477612
     }
   ]
 }
