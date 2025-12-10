@@ -3,233 +3,7 @@
   "team": "Barcelona",
   "events": [
     {
-      "correctAiInsight": true,
-      "tournament": {
-        "name": "UEFA Champions League, Knockout Phase",
-        "slug": "uefa-champions-league-knockout-phase",
-        "category": {
-          "name": "Europe",
-          "slug": "europe",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "id": 1465,
-          "country": {},
-          "flag": "europe",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "أوروبا",
-              "hi": "यूरोप",
-              "bn": "ইউরোপ"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "UEFA Champions League",
-          "slug": "uefa-champions-league",
-          "primaryColorHex": "#062b5c",
-          "secondaryColorHex": "#086aab",
-          "category": {
-            "name": "Europe",
-            "slug": "europe",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "id": 1465,
-            "country": {},
-            "flag": "europe",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "أوروبا",
-                "hi": "यूरोप",
-                "bn": "ইউরোপ"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 1171709,
-          "hasPerformanceGraphFeature": false,
-          "id": 7,
-          "country": {},
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "دوري أبطال أوروبا",
-              "hi": "यूईएफए चैंपियंस लीग",
-              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 703,
-        "isGroup": false,
-        "id": 145109,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "دوري أبطال أوروبا، مرحلة خروج المغلوب"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "UEFA Champions League 24/25",
-        "year": "24/25",
-        "editor": false,
-        "seasonCoverageInfo": {},
-        "id": 61644
-      },
-      "roundInfo": {
-        "round": 28,
-        "name": "Semifinals",
-        "slug": "semifinals",
-        "cupRoundType": 2
-      },
-      "customId": "Xdbsrgb",
-      "status": {
-        "code": 110,
-        "description": "AET",
-        "type": "finished"
-      },
-      "winnerCode": 1,
-      "aggregatedWinnerCode": 1,
-      "homeTeam": {
-        "name": "Inter",
-        "slug": "inter",
-        "shortName": "Inter",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 1789470,
-        "nameCode": "INT",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 2697,
-        "country": {
-          "alpha2": "IT",
-          "alpha3": "ITA",
-          "name": "Italy",
-          "slug": "italy"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#1a57cc",
-          "secondary": "#000000",
-          "text": "#000000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "انتر",
-            "ru": "Интер",
-            "hi": "इंटर",
-            "bn": "ইন্টার"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "awayTeam": {
-        "name": "Barcelona",
-        "slug": "barcelona",
-        "shortName": "Barcelona",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 5842377,
-        "nameCode": "BAR",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 2817,
-        "country": {
-          "alpha2": "ES",
-          "alpha3": "ESP",
-          "name": "Spain",
-          "slug": "spain"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#154284",
-          "secondary": "#9d1009",
-          "text": "#9d1009"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "برشلونة",
-            "ru": "Барселона",
-            "hi": "बार्सिलोना",
-            "bn": "বার্সেলোনা"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "homeScore": {
-        "current": 4,
-        "display": 4,
-        "period1": 2,
-        "period2": 1,
-        "normaltime": 3,
-        "extra1": 1,
-        "extra2": 0,
-        "overtime": 1,
-        "aggregated": 7
-      },
-      "awayScore": {
-        "current": 3,
-        "display": 3,
-        "period1": 0,
-        "period2": 3,
-        "normaltime": 3,
-        "extra1": 0,
-        "extra2": 0,
-        "overtime": 0,
-        "aggregated": 6
-      },
-      "time": {
-        "injuryTime1": 1,
-        "injuryTime2": 5,
-        "injuryTime3": 3,
-        "injuryTime4": 2,
-        "currentPeriodStartTimestamp": 1746566511
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1746567557
-      },
-      "hasGlobalHighlights": false,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 13513416,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
-      "slug": "wqf3-wqf4",
-      "previousLegEventId": 13513414,
-      "startTimestamp": 1746558000,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
+      "eventState": {},
       "correctAiInsight": true,
       "tournament": {
         "name": "LaLiga",
@@ -291,7 +65,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -345,7 +119,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -383,7 +157,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 6259918,
+        "userCount": 6260039,
         "nameCode": "RMA",
         "disabled": false,
         "national": false,
@@ -445,10 +219,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 12437545,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "real-madrid-barcelona",
       "startTimestamp": 1746972900,
       "finalResultOnly": false,
@@ -456,6 +226,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "tournament": {
         "name": "LaLiga",
@@ -517,7 +288,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -571,7 +342,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 158576,
+        "userCount": 158298,
         "nameCode": "ESP",
         "disabled": false,
         "national": false,
@@ -609,7 +380,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -674,10 +445,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 12437654,
       "homeRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "barcelona-espanyol",
       "startTimestamp": 1747337400,
       "finalResultOnly": false,
@@ -685,6 +452,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "tournament": {
         "name": "LaLiga",
@@ -746,7 +514,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -800,7 +568,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -838,7 +606,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 410062,
+        "userCount": 410237,
         "nameCode": "VIL",
         "disabled": false,
         "national": false,
@@ -900,10 +668,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 12437489,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "villarreal-barcelona",
       "startTimestamp": 1747587600,
       "finalResultOnly": false,
@@ -911,6 +675,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "tournament": {
         "name": "LaLiga",
@@ -972,7 +737,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -1026,7 +791,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 542083,
+        "userCount": 541324,
         "nameCode": "ATH",
         "disabled": false,
         "national": false,
@@ -1064,7 +829,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -1129,10 +894,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 12437503,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "athletic-club-barcelona",
       "startTimestamp": 1748199600,
       "finalResultOnly": false,
@@ -1140,6 +901,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -1190,7 +952,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 27970,
+          "userCount": 27954,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -1241,7 +1003,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 35120,
+        "userCount": 35214,
         "nameCode": "VIK",
         "disabled": false,
         "national": false,
@@ -1278,7 +1040,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -1337,10 +1099,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14049234,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "vissel-kobe-barcelona",
       "startTimestamp": 1753610400,
       "finalResultOnly": false,
@@ -1348,6 +1106,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "tournament": {
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
@@ -1396,7 +1155,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 27970,
+          "userCount": 27954,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -1447,7 +1206,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 18047,
+        "userCount": 18031,
         "nameCode": "SEO",
         "national": false,
         "type": 0,
@@ -1483,7 +1242,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -1542,10 +1301,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14049235,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "fc-seoul-barcelona",
       "startTimestamp": 1753959600,
       "finalResultOnly": false,
@@ -1553,6 +1308,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "tournament": {
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
@@ -1601,7 +1357,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 27970,
+          "userCount": 27954,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -1652,7 +1408,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 12270,
+        "userCount": 12244,
         "nameCode": "DAG",
         "disabled": false,
         "national": false,
@@ -1689,7 +1445,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -1750,10 +1506,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14049238,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "daegu-fc-barcelona",
       "startTimestamp": 1754305200,
       "finalResultOnly": false,
@@ -1761,6 +1513,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "tournament": {
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
@@ -1809,7 +1562,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 27970,
+          "userCount": 27954,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -1860,7 +1613,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -1898,7 +1651,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 154502,
+        "userCount": 154429,
         "nameCode": "COM",
         "disabled": false,
         "national": false,
@@ -1956,10 +1709,6 @@
       "hasGlobalHighlights": true,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14365421,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "barcelona-como",
       "startTimestamp": 1754852400,
       "finalResultOnly": false,
@@ -1967,6 +1716,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -2029,7 +1779,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -2084,7 +1834,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 187997,
+        "userCount": 187460,
         "nameCode": "MLL",
         "disabled": false,
         "national": false,
@@ -2122,7 +1872,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -2187,10 +1937,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14082855,
       "homeRedCards": 2,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "mallorca-barcelona",
       "startTimestamp": 1755365400,
       "finalResultOnly": false,
@@ -2198,6 +1944,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -2260,7 +2007,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -2315,7 +2062,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 80026,
+        "userCount": 80968,
         "nameCode": "LEV",
         "disabled": false,
         "national": false,
@@ -2356,7 +2103,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -2418,10 +2165,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14082865,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "levante-ud-barcelona",
       "startTimestamp": 1755977400,
       "finalResultOnly": false,
@@ -2429,6 +2172,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -2491,7 +2235,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -2546,7 +2290,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190094,
+        "userCount": 189654,
         "nameCode": "RAY",
         "disabled": false,
         "national": false,
@@ -2584,7 +2328,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -2646,10 +2390,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14083178,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "rayo-vallecano-barcelona",
       "startTimestamp": 1756668600,
       "finalResultOnly": false,
@@ -2657,6 +2397,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -2719,7 +2460,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -2774,7 +2515,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -2812,7 +2553,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 293158,
+        "userCount": 292495,
         "nameCode": "VAL",
         "disabled": false,
         "national": false,
@@ -2874,10 +2615,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14083216,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "valencia-barcelona",
       "startTimestamp": 1757876400,
       "finalResultOnly": false,
@@ -2885,6 +2622,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -2935,7 +2673,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1171709,
+          "userCount": 1171682,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -2986,7 +2724,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 861333,
+        "userCount": 860077,
         "nameCode": "NEW",
         "disabled": false,
         "national": false,
@@ -3027,7 +2765,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -3090,10 +2828,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566955,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "barcelona-newcastle-united",
       "startTimestamp": 1758222000,
       "finalResultOnly": false,
@@ -3101,6 +2835,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -3163,7 +2898,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -3218,7 +2953,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -3256,7 +2991,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 187089,
+        "userCount": 186601,
         "nameCode": "GET",
         "disabled": false,
         "national": false,
@@ -3318,10 +3053,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14083262,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "getafe-barcelona",
       "startTimestamp": 1758481200,
       "finalResultOnly": false,
@@ -3329,6 +3060,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -3391,7 +3123,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -3446,7 +3178,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 73054,
+        "userCount": 73001,
         "nameCode": "OVI",
         "disabled": false,
         "national": false,
@@ -3483,7 +3215,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -3545,10 +3277,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14083481,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "real-oviedo-barcelona",
       "startTimestamp": 1758828600,
       "finalResultOnly": false,
@@ -3556,6 +3284,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "tournament": {
         "name": "LaLiga",
@@ -3617,7 +3346,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -3672,7 +3401,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -3710,7 +3439,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 402327,
+        "userCount": 401379,
         "nameCode": "RSO",
         "disabled": false,
         "national": false,
@@ -3772,10 +3501,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14083553,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "real-sociedad-barcelona",
       "startTimestamp": 1759077000,
       "finalResultOnly": false,
@@ -3783,6 +3508,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -3833,7 +3559,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1171709,
+          "userCount": 1171682,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -3884,7 +3610,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -3922,7 +3648,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2702178,
+        "userCount": 2701150,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -3987,10 +3713,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566650,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "barcelona-paris-saint-germain",
       "startTimestamp": 1759345200,
       "finalResultOnly": false,
@@ -3998,6 +3720,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -4060,7 +3783,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -4115,7 +3838,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 404199,
+        "userCount": 403249,
         "nameCode": "SEV",
         "disabled": false,
         "national": false,
@@ -4153,7 +3876,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -4215,10 +3938,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14083630,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "sevilla-barcelona",
       "startTimestamp": 1759673700,
       "finalResultOnly": false,
@@ -4226,6 +3945,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -4288,7 +4008,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -4343,7 +4063,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -4381,7 +4101,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 383760,
+        "userCount": 382284,
         "nameCode": "GIR",
         "disabled": false,
         "national": false,
@@ -4448,10 +4168,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14083664,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "girona-fc-barcelona",
       "startTimestamp": 1760796900,
       "finalResultOnly": false,
@@ -4459,6 +4175,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -4509,7 +4226,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1171709,
+          "userCount": 1171682,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -4560,7 +4277,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -4598,7 +4315,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 271417,
+        "userCount": 271418,
         "nameCode": "OLY",
         "disabled": false,
         "national": false,
@@ -4662,10 +4379,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566652,
       "awayRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "olympiacos-fc-barcelona",
       "startTimestamp": 1761065100,
       "finalResultOnly": false,
@@ -4673,6 +4386,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -4735,7 +4449,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -4790,7 +4504,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 6259918,
+        "userCount": 6260039,
         "nameCode": "RMA",
         "disabled": false,
         "national": false,
@@ -4828,7 +4542,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -4891,10 +4605,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14083729,
       "awayRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "real-madrid-barcelona",
       "startTimestamp": 1761491700,
       "finalResultOnly": false,
@@ -4902,6 +4612,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -4964,7 +4675,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -5019,7 +4730,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -5057,7 +4768,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 84025,
+        "userCount": 83925,
         "nameCode": "ELC",
         "disabled": false,
         "national": false,
@@ -5119,10 +4830,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14083095,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "elche-barcelona",
       "startTimestamp": 1762104600,
       "finalResultOnly": false,
@@ -5130,6 +4837,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -5180,7 +4888,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1171709,
+          "userCount": 1171682,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -5231,7 +4939,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 286386,
+        "userCount": 285930,
         "nameCode": "BRU",
         "disabled": false,
         "national": false,
@@ -5271,7 +4979,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -5334,10 +5042,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566745,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "club-brugge-kv-barcelona",
       "startTimestamp": 1762372800,
       "finalResultOnly": false,
@@ -5345,6 +5049,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -5407,7 +5112,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -5462,7 +5167,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 229363,
+        "userCount": 229257,
         "nameCode": "CEL",
         "disabled": false,
         "national": false,
@@ -5502,7 +5207,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -5565,10 +5270,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14083115,
       "awayRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "celta-vigo-barcelona",
       "startTimestamp": 1762718400,
       "finalResultOnly": false,
@@ -5576,6 +5277,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -5638,7 +5340,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -5693,7 +5395,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -5731,7 +5433,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 542083,
+        "userCount": 541324,
         "nameCode": "ATH",
         "disabled": false,
         "national": false,
@@ -5792,10 +5494,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14083130,
       "awayRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "athletic-club-barcelona",
       "startTimestamp": 1763824500,
       "finalResultOnly": false,
@@ -5803,6 +5501,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -5853,7 +5552,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1171709,
+          "userCount": 1171682,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -5904,7 +5603,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2729624,
+        "userCount": 2729490,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
@@ -5942,7 +5641,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -6006,10 +5705,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566580,
       "awayRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "barcelona-chelsea",
       "startTimestamp": 1764100800,
       "finalResultOnly": false,
@@ -6017,6 +5712,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -6079,7 +5775,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -6134,7 +5830,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -6172,7 +5868,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 131439,
+        "userCount": 131201,
         "nameCode": "ALA",
         "disabled": false,
         "national": false,
@@ -6234,10 +5930,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14083144,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "deportivo-alaves-barcelona",
       "startTimestamp": 1764429300,
       "finalResultOnly": false,
@@ -6245,6 +5937,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -6307,7 +6000,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -6362,7 +6055,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -6400,7 +6093,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1985150,
+        "userCount": 1985476,
         "nameCode": "ATM",
         "disabled": false,
         "national": false,
@@ -6466,10 +6159,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14083215,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "atletico-madrid-barcelona",
       "startTimestamp": 1764705600,
       "finalResultOnly": false,
@@ -6477,6 +6166,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -6539,7 +6229,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 829717,
+          "userCount": 828741,
           "hasPerformanceGraphFeature": true,
           "id": 8,
           "country": {},
@@ -6594,7 +6284,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 557481,
+        "userCount": 556696,
         "nameCode": "BET",
         "disabled": false,
         "national": false,
@@ -6634,7 +6324,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5842377,
+        "userCount": 5843436,
         "nameCode": "BAR",
         "disabled": false,
         "national": false,
@@ -6696,36 +6386,247 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14083155,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "barcelona-real-betis",
       "startTimestamp": 1765042200,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false
+    },
+    {
+      "eventState": {
+        "statusIndicator": "varInProgress"
+      },
+      "correctAiInsight": true,
+      "correctHalftimeAiInsight": true,
+      "tournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1465,
+          "country": {},
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "UEFA Champions League",
+          "slug": "uefa-champions-league",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1171682,
+          "hasPerformanceGraphFeature": false,
+          "id": 7,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أبطال أوروبا",
+              "hi": "यूईएफए चैंपियंस लीग",
+              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 714,
+        "isGroup": false,
+        "id": 138314,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري أبطال أوروبا"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "UEFA Champions League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76953
+      },
+      "roundInfo": {
+        "round": 6
+      },
+      "customId": "zdbsrgb",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5843436,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "awayTeam": {
+        "name": "Eintracht Frankfurt",
+        "slug": "eintracht-frankfurt",
+        "shortName": "Frankfurt",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 277034,
+        "nameCode": "SGE",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2674,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#ff1111",
+          "text": "#ff1111"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "اينتراخت فرنكفورت",
+            "ru": "Айнтрахт Франкфурт",
+            "hi": "एईनट्राख्ट फ्रांकफुर्ट"
+          },
+          "shortNameTranslation": {
+            "ar": "فرانكفورت",
+            "hi": "फ्रैंकफर्ट",
+            "bn": "ফ্রাঙ্কফুর্ট"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 0,
+        "period2": 2,
+        "normaltime": 2
+      },
+      "awayScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 1,
+        "period2": 0,
+        "normaltime": 1
+      },
+      "coverage": -1,
+      "time": {
+        "injuryTime1": 4,
+        "injuryTime2": 4,
+        "currentPeriodStartTimestamp": 1765314549
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1765317497
+      },
+      "hasGlobalHighlights": false,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14566651,
+      "slug": "barcelona-eintracht-frankfurt",
+      "startTimestamp": 1765310400,
       "finalResultOnly": false,
       "feedLocked": true,
       "isEditor": false
     }
   ],
   "last5": {
-    "form": "WWWLW",
+    "form": "WWWWL",
     "w": 4,
     "d": 0,
     "l": 1,
-    "gf": 15,
-    "ga": 8,
-    "avg_gf": 3.0,
-    "avg_ga": 1.6,
+    "gf": 13,
+    "ga": 9,
+    "avg_gf": 2.6,
+    "avg_ga": 1.8,
     "count": 5
   },
   "last10": {
-    "form": "WWWLWWDWLW",
+    "form": "WWWWLWWDWL",
     "w": 7,
     "d": 1,
     "l": 2,
-    "gf": 32,
+    "gf": 28,
     "ga": 17,
-    "avg_gf": 3.2,
+    "avg_gf": 2.8,
     "avg_ga": 1.7,
     "count": 10
   },
@@ -6736,11 +6637,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 589.4,
-    "avg_accurate": 516.4,
-    "avg_accuracy_pct": 87.27447124822179
+    "avg_passes": 613.6,
+    "avg_accurate": 541.2,
+    "avg_accuracy_pct": 87.68215970748618
   },
   "passes_events_last5": [
+    {
+      "event_id": 14566651,
+      "startTimestamp": 1765310400,
+      "passes": 819.0,
+      "accurate": 743.0,
+      "accuracy_pct": 90.72039072039072
+    },
     {
       "event_id": 14083155,
       "startTimestamp": 1765042200,
@@ -6768,13 +6676,6 @@
       "passes": 417.0,
       "accurate": 349.0,
       "accuracy_pct": 83.69304556354916
-    },
-    {
-      "event_id": 14083130,
-      "startTimestamp": 1763824500,
-      "passes": 698.0,
-      "accurate": 619.0,
-      "accuracy_pct": 88.68194842406876
     }
   ]
 }

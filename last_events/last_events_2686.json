@@ -3,234 +3,7 @@
   "team": "Atalanta",
   "events": [
     {
-      "correctAiInsight": true,
-      "tournament": {
-        "name": "Serie A",
-        "slug": "serie-a",
-        "category": {
-          "name": "Italy",
-          "slug": "italy",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "id": 31,
-          "country": {
-            "alpha2": "IT",
-            "alpha3": "ITA",
-            "name": "Italy",
-            "slug": "italy"
-          },
-          "flag": "italy",
-          "alpha2": "IT",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "إيطاليا",
-              "hi": "इटली",
-              "bn": "ইতালি"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "Serie A",
-          "slug": "serie-a",
-          "primaryColorHex": "#09519e",
-          "secondaryColorHex": "#008fd7",
-          "category": {
-            "name": "Italy",
-            "slug": "italy",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "id": 31,
-            "country": {
-              "alpha2": "IT",
-              "alpha3": "ITA",
-              "name": "Italy",
-              "slug": "italy"
-            },
-            "flag": "italy",
-            "alpha2": "IT",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "إيطاليا",
-                "hi": "इटली",
-                "bn": "ইতালি"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 630314,
-          "hasPerformanceGraphFeature": true,
-          "id": 23,
-          "country": {},
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "الدوري الإيطالي",
-              "hi": "सीरी ए",
-              "bn": "সিরি আ"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 698,
-        "isGroup": false,
-        "isLive": false,
-        "id": 33,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "الدوري الإيطالي",
-            "hi": "सीरी ए",
-            "bn": "সিরি আ"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Serie A 24/25",
-        "year": "24/25",
-        "editor": false,
-        "id": 63515
-      },
-      "roundInfo": {
-        "round": 35
-      },
-      "customId": "LdbsEeb",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 2,
-      "homeTeam": {
-        "name": "Monza",
-        "slug": "monza",
-        "shortName": "Monza",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 79049,
-        "nameCode": "MON",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 2729,
-        "country": {
-          "alpha2": "IT",
-          "alpha3": "ITA",
-          "name": "Italy",
-          "slug": "italy"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#d71742",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "مونزا",
-            "ru": "Монца",
-            "hi": "मॉन्ज़ा",
-            "bn": "মনজা"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "awayTeam": {
-        "name": "Atalanta",
-        "slug": "atalanta",
-        "shortName": "Atalanta",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 664620,
-        "nameCode": "ATA",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 2686,
-        "country": {
-          "alpha2": "IT",
-          "alpha3": "ITA",
-          "name": "Italy",
-          "slug": "italy"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#0000cc",
-          "secondary": "#000000",
-          "text": "#000000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "أتالانتا",
-            "ru": "Аталанта",
-            "hi": "अटलांटा",
-            "bn": "আটলান্টা"
-          },
-          "shortNameTranslation": {
-            "ar": "أتالانتا"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 0,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0
-      },
-      "awayScore": {
-        "current": 4,
-        "display": 4,
-        "period1": 2,
-        "period2": 2,
-        "normaltime": 4
-      },
-      "time": {
-        "injuryTime1": 2,
-        "injuryTime2": 2,
-        "currentPeriodStartTimestamp": 1746367366
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1746370203
-      },
-      "hasGlobalHighlights": false,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 12501509,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
-      "slug": "monza-atalanta",
-      "startTimestamp": 1746363600,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
+      "eventState": {},
       "correctAiInsight": true,
       "tournament": {
         "name": "Serie A",
@@ -448,10 +221,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 12501528,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "roma-atalanta",
       "startTimestamp": 1747075500,
       "finalResultOnly": false,
@@ -459,6 +228,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "tournament": {
         "name": "Serie A",
@@ -676,10 +446,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 12501535,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "genoa-atalanta",
       "startTimestamp": 1747507500,
       "finalResultOnly": false,
@@ -687,6 +453,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "tournament": {
         "name": "Serie A",
@@ -904,10 +671,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 12501544,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "parma-atalanta",
       "startTimestamp": 1748198700,
       "finalResultOnly": false,
@@ -915,6 +678,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "tournament": {
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
@@ -1108,10 +872,6 @@
       "hasGlobalHighlights": true,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14276374,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "atalanta-u23-atalanta",
       "startTimestamp": 1753542000,
       "finalResultOnly": false,
@@ -1119,6 +879,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "tournament": {
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
@@ -1320,10 +1081,6 @@
       "hasGlobalHighlights": true,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14061778,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "rb-leipzig-atalanta",
       "startTimestamp": 1754139600,
       "finalResultOnly": false,
@@ -1331,6 +1088,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "tournament": {
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
@@ -1532,10 +1290,6 @@
       "hasGlobalHighlights": false,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14356645,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "monza-atalanta",
       "startTimestamp": 1754492400,
       "finalResultOnly": false,
@@ -1543,6 +1297,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "tournament": {
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
@@ -1741,10 +1496,6 @@
       "hasGlobalHighlights": true,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14059453,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "atalanta-1-fc-koln",
       "startTimestamp": 1754746200,
       "finalResultOnly": false,
@@ -1752,6 +1503,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "tournament": {
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
@@ -1947,10 +1699,6 @@
       "hasGlobalHighlights": false,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14394346,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "nk-opatija-atalanta",
       "startTimestamp": 1754814600,
       "finalResultOnly": false,
@@ -1958,6 +1706,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "tournament": {
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
@@ -2158,10 +1907,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14379784,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "juventus-atalanta",
       "startTimestamp": 1755369900,
       "finalResultOnly": false,
@@ -2169,6 +1914,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -2387,10 +2133,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 13981444,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "pisa-atalanta",
       "startTimestamp": 1756061100,
       "finalResultOnly": false,
@@ -2398,6 +2140,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -2616,10 +2359,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 13981426,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "parma-atalanta",
       "startTimestamp": 1756571400,
       "finalResultOnly": false,
@@ -2627,6 +2366,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -2845,10 +2585,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 13981450,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "lecce-atalanta",
       "startTimestamp": 1757854800,
       "finalResultOnly": false,
@@ -2856,6 +2592,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -3064,10 +2801,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566657,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "atalanta-paris-saint-germain",
       "startTimestamp": 1758135600,
       "finalResultOnly": false,
@@ -3075,6 +2808,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -3293,10 +3027,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 13981454,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "torino-atalanta",
       "startTimestamp": 1758459600,
       "finalResultOnly": false,
@@ -3304,6 +3034,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -3523,10 +3254,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 13981465,
       "awayRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "juventus-atalanta",
       "startTimestamp": 1758988800,
       "finalResultOnly": false,
@@ -3534,6 +3261,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -3740,10 +3468,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566727,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "club-brugge-kv-atalanta",
       "startTimestamp": 1759250700,
       "finalResultOnly": false,
@@ -3751,6 +3475,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -3966,10 +3691,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 13981483,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "como-atalanta",
       "startTimestamp": 1759603500,
       "finalResultOnly": false,
@@ -3977,6 +3698,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -4195,10 +3917,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 13981487,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "lazio-atalanta",
       "startTimestamp": 1760889600,
       "finalResultOnly": false,
@@ -4206,6 +3924,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -4410,10 +4129,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566728,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "atalanta-sk-slavia-praha",
       "startTimestamp": 1761159600,
       "finalResultOnly": false,
@@ -4421,6 +4136,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -4640,10 +4356,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 13981488,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "cremonese-atalanta",
       "startTimestamp": 1761417900,
       "finalResultOnly": false,
@@ -4651,6 +4363,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -4869,10 +4582,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 13981501,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "milan-atalanta",
       "startTimestamp": 1761680700,
       "finalResultOnly": false,
@@ -4880,6 +4589,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -5098,10 +4808,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 13981516,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "udinese-atalanta",
       "startTimestamp": 1762005600,
       "finalResultOnly": false,
@@ -5109,6 +4815,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -5315,10 +5022,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566822,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "atalanta-olympique-de-marseille",
       "startTimestamp": 1762372800,
       "finalResultOnly": false,
@@ -5326,6 +5029,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -5544,10 +5248,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 13981521,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "sassuolo-atalanta",
       "startTimestamp": 1762687800,
       "finalResultOnly": false,
@@ -5555,6 +5255,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -5773,10 +5474,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 13981533,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "napoli-atalanta",
       "startTimestamp": 1763840700,
       "finalResultOnly": false,
@@ -5784,6 +5481,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -5991,10 +5689,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566755,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "atalanta-eintracht-frankfurt",
       "startTimestamp": 1764187200,
       "finalResultOnly": false,
@@ -6002,6 +5696,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -6222,10 +5917,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 13981549,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "fiorentina-atalanta",
       "startTimestamp": 1764522000,
       "finalResultOnly": false,
@@ -6233,6 +5924,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -6456,10 +6148,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14787843,
       "awayRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "genoa-atalanta",
       "startTimestamp": 1764770400,
       "finalResultOnly": false,
@@ -6467,6 +6155,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -6688,36 +6377,246 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 13981553,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "hellas-verona-atalanta",
       "startTimestamp": 1765050300,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false
+    },
+    {
+      "eventState": {
+        "statusIndicator": "varInProgress"
+      },
+      "correctAiInsight": false,
+      "correctHalftimeAiInsight": false,
+      "tournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1465,
+          "country": {},
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "UEFA Champions League",
+          "slug": "uefa-champions-league",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1171682,
+          "hasPerformanceGraphFeature": false,
+          "id": 7,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أبطال أوروبا",
+              "hi": "यूईएफए चैंपियंस लीग",
+              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 714,
+        "isGroup": false,
+        "id": 138314,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري أبطال أوروبا"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "UEFA Champions League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76953
+      },
+      "roundInfo": {
+        "round": 6
+      },
+      "customId": "NsLdb",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Atalanta",
+        "slug": "atalanta",
+        "shortName": "Atalanta",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 664620,
+        "nameCode": "ATA",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2686,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#0000cc",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أتالانتا",
+            "ru": "Аталанта",
+            "hi": "अटलांटा",
+            "bn": "আটলান্টা"
+          },
+          "shortNameTranslation": {
+            "ar": "أتالانتا"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "Chelsea",
+        "slug": "chelsea",
+        "shortName": "Chelsea",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 2729490,
+        "nameCode": "CHE",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 38,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#0310a7",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تشيلسي",
+            "ru": "Челси",
+            "hi": "चेल्सी",
+            "bn": "চেলসি"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 0,
+        "period2": 2,
+        "normaltime": 2
+      },
+      "awayScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 1,
+        "period2": 0,
+        "normaltime": 1
+      },
+      "coverage": -1,
+      "time": {
+        "injuryTime1": 3,
+        "injuryTime2": 4,
+        "currentPeriodStartTimestamp": 1765314269
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1765317228
+      },
+      "hasGlobalHighlights": false,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14566726,
+      "slug": "atalanta-chelsea",
+      "startTimestamp": 1765310400,
       "finalResultOnly": false,
       "feedLocked": true,
       "isEditor": false
     }
   ],
   "last5": {
-    "form": "LWWWL",
-    "w": 3,
+    "form": "WLWWW",
+    "w": 4,
     "d": 0,
-    "l": 2,
-    "gf": 11,
-    "ga": 6,
-    "avg_gf": 2.2,
-    "avg_ga": 1.2,
+    "l": 1,
+    "gf": 12,
+    "ga": 4,
+    "avg_gf": 2.4,
+    "avg_ga": 0.8,
     "count": 5
   },
   "last10": {
-    "form": "LWWWLLWLDD",
-    "w": 4,
-    "d": 2,
+    "form": "WLWWWLLWLD",
+    "w": 5,
+    "d": 1,
     "l": 4,
-    "gf": 14,
+    "gf": 15,
     "ga": 12,
-    "avg_gf": 1.4,
+    "avg_gf": 1.5,
     "avg_ga": 1.2,
     "count": 10
   },
@@ -6728,11 +6627,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 511.2,
-    "avg_accurate": 434.8,
-    "avg_accuracy_pct": 84.92913185390358
+    "avg_passes": 503.4,
+    "avg_accurate": 427.8,
+    "avg_accuracy_pct": 84.85112257178648
   },
   "passes_events_last5": [
+    {
+      "event_id": 14566726,
+      "startTimestamp": 1765310400,
+      "passes": 494.0,
+      "accurate": 417.0,
+      "accuracy_pct": 84.41295546558705
+    },
     {
       "event_id": 13981553,
       "startTimestamp": 1765050300,
@@ -6760,13 +6666,6 @@
       "passes": 531.0,
       "accurate": 456.0,
       "accuracy_pct": 85.87570621468926
-    },
-    {
-      "event_id": 13981533,
-      "startTimestamp": 1763840700,
-      "passes": 533.0,
-      "accurate": 452.0,
-      "accuracy_pct": 84.80300187617262
     }
   ]
 }

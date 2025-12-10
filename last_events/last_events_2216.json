@@ -3,6 +3,7 @@
   "team": "SK Slavia Praha",
   "events": [
     {
+      "eventState": {},
       "tournament": {
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
@@ -51,215 +52,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 27970,
-          "hasPerformanceGraphFeature": false,
-          "id": 853,
-          "country": {},
-          "hasEventPlayerStatistics": false,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "مباريات ودية للأندية",
-              "hi": "क्लब फ्रेंडली गेम्स",
-              "bn": "ক্লাব ফ্রেন্ডলি গেমস"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 0,
-        "isGroup": false,
-        "isLive": false,
-        "id": 86,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "مباريات ودية للأندية",
-            "hi": "क्लब फ्रेंडली गेम्स",
-            "bn": "ক্লাব ফ্রেন্ডলি গেমস"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Club Friendly Games 2025",
-        "year": "2025",
-        "editor": false,
-        "id": 69580
-      },
-      "customId": "qUsJed",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 1,
-      "homeTeam": {
-        "name": "SK Slavia Praha",
-        "slug": "slavia-praha",
-        "shortName": "Slavia Praha",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 120876,
-        "nameCode": "SLA",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 2216,
-        "country": {
-          "alpha2": "CZ",
-          "alpha3": "CZE",
-          "name": "Czechia",
-          "slug": "czechia"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ffffff",
-          "secondary": "#e10000",
-          "text": "#e10000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "سلافيا براغ",
-            "ru": "Славия Прага",
-            "hi": "स्लाविया प्राहा",
-            "bn": "স্লাভিয়া প্রাহা"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "awayTeam": {
-        "name": "FC Universitatea Cluj",
-        "slug": "fc-universitatea-cluj",
-        "shortName": "U. Cluj",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 16960,
-        "nameCode": "UCL",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 7734,
-        "country": {
-          "alpha2": "RO",
-          "alpha3": "ROU",
-          "name": "Romania",
-          "slug": "romania"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ffffff",
-          "secondary": "#000000",
-          "text": "#000000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "يونيفيرسيتيتا كلج",
-            "ru": "ФК Университатя Клуж",
-            "hi": "ऍफ़सी युनिवेर्सिटाटिया क्लुज"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "homeScore": {
-        "current": 5,
-        "display": 5,
-        "period1": 4,
-        "period2": 1,
-        "normaltime": 5
-      },
-      "awayScore": {
-        "current": 2,
-        "display": 2,
-        "period1": 0,
-        "period2": 2,
-        "normaltime": 2
-      },
-      "time": {
-        "periodLength": 2700,
-        "overtimeLength": 900,
-        "totalPeriodCount": 2,
-        "currentPeriodStartTimestamp": 1751473941
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type",
-          "homeScore.normaltime",
-          "awayScore.normaltime"
-        ],
-        "changeTimestamp": 1751476682
-      },
-      "hasGlobalHighlights": true,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 14030670,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
-      "slug": "fc-universitatea-cluj-sk-slavia-praha",
-      "startTimestamp": 1751470200,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "tournament": {
-        "name": "Club Friendly Games",
-        "slug": "club-friendly-games",
-        "category": {
-          "name": "World",
-          "slug": "world",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "id": 1468,
-          "country": {},
-          "flag": "international",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "العالم",
-              "hi": "विश्व",
-              "bn": "বিশ্ব"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "Club Friendly Games",
-          "slug": "club-friendly-games",
-          "primaryColorHex": "#25497d",
-          "secondaryColorHex": "#d38f1d",
-          "category": {
-            "name": "World",
-            "slug": "world",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "id": 1468,
-            "country": {},
-            "flag": "international",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "العالم",
-                "hi": "विश्व",
-                "bn": "বিশ্ব"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 27970,
+          "userCount": 27927,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -310,7 +103,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -348,7 +141,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 6098,
+        "userCount": 6064,
         "nameCode": "BWL",
         "disabled": false,
         "national": false,
@@ -413,10 +206,6 @@
       "hasGlobalHighlights": true,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14094460,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "sk-slavia-praha-fc-blau-weiss-linz",
       "startTimestamp": 1751731200,
       "finalResultOnly": false,
@@ -424,6 +213,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "tournament": {
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
@@ -472,7 +262,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 27970,
+          "userCount": 27927,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -523,7 +313,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -561,7 +351,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 4545,
+        "userCount": 4510,
         "nameCode": "DIO",
         "disabled": false,
         "national": false,
@@ -616,10 +406,6 @@
       "hasGlobalHighlights": true,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14124944,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "diosgyori-vtk-sk-slavia-praha",
       "startTimestamp": 1752067800,
       "finalResultOnly": false,
@@ -627,6 +413,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "tournament": {
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
@@ -675,7 +462,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 27970,
+          "userCount": 27927,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -726,7 +513,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -764,7 +551,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 25753,
+        "userCount": 25640,
         "nameCode": "ALI",
         "disabled": false,
         "national": false,
@@ -823,10 +610,6 @@
       "hasGlobalHighlights": true,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14096879,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "aris-limassol-sk-slavia-praha",
       "startTimestamp": 1752076800,
       "finalResultOnly": false,
@@ -834,6 +617,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "tournament": {
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
@@ -882,7 +666,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 27970,
+          "userCount": 27927,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -933,7 +717,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -971,7 +755,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 17134,
+        "userCount": 17096,
         "nameCode": "SGD",
         "disabled": false,
         "national": false,
@@ -1032,10 +816,6 @@
       "hasGlobalHighlights": true,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 13996415,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "sg-dynamo-dresden-sk-slavia-praha",
       "startTimestamp": 1752408000,
       "finalResultOnly": false,
@@ -1043,6 +823,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -1101,7 +882,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -1155,7 +936,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -1193,7 +974,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 4285,
+        "userCount": 4253,
         "nameCode": "HRK",
         "disabled": false,
         "national": false,
@@ -1252,10 +1033,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036331,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "fc-hradec-kralove-sk-slavia-praha",
       "startTimestamp": 1753034400,
       "finalResultOnly": false,
@@ -1263,6 +1040,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -1321,7 +1099,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -1375,7 +1153,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 7396,
+        "userCount": 7355,
         "nameCode": "BOH",
         "national": false,
         "type": 0,
@@ -1412,7 +1190,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -1471,10 +1249,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036345,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "bohemians-praha-1905-sk-slavia-praha",
       "startTimestamp": 1753552800,
       "finalResultOnly": false,
@@ -1482,6 +1256,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -1540,7 +1315,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -1594,7 +1369,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 7690,
+        "userCount": 7658,
         "nameCode": "FCS",
         "national": false,
         "type": 0,
@@ -1633,7 +1408,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -1695,10 +1470,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036350,
       "awayRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "1-fc-slovacko-sk-slavia-praha",
       "startTimestamp": 1754226000,
       "finalResultOnly": false,
@@ -1706,6 +1477,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -1764,7 +1536,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -1818,7 +1590,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -1856,7 +1628,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5540,
+        "userCount": 5487,
         "nameCode": "TEP",
         "disabled": false,
         "national": false,
@@ -1916,10 +1688,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036361,
       "awayRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "sk-slavia-praha-fk-teplice",
       "startTimestamp": 1754762400,
       "finalResultOnly": false,
@@ -1927,6 +1695,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -1985,7 +1754,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -2039,7 +1808,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 8920,
+        "userCount": 8883,
         "nameCode": "FKJ",
         "national": false,
         "type": 0,
@@ -2079,7 +1848,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -2140,10 +1909,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036365,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "sk-slavia-praha-fk-jablonec",
       "startTimestamp": 1755367200,
       "finalResultOnly": false,
@@ -2151,6 +1916,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -2209,7 +1975,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -2263,7 +2029,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -2301,7 +2067,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 4720,
+        "userCount": 4690,
         "nameCode": "PAR",
         "disabled": false,
         "national": false,
@@ -2361,10 +2127,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036377,
       "awayRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "fk-pardubice-sk-slavia-praha",
       "startTimestamp": 1755972000,
       "finalResultOnly": false,
@@ -2372,6 +2134,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "tournament": {
         "name": "Czech First League",
@@ -2429,7 +2192,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -2483,7 +2246,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 7851,
+        "userCount": 7808,
         "nameCode": "MLA",
         "national": false,
         "type": 0,
@@ -2520,7 +2283,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -2581,10 +2344,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036387,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "mlada-boleslav-sk-slavia-praha",
       "startTimestamp": 1756576800,
       "finalResultOnly": false,
@@ -2592,6 +2351,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -2650,7 +2410,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -2704,7 +2464,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -2742,7 +2502,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 4978,
+        "userCount": 4940,
         "nameCode": "KAR",
         "disabled": false,
         "national": false,
@@ -2804,10 +2564,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036393,
       "awayRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "mfk-karvina-sk-slavia-praha",
       "startTimestamp": 1757779200,
       "finalResultOnly": false,
@@ -2815,6 +2571,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -2865,7 +2622,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1171709,
+          "userCount": 1178460,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -2916,7 +2673,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -2954,7 +2711,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 189050,
+        "userCount": 188479,
         "nameCode": "BOG",
         "disabled": false,
         "national": false,
@@ -3017,10 +2774,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566884,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "sk-slavia-praha-bodoglimt",
       "startTimestamp": 1758127500,
       "finalResultOnly": false,
@@ -3028,6 +2781,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -3086,7 +2840,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -3140,7 +2894,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 6609,
+        "userCount": 6573,
         "nameCode": "SLO",
         "national": false,
         "type": 0,
@@ -3179,7 +2933,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -3240,10 +2994,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036401,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "fc-slovan-liberec-sk-slavia-praha",
       "startTimestamp": 1758461400,
       "finalResultOnly": false,
@@ -3251,6 +3001,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "tournament": {
         "name": "Czech Cup",
         "slug": "cup",
@@ -3305,7 +3056,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 2520,
+          "userCount": 2513,
           "hasPerformanceGraphFeature": false,
           "id": 282,
           "country": {},
@@ -3361,7 +3112,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1247,
+        "userCount": 1237,
         "nameCode": "BRO",
         "national": false,
         "type": 0,
@@ -3397,7 +3148,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -3455,10 +3206,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14578555,
       "homeRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "sk-sokol-brozany-sk-slavia-praha",
       "startTimestamp": 1758636000,
       "finalResultOnly": false,
@@ -3466,6 +3213,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -3524,7 +3272,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -3578,7 +3326,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -3616,7 +3364,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 6416,
+        "userCount": 6385,
         "nameCode": "DUK",
         "disabled": false,
         "national": false,
@@ -3675,10 +3423,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036405,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "dukla-praha-sk-slavia-praha",
       "startTimestamp": 1758906000,
       "finalResultOnly": false,
@@ -3686,6 +3430,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -3736,7 +3481,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1171709,
+          "userCount": 1178460,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -3787,7 +3532,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1789470,
+        "userCount": 1794622,
         "nameCode": "INT",
         "disabled": false,
         "national": false,
@@ -3825,7 +3570,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -3888,10 +3633,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566613,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "inter-sk-slavia-praha",
       "startTimestamp": 1759258800,
       "finalResultOnly": false,
@@ -3899,6 +3640,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -3957,7 +3699,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -4011,7 +3753,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 119641,
+        "userCount": 118890,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -4049,7 +3791,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -4111,10 +3853,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036417,
       "awayRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "ac-sparta-praha-sk-slavia-praha",
       "startTimestamp": 1759681800,
       "finalResultOnly": false,
@@ -4122,6 +3860,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -4180,7 +3919,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -4234,7 +3973,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -4272,7 +4011,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 6710,
+        "userCount": 6680,
         "nameCode": "FCZ",
         "disabled": false,
         "national": false,
@@ -4331,10 +4070,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036424,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "fc-zlin-sk-slavia-praha",
       "startTimestamp": 1760803200,
       "finalResultOnly": false,
@@ -4342,6 +4077,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -4392,7 +4128,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1171709,
+          "userCount": 1178460,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -4443,7 +4179,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 665976,
+        "userCount": 667208,
         "nameCode": "ATA",
         "disabled": false,
         "national": false,
@@ -4483,7 +4219,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -4546,10 +4282,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566728,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "atalanta-sk-slavia-praha",
       "startTimestamp": 1761159600,
       "finalResultOnly": false,
@@ -4557,6 +4289,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -4615,7 +4348,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -4669,7 +4402,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 10126,
+        "userCount": 10094,
         "nameCode": "SIG",
         "national": false,
         "type": 0,
@@ -4704,7 +4437,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -4765,10 +4498,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036432,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "sk-slavia-praha-sk-sigma-olomouc",
       "startTimestamp": 1761480000,
       "finalResultOnly": false,
@@ -4776,6 +4505,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "tournament": {
         "name": "Czech Cup",
         "slug": "cup",
@@ -4830,7 +4560,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 2520,
+          "userCount": 2513,
           "hasPerformanceGraphFeature": false,
           "id": 282,
           "country": {},
@@ -4886,7 +4616,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 6710,
+        "userCount": 6680,
         "nameCode": "FCZ",
         "disabled": false,
         "national": false,
@@ -4922,7 +4652,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -4979,10 +4709,6 @@
       "hasGlobalHighlights": true,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14831893,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "fc-zlin-sk-slavia-praha",
       "startTimestamp": 1761751800,
       "finalResultOnly": false,
@@ -4990,6 +4716,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -5048,7 +4775,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -5102,7 +4829,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -5140,7 +4867,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 12654,
+        "userCount": 12580,
         "nameCode": "BAN",
         "national": false,
         "type": 0,
@@ -5198,10 +4925,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036492,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "sk-slavia-praha-banik-ostrava",
       "startTimestamp": 1762016400,
       "finalResultOnly": false,
@@ -5209,6 +4932,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -5259,7 +4983,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1171709,
+          "userCount": 1178460,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -5310,7 +5034,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -5348,7 +5072,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2820355,
+        "userCount": 2824566,
         "nameCode": "ARS",
         "disabled": false,
         "national": false,
@@ -5410,10 +5134,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566883,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "sk-slavia-praha-arsenal",
       "startTimestamp": 1762278300,
       "finalResultOnly": false,
@@ -5421,6 +5141,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -5479,7 +5200,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -5533,7 +5254,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 92752,
+        "userCount": 92307,
         "nameCode": "VIK",
         "disabled": false,
         "national": false,
@@ -5571,7 +5292,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -5632,10 +5353,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036494,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "viktoria-plzen-sk-slavia-praha",
       "startTimestamp": 1762709400,
       "finalResultOnly": false,
@@ -5643,6 +5360,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -5701,7 +5419,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -5755,7 +5473,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -5793,7 +5511,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 7396,
+        "userCount": 7355,
         "nameCode": "BOH",
         "national": false,
         "type": 0,
@@ -5852,10 +5570,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036512,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "bohemians-praha-1905-sk-slavia-praha",
       "startTimestamp": 1763830800,
       "finalResultOnly": false,
@@ -5863,6 +5577,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -5913,7 +5628,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1171709,
+          "userCount": 1178460,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -5964,7 +5679,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -6002,7 +5717,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 542083,
+        "userCount": 541152,
         "nameCode": "ATH",
         "disabled": false,
         "national": false,
@@ -6065,10 +5780,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566885,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "athletic-club-sk-slavia-praha",
       "startTimestamp": 1764100800,
       "finalResultOnly": false,
@@ -6076,6 +5787,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -6134,7 +5846,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -6188,7 +5900,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -6226,7 +5938,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 7690,
+        "userCount": 7658,
         "nameCode": "FCS",
         "national": false,
         "type": 0,
@@ -6289,10 +6001,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036518,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "1-fc-slovacko-sk-slavia-praha",
       "startTimestamp": 1764435600,
       "finalResultOnly": false,
@@ -6300,6 +6008,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -6358,7 +6067,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 18466,
+          "userCount": 18396,
           "hasPerformanceGraphFeature": false,
           "id": 172,
           "country": {},
@@ -6412,7 +6121,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 5540,
+        "userCount": 5487,
         "nameCode": "TEP",
         "disabled": false,
         "national": false,
@@ -6448,7 +6157,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 120876,
+        "userCount": 122300,
         "nameCode": "SLA",
         "disabled": false,
         "national": false,
@@ -6509,37 +6218,248 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14036532,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "sk-slavia-praha-fk-teplice",
       "startTimestamp": 1764954000,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false
+    },
+    {
+      "eventState": {
+        "statusIndicator": "varInProgress"
+      },
+      "correctAiInsight": true,
+      "correctHalftimeAiInsight": true,
+      "tournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1465,
+          "country": {},
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "UEFA Champions League",
+          "slug": "uefa-champions-league",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1178460,
+          "hasPerformanceGraphFeature": false,
+          "id": 7,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أبطال أوروبا",
+              "hi": "यूईएफए चैंपियंस लीग",
+              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 714,
+        "isGroup": false,
+        "id": 138314,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري أبطال أوروبا"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "UEFA Champions League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76953
+      },
+      "roundInfo": {
+        "round": 6
+      },
+      "customId": "IsqU",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Tottenham Hotspur",
+        "slug": "tottenham-hotspur",
+        "shortName": "Tottenham ",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 1390050,
+        "nameCode": "TOT",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 33,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#000066",
+          "text": "#000066"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توتنهام هوتسبير",
+            "ru": "Тоттенхэм Хотспур",
+            "hi": "टोटेनहैम हॉटस्पर ऍफ़सी"
+          },
+          "shortNameTranslation": {
+            "ar": "توتنهام",
+            "hi": "टॉटनहैम",
+            "bn": "টটেনহ্যাম"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "SK Slavia Praha",
+        "slug": "slavia-praha",
+        "shortName": "Slavia Praha",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 122300,
+        "nameCode": "SLA",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2216,
+        "country": {
+          "alpha2": "CZ",
+          "alpha3": "CZE",
+          "name": "Czechia",
+          "slug": "czechia"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#e10000",
+          "text": "#e10000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سلافيا براغ",
+            "ru": "Славия Прага",
+            "hi": "स्लाविया प्राहा",
+            "bn": "স্লাভিয়া প্রাহা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeScore": {
+        "current": 3,
+        "display": 3,
+        "period1": 1,
+        "period2": 2,
+        "normaltime": 3
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "coverage": -1,
+      "time": {
+        "injuryTime1": 1,
+        "injuryTime2": 4,
+        "currentPeriodStartTimestamp": 1765314178
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1765317124
+      },
+      "hasGlobalHighlights": false,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14566828,
+      "slug": "sk-slavia-praha-tottenham-hotspur",
+      "startTimestamp": 1765310400,
       "finalResultOnly": false,
       "feedLocked": true,
       "isEditor": false
     }
   ],
   "last5": {
-    "form": "WWDWW",
-    "w": 4,
+    "form": "LWWDW",
+    "w": 3,
     "d": 1,
-    "l": 0,
-    "gf": 13,
+    "l": 1,
+    "gf": 8,
     "ga": 5,
-    "avg_gf": 2.6,
+    "avg_gf": 1.6,
     "avg_ga": 1.0,
     "count": 5
   },
   "last10": {
-    "form": "WWDWWLWWDD",
+    "form": "LWWDWWLWWD",
     "w": 6,
-    "d": 3,
-    "l": 1,
+    "d": 2,
+    "l": 2,
     "gf": 19,
-    "ga": 8,
+    "ga": 11,
     "avg_gf": 1.9,
-    "avg_ga": 0.8,
+    "avg_ga": 1.1,
     "count": 10
   },
   "passes_avg_last5": {
@@ -6549,17 +6469,24 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 385.8,
-    "avg_accurate": 291.4,
-    "avg_accuracy_pct": 73.85486741759698
+    "avg_passes": 398.8,
+    "avg_accurate": 307.2,
+    "avg_accuracy_pct": 76.34282582194646
   },
   "passes_events_last5": [
     {
+      "event_id": 14566828,
+      "startTimestamp": 1765310400,
+      "passes": 306.0,
+      "accurate": 228.0,
+      "accuracy_pct": 74.50980392156863
+    },
+    {
       "event_id": 14036532,
       "startTimestamp": 1764954000,
-      "passes": 482.0,
-      "accurate": 371.0,
-      "accuracy_pct": 76.97095435684648
+      "passes": 488.0,
+      "accurate": 375.0,
+      "accuracy_pct": 76.84426229508196
     },
     {
       "event_id": 14036518,
@@ -6581,13 +6508,6 @@
       "passes": 432.0,
       "accurate": 345.0,
       "accuracy_pct": 79.86111111111111
-    },
-    {
-      "event_id": 14036494,
-      "startTimestamp": 1762709400,
-      "passes": 247.0,
-      "accurate": 153.0,
-      "accuracy_pct": 61.943319838056674
     }
   ]
 }

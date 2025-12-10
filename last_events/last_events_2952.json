@@ -3,6 +3,7 @@
   "team": "PSV Eindhoven",
   "events": [
     {
+      "eventState": {},
       "correctAiInsight": true,
       "tournament": {
         "name": "VriendenLoterij Eredivisie",
@@ -60,230 +61,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
-          "hasPerformanceGraphFeature": true,
-          "id": 37,
-          "country": {},
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "الدوري الهولندي الممتاز",
-              "hi": "इरेडीवीसी",
-              "bn": "এরেডিভিসি"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 513,
-        "isGroup": false,
-        "isLive": false,
-        "id": 39,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "الدوري الهولندي الممتاز",
-            "hi": "इरेडीवीसी",
-            "bn": "এরেডিভিসি"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Eredivisie 24/25",
-        "year": "24/25",
-        "editor": false,
-        "id": 61666
-      },
-      "roundInfo": {
-        "round": 30
-      },
-      "customId": "cjbsfjb",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 2,
-      "homeTeam": {
-        "name": "FC Twente",
-        "slug": "fc-twente",
-        "shortName": "Twente",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 102387,
-        "nameCode": "TWE",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 2955,
-        "country": {
-          "alpha2": "NL",
-          "alpha3": "NLD",
-          "name": "Netherlands",
-          "slug": "netherlands"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ff0000",
-          "secondary": "#ff0000",
-          "text": "#ff0000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "تفينتي أنشخيده",
-            "ru": "Твенте Энсхеде"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "awayTeam": {
-        "name": "PSV Eindhoven",
-        "slug": "psv-eindhoven",
-        "shortName": "PSV",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 482455,
-        "nameCode": "PSV",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 2952,
-        "country": {
-          "alpha2": "NL",
-          "alpha3": "NLD",
-          "name": "Netherlands",
-          "slug": "netherlands"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ff0000",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "بي اس في ايندهوفن",
-            "ru": "ПСВ Эйндховен",
-            "hi": "पिऐसवि आइन्डहोवेन"
-          },
-          "shortNameTranslation": {
-            "ar": "ايندهوفن",
-            "hi": "पीएसवी",
-            "bn": "পিএসভি"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 1,
-        "display": 1,
-        "period1": 1,
-        "period2": 0,
-        "normaltime": 1
-      },
-      "awayScore": {
-        "current": 3,
-        "display": 3,
-        "period1": 1,
-        "period2": 2,
-        "normaltime": 3
-      },
-      "time": {
-        "injuryTime1": 2,
-        "injuryTime2": 3,
-        "currentPeriodStartTimestamp": 1745525148
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1745528039
-      },
-      "hasGlobalHighlights": true,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 12441766,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
-      "slug": "fc-twente-psv-eindhoven",
-      "startTimestamp": 1745521200,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "correctAiInsight": true,
-      "tournament": {
-        "name": "VriendenLoterij Eredivisie",
-        "slug": "eredivisie",
-        "category": {
-          "name": "Netherlands",
-          "slug": "netherlands",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "id": 35,
-          "country": {
-            "alpha2": "NL",
-            "alpha3": "NLD",
-            "name": "Netherlands",
-            "slug": "netherlands"
-          },
-          "flag": "netherlands",
-          "alpha2": "NL",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "هولندا"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "VriendenLoterij Eredivisie",
-          "slug": "eredivisie",
-          "primaryColorHex": "#292766",
-          "secondaryColorHex": "#7c79c3",
-          "category": {
-            "name": "Netherlands",
-            "slug": "netherlands",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "id": 35,
-            "country": {
-              "alpha2": "NL",
-              "alpha3": "NLD",
-              "name": "Netherlands",
-              "slug": "netherlands"
-            },
-            "flag": "netherlands",
-            "alpha2": "NL",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "هولندا"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -337,7 +115,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -378,7 +156,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 26133,
+        "userCount": 26016,
         "nameCode": "FOR",
         "disabled": false,
         "national": false,
@@ -439,10 +217,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 12441691,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "fortuna-sittard-psv-eindhoven",
       "startTimestamp": 1746298800,
       "finalResultOnly": false,
@@ -450,6 +224,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "tournament": {
         "name": "VriendenLoterij Eredivisie",
@@ -507,7 +282,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -561,7 +336,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 393042,
+        "userCount": 391148,
         "nameCode": "FEY",
         "disabled": false,
         "national": false,
@@ -599,7 +374,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -667,10 +442,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 12441703,
       "homeRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "feyenoord-psv-eindhoven",
       "startTimestamp": 1746966600,
       "finalResultOnly": false,
@@ -678,6 +449,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "tournament": {
         "name": "VriendenLoterij Eredivisie",
@@ -735,7 +507,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -789,7 +561,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -830,7 +602,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 26566,
+        "userCount": 26485,
         "nameCode": "HER",
         "national": false,
         "type": 0,
@@ -894,10 +666,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 12441711,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "heracles-almelo-psv-eindhoven",
       "startTimestamp": 1747245600,
       "finalResultOnly": false,
@@ -905,6 +673,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "tournament": {
         "name": "VriendenLoterij Eredivisie",
@@ -962,7 +731,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -1016,7 +785,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 34076,
+        "userCount": 33893,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -1053,7 +822,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -1118,10 +887,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 12441771,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "sparta-rotterdam-psv-eindhoven",
       "startTimestamp": 1747571400,
       "finalResultOnly": false,
@@ -1129,6 +894,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "tournament": {
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
@@ -1177,7 +943,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 27970,
+          "userCount": 27927,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -1228,7 +994,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 165384,
+        "userCount": 167598,
         "nameCode": "USG",
         "disabled": false,
         "national": false,
@@ -1268,7 +1034,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -1329,10 +1095,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14095736,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "royale-union-saint-gilloise-psv-eindhoven",
       "startTimestamp": 1751715000,
       "finalResultOnly": false,
@@ -1340,6 +1102,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "tournament": {
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
@@ -1388,7 +1151,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 27970,
+          "userCount": 27927,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -1439,7 +1202,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -1480,7 +1243,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 18857,
+        "userCount": 18819,
         "nameCode": "ELV",
         "disabled": false,
         "national": false,
@@ -1539,10 +1302,6 @@
       "hasGlobalHighlights": true,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14061756,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "psv-eindhoven-sv-07-elversberg",
       "startTimestamp": 1752310800,
       "finalResultOnly": false,
@@ -1550,6 +1309,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -1600,7 +1360,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 27970,
+          "userCount": 27927,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -1651,7 +1411,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -1692,7 +1452,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 542083,
+        "userCount": 541152,
         "nameCode": "ATH",
         "disabled": false,
         "national": false,
@@ -1754,10 +1514,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14050549,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "psv-eindhoven-athletic-club",
       "startTimestamp": 1753543800,
       "finalResultOnly": false,
@@ -1765,6 +1521,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -1815,7 +1572,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 27970,
+          "userCount": 27927,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -1866,7 +1623,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -1907,7 +1664,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 11412,
+        "userCount": 11372,
         "nameCode": "EIN",
         "national": false,
         "type": 0,
@@ -1965,10 +1722,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14242092,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "fc-eindhoven-psv-eindhoven",
       "startTimestamp": 1753898400,
       "finalResultOnly": false,
@@ -1976,6 +1729,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -2034,7 +1788,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 4677,
+          "userCount": 4674,
           "hasPerformanceGraphFeature": false,
           "id": 340,
           "country": {},
@@ -2091,7 +1845,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -2132,7 +1886,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 43147,
+        "userCount": 43044,
         "nameCode": "GAE",
         "disabled": false,
         "national": false,
@@ -2192,10 +1946,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14004887,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "go-ahead-eagles-psv-eindhoven",
       "startTimestamp": 1754236800,
       "finalResultOnly": false,
@@ -2203,6 +1953,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -2261,7 +2012,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -2315,7 +2066,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -2356,7 +2107,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 34076,
+        "userCount": 33893,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -2417,10 +2168,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14053583,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "sparta-rotterdam-psv-eindhoven",
       "startTimestamp": 1754766000,
       "finalResultOnly": false,
@@ -2428,6 +2175,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -2486,7 +2234,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -2540,7 +2288,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 102387,
+        "userCount": 101869,
         "nameCode": "TWE",
         "disabled": false,
         "national": false,
@@ -2576,7 +2324,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -2641,10 +2389,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14053603,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "fc-twente-psv-eindhoven",
       "startTimestamp": 1755433800,
       "finalResultOnly": false,
@@ -2652,6 +2396,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -2710,7 +2455,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -2764,7 +2509,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -2805,7 +2550,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 28196,
+        "userCount": 28100,
         "nameCode": "GRO",
         "disabled": false,
         "national": false,
@@ -2870,10 +2615,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14053615,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "psv-eindhoven-fc-groningen",
       "startTimestamp": 1755967500,
       "finalResultOnly": false,
@@ -2881,6 +2622,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "tournament": {
         "name": "VriendenLoterij Eredivisie",
@@ -2938,7 +2680,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -2992,7 +2734,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -3033,7 +2775,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 18743,
+        "userCount": 18693,
         "nameCode": "TEL",
         "disabled": false,
         "national": false,
@@ -3093,10 +2835,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14053643,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "sc-telstar-psv-eindhoven",
       "startTimestamp": 1756576800,
       "finalResultOnly": false,
@@ -3104,6 +2842,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -3162,7 +2901,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -3216,7 +2955,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 37499,
+        "userCount": 37339,
         "nameCode": "NIJ",
         "disabled": false,
         "national": false,
@@ -3253,7 +2992,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -3318,10 +3057,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14053662,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "nec-nijmegen-psv-eindhoven",
       "startTimestamp": 1757781900,
       "finalResultOnly": false,
@@ -3329,6 +3064,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -3379,7 +3115,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1171709,
+          "userCount": 1178460,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -3430,7 +3166,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -3471,7 +3207,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 165384,
+        "userCount": 167598,
         "nameCode": "USG",
         "disabled": false,
         "national": false,
@@ -3538,10 +3274,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566894,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "royale-union-saint-gilloise-psv-eindhoven",
       "startTimestamp": 1758041100,
       "finalResultOnly": false,
@@ -3549,6 +3281,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -3607,7 +3340,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -3661,7 +3394,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -3702,7 +3435,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 523438,
+        "userCount": 521583,
         "nameCode": "AJA",
         "disabled": false,
         "national": false,
@@ -3764,10 +3497,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14053705,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "afc-ajax-psv-eindhoven",
       "startTimestamp": 1758457800,
       "finalResultOnly": false,
@@ -3775,6 +3504,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -3833,7 +3563,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -3887,7 +3617,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 23090,
+        "userCount": 23007,
         "nameCode": "EXC",
         "national": false,
         "type": 0,
@@ -3924,7 +3654,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -3989,10 +3719,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14053724,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "excelsior-psv-eindhoven",
       "startTimestamp": 1758996000,
       "finalResultOnly": false,
@@ -4000,6 +3726,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -4050,7 +3777,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1171709,
+          "userCount": 1178460,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -4101,7 +3828,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1053537,
+        "userCount": 1050271,
         "nameCode": "B04",
         "disabled": false,
         "national": false,
@@ -4141,7 +3868,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -4207,10 +3934,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566706,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "psv-eindhoven-bayer-04-leverkusen",
       "startTimestamp": 1759345200,
       "finalResultOnly": false,
@@ -4218,6 +3941,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -4276,7 +4000,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -4330,7 +4054,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 30787,
+        "userCount": 30643,
         "nameCode": "ZWO",
         "national": false,
         "type": 0,
@@ -4366,7 +4090,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -4434,10 +4158,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14053746,
       "homeRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "pec-zwolle-psv-eindhoven",
       "startTimestamp": 1759600800,
       "finalResultOnly": false,
@@ -4445,6 +4165,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -4503,7 +4224,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -4557,7 +4278,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -4598,7 +4319,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 43147,
+        "userCount": 43044,
         "nameCode": "GAE",
         "disabled": false,
         "national": false,
@@ -4659,10 +4380,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14053765,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "go-ahead-eagles-psv-eindhoven",
       "startTimestamp": 1760805900,
       "finalResultOnly": false,
@@ -4670,6 +4387,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -4720,7 +4438,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1171709,
+          "userCount": 1178460,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -4771,7 +4489,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -4812,7 +4530,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1060569,
+        "userCount": 1060729,
         "nameCode": "NAP",
         "disabled": false,
         "national": false,
@@ -4876,10 +4594,6 @@
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566893,
       "awayRedCards": 1,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "psv-eindhoven-napoli",
       "startTimestamp": 1761073200,
       "finalResultOnly": false,
@@ -4887,6 +4601,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -4945,7 +4660,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -4999,7 +4714,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 393042,
+        "userCount": 391148,
         "nameCode": "FEY",
         "disabled": false,
         "national": false,
@@ -5037,7 +4752,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -5103,10 +4818,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14053803,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "feyenoord-psv-eindhoven",
       "startTimestamp": 1761485400,
       "finalResultOnly": false,
@@ -5114,6 +4825,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -5172,7 +4884,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -5226,7 +4938,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -5267,7 +4979,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 26133,
+        "userCount": 26016,
         "nameCode": "FOR",
         "disabled": false,
         "national": false,
@@ -5330,10 +5042,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14053808,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "fortuna-sittard-psv-eindhoven",
       "startTimestamp": 1761937200,
       "finalResultOnly": false,
@@ -5341,6 +5049,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -5391,7 +5100,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1171709,
+          "userCount": 1178460,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -5442,7 +5151,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 271417,
+        "userCount": 275958,
         "nameCode": "OLY",
         "disabled": false,
         "national": false,
@@ -5480,7 +5189,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -5548,10 +5257,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566867,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "olympiacos-fc-psv-eindhoven",
       "startTimestamp": 1762286400,
       "finalResultOnly": false,
@@ -5559,6 +5264,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -5617,7 +5323,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -5671,7 +5377,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 174203,
+        "userCount": 173323,
         "nameCode": "AAL",
         "disabled": false,
         "national": false,
@@ -5712,7 +5418,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -5778,10 +5484,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14053596,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "psv-eindhoven-az-alkmaar",
       "startTimestamp": 1762703100,
       "finalResultOnly": false,
@@ -5789,6 +5491,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -5847,7 +5550,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -5901,7 +5604,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 28181,
+        "userCount": 28078,
         "nameCode": "BRE",
         "disabled": false,
         "national": false,
@@ -5937,7 +5640,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -6002,10 +5705,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14053630,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "psv-eindhoven-nac-breda",
       "startTimestamp": 1763825400,
       "finalResultOnly": false,
@@ -6013,6 +5712,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -6063,7 +5763,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1171709,
+          "userCount": 1178460,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -6114,7 +5814,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3342316,
+        "userCount": 3348115,
         "nameCode": "LIV",
         "disabled": false,
         "national": false,
@@ -6152,7 +5852,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -6220,10 +5920,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14566638,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "psv-eindhoven-liverpool",
       "startTimestamp": 1764187200,
       "finalResultOnly": false,
@@ -6231,6 +5927,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -6289,7 +5986,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -6343,7 +6040,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -6384,7 +6081,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 24739,
+        "userCount": 24659,
         "nameCode": "VOL",
         "disabled": false,
         "national": false,
@@ -6446,10 +6143,6 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14053639,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "fc-volendam-psv-eindhoven",
       "startTimestamp": 1764501300,
       "finalResultOnly": false,
@@ -6457,6 +6150,7 @@
       "isEditor": false
     },
     {
+      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -6515,7 +6209,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 150742,
+          "userCount": 150254,
           "hasPerformanceGraphFeature": true,
           "id": 37,
           "country": {},
@@ -6569,7 +6263,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 32825,
+        "userCount": 32700,
         "nameCode": "HEE",
         "disabled": false,
         "national": false,
@@ -6606,7 +6300,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 482455,
+        "userCount": 483900,
         "nameCode": "PSV",
         "disabled": false,
         "national": false,
@@ -6671,37 +6365,250 @@
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14053670,
-      "varInProgress": {
-        "homeTeam": false,
-        "awayTeam": false
-      },
       "slug": "sc-heerenveen-psv-eindhoven",
       "startTimestamp": 1765035000,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false
+    },
+    {
+      "eventState": {
+        "statusIndicator": "varInProgress"
+      },
+      "correctAiInsight": false,
+      "correctHalftimeAiInsight": true,
+      "tournament": {
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1465,
+          "country": {},
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "UEFA Champions League",
+          "slug": "uefa-champions-league",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1178460,
+          "hasPerformanceGraphFeature": false,
+          "id": 7,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أبطال أوروبا",
+              "hi": "यूईएफए चैंपियंस लीग",
+              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 714,
+        "isGroup": false,
+        "id": 138314,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري أبطال أوروبا"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "UEFA Champions League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76953
+      },
+      "roundInfo": {
+        "round": 6
+      },
+      "customId": "Lgbscjb",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 2,
+      "homeTeam": {
+        "name": "PSV Eindhoven",
+        "slug": "psv-eindhoven",
+        "shortName": "PSV",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 483900,
+        "nameCode": "PSV",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2952,
+        "country": {
+          "alpha2": "NL",
+          "alpha3": "NLD",
+          "name": "Netherlands",
+          "slug": "netherlands"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ff0000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بي اس في ايندهوفن",
+            "ru": "ПСВ Эйндховен",
+            "hi": "पिऐसवि आइन्डहोवेन"
+          },
+          "shortNameTranslation": {
+            "ar": "ايندهوفن",
+            "hi": "पीएसवी",
+            "bn": "পিএসভি"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "Atlético Madrid",
+        "slug": "atletico-madrid",
+        "shortName": "Atl. Madrid",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 1989621,
+        "nameCode": "ATM",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2836,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#c40000",
+          "text": "#c40000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أتلتيكو مدريد",
+            "ru": "Атлетико Мадрид",
+            "hi": "एटलेटिको मैड्रिड"
+          },
+          "shortNameTranslation": {
+            "ar": "أتل. مدريد",
+            "bn": "এটিএল. মাদ্রিদ"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1,
+        "normaltime": 2
+      },
+      "awayScore": {
+        "current": 3,
+        "display": 3,
+        "period1": 1,
+        "period2": 2,
+        "normaltime": 3
+      },
+      "coverage": -1,
+      "time": {
+        "injuryTime1": 2,
+        "injuryTime2": 5,
+        "currentPeriodStartTimestamp": 1765314191
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1765317212
+      },
+      "hasGlobalHighlights": false,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14566892,
+      "slug": "psv-eindhoven-atletico-madrid",
+      "startTimestamp": 1765310400,
       "finalResultOnly": false,
       "feedLocked": true,
       "isEditor": false
     }
   ],
   "last5": {
-    "form": "WWWWW",
-    "w": 5,
+    "form": "LWWWW",
+    "w": 4,
     "d": 0,
-    "l": 0,
-    "gf": 15,
-    "ga": 2,
-    "avg_gf": 3.0,
-    "avg_ga": 0.4,
+    "l": 1,
+    "gf": 12,
+    "ga": 4,
+    "avg_gf": 2.4,
+    "avg_ga": 0.8,
     "count": 5
   },
   "last10": {
-    "form": "WWWWWDWWWW",
-    "w": 9,
+    "form": "LWWWWWDWWW",
+    "w": 8,
     "d": 1,
-    "l": 0,
+    "l": 1,
     "gf": 32,
-    "ga": 10,
+    "ga": 12,
     "avg_gf": 3.2,
-    "avg_ga": 1.0,
+    "avg_ga": 1.2,
     "count": 10
   },
   "passes_avg_last5": {
@@ -6711,11 +6618,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 502.4,
-    "avg_accurate": 435.4,
-    "avg_accuracy_pct": 85.74879422899208
+    "avg_passes": 497.6,
+    "avg_accurate": 427.8,
+    "avg_accuracy_pct": 85.04484845315088
   },
   "passes_events_last5": [
+    {
+      "event_id": 14566892,
+      "startTimestamp": 1765310400,
+      "passes": 486.0,
+      "accurate": 406.0,
+      "accuracy_pct": 83.53909465020575
+    },
     {
       "event_id": 14053670,
       "startTimestamp": 1765035000,
@@ -6743,13 +6657,6 @@
       "passes": 423.0,
       "accurate": 348.0,
       "accuracy_pct": 82.26950354609929
-    },
-    {
-      "event_id": 14053596,
-      "startTimestamp": 1762703100,
-      "passes": 510.0,
-      "accurate": 444.0,
-      "accuracy_pct": 87.05882352941177
     }
   ]
 }
