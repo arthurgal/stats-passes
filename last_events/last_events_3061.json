@@ -4552,7 +4552,9 @@
       "isEditor": false
     },
     {
-      "eventState": {},
+      "eventState": {
+        "statusIndicator": "varInProgress"
+      },
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -4752,12 +4754,9 @@
       },
       "changes": {
         "changes": [
-          "status.code",
-          "status.description",
-          "status.type",
-          "time.currentPeriodStart"
+          "eventState.statusIndicator"
         ],
-        "changeTimestamp": 1761494289
+        "changeTimestamp": 1765360855
       },
       "hasGlobalHighlights": true,
       "hasXg": true,
