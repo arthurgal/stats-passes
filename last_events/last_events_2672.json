@@ -4,223 +4,6 @@
   "events": [
     {
       "eventState": {},
-      "correctAiInsight": true,
-      "correctHalftimeAiInsight": true,
-      "tournament": {
-        "name": "FIFA Club World Cup, Knockout stage",
-        "slug": "club-world-cup",
-        "category": {
-          "name": "World",
-          "slug": "world",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "id": 1468,
-          "country": {},
-          "flag": "international",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "العالم",
-              "hi": "विश्व",
-              "bn": "বিশ্ব"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "FIFA Club World Cup",
-          "slug": "club-world-championship",
-          "primaryColorHex": "#8d1536",
-          "secondaryColorHex": "#0bbda4",
-          "category": {
-            "name": "World",
-            "slug": "world",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "id": 1468,
-            "country": {},
-            "flag": "international",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "العالم",
-                "hi": "विश्व",
-                "bn": "বিশ্ব"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 584191,
-          "hasPerformanceGraphFeature": false,
-          "id": 357,
-          "country": {},
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "بطولة العالم للأندية",
-              "hi": "क्लब वर्ल्ड चैंपियनशिप",
-              "bn": "ক্লাব ওয়ার্ল্ড চ্যাম্পিয়নশিপ"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 788,
-        "isGroup": false,
-        "isLive": false,
-        "id": 3888,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "كأس العالم للأندية - مرحلة الإقصاء",
-            "hi": "फीफा क्लब वर्ल्ड कप, नॉकआउट स्टेज",
-            "bn": "ফিফা ক্লাব ওয়ার্ল্ডকাপ, নকআউট স্টেজ"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "FIFA Club World Cup 2025",
-        "year": "2025",
-        "editor": false,
-        "seasonCoverageInfo": {},
-        "id": 69619
-      },
-      "roundInfo": {
-        "round": 5,
-        "name": "Round of 16",
-        "slug": "round-of-16",
-        "cupRoundType": 8
-      },
-      "customId": "xdbsGuc",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 2,
-      "homeTeam": {
-        "name": "Flamengo",
-        "slug": "flamengo",
-        "shortName": "Flamengo",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 936481,
-        "nameCode": "FLA",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 5981,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ff0000",
-          "secondary": "#000000",
-          "text": "#000000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "فلامينغو",
-            "ru": "ФК Фламенго РЖ"
-          },
-          "shortNameTranslation": {
-            "ar": "فلامينغو"
-          }
-        }
-      },
-      "awayTeam": {
-        "name": "FC Bayern München",
-        "slug": "fc-bayern-munchen",
-        "shortName": "Bayern",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 2328104,
-        "nameCode": "FCB",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 2672,
-        "country": {
-          "alpha2": "DE",
-          "alpha3": "DEU",
-          "name": "Germany",
-          "slug": "germany"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#cf142f",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "إف سي بايرن ميونيخ",
-            "ru": "Бавария Мюнхен"
-          },
-          "shortNameTranslation": {
-            "ar": "بايرن",
-            "hi": "बायर्न",
-            "bn": "বায়ার্ন"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 2,
-        "display": 2,
-        "period1": 1,
-        "period2": 1,
-        "normaltime": 2
-      },
-      "awayScore": {
-        "current": 4,
-        "display": 4,
-        "period1": 3,
-        "period2": 1,
-        "normaltime": 4
-      },
-      "time": {
-        "injuryTime1": 8,
-        "injuryTime2": 7,
-        "currentPeriodStartTimestamp": 1751231570
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1751234769
-      },
-      "hasGlobalHighlights": false,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 13385907,
-      "slug": "runner-up-group-winner-group",
-      "startTimestamp": 1751227200,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -271,7 +54,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 584191,
+          "userCount": 584018,
           "hasPerformanceGraphFeature": false,
           "id": 357,
           "country": {},
@@ -489,7 +272,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 27609,
+          "userCount": 27805,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -699,7 +482,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 2953,
+          "userCount": 2949,
           "hasPerformanceGraphFeature": false,
           "id": 889,
           "country": {},
@@ -914,7 +697,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 27609,
+          "userCount": 27805,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -1134,7 +917,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 24983,
+          "userCount": 24967,
           "hasPerformanceGraphFeature": false,
           "id": 799,
           "country": {},
@@ -1368,7 +1151,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 511643,
+          "userCount": 511132,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -1597,7 +1380,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 74877,
+          "userCount": 74818,
           "hasPerformanceGraphFeature": false,
           "id": 217,
           "country": {},
@@ -1827,7 +1610,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 511643,
+          "userCount": 511132,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -2056,7 +1839,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 511643,
+          "userCount": 511132,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -2273,7 +2056,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1159152,
+          "userCount": 1158067,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -2497,7 +2280,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 511643,
+          "userCount": 511132,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -2728,7 +2511,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 511643,
+          "userCount": 511132,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -2944,7 +2727,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1159152,
+          "userCount": 1158067,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -3169,7 +2952,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 511643,
+          "userCount": 511132,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -3398,7 +3181,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 511643,
+          "userCount": 511132,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -3615,7 +3398,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1159152,
+          "userCount": 1158067,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -3841,7 +3624,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 511643,
+          "userCount": 511132,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -4070,7 +3853,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 74877,
+          "userCount": 74818,
           "hasPerformanceGraphFeature": false,
           "id": 217,
           "country": {},
@@ -4299,7 +4082,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 511643,
+          "userCount": 511132,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -4515,7 +4298,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1159152,
+          "userCount": 1158067,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -4742,7 +4525,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 511643,
+          "userCount": 511132,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -4970,7 +4753,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 511643,
+          "userCount": 511132,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -5187,7 +4970,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1159152,
+          "userCount": 1158067,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -5411,7 +5194,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 511643,
+          "userCount": 511132,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -5638,7 +5421,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 74877,
+          "userCount": 74818,
           "hasPerformanceGraphFeature": false,
           "id": 217,
           "country": {},
@@ -5880,7 +5663,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 511643,
+          "userCount": 511132,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -6112,7 +5895,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1159152,
+          "userCount": 1158067,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -6348,7 +6131,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 511643,
+          "userCount": 511132,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -6588,7 +6371,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 511643,
+          "userCount": 511132,
           "hasPerformanceGraphFeature": true,
           "id": 35,
           "country": {},
@@ -6764,28 +6547,251 @@
           "M"
         ]
       }
+    },
+    {
+      "eventState": {},
+      "tournament": {
+        "name": "Club Friendly Games",
+        "slug": "club-friendly-games",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1468,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Club Friendly Games",
+          "slug": "club-friendly-games",
+          "primaryColorHex": "#25497d",
+          "secondaryColorHex": "#d38f1d",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1468,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 27805,
+          "hasPerformanceGraphFeature": false,
+          "id": 853,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مباريات ودية للأندية",
+              "hi": "क्लब फ्रेंडली गेम्स",
+              "bn": "ক্লাব ফ্রেন্ডলি গেমস"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "isLive": false,
+        "id": 86,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مباريات ودية للأندية",
+            "hi": "क्लब फ्रेंडली गेम्स",
+            "bn": "ক্লাব ফ্রেন্ডলি গেমস"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Club Friendly Games 2026",
+        "year": "2026",
+        "editor": false,
+        "id": 87177
+      },
+      "customId": "WPsxdb",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 2,
+      "homeTeam": {
+        "name": "Red Bull Salzburg",
+        "slug": "red-bull-salzburg",
+        "shortName": "RB Salzburg",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 184356,
+        "nameCode": "RBS",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2046,
+        "country": {
+          "alpha2": "AT",
+          "alpha3": "AUT",
+          "name": "Austria",
+          "slug": "austria"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#ff0000",
+          "text": "#ff0000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريد بول سالزبورغ",
+            "ru": "РБ Зальцбург"
+          },
+          "shortNameTranslation": {
+            "ar": "إر بي سالزبورغ",
+            "hi": "आरबी साल्ज़बर्ग",
+            "bn": "আরবি সালজবার্গ"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "FC Bayern München",
+        "slug": "fc-bayern-munchen",
+        "shortName": "Bayern",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 2328104,
+        "nameCode": "FCB",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2672,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#cf142f",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إف سي بايرن ميونيخ",
+            "ru": "Бавария Мюнхен"
+          },
+          "shortNameTranslation": {
+            "ar": "بايرن",
+            "hi": "बायर्न",
+            "bn": "বায়ার্ন"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "awayScore": {
+        "current": 5,
+        "display": 5,
+        "period1": 1,
+        "period2": 4,
+        "normaltime": 5
+      },
+      "time": {
+        "injuryTime1": 0,
+        "injuryTime2": 3,
+        "currentPeriodStartTimestamp": 1767711882
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type",
+          "awayScore.period2",
+          "awayScore.normaltime"
+        ],
+        "changeTimestamp": 1767714781
+      },
+      "hasGlobalHighlights": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15290787,
+      "slug": "fc-bayern-munchen-red-bull-salzburg",
+      "startTimestamp": 1767708000,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false,
+      "eventFilters": {
+        "category": [
+          "club"
+        ],
+        "level": [
+          "pro"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
     }
   ],
   "last5": {
-    "form": "WDWWW",
+    "form": "WWDWW",
     "w": 4,
     "d": 1,
     "l": 0,
-    "gf": 17,
-    "ga": 5,
-    "avg_gf": 3.4,
-    "avg_ga": 1.0,
+    "gf": 19,
+    "ga": 3,
+    "avg_gf": 3.8,
+    "avg_ga": 0.6,
     "count": 5
   },
   "last10": {
-    "form": "WDWWWWLWDW",
+    "form": "WWDWWWWLWD",
     "w": 7,
     "d": 2,
     "l": 1,
-    "gf": 31,
-    "ga": 14,
-    "avg_gf": 3.1,
-    "avg_ga": 1.4,
+    "gf": 34,
+    "ga": 13,
+    "avg_gf": 3.4,
+    "avg_ga": 1.3,
     "count": 10
   },
   "passes_avg_last5": {
@@ -6795,11 +6801,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 688.6,
-    "avg_accurate": 609.8,
-    "avg_accuracy_pct": 87.19398193756409
+    "avg_passes": 760.2,
+    "avg_accurate": 689.2,
+    "avg_accuracy_pct": 90.4841600212525
   },
   "passes_events_last5": [
+    {
+      "event_id": 15290787,
+      "startTimestamp": 1767708000,
+      "passes": 810.0,
+      "accurate": 730.0,
+      "accuracy_pct": 90.12345679012346
+    },
     {
       "event_id": 14062150,
       "startTimestamp": 1766334600,
@@ -6827,13 +6840,6 @@
       "passes": 561.0,
       "accurate": 486.0,
       "accuracy_pct": 86.63101604278076
-    },
-    {
-      "event_id": 14994252,
-      "startTimestamp": 1764791100,
-      "passes": 452.0,
-      "accurate": 333.0,
-      "accuracy_pct": 73.67256637168141
     }
   ]
 }
