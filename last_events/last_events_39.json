@@ -4,234 +4,6 @@
   "events": [
     {
       "eventState": {},
-      "correctAiInsight": false,
-      "correctHalftimeAiInsight": false,
-      "tournament": {
-        "name": "Premier League",
-        "slug": "premier-league",
-        "category": {
-          "name": "England",
-          "slug": "england",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "id": 1,
-          "country": {
-            "alpha2": "EN",
-            "alpha3": "ENG",
-            "name": "England",
-            "slug": "england"
-          },
-          "flag": "england",
-          "alpha2": "EN",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "إنجلترا",
-              "hi": "इंग्लैंड",
-              "bn": "ইংল্যান্ড"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "Premier League",
-          "slug": "premier-league",
-          "primaryColorHex": "#3c1c5a",
-          "secondaryColorHex": "#f80158",
-          "category": {
-            "name": "England",
-            "slug": "england",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "id": 1,
-            "country": {
-              "alpha2": "EN",
-              "alpha3": "ENG",
-              "name": "England",
-              "slug": "england"
-            },
-            "flag": "england",
-            "alpha2": "EN",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "إنجلترا",
-                "hi": "इंग्लैंड",
-                "bn": "ইংল্যান্ড"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 1173118,
-          "hasPerformanceGraphFeature": true,
-          "id": 17,
-          "country": {},
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "الدوري الإنجليزي الممتاز",
-              "hi": "प्रिमियर लीग",
-              "bn": "প্রিমিয়ার লীগ"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 699,
-        "isGroup": false,
-        "isLive": false,
-        "id": 1,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "الدوري الإنجليزي الممتاز",
-            "hi": "प्रिमियर लीग",
-            "bn": "প্রিমিয়ার লীগ"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Premier League 25/26",
-        "year": "25/26",
-        "editor": false,
-        "id": 76986
-      },
-      "roundInfo": {
-        "round": 1
-      },
-      "customId": "OP",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 3,
-      "homeTeam": {
-        "name": "Aston Villa",
-        "slug": "aston-villa",
-        "shortName": "Aston Villa",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 878782,
-        "nameCode": "AVL",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 40,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#670e36",
-          "secondary": "#94bee5",
-          "text": "#94bee5"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "أستون فيلا",
-            "ru": "Астон Вилла",
-            "hi": "एस्टन विला",
-            "bn": "অ্যাস্টন ভিলা"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "awayTeam": {
-        "name": "Newcastle United",
-        "slug": "newcastle-united",
-        "shortName": "Newcastle",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 859994,
-        "nameCode": "NEW",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 39,
-        "country": {
-          "alpha2": "EN",
-          "alpha3": "ENG",
-          "name": "England",
-          "slug": "england"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#000000",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "نيوكاسل يونايتد",
-            "ru": "Ньюкасл Юнайтед",
-            "hi": "न्यू कास्सेल यूनाइटेड ऍफ़सी"
-          },
-          "shortNameTranslation": {
-            "ar": "نيوكاسل",
-            "hi": "न्यूकैसल",
-            "bn": "নিউক্যাসল"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 0,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0
-      },
-      "awayScore": {
-        "current": 0,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0
-      },
-      "time": {
-        "injuryTime1": 0,
-        "injuryTime2": 6,
-        "currentPeriodStartTimestamp": 1755347536
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1755350617
-      },
-      "hasGlobalHighlights": true,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 14025016,
-      "homeRedCards": 1,
-      "slug": "aston-villa-newcastle-united",
-      "startTimestamp": 1755343800,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -6894,28 +6666,277 @@
           "M"
         ]
       }
+    },
+    {
+      "eventState": {},
+      "correctAiInsight": false,
+      "correctHalftimeAiInsight": false,
+      "tournament": {
+        "name": "FA Cup",
+        "slug": "fa-cup",
+        "category": {
+          "name": "England",
+          "slug": "england",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "flag": "england",
+          "alpha2": "EN",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إنجلترا",
+              "hi": "इंग्लैंड",
+              "bn": "ইংল্যান্ড"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "FA Cup",
+          "slug": "fa-cup",
+          "primaryColorHex": "#bc1821",
+          "secondaryColorHex": "#e60411",
+          "category": {
+            "name": "England",
+            "slug": "england",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "flag": "england",
+            "alpha2": "EN",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إنجلترا",
+                "hi": "इंग्लैंड",
+                "bn": "ইংল্যান্ড"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 180147,
+          "hasPerformanceGraphFeature": false,
+          "id": 19,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس الاتحاد الإنجليزي",
+              "hi": "एफए कप",
+              "bn": "এফএ কাপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 485,
+        "isGroup": false,
+        "isLive": false,
+        "id": 16,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كأس الاتحاد الإنجليزي",
+            "hi": "एफए कप",
+            "bn": "এফএ কাপ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "FA Cup 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 82557
+      },
+      "roundInfo": {
+        "round": 3,
+        "name": "Round 3",
+        "slug": "round-3"
+      },
+      "customId": "Okb",
+      "status": {
+        "code": 120,
+        "description": "AP",
+        "type": "finished"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Newcastle United",
+        "slug": "newcastle-united",
+        "shortName": "Newcastle",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 859994,
+        "nameCode": "NEW",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 39,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيوكاسل يونايتد",
+            "ru": "Ньюкасл Юнайтед",
+            "hi": "न्यू कास्सेल यूनाइटेड ऍफ़सी"
+          },
+          "shortNameTranslation": {
+            "ar": "نيوكاسل",
+            "hi": "न्यूकैसल",
+            "bn": "নিউক্যাসল"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "Bournemouth",
+        "slug": "bournemouth",
+        "shortName": "Bournemouth",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 291973,
+        "nameCode": "BOU",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 60,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#cc0000",
+          "text": "#cc0000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بورنموث",
+            "ru": "Борнмут",
+            "hi": "बोर्नमाउथ",
+            "bn": "বোর্নেমাউথ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeScore": {
+        "current": 10,
+        "display": 3,
+        "period1": 0,
+        "period2": 2,
+        "normaltime": 2,
+        "extra1": 0,
+        "extra2": 1,
+        "overtime": 1,
+        "penalties": 7
+      },
+      "awayScore": {
+        "current": 9,
+        "display": 3,
+        "period1": 0,
+        "period2": 2,
+        "normaltime": 2,
+        "extra1": 0,
+        "extra2": 1,
+        "overtime": 1,
+        "penalties": 6
+      },
+      "time": {
+        "injuryTime1": 2,
+        "injuryTime2": 6,
+        "injuryTime3": 2,
+        "injuryTime4": 2,
+        "currentPeriodStartTimestamp": 1768065649
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description"
+        ],
+        "changeTimestamp": 1768068006
+      },
+      "hasGlobalHighlights": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15197286,
+      "slug": "bournemouth-newcastle-united",
+      "startTimestamp": 1768057200,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false,
+      "eventFilters": {
+        "category": [
+          "club"
+        ],
+        "level": [
+          "top-competitions",
+          "pro"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
     }
   ],
   "last5": {
-    "form": "WWWLD",
-    "w": 3,
-    "d": 1,
+    "form": "WWWWL",
+    "w": 4,
+    "d": 0,
     "l": 1,
-    "gf": 11,
-    "ga": 7,
-    "avg_gf": 2.2,
-    "avg_ga": 1.4,
+    "gf": 19,
+    "ga": 14,
+    "avg_gf": 3.8,
+    "avg_ga": 2.8,
     "count": 5
   },
   "last10": {
-    "form": "WWWLDWLDWD",
-    "w": 5,
-    "d": 3,
+    "form": "WWWWLDWLDW",
+    "w": 6,
+    "d": 2,
     "l": 2,
-    "gf": 19,
-    "ga": 14,
-    "avg_gf": 1.9,
-    "avg_ga": 1.4,
+    "gf": 27,
+    "ga": 21,
+    "avg_gf": 2.7,
+    "avg_ga": 2.1,
     "count": 10
   },
   "passes_avg_last5": {
@@ -6925,11 +6946,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 498.8,
-    "avg_accurate": 418.8,
-    "avg_accuracy_pct": 83.34387704684423
+    "avg_passes": 563.6,
+    "avg_accurate": 480.0,
+    "avg_accuracy_pct": 84.99330988749368
   },
   "passes_events_last5": [
+    {
+      "event_id": 15197286,
+      "startTimestamp": 1768057200,
+      "passes": 685.0,
+      "accurate": 584.0,
+      "accuracy_pct": 85.25547445255475
+    },
     {
       "event_id": 14025052,
       "startTimestamp": 1767816900,
@@ -6957,13 +6985,6 @@
       "passes": 627.0,
       "accurate": 548.0,
       "accuracy_pct": 87.40031897926634
-    },
-    {
-      "event_id": 14025228,
-      "startTimestamp": 1766233800,
-      "passes": 361.0,
-      "accurate": 278.0,
-      "accuracy_pct": 77.00831024930747
     }
   ]
 }
