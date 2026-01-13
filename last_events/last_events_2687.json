@@ -4,221 +4,6 @@
   "events": [
     {
       "eventState": {},
-      "correctAiInsight": true,
-      "correctHalftimeAiInsight": true,
-      "tournament": {
-        "name": "FIFA Club World Cup, Knockout stage",
-        "slug": "club-world-cup",
-        "category": {
-          "name": "World",
-          "slug": "world",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "id": 1468,
-          "country": {},
-          "flag": "international",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "العالم",
-              "hi": "विश्व",
-              "bn": "বিশ্ব"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "FIFA Club World Cup",
-          "slug": "club-world-championship",
-          "primaryColorHex": "#8d1536",
-          "secondaryColorHex": "#0bbda4",
-          "category": {
-            "name": "World",
-            "slug": "world",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "id": 1468,
-            "country": {},
-            "flag": "international",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "العالم",
-                "hi": "विश्व",
-                "bn": "বিশ্ব"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 582894,
-          "hasPerformanceGraphFeature": false,
-          "id": 357,
-          "country": {},
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "بطولة العالم للأندية",
-              "hi": "क्लब वर्ल्ड चैंपियनशिप",
-              "bn": "ক্লাব ওয়ার্ল্ড চ্যাম্পিয়নশিপ"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 788,
-        "isGroup": false,
-        "isLive": false,
-        "id": 3888,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "كأس العالم للأندية - مرحلة الإقصاء",
-            "hi": "फीफा क्लब वर्ल्ड कप, नॉकआउट स्टेज",
-            "bn": "ফিফা ক্লাব ওয়ার্ল্ডকাপ, নকআউট স্টেজ"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "FIFA Club World Cup 2025",
-        "year": "2025",
-        "editor": false,
-        "seasonCoverageInfo": {},
-        "id": 69619
-      },
-      "roundInfo": {
-        "round": 5,
-        "name": "Round of 16",
-        "slug": "round-of-16",
-        "cupRoundType": 8
-      },
-      "customId": "MdbsEgb",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 1,
-      "homeTeam": {
-        "name": "Real Madrid",
-        "slug": "real-madrid",
-        "shortName": "Real Madrid",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 6501694,
-        "nameCode": "RMA",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 2829,
-        "country": {
-          "alpha2": "ES",
-          "alpha3": "ESP",
-          "name": "Spain",
-          "slug": "spain"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ffffff",
-          "secondary": "#004996",
-          "text": "#004996"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "ريال مدريد",
-            "ru": "Реал Мадрид",
-            "hi": "रियल मैड्रिड",
-            "bn": "রিয়াল মাদ্রিদ"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "awayTeam": {
-        "name": "Juventus",
-        "slug": "juventus",
-        "shortName": "Juventus",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 1525620,
-        "nameCode": "JUV",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 2687,
-        "country": {
-          "alpha2": "IT",
-          "alpha3": "ITA",
-          "name": "Italy",
-          "slug": "italy"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ffffff",
-          "secondary": "#000000",
-          "text": "#000000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "يوفنتوس",
-            "ru": "Ювентус",
-            "hi": "जुवेंटस",
-            "bn": "জুভেন্টাস"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "homeScore": {
-        "current": 1,
-        "display": 1,
-        "period1": 0,
-        "period2": 1,
-        "normaltime": 1
-      },
-      "awayScore": {
-        "current": 0,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0
-      },
-      "time": {
-        "injuryTime1": 4,
-        "injuryTime2": 5,
-        "currentPeriodStartTimestamp": 1751400472
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1751403482
-      },
-      "hasGlobalHighlights": false,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 13385908,
-      "slug": "runner-up-group-winner-group",
-      "startTimestamp": 1751396400,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "eventState": {},
       "tournament": {
         "name": "Club Friendly Games",
         "slug": "club-friendly-games",
@@ -6689,28 +6474,264 @@
           "M"
         ]
       }
+    },
+    {
+      "eventState": {},
+      "correctAiInsight": true,
+      "correctHalftimeAiInsight": true,
+      "tournament": {
+        "name": "Serie A",
+        "slug": "serie-a",
+        "category": {
+          "name": "Italy",
+          "slug": "italy",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 31,
+          "country": {
+            "alpha2": "IT",
+            "alpha3": "ITA",
+            "name": "Italy",
+            "slug": "italy"
+          },
+          "flag": "italy",
+          "alpha2": "IT",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيطاليا",
+              "hi": "इटली",
+              "bn": "ইতালি"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Serie A",
+          "slug": "serie-a",
+          "primaryColorHex": "#09519e",
+          "secondaryColorHex": "#008fd7",
+          "category": {
+            "name": "Italy",
+            "slug": "italy",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 31,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "flag": "italy",
+            "alpha2": "IT",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيطاليا",
+                "hi": "इटली",
+                "bn": "ইতালি"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 628308,
+          "hasPerformanceGraphFeature": true,
+          "id": 23,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الإيطالي",
+              "hi": "सीरी ए",
+              "bn": "সিরি আ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 698,
+        "isGroup": false,
+        "isLive": false,
+        "id": 33,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإيطالي",
+            "hi": "सीरी ए",
+            "bn": "সিরি আ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Serie A 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76457
+      },
+      "roundInfo": {
+        "round": 20
+      },
+      "customId": "Mdbslfb",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Juventus",
+        "slug": "juventus",
+        "shortName": "Juventus",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 1525620,
+        "nameCode": "JUV",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2687,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوفنتوس",
+            "ru": "Ювентус",
+            "hi": "जुवेंटस",
+            "bn": "জুভেন্টাস"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "awayTeam": {
+        "name": "Cremonese",
+        "slug": "cremonese",
+        "shortName": "Cremonese",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 54440,
+        "nameCode": "CRE",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2761,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#c8091d",
+          "secondary": "#a9a7a7",
+          "text": "#a9a7a7"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريمونيزي",
+            "ru": "Кремонезе",
+            "hi": "क्रेमोनेसे",
+            "bn": "ক্রিমোনিজ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeScore": {
+        "current": 5,
+        "display": 5,
+        "period1": 3,
+        "period2": 2,
+        "normaltime": 5
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "time": {
+        "injuryTime1": 5,
+        "injuryTime2": 2,
+        "currentPeriodStartTimestamp": 1768251242
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1768254077
+      },
+      "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 13981623,
+      "slug": "cremonese-juventus",
+      "startTimestamp": 1768247100,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false,
+      "eventFilters": {
+        "category": [
+          "club"
+        ],
+        "level": [
+          "top-competitions",
+          "pro"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
     }
   ],
   "last5": {
-    "form": "WDWWW",
+    "form": "WWDWW",
     "w": 4,
     "d": 1,
     "l": 0,
-    "gf": 9,
+    "gf": 13,
     "ga": 2,
-    "avg_gf": 1.8,
+    "avg_gf": 2.6,
     "avg_ga": 0.4,
     "count": 5
   },
   "last10": {
-    "form": "WDWWWWLWWW",
+    "form": "WWDWWWWLWW",
     "w": 8,
     "d": 1,
     "l": 1,
-    "gf": 19,
-    "ga": 7,
-    "avg_gf": 1.9,
-    "avg_ga": 0.7,
+    "gf": 21,
+    "ga": 5,
+    "avg_gf": 2.1,
+    "avg_ga": 0.5,
     "count": 10
   },
   "passes_avg_last5": {
@@ -6720,11 +6741,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 529.0,
-    "avg_accurate": 452.8,
-    "avg_accuracy_pct": 84.92961998655612
+    "avg_passes": 556.0,
+    "avg_accurate": 484.2,
+    "avg_accuracy_pct": 86.48619929521769
   },
   "passes_events_last5": [
+    {
+      "event_id": 13981623,
+      "startTimestamp": 1768247100,
+      "passes": 584.0,
+      "accurate": 528.0,
+      "accuracy_pct": 90.41095890410958
+    },
     {
       "event_id": 13981608,
       "startTimestamp": 1767728700,
@@ -6752,13 +6780,6 @@
       "passes": 398.0,
       "accurate": 321.0,
       "accuracy_pct": 80.65326633165829
-    },
-    {
-      "event_id": 13981565,
-      "startTimestamp": 1765741500,
-      "passes": 449.0,
-      "accurate": 371.0,
-      "accuracy_pct": 82.62806236080178
     }
   ]
 }
