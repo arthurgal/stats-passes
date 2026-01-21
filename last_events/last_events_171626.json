@@ -6575,12 +6575,15 @@
         "changeTimestamp": 1768730598
       },
       "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14222824,
       "slug": "pafos-fc-olympiakos-nicosia",
       "startTimestamp": 1768669200,
       "finalResultOnly": false,
-      "feedLocked": false,
+      "feedLocked": true,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -6620,21 +6623,21 @@
   "passes_avg_last5": {
     "considered": 5,
     "counts_per_metric": {
-      "passes": 3,
-      "accurate": 3,
-      "accuracy_pct": 3
+      "passes": 4,
+      "accurate": 4,
+      "accuracy_pct": 4
     },
-    "avg_passes": 558.6666666666666,
-    "avg_accurate": 483.3333333333333,
-    "avg_accuracy_pct": 85.96913580246913
+    "avg_passes": 527.5,
+    "avg_accurate": 450.5,
+    "avg_accuracy_pct": 84.75334954770439
   },
   "passes_events_last5": [
     {
       "event_id": 14222824,
       "startTimestamp": 1768669200,
-      "passes": null,
-      "accurate": null,
-      "accuracy_pct": null
+      "passes": 434.0,
+      "accurate": 352.0,
+      "accuracy_pct": 81.10599078341014
     },
     {
       "event_id": 14222817,
