@@ -4,228 +4,6 @@
   "events": [
     {
       "eventState": {},
-      "correctAiInsight": false,
-      "correctHalftimeAiInsight": true,
-      "tournament": {
-        "name": "UEFA Champions League, Qualification",
-        "slug": "uefa-champions-league-qualification",
-        "category": {
-          "name": "Europe",
-          "slug": "europe",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "id": 1465,
-          "country": {},
-          "flag": "europe",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "أوروبا",
-              "hi": "यूरोप",
-              "bn": "ইউরোপ"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "UEFA Champions League",
-          "slug": "uefa-champions-league",
-          "primaryColorHex": "#062b5c",
-          "secondaryColorHex": "#086aab",
-          "category": {
-            "name": "Europe",
-            "slug": "europe",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "id": 1465,
-            "country": {},
-            "flag": "europe",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "أوروبا",
-                "hi": "यूरोप",
-                "bn": "ইউরোপ"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 1169700,
-          "hasPerformanceGraphFeature": false,
-          "id": 7,
-          "country": {},
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "دوري أبطال أوروبا",
-              "hi": "यूईएफए चैंपियंस लीग",
-              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 702,
-        "isGroup": false,
-        "isLive": false,
-        "id": 1339,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "دوري أبطال أوروبا، التصفيات",
-            "hi": "यूईएफए चैंपियंस लीग, क्वालिफिकेशन",
-            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ, কোয়ালিফিকেশন"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "UEFA Champions League 25/26",
-        "year": "25/26",
-        "editor": false,
-        "id": 76953
-      },
-      "roundInfo": {
-        "round": 3,
-        "name": "Qualification Round 3",
-        "slug": "qualification-round-3"
-      },
-      "customId": "JAsRM",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 1,
-      "aggregatedWinnerCode": 1,
-      "homeTeam": {
-        "name": "FC København",
-        "slug": "fc-kobenhavn",
-        "shortName": "København",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 190204,
-        "nameCode": "FCK",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 1284,
-        "country": {
-          "alpha2": "DK",
-          "alpha3": "DNK",
-          "name": "Denmark",
-          "slug": "denmark"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ffffff",
-          "secondary": "#0066ff",
-          "text": "#0066ff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "إف سي كوبنهاغن",
-            "ru": "Копенгаген"
-          },
-          "shortNameTranslation": {
-            "ar": "كوبنهاغن",
-            "hi": "कोबेनह्वान",
-            "bn": "কোবেনহাভন"
-          }
-        }
-      },
-      "awayTeam": {
-        "name": "Malmö FF",
-        "slug": "malmo-ff",
-        "shortName": "Malmö",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 111912,
-        "nameCode": "MFF",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 1892,
-        "country": {
-          "alpha2": "SE",
-          "alpha3": "SWE",
-          "name": "Sweden",
-          "slug": "sweden"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#0099ff",
-          "secondary": "#0099ff",
-          "text": "#0099ff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "مالمو إف إف",
-            "ru": "Мальмё"
-          },
-          "shortNameTranslation": {
-            "ar": "مالمو",
-            "hi": "माल्मो",
-            "bn": "মালমো"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 5,
-        "display": 5,
-        "period1": 2,
-        "period2": 3,
-        "normaltime": 5,
-        "aggregated": 5
-      },
-      "awayScore": {
-        "current": 0,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0,
-        "aggregated": 0
-      },
-      "time": {
-        "injuryTime1": 2,
-        "injuryTime2": 0,
-        "currentPeriodStartTimestamp": 1755021997
-      },
-      "changes": {
-        "changes": [
-          "time.injuryTime2",
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1755024715
-      },
-      "hasGlobalHighlights": false,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 14241438,
-      "slug": "malmo-ff-fc-kobenhavn",
-      "previousLegEventId": 14241426,
-      "startTimestamp": 1755018000,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -284,7 +62,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 32937,
+          "userCount": 32940,
           "hasPerformanceGraphFeature": false,
           "id": 39,
           "country": {},
@@ -338,7 +116,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 30532,
+        "userCount": 30502,
         "nameCode": "FCN",
         "disabled": false,
         "national": false,
@@ -374,7 +152,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -496,7 +274,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1169700,
+          "userCount": 1169891,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -553,7 +331,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 74374,
+        "userCount": 74978,
         "nameCode": "FCB",
         "disabled": false,
         "national": false,
@@ -591,7 +369,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -721,7 +499,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 32937,
+          "userCount": 32940,
           "hasPerformanceGraphFeature": false,
           "id": 39,
           "country": {},
@@ -775,7 +553,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -815,7 +593,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 18805,
+        "userCount": 18901,
         "nameCode": "OBK",
         "disabled": false,
         "national": false,
@@ -933,7 +711,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1169700,
+          "userCount": 1169891,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -991,7 +769,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -1031,7 +809,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 74374,
+        "userCount": 74978,
         "nameCode": "FCB",
         "disabled": false,
         "national": false,
@@ -1161,7 +939,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 32937,
+          "userCount": 32940,
           "hasPerformanceGraphFeature": false,
           "id": 39,
           "country": {},
@@ -1215,7 +993,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 20673,
+        "userCount": 20737,
         "nameCode": "RAN",
         "disabled": false,
         "national": false,
@@ -1256,7 +1034,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -1387,7 +1165,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 32937,
+          "userCount": 32940,
           "hasPerformanceGraphFeature": false,
           "id": 39,
           "country": {},
@@ -1441,7 +1219,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 47572,
+        "userCount": 47502,
         "nameCode": "BRO",
         "disabled": false,
         "national": false,
@@ -1481,7 +1259,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -1602,7 +1380,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1169700,
+          "userCount": 1169891,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -1653,7 +1431,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -1693,7 +1471,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1021112,
+        "userCount": 1019871,
         "nameCode": "B04",
         "disabled": false,
         "national": false,
@@ -1824,7 +1602,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 32937,
+          "userCount": 32940,
           "hasPerformanceGraphFeature": false,
           "id": 39,
           "country": {},
@@ -1878,7 +1656,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -1918,7 +1696,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 21488,
+        "userCount": 21478,
         "nameCode": "SIL",
         "disabled": false,
         "national": false,
@@ -2046,7 +1824,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 4813,
+          "userCount": 4816,
           "hasPerformanceGraphFeature": false,
           "id": 76,
           "country": {},
@@ -2105,7 +1883,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 11845,
+        "userCount": 11843,
         "nameCode": "LBY",
         "disabled": false,
         "national": false,
@@ -2141,7 +1919,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -2267,7 +2045,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 32937,
+          "userCount": 32940,
           "hasPerformanceGraphFeature": false,
           "id": 39,
           "country": {},
@@ -2321,7 +2099,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 10256,
+        "userCount": 10160,
         "nameCode": "SON",
         "disabled": false,
         "national": false,
@@ -2359,7 +2137,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -2480,7 +2258,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1169700,
+          "userCount": 1169891,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -2531,7 +2309,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 272458,
+        "userCount": 272920,
         "nameCode": "QAR",
         "disabled": false,
         "national": false,
@@ -2571,7 +2349,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -2702,7 +2480,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 32937,
+          "userCount": 32940,
           "hasPerformanceGraphFeature": false,
           "id": 39,
           "country": {},
@@ -2756,7 +2534,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -2796,7 +2574,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 124200,
+        "userCount": 125511,
         "nameCode": "FCM",
         "disabled": false,
         "national": false,
@@ -2927,7 +2705,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 32937,
+          "userCount": 32940,
           "hasPerformanceGraphFeature": false,
           "id": 39,
           "country": {},
@@ -2981,7 +2759,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 21488,
+        "userCount": 21478,
         "nameCode": "SIL",
         "disabled": false,
         "national": false,
@@ -3022,7 +2800,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -3143,7 +2921,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1169700,
+          "userCount": 1169891,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -3194,7 +2972,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -3234,7 +3012,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1352921,
+        "userCount": 1351548,
         "nameCode": "BVB",
         "disabled": false,
         "national": false,
@@ -3370,7 +3148,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 32937,
+          "userCount": 32940,
           "hasPerformanceGraphFeature": false,
           "id": 39,
           "country": {},
@@ -3424,7 +3202,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -3464,7 +3242,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 19613,
+        "userCount": 19841,
         "nameCode": "VIB",
         "disabled": false,
         "national": false,
@@ -3589,7 +3367,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 4813,
+          "userCount": 4816,
           "hasPerformanceGraphFeature": false,
           "id": 76,
           "country": {},
@@ -3648,7 +3426,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 6416,
+        "userCount": 6411,
         "nameCode": "HOB",
         "disabled": false,
         "national": false,
@@ -3686,7 +3464,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -3814,7 +3592,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 32937,
+          "userCount": 32940,
           "hasPerformanceGraphFeature": false,
           "id": 39,
           "country": {},
@@ -3868,7 +3646,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -3908,7 +3686,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 9642,
+        "userCount": 9624,
         "nameCode": "FRE",
         "national": false,
         "type": 0,
@@ -4025,7 +3803,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1169700,
+          "userCount": 1169891,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -4076,7 +3854,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1362598,
+        "userCount": 1362299,
         "nameCode": "TOT",
         "disabled": false,
         "national": false,
@@ -4117,7 +3895,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -4249,7 +4027,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 32937,
+          "userCount": 32940,
           "hasPerformanceGraphFeature": false,
           "id": 39,
           "country": {},
@@ -4303,7 +4081,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 15090,
+        "userCount": 14991,
         "nameCode": "VEJ",
         "disabled": false,
         "national": false,
@@ -4341,7 +4119,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -4470,7 +4248,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 32937,
+          "userCount": 32940,
           "hasPerformanceGraphFeature": false,
           "id": 39,
           "country": {},
@@ -4524,7 +4302,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -4564,7 +4342,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 47572,
+        "userCount": 47502,
         "nameCode": "BRO",
         "disabled": false,
         "national": false,
@@ -4685,7 +4463,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1169700,
+          "userCount": 1169891,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -4736,7 +4514,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -4776,7 +4554,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 81025,
+        "userCount": 81010,
         "nameCode": "ALM",
         "disabled": false,
         "national": false,
@@ -4907,7 +4685,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 32937,
+          "userCount": 32940,
           "hasPerformanceGraphFeature": false,
           "id": 39,
           "country": {},
@@ -4961,7 +4739,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 27544,
+        "userCount": 27529,
         "nameCode": "AGF",
         "disabled": false,
         "national": false,
@@ -4999,7 +4777,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -5126,7 +4904,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 4813,
+          "userCount": 4816,
           "hasPerformanceGraphFeature": false,
           "id": 76,
           "country": {},
@@ -5186,7 +4964,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 8200,
+        "userCount": 8195,
         "nameCode": "ESB",
         "disabled": false,
         "national": false,
@@ -5224,7 +5002,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -5362,7 +5140,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 32937,
+          "userCount": 32940,
           "hasPerformanceGraphFeature": false,
           "id": 39,
           "country": {},
@@ -5416,7 +5194,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -5456,7 +5234,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 10256,
+        "userCount": 10160,
         "nameCode": "SON",
         "disabled": false,
         "national": false,
@@ -5587,7 +5365,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1169700,
+          "userCount": 1169891,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -5638,7 +5416,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 427536,
+        "userCount": 427381,
         "nameCode": "VIL",
         "disabled": false,
         "national": false,
@@ -5676,7 +5454,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -5817,7 +5595,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 4813,
+          "userCount": 4816,
           "hasPerformanceGraphFeature": false,
           "id": 76,
           "country": {},
@@ -5878,7 +5656,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -5918,7 +5696,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 8200,
+        "userCount": 8195,
         "nameCode": "ESB",
         "disabled": false,
         "national": false,
@@ -6046,7 +5824,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 27607,
+          "userCount": 27578,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -6097,7 +5875,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 48586,
+        "userCount": 49818,
         "nameCode": "BRA",
         "disabled": false,
         "national": false,
@@ -6138,7 +5916,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -6270,7 +6048,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 27607,
+          "userCount": 27578,
           "hasPerformanceGraphFeature": false,
           "id": 853,
           "country": {},
@@ -6321,7 +6099,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 66097,
+        "userCount": 66667,
         "nameCode": "STU",
         "disabled": false,
         "national": false,
@@ -6362,7 +6140,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -6493,7 +6271,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1169700,
+          "userCount": 1169891,
           "hasPerformanceGraphFeature": false,
           "id": 7,
           "country": {},
@@ -6544,7 +6322,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 190204,
+        "userCount": 190113,
         "nameCode": "FCK",
         "disabled": false,
         "national": false,
@@ -6584,7 +6362,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1090908,
+        "userCount": 1090637,
         "nameCode": "NAP",
         "disabled": false,
         "national": false,
@@ -6665,10 +6443,225 @@
           "M"
         ]
       }
+    },
+    {
+      "eventState": {},
+      "tournament": {
+        "name": "Club Friendly Games",
+        "slug": "club-friendly-games",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1468,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Club Friendly Games",
+          "slug": "club-friendly-games",
+          "primaryColorHex": "#25497d",
+          "secondaryColorHex": "#d38f1d",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1468,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 27578,
+          "hasPerformanceGraphFeature": false,
+          "id": 853,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مباريات ودية للأندية",
+              "hi": "क्लब फ्रेंडली गेम्स",
+              "bn": "ক্লাব ফ্রেন্ডলি গেমস"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "isLive": false,
+        "id": 86,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مباريات ودية للأندية",
+            "hi": "क्लब फ्रेंडली गेम्स",
+            "bn": "ক্লাব ফ্রেন্ডলি গেমস"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Club Friendly Games 2026",
+        "year": "2026",
+        "editor": false,
+        "id": 87177
+      },
+      "customId": "JAsYA",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "FC København",
+        "slug": "fc-kobenhavn",
+        "shortName": "København",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 190113,
+        "nameCode": "FCK",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1284,
+        "country": {
+          "alpha2": "DK",
+          "alpha3": "DNK",
+          "name": "Denmark",
+          "slug": "denmark"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#0066ff",
+          "text": "#0066ff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إف سي كوبنهاغن",
+            "ru": "Копенгаген"
+          },
+          "shortNameTranslation": {
+            "ar": "كوبنهاغن",
+            "hi": "कोबेनह्वान",
+            "bn": "কোবেনহাভন"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "Boldklubben af 1893",
+        "slug": "b-93-kopenhagen",
+        "shortName": "B 93",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 4061,
+        "nameCode": "B93",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1298,
+        "country": {
+          "alpha2": "DK",
+          "alpha3": "DNK",
+          "name": "Denmark",
+          "slug": "denmark"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#323c55",
+          "text": "#323c55"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بولدكلوبن آي إف 1893",
+            "ru": "Б93 Копенгаген"
+          },
+          "shortNameTranslation": {
+            "ar": "ب 93"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 3,
+        "display": 3,
+        "period1": 0,
+        "period2": 3,
+        "normaltime": 3
+      },
+      "awayScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1,
+        "normaltime": 2
+      },
+      "time": {
+        "periodLength": 2700,
+        "overtimeLength": 900,
+        "totalPeriodCount": 2,
+        "currentPeriodStartTimestamp": 1769200851
+      },
+      "changes": {
+        "changes": [
+          "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1769203551
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15404197,
+      "slug": "boldklubben-af-1893-fc-kobenhavn",
+      "startTimestamp": 1769166000,
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "isEditor": false,
+      "eventFilters": {
+        "category": [
+          "club"
+        ],
+        "level": [
+          "pro"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
     }
   ],
   "last5": {
-    "form": "DDDWW",
+    "form": "WDDDW",
     "w": 2,
     "d": 3,
     "l": 0,
@@ -6679,28 +6672,35 @@
     "count": 5
   },
   "last10": {
-    "form": "DDDWWLWLWW",
+    "form": "WDDDWWLWLW",
     "w": 5,
     "d": 3,
     "l": 2,
-    "gf": 19,
-    "ga": 16,
-    "avg_gf": 1.9,
-    "avg_ga": 1.6,
+    "gf": 21,
+    "ga": 18,
+    "avg_gf": 2.1,
+    "avg_ga": 1.8,
     "count": 10
   },
   "passes_avg_last5": {
     "considered": 5,
     "counts_per_metric": {
-      "passes": 2,
-      "accurate": 2,
-      "accuracy_pct": 2
+      "passes": 1,
+      "accurate": 1,
+      "accuracy_pct": 1
     },
-    "avg_passes": 352.0,
-    "avg_accurate": 271.0,
-    "avg_accuracy_pct": 76.69968090837511
+    "avg_passes": 295.0,
+    "avg_accurate": 221.0,
+    "avg_accuracy_pct": 74.91525423728814
   },
   "passes_events_last5": [
+    {
+      "event_id": 15404197,
+      "startTimestamp": 1769166000,
+      "passes": null,
+      "accurate": null,
+      "accuracy_pct": null
+    },
     {
       "event_id": 14566973,
       "startTimestamp": 1768939200,
@@ -6728,13 +6728,6 @@
       "passes": null,
       "accurate": null,
       "accuracy_pct": null
-    },
-    {
-      "event_id": 14566784,
-      "startTimestamp": 1765388700,
-      "passes": 409.0,
-      "accurate": 321.0,
-      "accuracy_pct": 78.4841075794621
     }
   ]
 }
