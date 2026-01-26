@@ -4,8 +4,6 @@
   "events": [
     {
       "eventState": {},
-      "correctAiInsight": false,
-      "correctHalftimeAiInsight": true,
       "tournament": {
         "name": "Brasileirão Betano",
         "slug": "brasileirao-serie-a",
@@ -62,223 +60,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
-          "hasPerformanceGraphFeature": true,
-          "id": 325,
-          "country": {},
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "بطولة بيتانو البرازيلية",
-              "hi": "ब्राज़ीलेइराओ बेटानो",
-              "bn": "ব্রাসিলিরাও বেতানো"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 511,
-        "isGroup": false,
-        "isLive": false,
-        "id": 83,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "الدوري البرازيلي الممتاز بيتانو",
-            "hi": "ब्रासिलेइराओ बेटानो",
-            "bn": "ব্রাসিলিরাও বেতানো"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Brasileiro Serie A 2025",
-        "year": "2025",
-        "editor": false,
-        "id": 72034
-      },
-      "roundInfo": {
-        "round": 20
-      },
-      "customId": "tOszO",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 2,
-      "homeTeam": {
-        "name": "Santos",
-        "slug": "santos",
-        "shortName": "Santos",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 463194,
-        "nameCode": "SAN",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 1968,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ffffff",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "سانتوس",
-            "ru": "ФК Сантос"
-          },
-          "shortNameTranslation": {
-            "ar": "سانتوس"
-          }
-        }
-      },
-      "awayTeam": {
-        "name": "Vasco da Gama",
-        "slug": "vasco-da-gama",
-        "shortName": "Vasco",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 304274,
-        "nameCode": "VAS",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 1974,
-        "country": {
-          "alpha2": "BR",
-          "alpha3": "BRA",
-          "name": "Brazil",
-          "slug": "brazil"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ffffff",
-          "secondary": "#000000",
-          "text": "#000000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "فاسكو دا غاما",
-            "ru": "Васко да Гама"
-          },
-          "shortNameTranslation": {
-            "ar": "فاسكو"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 0,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0
-      },
-      "awayScore": {
-        "current": 6,
-        "display": 6,
-        "period1": 1,
-        "period2": 5,
-        "normaltime": 6
-      },
-      "time": {
-        "injuryTime1": 6,
-        "injuryTime2": 0,
-        "currentPeriodStartTimestamp": 1755461697
-      },
-      "changes": {
-        "changes": [
-          "time.injuryTime2"
-        ],
-        "changeTimestamp": 1755464410
-      },
-      "hasGlobalHighlights": false,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 13472900,
-      "slug": "vasco-da-gama-santos",
-      "startTimestamp": 1755457200,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "eventState": {},
-      "tournament": {
-        "name": "Brasileirão Betano",
-        "slug": "brasileirao-serie-a",
-        "category": {
-          "name": "Brazil",
-          "slug": "brazil",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "id": 13,
-          "country": {
-            "alpha2": "BR",
-            "alpha3": "BRA",
-            "name": "Brazil",
-            "slug": "brazil"
-          },
-          "flag": "brazil",
-          "alpha2": "BR",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "البرازيل"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "Brasileirão Betano",
-          "slug": "brasileirao-serie-a",
-          "primaryColorHex": "#C7FF00",
-          "secondaryColorHex": "#969696",
-          "category": {
-            "name": "Brazil",
-            "slug": "brazil",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "id": 13,
-            "country": {
-              "alpha2": "BR",
-              "alpha3": "BRA",
-              "name": "Brazil",
-              "slug": "brazil"
-            },
-            "flag": "brazil",
-            "alpha2": "BR",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "البرازيل"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -332,7 +114,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 60775,
+        "userCount": 60680,
         "nameCode": "JUV",
         "disabled": false,
         "national": false,
@@ -369,7 +151,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -497,7 +279,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -551,7 +333,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -589,7 +371,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 539920,
+        "userCount": 540197,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
@@ -719,7 +501,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 133013,
+          "userCount": 132948,
           "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
@@ -779,7 +561,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -817,7 +599,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 281674,
+        "userCount": 282075,
         "nameCode": "BOT",
         "disabled": false,
         "national": false,
@@ -944,7 +726,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -998,7 +780,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 95610,
+        "userCount": 95608,
         "nameCode": "SPO",
         "disabled": false,
         "national": false,
@@ -1036,7 +818,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -1164,7 +946,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 133013,
+          "userCount": 132948,
           "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
@@ -1225,7 +1007,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 281674,
+        "userCount": 282075,
         "nameCode": "BOT",
         "disabled": false,
         "national": false,
@@ -1263,7 +1045,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -1401,7 +1183,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -1455,7 +1237,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -1493,7 +1275,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 89193,
+        "userCount": 89090,
         "nameCode": "CEA",
         "disabled": false,
         "national": false,
@@ -1624,7 +1406,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -1678,7 +1460,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 942858,
+        "userCount": 943310,
         "nameCode": "FLA",
         "disabled": false,
         "national": false,
@@ -1716,7 +1498,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -1842,7 +1624,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -1896,7 +1678,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -1934,7 +1716,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 194231,
+        "userCount": 194046,
         "nameCode": "BAH",
         "disabled": false,
         "national": false,
@@ -2063,7 +1845,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -2117,7 +1899,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -2155,7 +1937,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 261644,
+        "userCount": 261633,
         "nameCode": "CRU",
         "disabled": false,
         "national": false,
@@ -2283,7 +2065,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -2337,7 +2119,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 583199,
+        "userCount": 584015,
         "nameCode": "PAL",
         "disabled": false,
         "national": false,
@@ -2375,7 +2157,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -2501,7 +2283,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -2555,7 +2337,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -2593,7 +2375,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 111349,
+        "userCount": 111257,
         "nameCode": "VIT",
         "disabled": false,
         "national": false,
@@ -2722,7 +2504,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -2776,7 +2558,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 144810,
+        "userCount": 144583,
         "nameCode": "FOR",
         "disabled": false,
         "national": false,
@@ -2814,7 +2596,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -2942,7 +2724,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -2996,7 +2778,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -3034,7 +2816,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 309093,
+        "userCount": 308966,
         "nameCode": "FLU",
         "disabled": false,
         "national": false,
@@ -3162,7 +2944,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -3216,7 +2998,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 104440,
+        "userCount": 104412,
         "nameCode": "BRA",
         "disabled": false,
         "national": false,
@@ -3254,7 +3036,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -3382,7 +3164,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -3436,7 +3218,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -3474,7 +3256,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 377457,
+        "userCount": 378027,
         "nameCode": "SPA",
         "disabled": false,
         "national": false,
@@ -3603,7 +3385,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -3657,7 +3439,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 281674,
+        "userCount": 282075,
         "nameCode": "BOT",
         "disabled": false,
         "national": false,
@@ -3695,7 +3477,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -3821,7 +3603,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -3875,7 +3657,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -3913,7 +3695,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 60775,
+        "userCount": 60680,
         "nameCode": "JUV",
         "disabled": false,
         "national": false,
@@ -4041,7 +3823,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -4095,7 +3877,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 214988,
+        "userCount": 214965,
         "nameCode": "GRE",
         "disabled": false,
         "national": false,
@@ -4133,7 +3915,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -4261,7 +4043,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -4315,7 +4097,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 194231,
+        "userCount": 194046,
         "nameCode": "BAH",
         "disabled": false,
         "national": false,
@@ -4353,7 +4135,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -4481,7 +4263,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -4535,7 +4317,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -4573,7 +4355,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 191292,
+        "userCount": 191234,
         "nameCode": "INT",
         "disabled": false,
         "national": false,
@@ -4701,7 +4483,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -4755,7 +4537,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -4793,7 +4575,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 74811,
+        "userCount": 74833,
         "nameCode": "MIR",
         "disabled": false,
         "national": false,
@@ -4930,7 +4712,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 300339,
+          "userCount": 300309,
           "hasPerformanceGraphFeature": true,
           "id": 325,
           "country": {},
@@ -4984,7 +4766,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 240553,
+        "userCount": 240509,
         "nameCode": "CAM",
         "disabled": false,
         "national": false,
@@ -5022,7 +4804,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -5164,7 +4946,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 133013,
+          "userCount": 132948,
           "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
@@ -5224,7 +5006,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -5262,7 +5044,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 309093,
+        "userCount": 308966,
         "nameCode": "FLU",
         "disabled": false,
         "national": false,
@@ -5401,7 +5183,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 133013,
+          "userCount": 132948,
           "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
@@ -5462,7 +5244,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 309093,
+        "userCount": 308966,
         "nameCode": "FLU",
         "disabled": false,
         "national": false,
@@ -5500,7 +5282,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -5648,7 +5430,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 133013,
+          "userCount": 132948,
           "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
@@ -5708,7 +5490,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 539920,
+        "userCount": 540197,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
@@ -5746,7 +5528,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -5885,7 +5667,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 133013,
+          "userCount": 132948,
           "hasPerformanceGraphFeature": false,
           "id": 373,
           "country": {},
@@ -5946,7 +5728,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -5984,7 +5766,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 539920,
+        "userCount": 540197,
         "nameCode": "COR",
         "disabled": false,
         "national": false,
@@ -6126,7 +5908,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 36062,
+          "userCount": 36263,
           "hasPerformanceGraphFeature": false,
           "id": 92,
           "country": {},
@@ -6180,7 +5962,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -6218,7 +6000,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3940,
+        "userCount": 3932,
         "nameCode": "MAR",
         "disabled": false,
         "national": false,
@@ -6358,7 +6140,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 36062,
+          "userCount": 36263,
           "hasPerformanceGraphFeature": false,
           "id": 92,
           "country": {},
@@ -6412,7 +6194,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -6450,7 +6232,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 6106,
+        "userCount": 6097,
         "nameCode": "NRJ",
         "disabled": false,
         "national": false,
@@ -6590,7 +6372,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 36062,
+          "userCount": 36263,
           "hasPerformanceGraphFeature": false,
           "id": 92,
           "country": {},
@@ -6644,7 +6426,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 942858,
+        "userCount": 943310,
         "nameCode": "FLA",
         "disabled": false,
         "national": false,
@@ -6682,7 +6464,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 304274,
+        "userCount": 304283,
         "nameCode": "VAS",
         "disabled": false,
         "national": false,
@@ -6761,28 +6543,259 @@
           "M"
         ]
       }
+    },
+    {
+      "eventState": {},
+      "correctAiInsight": true,
+      "correctHalftimeAiInsight": true,
+      "tournament": {
+        "name": "Carioca Série A – Taça Guanabara",
+        "slug": "carioca-serie-a-taca-guanabara",
+        "category": {
+          "name": "Brazil",
+          "slug": "brazil",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 13,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "flag": "brazil",
+          "alpha2": "BR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "البرازيل"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Carioca",
+          "slug": "carioca",
+          "primaryColorHex": "#140533",
+          "secondaryColorHex": "#6c31e3",
+          "category": {
+            "name": "Brazil",
+            "slug": "brazil",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 13,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
+            },
+            "flag": "brazil",
+            "alpha2": "BR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "البرازيل"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 36263,
+          "hasPerformanceGraphFeature": false,
+          "id": 92,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة كاريوكا البرازيلية",
+              "hi": "कैरिओका",
+              "bn": "ক্যারিওকা"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "isLive": false,
+        "id": 57585,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاريكا دوري A، تاسا غوانابارا",
+            "hi": "कैरिओका सेरी A - टाका गुआनाबारा",
+            "bn": "ক্যারিওকা সেরি এ - টাকা গুয়ানাবারা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Carioca, Serie A 2026",
+        "year": "2026",
+        "editor": false,
+        "id": 86674
+      },
+      "roundInfo": {
+        "round": 4
+      },
+      "customId": "zOsCOc",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 2,
+      "homeTeam": {
+        "name": "Boavista",
+        "slug": "boavista",
+        "shortName": "Boavista",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 4078,
+        "nameCode": "BOA",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 6977,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#009900",
+          "text": "#009900"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بوافيستا",
+            "ru": "ФК Боавишта РЖ"
+          },
+          "shortNameTranslation": {
+            "ar": "بوافيستا"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "Vasco da Gama",
+        "slug": "vasco-da-gama",
+        "shortName": "Vasco",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 304283,
+        "nameCode": "VAS",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1974,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فاسكو دا غاما",
+            "ru": "Васко да Гама"
+          },
+          "shortNameTranslation": {
+            "ar": "فاسكو"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "awayScore": {
+        "current": 3,
+        "display": 3,
+        "period1": 1,
+        "period2": 2,
+        "normaltime": 3
+      },
+      "time": {
+        "injuryTime1": 3,
+        "injuryTime2": 2,
+        "currentPeriodStartTimestamp": 1769388103
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1769391105
+      },
+      "hasGlobalHighlights": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15138040,
+      "slug": "boavista-vasco-da-gama",
+      "startTimestamp": 1769383800,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false,
+      "eventFilters": {
+        "category": [
+          "club"
+        ],
+        "level": [
+          "top-competitions",
+          "pro"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
     }
   ],
   "last5": {
-    "form": "LDWLD",
-    "w": 1,
-    "d": 2,
+    "form": "WLDWL",
+    "w": 2,
+    "d": 1,
     "l": 2,
-    "gf": 5,
+    "gf": 8,
     "ga": 5,
-    "avg_gf": 1.0,
+    "avg_gf": 1.6,
     "avg_ga": 1.0,
     "count": 5
   },
   "last10": {
-    "form": "LDWLDDWLLW",
+    "form": "WLDWLDDWLL",
     "w": 3,
     "d": 3,
     "l": 4,
-    "gf": 16,
-    "ga": 18,
-    "avg_gf": 1.6,
-    "avg_ga": 1.8,
+    "gf": 14,
+    "ga": 17,
+    "avg_gf": 1.4,
+    "avg_ga": 1.7,
     "count": 10
   },
   "passes_avg_last5": {
@@ -6792,11 +6805,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 442.8,
-    "avg_accurate": 385.8,
-    "avg_accuracy_pct": 86.67740325735869
+    "avg_passes": 506.2,
+    "avg_accurate": 451.0,
+    "avg_accuracy_pct": 88.8422706858785
   },
   "passes_events_last5": [
+    {
+      "event_id": 15138040,
+      "startTimestamp": 1769383800,
+      "passes": 655.0,
+      "accurate": 598.0,
+      "accuracy_pct": 91.29770992366413
+    },
     {
       "event_id": 15138034,
       "startTimestamp": 1769041800,
@@ -6824,13 +6844,6 @@
       "passes": 486.0,
       "accurate": 421.0,
       "accuracy_pct": 86.62551440329219
-    },
-    {
-      "event_id": 15223764,
-      "startTimestamp": 1766017800,
-      "passes": 338.0,
-      "accurate": 272.0,
-      "accuracy_pct": 80.4733727810651
     }
   ]
 }
