@@ -7,236 +7,6 @@
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
-        "name": "DFB Pokal",
-        "slug": "dfb-pokal",
-        "category": {
-          "name": "Germany",
-          "slug": "germany",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "id": 30,
-          "country": {
-            "alpha2": "DE",
-            "alpha3": "DEU",
-            "name": "Germany",
-            "slug": "germany"
-          },
-          "flag": "germany",
-          "alpha2": "DE",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "ألمانيا",
-              "hi": "जर्मनी",
-              "bn": "জার্মানি"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "DFB Pokal",
-          "slug": "dfb-pokal",
-          "primaryColorHex": "#ffcc00",
-          "secondaryColorHex": "#666666",
-          "category": {
-            "name": "Germany",
-            "slug": "germany",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "id": 30,
-            "country": {
-              "alpha2": "DE",
-              "alpha3": "DEU",
-              "name": "Germany",
-              "slug": "germany"
-            },
-            "flag": "germany",
-            "alpha2": "DE",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "ألمانيا",
-                "hi": "जर्मनी",
-                "bn": "জার্মানি"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 73753,
-          "hasPerformanceGraphFeature": false,
-          "id": 217,
-          "country": {},
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "كأس ألمانيا",
-              "hi": "डीएफबी पोकल",
-              "bn": "ডিএফবি পোকাল"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 483,
-        "isGroup": false,
-        "isLive": false,
-        "id": 43,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "كأس ألمانيا",
-            "hi": "डीएफबी पोकल",
-            "bn": "ডিএফবি কাপ"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "DFB Pokal 25/26",
-        "year": "25/26",
-        "editor": false,
-        "id": 76910
-      },
-      "roundInfo": {
-        "round": 1,
-        "name": "Round 1",
-        "slug": "round-1"
-      },
-      "customId": "Xbbsxdb",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 2,
-      "homeTeam": {
-        "name": "SV Wehen Wiesbaden",
-        "slug": "sv-wehen-wiesbaden",
-        "shortName": "Wehen",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 7674,
-        "nameCode": "WEH",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 2597,
-        "country": {
-          "alpha2": "DE",
-          "alpha3": "DEU",
-          "name": "Germany",
-          "slug": "germany"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#cc0033",
-          "secondary": "#cc0033",
-          "text": "#cc0033"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "إس في ويهن فيسبادن",
-            "ru": "Веен",
-            "hi": "वेहेन"
-          },
-          "shortNameTranslation": {
-            "ar": "ويهن"
-          }
-        }
-      },
-      "awayTeam": {
-        "name": "FC Bayern München",
-        "slug": "fc-bayern-munchen",
-        "shortName": "Bayern",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 2389506,
-        "nameCode": "FCB",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "id": 2672,
-        "country": {
-          "alpha2": "DE",
-          "alpha3": "DEU",
-          "name": "Germany",
-          "slug": "germany"
-        },
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#cf142f",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "إف سي بايرن ميونيخ",
-            "ru": "Бавария Мюнхен"
-          },
-          "shortNameTranslation": {
-            "ar": "بايرن",
-            "hi": "बायर्न",
-            "bn": "বায়ার্ন"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 2,
-        "display": 2,
-        "period1": 0,
-        "period2": 2,
-        "normaltime": 2
-      },
-      "awayScore": {
-        "current": 3,
-        "display": 3,
-        "period1": 1,
-        "period2": 2,
-        "normaltime": 3
-      },
-      "time": {
-        "injuryTime1": 1,
-        "injuryTime2": 5,
-        "currentPeriodStartTimestamp": 1756324091
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type",
-          "awayScore.period2",
-          "awayScore.normaltime"
-        ],
-        "changeTimestamp": 1756327124
-      },
-      "hasGlobalHighlights": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 14015651,
-      "slug": "fc-bayern-munchen-sv-wehen-wiesbaden",
-      "startTimestamp": 1756320300,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "eventState": {},
-      "correctAiInsight": true,
-      "correctHalftimeAiInsight": true,
-      "tournament": {
         "name": "Bundesliga",
         "slug": "bundesliga",
         "category": {
@@ -6873,28 +6643,269 @@
           "M"
         ]
       }
+    },
+    {
+      "eventState": {},
+      "correctAiInsight": false,
+      "correctHalftimeAiInsight": false,
+      "tournament": {
+        "name": "Bundesliga",
+        "slug": "bundesliga",
+        "category": {
+          "name": "Germany",
+          "slug": "germany",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 30,
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "flag": "germany",
+          "alpha2": "DE",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألمانيا",
+              "hi": "जर्मनी",
+              "bn": "জার্মানি"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Bundesliga",
+          "slug": "bundesliga",
+          "primaryColorHex": "#e2080e",
+          "secondaryColorHex": "#8e0902",
+          "category": {
+            "name": "Germany",
+            "slug": "germany",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 30,
+            "country": {
+              "alpha2": "DE",
+              "alpha3": "DEU",
+              "name": "Germany",
+              "slug": "germany"
+            },
+            "flag": "germany",
+            "alpha2": "DE",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ألمانيا",
+                "hi": "जर्मनी",
+                "bn": "জার্মানি"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 511562,
+          "hasPerformanceGraphFeature": true,
+          "id": 35,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الألماني",
+              "hi": "बुंडेसलीगा",
+              "bn": "বুন্দেসলীগা"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 695,
+        "isGroup": false,
+        "isLive": false,
+        "id": 42,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الألماني",
+            "hi": "बुंडेसलीगा",
+            "bn": "বুন্দেসলীগা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Bundesliga 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 77333
+      },
+      "roundInfo": {
+        "round": 20
+      },
+      "customId": "xdbsBdb",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 3,
+      "homeTeam": {
+        "name": "Hamburger SV",
+        "slug": "hamburger-sv",
+        "shortName": "HSV",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 76589,
+        "nameCode": "HSV",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2676,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هامبورج",
+            "ru": "Гамбург",
+            "hi": "हैमबर्गर ऐसवि"
+          },
+          "shortNameTranslation": {
+            "ar": "أتش أس في",
+            "hi": "एचएसवी",
+            "bn": "এইচএসভি"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "FC Bayern München",
+        "slug": "fc-bayern-munchen",
+        "shortName": "Bayern",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 2389506,
+        "nameCode": "FCB",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2672,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#cf142f",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إف سي بايرن ميونيخ",
+            "ru": "Бавария Мюнхен"
+          },
+          "shortNameTranslation": {
+            "ar": "بايرن",
+            "hi": "बायर्न",
+            "bn": "বায়ার্ন"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1,
+        "normaltime": 2
+      },
+      "awayScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1,
+        "normaltime": 2
+      },
+      "time": {
+        "injuryTime1": 6,
+        "injuryTime2": 9,
+        "currentPeriodStartTimestamp": 1769884727
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1769888057
+      },
+      "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14062191,
+      "slug": "hamburger-sv-fc-bayern-munchen",
+      "startTimestamp": 1769880600,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false,
+      "eventFilters": {
+        "category": [
+          "club"
+        ],
+        "level": [
+          "top-competitions",
+          "pro"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
     }
   ],
   "last5": {
-    "form": "WLWWW",
-    "w": 4,
-    "d": 0,
+    "form": "DWLWW",
+    "w": 3,
+    "d": 1,
     "l": 1,
-    "gf": 13,
-    "ga": 5,
-    "avg_gf": 2.6,
-    "avg_ga": 1.0,
+    "gf": 12,
+    "ga": 6,
+    "avg_gf": 2.4,
+    "avg_ga": 1.2,
     "count": 5
   },
   "last10": {
-    "form": "WLWWWWWWDW",
-    "w": 8,
-    "d": 1,
+    "form": "DWLWWWWWWD",
+    "w": 7,
+    "d": 2,
     "l": 1,
-    "gf": 35,
-    "ga": 9,
-    "avg_gf": 3.5,
-    "avg_ga": 0.9,
+    "gf": 34,
+    "ga": 10,
+    "avg_gf": 3.4,
+    "avg_ga": 1.0,
     "count": 10
   },
   "passes_avg_last5": {
@@ -6904,11 +6915,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 716.0,
-    "avg_accurate": 641.4,
-    "avg_accuracy_pct": 89.06562137216598
+    "avg_passes": 717.8,
+    "avg_accurate": 646.6,
+    "avg_accuracy_pct": 89.58828849416719
   },
   "passes_events_last5": [
+    {
+      "event_id": 14062191,
+      "startTimestamp": 1769880600,
+      "passes": 689.0,
+      "accurate": 630.0,
+      "accuracy_pct": 91.43686502177069
+    },
     {
       "event_id": 14566891,
       "startTimestamp": 1769630400,
@@ -6936,13 +6954,6 @@
       "passes": 610.0,
       "accurate": 532.0,
       "accuracy_pct": 87.21311475409837
-    },
-    {
-      "event_id": 14062167,
-      "startTimestamp": 1768419000,
-      "passes": 680.0,
-      "accurate": 604.0,
-      "accuracy_pct": 88.8235294117647
     }
   ]
 }
