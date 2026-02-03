@@ -6642,12 +6642,16 @@
         "changeTimestamp": 1769875300
       },
       "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14222836,
+      "awayRedCards": 2,
       "slug": "pafos-fc-ethnikos-achnas",
       "startTimestamp": 1769868000,
       "finalResultOnly": false,
-      "feedLocked": false,
+      "feedLocked": true,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -6687,21 +6691,21 @@
   "passes_avg_last5": {
     "considered": 5,
     "counts_per_metric": {
-      "passes": 4,
-      "accurate": 4,
-      "accuracy_pct": 4
+      "passes": 5,
+      "accurate": 5,
+      "accuracy_pct": 5
     },
-    "avg_passes": 426.25,
-    "avg_accurate": 345.25,
-    "avg_accuracy_pct": 79.85889728143826
+    "avg_passes": 437.0,
+    "avg_accurate": 357.2,
+    "avg_accuracy_pct": 80.76211782515061
   },
   "passes_events_last5": [
     {
       "event_id": 14222836,
       "startTimestamp": 1769868000,
-      "passes": null,
-      "accurate": null,
-      "accuracy_pct": null
+      "passes": 480.0,
+      "accurate": 405.0,
+      "accuracy_pct": 84.375
     },
     {
       "event_id": 14566967,
