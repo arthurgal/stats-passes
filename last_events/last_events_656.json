@@ -6662,7 +6662,10 @@
         ],
         "changeTimestamp": 1772740341
       },
-      "hasGlobalHighlights": false,
+      "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 14770558,
       "slug": "molde-fk-bodoglimt",
@@ -6708,21 +6711,21 @@
   "passes_avg_last5": {
     "considered": 5,
     "counts_per_metric": {
-      "passes": 4,
-      "accurate": 4,
-      "accuracy_pct": 4
+      "passes": 5,
+      "accurate": 5,
+      "accuracy_pct": 5
     },
-    "avg_passes": 359.75,
-    "avg_accurate": 282.75,
-    "avg_accuracy_pct": 77.90031370354112
+    "avg_passes": 398.2,
+    "avg_accurate": 322.2,
+    "avg_accuracy_pct": 79.71155531065898
   },
   "passes_events_last5": [
     {
       "event_id": 14770558,
       "startTimestamp": 1772733600,
-      "passes": null,
-      "accurate": null,
-      "accuracy_pct": null
+      "passes": 552.0,
+      "accurate": 480.0,
+      "accuracy_pct": 86.95652173913044
     },
     {
       "event_id": 15452764,
