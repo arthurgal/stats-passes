@@ -5,229 +5,6 @@
     {
       "eventState": {},
       "tournament": {
-        "name": "Premier League",
-        "slug": "premier-league",
-        "category": {
-          "name": "Kazakhstan",
-          "slug": "kazakhstan",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "country": {
-            "alpha2": "KZ",
-            "alpha3": "KAZ",
-            "name": "Kazakhstan",
-            "slug": "kazakhstan"
-          },
-          "id": 278,
-          "flag": "kazakhstan",
-          "alpha2": "KZ",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "كازاخستان",
-              "ru": "Казахстан"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "Kazakhstan Premier League",
-          "slug": "premier-league",
-          "primaryColorHex": "#6c0c17",
-          "secondaryColorHex": "#dbac00",
-          "category": {
-            "name": "Kazakhstan",
-            "slug": "kazakhstan",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "country": {
-              "alpha2": "KZ",
-              "alpha3": "KAZ",
-              "name": "Kazakhstan",
-              "slug": "kazakhstan"
-            },
-            "id": 278,
-            "flag": "kazakhstan",
-            "alpha2": "KZ",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "كازاخستان",
-                "ru": "Казахстан"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 4000,
-          "hasPerformanceGraphFeature": true,
-          "country": {},
-          "id": 682,
-          "hasEventPlayerStatistics": false,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "الدوري الكازاخستاني الممتاز",
-              "bn": "কাজাখস্তান প্রিমিয়ার লিগ",
-              "hi": "कजाखस्तान प्रीमियर लीग"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 0,
-        "isGroup": false,
-        "isLive": false,
-        "id": 3103,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "bn": "প্রিমিয়ার লীগ",
-            "hi": "प्रीमियर लीग",
-            "ar": "الدوري الكازاخستاني الممتاز"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Premier League 2025",
-        "year": "2025",
-        "editor": false,
-        "id": 72733
-      },
-      "roundInfo": {
-        "round": 19
-      },
-      "customId": "xdcseWKd",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 1,
-      "homeTeam": {
-        "name": "Kairat Almaty",
-        "slug": "kairat-almaty",
-        "shortName": "Kairat",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 82989,
-        "nameCode": "ALM",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "country": {
-          "alpha2": "KZ",
-          "alpha3": "KAZ",
-          "name": "Kazakhstan",
-          "slug": "kazakhstan"
-        },
-        "id": 5172,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#000000",
-          "secondary": "#ffeb3b",
-          "text": "#ffeb3b"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "كايرات ألماتي",
-            "ru": "Кайрат Алматы"
-          },
-          "shortNameTranslation": {
-            "ar": "كايرات",
-            "bn": "কাইরাত",
-            "hi": "कैरात"
-          }
-        }
-      },
-      "awayTeam": {
-        "name": "Ulytau FC",
-        "slug": "ulytau-fc",
-        "shortName": "Ulytau",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 2024,
-        "nameCode": "ULY",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "country": {
-          "alpha2": "KZ",
-          "alpha3": "KAZ",
-          "name": "Kazakhstan",
-          "slug": "kazakhstan"
-        },
-        "id": 464804,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#374df5",
-          "secondary": "#374df5",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "أوليتاو إف سي"
-          },
-          "shortNameTranslation": {
-            "ar": "أوليتاو"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 1,
-        "display": 1,
-        "period1": 1,
-        "period2": 0,
-        "normaltime": 1
-      },
-      "awayScore": {
-        "current": 0,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0
-      },
-      "time": {
-        "currentPeriodStartTimestamp": 1754146456
-      },
-      "changes": {
-        "changes": [
-          "time.currentPeriodStart",
-          "status.code",
-          "status.description",
-          "status.type",
-          "homeScore.period2",
-          "homeScore.normaltime",
-          "awayScore.period2",
-          "awayScore.normaltime"
-        ],
-        "changeTimestamp": 1754146460
-      },
-      "hasGlobalHighlights": true,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 13545727,
-      "slug": "ulytau-fc-kairat-almaty",
-      "startTimestamp": 1754139600,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "eventState": {},
-      "tournament": {
         "name": "UEFA Champions League, Qualification",
         "slug": "uefa-champions-league-qualification",
         "category": {
@@ -6632,42 +6409,279 @@
           "M"
         ]
       }
+    },
+    {
+      "eventState": {},
+      "tournament": {
+        "name": "Premier League",
+        "slug": "premier-league",
+        "category": {
+          "name": "Kazakhstan",
+          "slug": "kazakhstan",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "country": {
+            "alpha2": "KZ",
+            "alpha3": "KAZ",
+            "name": "Kazakhstan",
+            "slug": "kazakhstan"
+          },
+          "id": 278,
+          "flag": "kazakhstan",
+          "alpha2": "KZ",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كازاخستان",
+              "ru": "Казахстан"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Kazakhstan Premier League",
+          "slug": "premier-league",
+          "primaryColorHex": "#6c0c17",
+          "secondaryColorHex": "#dbac00",
+          "category": {
+            "name": "Kazakhstan",
+            "slug": "kazakhstan",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "country": {
+              "alpha2": "KZ",
+              "alpha3": "KAZ",
+              "name": "Kazakhstan",
+              "slug": "kazakhstan"
+            },
+            "id": 278,
+            "flag": "kazakhstan",
+            "alpha2": "KZ",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كازاخستان",
+                "ru": "Казахстан"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 4000,
+          "hasPerformanceGraphFeature": true,
+          "country": {},
+          "id": 682,
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الكازاخستاني الممتاز",
+              "bn": "কাজাখস্তান প্রিমিয়ার লিগ",
+              "hi": "कजाखस्तान प्रीमियर लीग"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "isLive": false,
+        "id": 3103,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "bn": "প্রিমিয়ার লীগ",
+            "hi": "प्रीमियर लीग",
+            "ar": "الدوري الكازاخستاني الممتاز"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Premier League 2026",
+        "year": "2026",
+        "editor": false,
+        "id": 90730
+      },
+      "roundInfo": {
+        "round": 3
+      },
+      "customId": "xdcsohc",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 3,
+      "homeTeam": {
+        "name": "Zhetysu Taldykorgan",
+        "slug": "zhetysu-taldykorgan",
+        "shortName": "Zhetysu",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 1484,
+        "nameCode": "ZHE",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "country": {
+          "alpha2": "KZ",
+          "alpha3": "KAZ",
+          "name": "Kazakhstan",
+          "slug": "kazakhstan"
+        },
+        "id": 5364,
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#0000ff",
+          "text": "#0000ff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زهيتيسو تالديكورغان",
+            "hi": "ज़ेटीसू तलडीकोर्गन",
+            "ru": "Жетысу Талдыкорган"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "awayTeam": {
+        "name": "Kairat Almaty",
+        "slug": "kairat-almaty",
+        "shortName": "Kairat",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 82989,
+        "nameCode": "ALM",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "country": {
+          "alpha2": "KZ",
+          "alpha3": "KAZ",
+          "name": "Kazakhstan",
+          "slug": "kazakhstan"
+        },
+        "id": 5172,
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#ffeb3b",
+          "text": "#ffeb3b"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كايرات ألماتي",
+            "ru": "Кайрат Алматы"
+          },
+          "shortNameTranslation": {
+            "ar": "كايرات",
+            "bn": "কাইরাত",
+            "hi": "कैरात"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1774091220
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1774094402
+      },
+      "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15635542,
+      "awayRedCards": 1,
+      "slug": "zhetysu-taldykorgan-kairat-almaty",
+      "startTimestamp": 1774087200,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false,
+      "eventFilters": {
+        "category": [
+          "club"
+        ],
+        "level": [
+          "pro"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
     }
   ],
   "last5": {
-    "form": "WWLWL",
+    "form": "DWWLW",
     "w": 3,
-    "d": 0,
-    "l": 2,
-    "gf": 12,
-    "ga": 11,
-    "avg_gf": 2.4,
-    "avg_ga": 2.2,
+    "d": 1,
+    "l": 1,
+    "gf": 9,
+    "ga": 7,
+    "avg_gf": 1.8,
+    "avg_ga": 1.4,
     "count": 5
   },
   "last10": {
-    "form": "WWLWLWLLDL",
+    "form": "DWWLWLWLLD",
     "w": 4,
-    "d": 1,
-    "l": 5,
+    "d": 2,
+    "l": 4,
     "gf": 16,
-    "ga": 19,
+    "ga": 18,
     "avg_gf": 1.6,
-    "avg_ga": 1.9,
+    "avg_ga": 1.8,
     "count": 10
   },
   "passes_avg_last5": {
     "considered": 5,
     "counts_per_metric": {
-      "passes": 3,
-      "accurate": 3,
-      "accuracy_pct": 3
+      "passes": 4,
+      "accurate": 4,
+      "accuracy_pct": 4
     },
-    "avg_passes": 425.0,
-    "avg_accurate": 350.0,
-    "avg_accuracy_pct": 82.21189442031407
+    "avg_passes": 467.5,
+    "avg_accurate": 390.75,
+    "avg_accuracy_pct": 83.21354266397505
   },
   "passes_events_last5": [
+    {
+      "event_id": 15635542,
+      "startTimestamp": 1774087200,
+      "passes": 595.0,
+      "accurate": 513.0,
+      "accuracy_pct": 86.21848739495799
+    },
     {
       "event_id": 15635536,
       "startTimestamp": 1773669600,
@@ -6692,13 +6706,6 @@
     {
       "event_id": 15578921,
       "startTimestamp": 1771507800,
-      "passes": null,
-      "accurate": null,
-      "accuracy_pct": null
-    },
-    {
-      "event_id": 15571555,
-      "startTimestamp": 1771488000,
       "passes": null,
       "accurate": null,
       "accuracy_pct": null
