@@ -6884,29 +6884,13 @@
       "time": {},
       "changes": {
         "changes": [
-          "status.code",
-          "status.description",
-          "status.type",
-          "homeScore.current",
-          "homeScore.display",
-          "homeScore.period1",
-          "homeScore.period2",
-          "homeScore.normaltime",
-          "homeScore.extra1",
-          "homeScore.extra2",
-          "homeScore.overtime",
-          "awayScore.current",
-          "awayScore.display",
-          "awayScore.period1",
-          "awayScore.period2",
-          "awayScore.normaltime",
-          "awayScore.extra1",
-          "awayScore.extra2",
-          "awayScore.overtime"
+          "cardsCode"
         ],
-        "changeTimestamp": 1774518639
+        "changeTimestamp": 1774869763
       },
       "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 15882707,
@@ -6953,21 +6937,21 @@
   "passes_avg_last5": {
     "considered": 5,
     "counts_per_metric": {
-      "passes": 4,
-      "accurate": 4,
-      "accuracy_pct": 4
+      "passes": 5,
+      "accurate": 5,
+      "accuracy_pct": 5
     },
-    "avg_passes": 494.25,
-    "avg_accurate": 400.75,
-    "avg_accuracy_pct": 80.90971230835248
+    "avg_passes": 500.0,
+    "avg_accurate": 411.6,
+    "avg_accuracy_pct": 82.12738743750415
   },
   "passes_events_last5": [
     {
       "event_id": 15882707,
       "startTimestamp": 1774438200,
-      "passes": null,
-      "accurate": null,
-      "accuracy_pct": null
+      "passes": 523.0,
+      "accurate": 455.0,
+      "accuracy_pct": 86.9980879541109
     },
     {
       "event_id": 14053738,
