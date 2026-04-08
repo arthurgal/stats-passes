@@ -4,238 +4,6 @@
   "events": [
     {
       "eventState": {},
-      "correctAiInsight": true,
-      "correctHalftimeAiInsight": true,
-      "tournament": {
-        "name": "Bundesliga",
-        "slug": "bundesliga",
-        "category": {
-          "name": "Germany",
-          "slug": "germany",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "priority": 8,
-          "country": {
-            "alpha2": "DE",
-            "alpha3": "DEU",
-            "name": "Germany",
-            "slug": "germany"
-          },
-          "id": 30,
-          "flag": "germany",
-          "alpha2": "DE",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "ألمانيا",
-              "bn": "জার্মানি",
-              "hi": "जर्मनी",
-              "ru": "Германия"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "Bundesliga",
-          "slug": "bundesliga",
-          "primaryColorHex": "#e2080e",
-          "secondaryColorHex": "#8e0902",
-          "category": {
-            "name": "Germany",
-            "slug": "germany",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "priority": 8,
-            "country": {
-              "alpha2": "DE",
-              "alpha3": "DEU",
-              "name": "Germany",
-              "slug": "germany"
-            },
-            "id": 30,
-            "flag": "germany",
-            "alpha2": "DE",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "ألمانيا",
-                "bn": "জার্মানি",
-                "hi": "जर्मनी",
-                "ru": "Германия"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 518852,
-          "hasPerformanceGraphFeature": true,
-          "country": {},
-          "id": 35,
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "bn": "বুন্দেসলীগা",
-              "ar": "الدوري الألماني",
-              "hi": "बुंडेसलीगा"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 696,
-        "isGroup": false,
-        "isLive": false,
-        "id": 42,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "hi": "बुंडेसलीगा",
-            "ar": "الدوري الألماني",
-            "bn": "বুন্দেসলীগা"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Bundesliga 25/26",
-        "year": "25/26",
-        "editor": false,
-        "id": 77333
-      },
-      "roundInfo": {
-        "round": 9
-      },
-      "customId": "xdbsGdb",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 1,
-      "homeTeam": {
-        "name": "FC Bayern München",
-        "slug": "fc-bayern-munchen",
-        "shortName": "Bayern",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 2562887,
-        "nameCode": "FCB",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "country": {
-          "alpha2": "DE",
-          "alpha3": "DEU",
-          "name": "Germany",
-          "slug": "germany"
-        },
-        "id": 2672,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#cf142f",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "إف سي بايرن ميونيخ",
-            "ru": "Бавария Мюнхен"
-          },
-          "shortNameTranslation": {
-            "ar": "بايرن",
-            "bn": "বায়ার্ন",
-            "hi": "बायर्न"
-          }
-        }
-      },
-      "awayTeam": {
-        "name": "Bayer 04 Leverkusen",
-        "slug": "bayer-04-leverkusen",
-        "shortName": "Leverkusen",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 1036399,
-        "nameCode": "B04",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "country": {
-          "alpha2": "DE",
-          "alpha3": "DEU",
-          "name": "Germany",
-          "slug": "germany"
-        },
-        "id": 2681,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#000000",
-          "secondary": "#ff2222",
-          "text": "#ff2222"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "باير 04 ليفركوزن",
-            "ru": "Байер Леверкузен"
-          },
-          "shortNameTranslation": {
-            "ar": "ليفركوزن",
-            "bn": "লেভারকুসেন",
-            "hi": "लेवरकुसेन"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 3,
-        "display": 3,
-        "period1": 3,
-        "period2": 0,
-        "normaltime": 3
-      },
-      "awayScore": {
-        "current": 0,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0
-      },
-      "time": {
-        "injuryTime1": 2,
-        "injuryTime2": 3,
-        "currentPeriodStartTimestamp": 1762021988
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1762024878
-      },
-      "hasGlobalHighlights": true,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 14065128,
-      "slug": "bayer-04-leverkusen-fc-bayern-munchen",
-      "startTimestamp": 1762018200,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -7177,28 +6945,262 @@
           "M"
         ]
       }
+    },
+    {
+      "eventState": {},
+      "correctAiInsight": true,
+      "correctHalftimeAiInsight": true,
+      "tournament": {
+        "name": "UEFA Champions League, Knockout stage",
+        "slug": "uefa-champions-league-knockout-stage",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 19,
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "UEFA Champions League",
+          "slug": "uefa-champions-league",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "priority": 19,
+            "country": {},
+            "id": 1465,
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ",
+                "ru": "Европа"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1241997,
+          "hasPerformanceGraphFeature": false,
+          "country": {},
+          "id": 7,
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+              "ar": "دوري أبطال أوروبا",
+              "hi": "यूईएफए चैंपियंस लीग",
+              "hr": "UEFA Liga prvaka"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 714,
+        "isGroup": false,
+        "isLive": false,
+        "id": 23,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "hi": "यूईएफए चैंपियंस लीग",
+            "ar": "دوري أبطال أوروبا",
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "UEFA Champions League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76953
+      },
+      "roundInfo": {
+        "round": 27,
+        "name": "Quarterfinals",
+        "slug": "quarterfinals",
+        "cupRoundType": 4
+      },
+      "customId": "xdbsEgb",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 2,
+      "homeTeam": {
+        "name": "Real Madrid",
+        "slug": "real-madrid",
+        "shortName": "Real Madrid",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 7172038,
+        "nameCode": "RMA",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "id": 2829,
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريال مدريد",
+            "bn": "রিয়াল মাদ্রিদ",
+            "hi": "रियल मैड्रिड",
+            "ru": "Реал Мадрид"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "awayTeam": {
+        "name": "FC Bayern München",
+        "slug": "fc-bayern-munchen",
+        "shortName": "Bayern",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 2562887,
+        "nameCode": "FCB",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "id": 2672,
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#cf142f",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إف سي بايرن ميونيخ",
+            "ru": "Бавария Мюнхен"
+          },
+          "shortNameTranslation": {
+            "ar": "بايرن",
+            "bn": "বায়ার্ন",
+            "hi": "बायर्न"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 0,
+        "period2": 1,
+        "normaltime": 1
+      },
+      "awayScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1,
+        "normaltime": 2
+      },
+      "time": {
+        "injuryTime1": 1,
+        "injuryTime2": 4,
+        "currentPeriodStartTimestamp": 1775592239
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1775595214
+      },
+      "hasGlobalHighlights": false,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15632084,
+      "slug": "real-madrid-fc-bayern-munchen",
+      "startTimestamp": 1775588400,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false,
+      "eventFilters": {
+        "category": [
+          "club"
+        ],
+        "level": [
+          "top-competitions",
+          "pro"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
     }
   ],
   "last5": {
-    "form": "WWWDW",
+    "form": "WWWWD",
     "w": 4,
     "d": 1,
     "l": 0,
-    "gf": 18,
+    "gf": 14,
     "ga": 5,
-    "avg_gf": 3.6,
+    "avg_gf": 2.8,
     "avg_ga": 1.0,
     "count": 5
   },
   "last10": {
-    "form": "WWWDWWWWWW",
+    "form": "WWWWDWWWWW",
     "w": 9,
     "d": 1,
     "l": 0,
     "gf": 33,
-    "ga": 10,
+    "ga": 11,
     "avg_gf": 3.3,
-    "avg_ga": 1.0,
+    "avg_ga": 1.1,
     "count": 10
   },
   "passes_avg_last5": {
@@ -7208,11 +7210,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 703.4,
-    "avg_accurate": 639.0,
-    "avg_accuracy_pct": 90.6563976766846
+    "avg_passes": 664.4,
+    "avg_accurate": 600.0,
+    "avg_accuracy_pct": 90.0124993795951
   },
   "passes_events_last5": [
+    {
+      "event_id": 15632084,
+      "startTimestamp": 1775588400,
+      "passes": 493.0,
+      "accurate": 437.0,
+      "accuracy_pct": 88.64097363083164
+    },
     {
       "event_id": 14065206,
       "startTimestamp": 1775309400,
@@ -7240,13 +7249,6 @@
       "passes": 636.0,
       "accurate": 566.0,
       "accuracy_pct": 88.9937106918239
-    },
-    {
-      "event_id": 15631361,
-      "startTimestamp": 1773172800,
-      "passes": 688.0,
-      "accurate": 632.0,
-      "accuracy_pct": 91.86046511627907
     }
   ]
 }
