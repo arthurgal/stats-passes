@@ -4,226 +4,6 @@
   "events": [
     {
       "eventState": {},
-      "correctAiInsight": false,
-      "correctHalftimeAiInsight": true,
-      "tournament": {
-        "name": "UEFA Champions League",
-        "slug": "uefa-champions-league",
-        "category": {
-          "name": "Europe",
-          "slug": "europe",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "priority": 19,
-          "country": {},
-          "id": 1465,
-          "flag": "europe",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "أوروبا",
-              "hi": "यूरोप",
-              "bn": "ইউরোপ",
-              "ru": "Европа"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "UEFA Champions League",
-          "slug": "uefa-champions-league",
-          "primaryColorHex": "#062b5c",
-          "secondaryColorHex": "#086aab",
-          "category": {
-            "name": "Europe",
-            "slug": "europe",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "priority": 19,
-            "country": {},
-            "id": 1465,
-            "flag": "europe",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "أوروبا",
-                "hi": "यूरोप",
-                "bn": "ইউরোপ",
-                "ru": "Европа"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 1241997,
-          "hasPerformanceGraphFeature": false,
-          "country": {},
-          "id": 7,
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
-              "ar": "دوري أبطال أوروبا",
-              "hi": "यूईएफए चैंपियंस लीग",
-              "hr": "UEFA Liga prvaka"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 716,
-        "isGroup": false,
-        "id": 138314,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "دوري أبطال أوروبا"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "UEFA Champions League 25/26",
-        "year": "25/26",
-        "editor": false,
-        "id": 76953
-      },
-      "roundInfo": {
-        "round": 4
-      },
-      "customId": "UHsxdb",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 2,
-      "homeTeam": {
-        "name": "Paris Saint-Germain",
-        "slug": "paris-saint-germain",
-        "shortName": "PSG",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 3003171,
-        "nameCode": "PSG",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "country": {
-          "alpha2": "FR",
-          "alpha3": "FRA",
-          "name": "France",
-          "slug": "france"
-        },
-        "id": 1644,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#000066",
-          "secondary": "#ff1541",
-          "text": "#ff1541"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "باريس سان جيرمان",
-            "hi": "पेरिस सेंट-जर्मेन",
-            "ru": "Пари Сен-Жермен"
-          },
-          "shortNameTranslation": {
-            "bn": "পিএসজি",
-            "hi": "पीएसजी"
-          }
-        }
-      },
-      "awayTeam": {
-        "name": "FC Bayern München",
-        "slug": "fc-bayern-munchen",
-        "shortName": "Bayern",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 2562887,
-        "nameCode": "FCB",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "country": {
-          "alpha2": "DE",
-          "alpha3": "DEU",
-          "name": "Germany",
-          "slug": "germany"
-        },
-        "id": 2672,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#cf142f",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "إف سي بايرن ميونيخ",
-            "ru": "Бавария Мюнхен"
-          },
-          "shortNameTranslation": {
-            "ar": "بايرن",
-            "bn": "বায়ার্ন",
-            "hi": "बायर्न"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 1,
-        "display": 1,
-        "period1": 0,
-        "period2": 1,
-        "normaltime": 1
-      },
-      "awayScore": {
-        "current": 2,
-        "display": 2,
-        "period1": 2,
-        "period2": 0,
-        "normaltime": 2
-      },
-      "coverage": -1,
-      "time": {
-        "injuryTime1": 3,
-        "injuryTime2": 5,
-        "currentPeriodStartTimestamp": 1762290680
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1762293705
-      },
-      "hasGlobalHighlights": true,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 14566656,
-      "awayRedCards": 1,
-      "slug": "fc-bayern-munchen-paris-saint-germain",
-      "startTimestamp": 1762286400,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "eventState": {},
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
@@ -290,7 +70,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 423408,
+          "userCount": 423585,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 34,
@@ -344,7 +124,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 517585,
+        "userCount": 517297,
         "nameCode": "OL",
         "disabled": false,
         "national": false,
@@ -384,7 +164,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -525,7 +305,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 423408,
+          "userCount": 423585,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 34,
@@ -579,7 +359,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -619,7 +399,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 52548,
+        "userCount": 52531,
         "nameCode": "HAC",
         "disabled": false,
         "national": false,
@@ -743,7 +523,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1241997,
+          "userCount": 1249615,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 7,
@@ -795,7 +575,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -835,7 +615,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1419843,
+        "userCount": 1420251,
         "nameCode": "TOT",
         "disabled": false,
         "national": false,
@@ -976,7 +756,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 423408,
+          "userCount": 423585,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 34,
@@ -1030,7 +810,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 506786,
+        "userCount": 506665,
         "nameCode": "ASM",
         "disabled": false,
         "national": false,
@@ -1070,7 +850,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -1209,7 +989,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 423408,
+          "userCount": 423585,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 34,
@@ -1263,7 +1043,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -1303,7 +1083,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 123280,
+        "userCount": 123254,
         "nameCode": "SR",
         "disabled": false,
         "national": false,
@@ -1444,7 +1224,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1241997,
+          "userCount": 1249615,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 7,
@@ -1496,7 +1276,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 508417,
+        "userCount": 508254,
         "nameCode": "ATH",
         "disabled": false,
         "national": false,
@@ -1534,7 +1314,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -1685,7 +1465,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 423408,
+          "userCount": 423585,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 34,
@@ -1739,7 +1519,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 53312,
+        "userCount": 53276,
         "nameCode": "FCM",
         "disabled": false,
         "national": false,
@@ -1777,7 +1557,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -1913,7 +1693,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 45327,
+          "userCount": 45333,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 23674,
@@ -1972,7 +1752,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -2012,7 +1792,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1017617,
+        "userCount": 1018377,
         "nameCode": "FLA",
         "disabled": false,
         "national": false,
@@ -2091,6 +1871,7 @@
       "startTimestamp": 1765990800,
       "finalResultOnly": false,
       "feedLocked": true,
+      "cupMatchesInRound": 1,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -2173,7 +1954,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 49834,
+          "userCount": 49874,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 335,
@@ -2265,7 +2046,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -2337,6 +2118,7 @@
       "startTimestamp": 1766260800,
       "finalResultOnly": false,
       "feedLocked": false,
+      "cupMatchesInRound": 1,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -2419,7 +2201,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 423408,
+          "userCount": 423585,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 34,
@@ -2473,7 +2255,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -2513,7 +2295,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 64376,
+        "userCount": 64332,
         "nameCode": "PFC",
         "disabled": false,
         "national": false,
@@ -2664,7 +2446,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 15461,
+          "userCount": 15492,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 339,
@@ -2721,7 +2503,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -2761,7 +2543,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 642566,
+        "userCount": 642651,
         "nameCode": "OM",
         "disabled": false,
         "national": false,
@@ -2834,6 +2616,7 @@
       "startTimestamp": 1767895200,
       "finalResultOnly": false,
       "feedLocked": true,
+      "cupMatchesInRound": 1,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -2913,7 +2696,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 49834,
+          "userCount": 49874,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 335,
@@ -2969,7 +2752,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -3009,7 +2792,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 64376,
+        "userCount": 64332,
         "nameCode": "PFC",
         "disabled": false,
         "national": false,
@@ -3058,6 +2841,7 @@
       "startTimestamp": 1768057200,
       "finalResultOnly": false,
       "feedLocked": false,
+      "cupMatchesInRound": 1,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -3140,7 +2924,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 49834,
+          "userCount": 49874,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 335,
@@ -3197,7 +2981,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -3237,7 +3021,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 64376,
+        "userCount": 64332,
         "nameCode": "PFC",
         "disabled": false,
         "national": false,
@@ -3310,6 +3094,7 @@
       "startTimestamp": 1768248600,
       "finalResultOnly": false,
       "feedLocked": false,
+      "cupMatchesInRound": 1,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -3392,7 +3177,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 423408,
+          "userCount": 423585,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 34,
@@ -3446,7 +3231,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -3486,7 +3271,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 308498,
+        "userCount": 308428,
         "nameCode": "LIL",
         "disabled": false,
         "national": false,
@@ -3624,7 +3409,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1241997,
+          "userCount": 1249615,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 7,
@@ -3676,7 +3461,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 733720,
+        "userCount": 744103,
         "nameCode": "SCP",
         "disabled": false,
         "national": false,
@@ -3714,7 +3499,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -3865,7 +3650,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 423408,
+          "userCount": 423585,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 34,
@@ -3919,7 +3704,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 49048,
+        "userCount": 49037,
         "nameCode": "AJA",
         "disabled": false,
         "national": false,
@@ -3957,7 +3742,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -4095,7 +3880,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1241997,
+          "userCount": 1249615,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 7,
@@ -4147,7 +3932,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -4187,7 +3972,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 923341,
+        "userCount": 923048,
         "nameCode": "NEW",
         "disabled": false,
         "national": false,
@@ -4339,7 +4124,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 423408,
+          "userCount": 423585,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 34,
@@ -4393,7 +4178,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 143490,
+        "userCount": 143468,
         "nameCode": "STR",
         "disabled": false,
         "national": false,
@@ -4433,7 +4218,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -4584,7 +4369,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 423408,
+          "userCount": 423585,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 34,
@@ -4638,7 +4423,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -4678,7 +4463,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 642566,
+        "userCount": 642651,
         "nameCode": "OM",
         "disabled": false,
         "national": false,
@@ -4828,7 +4613,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 423408,
+          "userCount": 423585,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 34,
@@ -4882,7 +4667,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 123280,
+        "userCount": 123254,
         "nameCode": "SR",
         "disabled": false,
         "national": false,
@@ -4922,7 +4707,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -5060,7 +4845,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1241997,
+          "userCount": 1249615,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 7,
@@ -5117,7 +4902,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 506786,
+        "userCount": 506665,
         "nameCode": "ASM",
         "disabled": false,
         "national": false,
@@ -5157,7 +4942,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -5227,6 +5012,7 @@
       "startTimestamp": 1771358400,
       "finalResultOnly": false,
       "feedLocked": true,
+      "cupMatchesInRound": 2,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -5309,7 +5095,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 423408,
+          "userCount": 423585,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 34,
@@ -5363,7 +5149,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -5403,7 +5189,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 53312,
+        "userCount": 53276,
         "nameCode": "FCM",
         "disabled": false,
         "national": false,
@@ -5539,7 +5325,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1241997,
+          "userCount": 1249615,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 7,
@@ -5597,7 +5383,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -5637,7 +5423,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 506786,
+        "userCount": 506665,
         "nameCode": "ASM",
         "disabled": false,
         "national": false,
@@ -5710,6 +5496,7 @@
       "startTimestamp": 1772049600,
       "finalResultOnly": false,
       "feedLocked": true,
+      "cupMatchesInRound": 2,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -5792,7 +5579,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 423408,
+          "userCount": 423585,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 34,
@@ -5846,7 +5633,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 52548,
+        "userCount": 52531,
         "nameCode": "HAC",
         "disabled": false,
         "national": false,
@@ -5884,7 +5671,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -6034,7 +5821,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 423408,
+          "userCount": 423585,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 34,
@@ -6088,7 +5875,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -6128,7 +5915,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 506786,
+        "userCount": 506665,
         "nameCode": "ASM",
         "disabled": false,
         "national": false,
@@ -6266,7 +6053,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1241997,
+          "userCount": 1249615,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 7,
@@ -6324,7 +6111,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -6364,7 +6151,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3018874,
+        "userCount": 3020210,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
@@ -6432,6 +6219,7 @@
       "startTimestamp": 1773259200,
       "finalResultOnly": false,
       "feedLocked": true,
+      "cupMatchesInRound": 2,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -6502,7 +6290,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1241997,
+          "userCount": 1249615,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 7,
@@ -6561,7 +6349,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3018874,
+        "userCount": 3020210,
         "nameCode": "CHE",
         "disabled": false,
         "national": false,
@@ -6599,7 +6387,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -6669,6 +6457,7 @@
       "startTimestamp": 1773777600,
       "finalResultOnly": false,
       "feedLocked": true,
+      "cupMatchesInRound": 2,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -6751,7 +6540,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 423408,
+          "userCount": 423585,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 34,
@@ -6805,7 +6594,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 150704,
+        "userCount": 150676,
         "nameCode": "OGC",
         "disabled": false,
         "national": false,
@@ -6843,7 +6632,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -6994,7 +6783,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 423408,
+          "userCount": 423585,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 34,
@@ -7048,7 +6837,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3003171,
+        "userCount": 3006948,
         "nameCode": "PSG",
         "disabled": false,
         "national": false,
@@ -7088,7 +6877,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 83871,
+        "userCount": 83846,
         "nameCode": "TFC",
         "disabled": false,
         "national": false,
@@ -7168,28 +6957,263 @@
           "M"
         ]
       }
+    },
+    {
+      "eventState": {},
+      "correctAiInsight": true,
+      "correctHalftimeAiInsight": true,
+      "tournament": {
+        "name": "UEFA Champions League, Knockout stage",
+        "slug": "uefa-champions-league-knockout-stage",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 19,
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "UEFA Champions League",
+          "slug": "uefa-champions-league",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "priority": 19,
+            "country": {},
+            "id": 1465,
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ",
+                "ru": "Европа"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1249615,
+          "hasPerformanceGraphFeature": false,
+          "country": {},
+          "id": 7,
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+              "ar": "دوري أبطال أوروبا",
+              "hi": "यूईएफए चैंपियंस लीग",
+              "hr": "UEFA Liga prvaka"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 714,
+        "isGroup": false,
+        "isLive": false,
+        "id": 23,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "hi": "यूईएफए चैंपियंस लीग",
+            "ar": "دوري أبطال أوروبا",
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "UEFA Champions League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76953
+      },
+      "roundInfo": {
+        "round": 27,
+        "name": "Quarterfinals",
+        "slug": "quarterfinals",
+        "cupRoundType": 4
+      },
+      "customId": "UsUH",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Paris Saint-Germain",
+        "slug": "paris-saint-germain",
+        "shortName": "PSG",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 3006948,
+        "nameCode": "PSG",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 1644,
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000066",
+          "secondary": "#ff1541",
+          "text": "#ff1541"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باريس سان جيرمان",
+            "hi": "पेरिस सेंट-जर्मेन",
+            "ru": "Пари Сен-Жермен"
+          },
+          "shortNameTranslation": {
+            "bn": "পিএসজি",
+            "hi": "पीएसजी"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "Liverpool",
+        "slug": "liverpool",
+        "shortName": "Liverpool",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 3659321,
+        "nameCode": "LIV",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 44,
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#cc0000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليفربول",
+            "bn": "লিভারপুল",
+            "hi": "लिवरपूल",
+            "ru": "Ливерпуль"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1,
+        "normaltime": 2
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "time": {
+        "injuryTime1": 1,
+        "injuryTime2": 3,
+        "currentPeriodStartTimestamp": 1775678649
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1775681536
+      },
+      "hasGlobalHighlights": false,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15632083,
+      "slug": "paris-saint-germain-liverpool",
+      "startTimestamp": 1775674800,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "cupMatchesInRound": 2,
+      "isEditor": false,
+      "eventFilters": {
+        "category": [
+          "club"
+        ],
+        "level": [
+          "top-competitions",
+          "pro"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
     }
   ],
   "last5": {
-    "form": "WWWWL",
-    "w": 4,
+    "form": "WWWWW",
+    "w": 5,
     "d": 0,
-    "l": 1,
-    "gf": 16,
-    "ga": 6,
-    "avg_gf": 3.2,
-    "avg_ga": 1.2,
+    "l": 0,
+    "gf": 17,
+    "ga": 3,
+    "avg_gf": 3.4,
+    "avg_ga": 0.6,
     "count": 5
   },
   "last10": {
-    "form": "WWWWLWDWWL",
-    "w": 7,
+    "form": "WWWWWLWDWW",
+    "w": 8,
     "d": 1,
-    "l": 2,
-    "gf": 26,
-    "ga": 13,
-    "avg_gf": 2.6,
-    "avg_ga": 1.3,
+    "l": 1,
+    "gf": 27,
+    "ga": 10,
+    "avg_gf": 2.7,
+    "avg_ga": 1.0,
     "count": 10
   },
   "passes_avg_last5": {
@@ -7199,11 +7223,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 677.2,
-    "avg_accurate": 609.0,
-    "avg_accuracy_pct": 89.72241232039117
+    "avg_passes": 685.6,
+    "avg_accurate": 619.4,
+    "avg_accuracy_pct": 90.10406903499025
   },
   "passes_events_last5": [
+    {
+      "event_id": 15632083,
+      "startTimestamp": 1775674800,
+      "passes": 746.0,
+      "accurate": 685.0,
+      "accuracy_pct": 91.82305630026809
+    },
     {
       "event_id": 14167955,
       "startTimestamp": 1775241900,
@@ -7231,13 +7262,6 @@
       "passes": 587.0,
       "accurate": 518.0,
       "accuracy_pct": 88.24531516183987
-    },
-    {
-      "event_id": 14167912,
-      "startTimestamp": 1772826300,
-      "passes": 704.0,
-      "accurate": 633.0,
-      "accuracy_pct": 89.91477272727273
     }
   ]
 }

@@ -4,232 +4,6 @@
   "events": [
     {
       "eventState": {},
-      "correctAiInsight": true,
-      "correctHalftimeAiInsight": true,
-      "tournament": {
-        "name": "Trendyol Süper Lig",
-        "slug": "trendyol-super-lig",
-        "category": {
-          "name": "Turkey",
-          "slug": "turkey",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "priority": 0,
-          "country": {
-            "alpha2": "TR",
-            "alpha3": "TUR",
-            "name": "Türkiye",
-            "slug": "turkiye"
-          },
-          "id": 46,
-          "flag": "turkey",
-          "alpha2": "TR",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "تركيا",
-              "ru": "Турция"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "Trendyol Süper Lig",
-          "slug": "trendyol-super-lig",
-          "primaryColorHex": "#e51937",
-          "secondaryColorHex": "#adacac",
-          "category": {
-            "name": "Turkey",
-            "slug": "turkey",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "priority": 0,
-            "country": {
-              "alpha2": "TR",
-              "alpha3": "TUR",
-              "name": "Türkiye",
-              "slug": "turkiye"
-            },
-            "id": 46,
-            "flag": "turkey",
-            "alpha2": "TR",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "تركيا",
-                "ru": "Турция"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 108960,
-          "hasPerformanceGraphFeature": true,
-          "country": {},
-          "id": 52,
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "دوري تريندول الممتاز",
-              "bn": "ট্রেন্ডিওল সুপার লিগ",
-              "hi": "ट्रेंडयोल सुपर लिग"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 511,
-        "isGroup": false,
-        "isLive": false,
-        "id": 62,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "الدوري التركي الممتاز",
-            "bn": "সুপার লিগ",
-            "hi": "सुपर लीग"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Super Lig 25/26",
-        "year": "25/26",
-        "editor": false,
-        "id": 77805
-      },
-      "roundInfo": {
-        "round": 13
-      },
-      "customId": "llbscgd",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 1,
-      "homeTeam": {
-        "name": "Galatasaray",
-        "slug": "galatasaray",
-        "shortName": "Galatasaray",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 951406,
-        "nameCode": "GAL",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "country": {
-          "alpha2": "TR",
-          "alpha3": "TUR",
-          "name": "Türkiye",
-          "slug": "turkiye"
-        },
-        "id": 3061,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ff9900",
-          "secondary": "#ff0000",
-          "text": "#ff0000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "غلطة سراي",
-            "bn": "গালাতাসারায়",
-            "hi": "गैलातसराय",
-            "ru": "Галатасарай"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "awayTeam": {
-        "name": "Gençlerbirliği",
-        "slug": "genclerbirligi",
-        "shortName": "Gençlerbirliği",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 14958,
-        "nameCode": "GEN",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "country": {
-          "alpha2": "TR",
-          "alpha3": "TUR",
-          "name": "Türkiye",
-          "slug": "turkiye"
-        },
-        "id": 7802,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ff0000",
-          "secondary": "#000000",
-          "text": "#000000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "جنكليربيرليغي",
-            "ru": "Генчлербирлиги СК"
-          },
-          "shortNameTranslation": {
-            "ar": "جنكليربيرليغي"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 3,
-        "display": 3,
-        "period1": 0,
-        "period2": 3,
-        "normaltime": 3
-      },
-      "awayScore": {
-        "current": 2,
-        "display": 2,
-        "period1": 1,
-        "period2": 1,
-        "normaltime": 2
-      },
-      "time": {
-        "injuryTime1": 5,
-        "injuryTime2": 5,
-        "currentPeriodStartTimestamp": 1763835082
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1763838270
-      },
-      "hasGlobalHighlights": true,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 14109720,
-      "homeRedCards": 1,
-      "awayRedCards": 1,
-      "slug": "genclerbirligi-galatasaray",
-      "startTimestamp": 1763830800,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -284,7 +58,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1241997,
+          "userCount": 1254385,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 7,
@@ -336,7 +110,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -374,7 +148,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 175426,
+        "userCount": 175314,
         "nameCode": "USG",
         "disabled": false,
         "national": false,
@@ -512,7 +286,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 108960,
+          "userCount": 109291,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 52,
@@ -566,7 +340,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 634253,
+        "userCount": 634561,
         "nameCode": "FEN",
         "disabled": false,
         "national": false,
@@ -604,7 +378,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -746,7 +520,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 108960,
+          "userCount": 109291,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 52,
@@ -800,7 +574,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -838,7 +612,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 53143,
+        "userCount": 53105,
         "nameCode": "SAM",
         "disabled": false,
         "national": false,
@@ -975,7 +749,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1241997,
+          "userCount": 1254385,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 7,
@@ -1027,7 +801,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 506786,
+        "userCount": 506681,
         "nameCode": "ASM",
         "disabled": false,
         "national": false,
@@ -1067,7 +841,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -1212,7 +986,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 108960,
+          "userCount": 109291,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 52,
@@ -1266,7 +1040,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 29311,
+        "userCount": 29278,
         "nameCode": "ANT",
         "disabled": false,
         "national": false,
@@ -1304,7 +1078,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -1447,7 +1221,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 17000,
+          "userCount": 17003,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 96,
@@ -1506,7 +1280,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -1544,7 +1318,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 69113,
+        "userCount": 68993,
         "nameCode": "BAS",
         "disabled": false,
         "national": false,
@@ -1685,7 +1459,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 108960,
+          "userCount": 109291,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 52,
@@ -1739,7 +1513,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -1777,7 +1551,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 29827,
+        "userCount": 29790,
         "nameCode": "KAS",
         "disabled": false,
         "national": false,
@@ -1978,7 +1752,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -2016,7 +1790,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 127639,
+        "userCount": 127811,
         "nameCode": "TRA",
         "disabled": false,
         "national": false,
@@ -2081,6 +1855,7 @@
       "startTimestamp": 1767634200,
       "finalResultOnly": false,
       "feedLocked": true,
+      "cupMatchesInRound": 1,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -2215,7 +1990,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -2253,7 +2028,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 634253,
+        "userCount": 634561,
         "nameCode": "FEN",
         "disabled": false,
         "national": false,
@@ -2318,6 +2093,7 @@
       "startTimestamp": 1768059900,
       "finalResultOnly": false,
       "feedLocked": true,
+      "cupMatchesInRound": 1,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -2392,7 +2168,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 17000,
+          "userCount": 17003,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 96,
@@ -2451,7 +2227,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 4431,
+        "userCount": 4414,
         "nameCode": "FET",
         "disabled": false,
         "national": false,
@@ -2487,7 +2263,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -2628,7 +2404,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 108960,
+          "userCount": 109291,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 52,
@@ -2682,7 +2458,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -2720,7 +2496,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 24908,
+        "userCount": 24867,
         "nameCode": "GAZ",
         "disabled": false,
         "national": false,
@@ -2857,7 +2633,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1241997,
+          "userCount": 1254385,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 7,
@@ -2909,7 +2685,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -2947,7 +2723,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 2334606,
+        "userCount": 2355307,
         "nameCode": "ATM",
         "disabled": false,
         "national": false,
@@ -3094,7 +2870,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 108960,
+          "userCount": 109291,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 52,
@@ -3148,7 +2924,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 19539,
+        "userCount": 19519,
         "nameCode": "KAR",
         "disabled": false,
         "national": false,
@@ -3186,7 +2962,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -3322,7 +3098,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1241997,
+          "userCount": 1254385,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 7,
@@ -3374,7 +3150,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3924334,
+        "userCount": 3935944,
         "nameCode": "MCI",
         "disabled": false,
         "national": false,
@@ -3415,7 +3191,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -3560,7 +3336,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 108960,
+          "userCount": 109291,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 52,
@@ -3614,7 +3390,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -3652,7 +3428,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 20183,
+        "userCount": 20159,
         "nameCode": "KAY",
         "disabled": false,
         "national": false,
@@ -3793,7 +3569,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 17000,
+          "userCount": 17003,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 96,
@@ -3852,7 +3628,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -3890,7 +3666,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 10927,
+        "userCount": 10934,
         "nameCode": "IAS",
         "disabled": false,
         "national": false,
@@ -4029,7 +3805,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 108960,
+          "userCount": 109291,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 52,
@@ -4083,7 +3859,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 25085,
+        "userCount": 25098,
         "nameCode": "RIZ",
         "disabled": false,
         "national": false,
@@ -4121,7 +3897,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -4265,7 +4041,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 108960,
+          "userCount": 109291,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 52,
@@ -4319,7 +4095,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -4357,7 +4133,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 26734,
+        "userCount": 26697,
         "nameCode": "EYU",
         "disabled": false,
         "national": false,
@@ -4494,7 +4270,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1241997,
+          "userCount": 1254385,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 7,
@@ -4551,7 +4327,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -4589,7 +4365,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1577875,
+        "userCount": 1579462,
         "nameCode": "JUV",
         "disabled": false,
         "national": false,
@@ -4657,6 +4433,7 @@
       "startTimestamp": 1771350300,
       "finalResultOnly": false,
       "feedLocked": true,
+      "cupMatchesInRound": 2,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -4735,7 +4512,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 108960,
+          "userCount": 109291,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 52,
@@ -4789,7 +4566,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 30405,
+        "userCount": 30358,
         "nameCode": "KON",
         "disabled": false,
         "national": false,
@@ -4826,7 +4603,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -4962,7 +4739,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1241997,
+          "userCount": 1254385,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 7,
@@ -5020,7 +4797,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 1577875,
+        "userCount": 1579462,
         "nameCode": "JUV",
         "disabled": false,
         "national": false,
@@ -5058,7 +4835,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -5135,6 +4912,7 @@
       "startTimestamp": 1772049600,
       "finalResultOnly": false,
       "feedLocked": true,
+      "cupMatchesInRound": 2,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -5213,7 +4991,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 108960,
+          "userCount": 109291,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 52,
@@ -5267,7 +5045,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -5305,7 +5083,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 29084,
+        "userCount": 29040,
         "nameCode": "ALA",
         "disabled": false,
         "national": false,
@@ -5446,7 +5224,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 17000,
+          "userCount": 17003,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 96,
@@ -5505,7 +5283,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 29084,
+        "userCount": 29040,
         "nameCode": "ALA",
         "disabled": false,
         "national": false,
@@ -5543,7 +5321,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -5682,7 +5460,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 108960,
+          "userCount": 109291,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 52,
@@ -5736,7 +5514,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 307799,
+        "userCount": 308026,
         "nameCode": "BES",
         "disabled": false,
         "national": false,
@@ -5774,7 +5552,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -5911,7 +5689,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1241997,
+          "userCount": 1254385,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 7,
@@ -5969,7 +5747,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -6007,7 +5785,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3656726,
+        "userCount": 3669722,
         "nameCode": "LIV",
         "disabled": false,
         "national": false,
@@ -6074,6 +5852,7 @@
       "startTimestamp": 1773164700,
       "finalResultOnly": false,
       "feedLocked": true,
+      "cupMatchesInRound": 2,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -6152,7 +5931,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 108960,
+          "userCount": 109291,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 52,
@@ -6206,7 +5985,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -6244,7 +6023,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 69113,
+        "userCount": 68993,
         "nameCode": "BAS",
         "disabled": false,
         "national": false,
@@ -6389,7 +6168,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 108960,
+          "userCount": 109291,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 52,
@@ -6442,7 +6221,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 36051,
+        "userCount": 37404,
         "nameCode": "GOZ",
         "disabled": false,
         "national": false,
@@ -6480,7 +6259,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -6599,7 +6378,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 1241997,
+          "userCount": 1254385,
           "hasPerformanceGraphFeature": false,
           "country": {},
           "id": 7,
@@ -6658,7 +6437,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 3656726,
+        "userCount": 3669722,
         "nameCode": "LIV",
         "disabled": false,
         "national": false,
@@ -6696,7 +6475,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -6766,6 +6545,7 @@
       "startTimestamp": 1773864000,
       "finalResultOnly": false,
       "feedLocked": true,
+      "cupMatchesInRound": 2,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -6844,7 +6624,7 @@
               "shortNameTranslation": {}
             }
           },
-          "userCount": 108960,
+          "userCount": 109291,
           "hasPerformanceGraphFeature": true,
           "country": {},
           "id": 52,
@@ -6898,7 +6678,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 127639,
+        "userCount": 127811,
         "nameCode": "TRA",
         "disabled": false,
         "national": false,
@@ -6936,7 +6716,7 @@
           "slug": "football",
           "id": 1
         },
-        "userCount": 951406,
+        "userCount": 955870,
         "nameCode": "GAL",
         "disabled": false,
         "national": false,
@@ -7014,28 +6794,264 @@
           "M"
         ]
       }
+    },
+    {
+      "eventState": {},
+      "correctAiInsight": true,
+      "correctHalftimeAiInsight": true,
+      "tournament": {
+        "name": "Trendyol Süper Lig",
+        "slug": "trendyol-super-lig",
+        "category": {
+          "name": "Turkey",
+          "slug": "turkey",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 0,
+          "country": {
+            "alpha2": "TR",
+            "alpha3": "TUR",
+            "name": "Türkiye",
+            "slug": "turkiye"
+          },
+          "id": 46,
+          "flag": "turkey",
+          "alpha2": "TR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تركيا",
+              "ru": "Турция"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Trendyol Süper Lig",
+          "slug": "trendyol-super-lig",
+          "primaryColorHex": "#e51937",
+          "secondaryColorHex": "#adacac",
+          "category": {
+            "name": "Turkey",
+            "slug": "turkey",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "priority": 0,
+            "country": {
+              "alpha2": "TR",
+              "alpha3": "TUR",
+              "name": "Türkiye",
+              "slug": "turkiye"
+            },
+            "id": 46,
+            "flag": "turkey",
+            "alpha2": "TR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تركيا",
+                "ru": "Турция"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 109291,
+          "hasPerformanceGraphFeature": true,
+          "country": {},
+          "id": 52,
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري تريندول الممتاز",
+              "bn": "ট্রেন্ডিওল সুপার লিগ",
+              "hi": "ट्रेंडयोल सुपर लिग"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 511,
+        "isGroup": false,
+        "isLive": false,
+        "id": 62,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري التركي الممتاز",
+            "bn": "সুপার লিগ",
+            "hi": "सुपर लीग"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Super Lig 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 77805
+      },
+      "roundInfo": {
+        "round": 27
+      },
+      "customId": "elbsllb",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 2,
+      "homeTeam": {
+        "name": "Göztepe",
+        "slug": "goztepe",
+        "shortName": "Göztepe",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 37404,
+        "nameCode": "GOZ",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "country": {
+          "alpha2": "TR",
+          "alpha3": "TUR",
+          "name": "Türkiye",
+          "slug": "turkiye"
+        },
+        "id": 3054,
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffcc00",
+          "secondary": "#cc0001",
+          "text": "#cc0001"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوزتيبي",
+            "ru": "Гёзтепе"
+          },
+          "shortNameTranslation": {
+            "ar": "غوزتيبي"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "Galatasaray",
+        "slug": "galatasaray",
+        "shortName": "Galatasaray",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 955870,
+        "nameCode": "GAL",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "country": {
+          "alpha2": "TR",
+          "alpha3": "TUR",
+          "name": "Türkiye",
+          "slug": "turkiye"
+        },
+        "id": 3061,
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ff9900",
+          "secondary": "#ff0000",
+          "text": "#ff0000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غلطة سراي",
+            "bn": "গালাতাসারায়",
+            "hi": "गैलातसराय",
+            "ru": "Галатасарай"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 0,
+        "period2": 1,
+        "normaltime": 1
+      },
+      "awayScore": {
+        "current": 3,
+        "display": 3,
+        "period1": 2,
+        "period2": 1,
+        "normaltime": 3
+      },
+      "time": {
+        "injuryTime1": 3,
+        "injuryTime2": 3,
+        "currentPeriodStartTimestamp": 1775671698
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1775674592
+      },
+      "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15853049,
+      "slug": "galatasaray-goztepe",
+      "startTimestamp": 1775667600,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false,
+      "eventFilters": {
+        "category": [
+          "club"
+        ],
+        "level": [
+          "top-competitions",
+          "pro"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
     }
   ],
   "last5": {
-    "form": "LLWWW",
+    "form": "WLLWW",
     "w": 3,
     "d": 0,
     "l": 2,
-    "gf": 6,
-    "ga": 6,
-    "avg_gf": 1.2,
-    "avg_ga": 1.2,
+    "gf": 8,
+    "ga": 7,
+    "avg_gf": 1.6,
+    "avg_ga": 1.4,
     "count": 5
   },
   "last10": {
-    "form": "LLWWWWWLLW",
+    "form": "WLLWWWWWLL",
     "w": 6,
     "d": 0,
     "l": 4,
-    "gf": 18,
-    "ga": 15,
-    "avg_gf": 1.8,
-    "avg_ga": 1.5,
+    "gf": 16,
+    "ga": 14,
+    "avg_gf": 1.6,
+    "avg_ga": 1.4,
     "count": 10
   },
   "passes_avg_last5": {
@@ -7045,11 +7061,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 394.0,
-    "avg_accurate": 316.2,
-    "avg_accuracy_pct": 79.03518138052925
+    "avg_passes": 426.2,
+    "avg_accurate": 345.2,
+    "avg_accuracy_pct": 79.82306016840803
   },
   "passes_events_last5": [
+    {
+      "event_id": 15853049,
+      "startTimestamp": 1775667600,
+      "passes": 506.0,
+      "accurate": 413.0,
+      "accuracy_pct": 81.62055335968378
+    },
     {
       "event_id": 14109867,
       "startTimestamp": 1775322000,
@@ -7077,13 +7100,6 @@
       "passes": 356.0,
       "accurate": 254.0,
       "accuracy_pct": 71.34831460674157
-    },
-    {
-      "event_id": 14109838,
-      "startTimestamp": 1772902800,
-      "passes": 345.0,
-      "accurate": 268.0,
-      "accuracy_pct": 77.68115942028986
     }
   ]
 }
