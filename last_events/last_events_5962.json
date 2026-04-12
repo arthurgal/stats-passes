@@ -4,223 +4,6 @@
   "events": [
     {
       "eventState": {},
-      "correctAiInsight": true,
-      "correctHalftimeAiInsight": true,
-      "tournament": {
-        "name": "UEFA Champions League",
-        "slug": "uefa-champions-league",
-        "category": {
-          "name": "Europe",
-          "slug": "europe",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "priority": 19,
-          "country": {},
-          "id": 1465,
-          "flag": "europe",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "أوروبا",
-              "hi": "यूरोप",
-              "bn": "ইউরোপ",
-              "ru": "Европа"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "UEFA Champions League",
-          "slug": "uefa-champions-league",
-          "primaryColorHex": "#062b5c",
-          "secondaryColorHex": "#086aab",
-          "category": {
-            "name": "Europe",
-            "slug": "europe",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "priority": 19,
-            "country": {},
-            "id": 1465,
-            "flag": "europe",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "أوروبا",
-                "hi": "यूरोप",
-                "bn": "ইউরোপ",
-                "ru": "Европа"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 1255915,
-          "hasPerformanceGraphFeature": false,
-          "country": {},
-          "id": 7,
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
-              "ar": "دوري أبطال أوروبا",
-              "hi": "यूईएफए चैंपियंस लीग",
-              "hr": "UEFA Liga prvaka"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 716,
-        "isGroup": false,
-        "id": 138314,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "دوري أبطال أوروبا"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "UEFA Champions League 25/26",
-        "year": "25/26",
-        "editor": false,
-        "id": 76953
-      },
-      "roundInfo": {
-        "round": 5
-      },
-      "customId": "oebsmuc",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 1,
-      "homeTeam": {
-        "name": "Napoli",
-        "slug": "napoli",
-        "shortName": "Napoli",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 1101601,
-        "nameCode": "NAP",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "country": {
-          "alpha2": "IT",
-          "alpha3": "ITA",
-          "name": "Italy",
-          "slug": "italy"
-        },
-        "id": 2714,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#008cea",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "نابولي",
-            "bn": "নাপোলি",
-            "hi": "नेपोली",
-            "ru": "Наполи"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "awayTeam": {
-        "name": "Qarabağ FK",
-        "slug": "qarabag",
-        "shortName": "Qarabağ",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 299484,
-        "nameCode": "QAR",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "country": {
-          "alpha2": "AZ",
-          "alpha3": "AZE",
-          "name": "Azerbaijan",
-          "slug": "azerbaijan"
-        },
-        "id": 5962,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#000000",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "كاراباج",
-            "bn": "কারাবাগ",
-            "hi": "करबाख",
-            "ru": "Карабах"
-          },
-          "shortNameTranslation": {
-            "ar": "كاراباج"
-          }
-        }
-      },
-      "homeScore": {
-        "current": 2,
-        "display": 2,
-        "period1": 0,
-        "period2": 2,
-        "normaltime": 2
-      },
-      "awayScore": {
-        "current": 0,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0
-      },
-      "coverage": -1,
-      "time": {
-        "injuryTime1": 0,
-        "injuryTime2": 6,
-        "currentPeriodStartTimestamp": 1764104483
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1764107554
-      },
-      "hasGlobalHighlights": false,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 14566902,
-      "slug": "qarabag-napoli",
-      "startTimestamp": 1764100800,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "eventState": {},
       "tournament": {
         "name": "Premier League",
         "slug": "premier-league",
@@ -936,8 +719,8 @@
           "fieldTranslations": {
             "nameTranslation": {
               "ar": "أوروبا",
-              "hi": "यूरोप",
               "bn": "ইউরোপ",
+              "hi": "यूरोप",
               "ru": "Европа"
             },
             "shortNameTranslation": {}
@@ -963,8 +746,8 @@
             "fieldTranslations": {
               "nameTranslation": {
                 "ar": "أوروبا",
-                "hi": "यूरोप",
                 "bn": "ইউরোপ",
+                "hi": "यूरोप",
                 "ru": "Европа"
               },
               "shortNameTranslation": {}
@@ -1866,8 +1649,8 @@
           "fieldTranslations": {
             "nameTranslation": {
               "ar": "العالم",
-              "hi": "विश्व",
               "bn": "বিশ্ব",
+              "hi": "विश्व",
               "ru": "Мир"
             },
             "shortNameTranslation": {}
@@ -1893,8 +1676,8 @@
             "fieldTranslations": {
               "nameTranslation": {
                 "ar": "العالم",
-                "hi": "विश्व",
                 "bn": "বিশ্ব",
+                "hi": "विश्व",
                 "ru": "Мир"
               },
               "shortNameTranslation": {}
@@ -2086,8 +1869,8 @@
           "fieldTranslations": {
             "nameTranslation": {
               "ar": "العالم",
-              "hi": "विश्व",
               "bn": "বিশ্ব",
+              "hi": "विश्व",
               "ru": "Мир"
             },
             "shortNameTranslation": {}
@@ -2113,8 +1896,8 @@
             "fieldTranslations": {
               "nameTranslation": {
                 "ar": "العالم",
-                "hi": "विश्व",
                 "bn": "বিশ্ব",
+                "hi": "विश्व",
                 "ru": "Мир"
               },
               "shortNameTranslation": {}
@@ -2309,8 +2092,8 @@
           "fieldTranslations": {
             "nameTranslation": {
               "ar": "العالم",
-              "hi": "विश्व",
               "bn": "বিশ্ব",
+              "hi": "विश्व",
               "ru": "Мир"
             },
             "shortNameTranslation": {}
@@ -2336,8 +2119,8 @@
             "fieldTranslations": {
               "nameTranslation": {
                 "ar": "العالم",
-                "hi": "विश्व",
                 "bn": "বিশ্ব",
+                "hi": "विश्व",
                 "ru": "Мир"
               },
               "shortNameTranslation": {}
@@ -2532,8 +2315,8 @@
           "fieldTranslations": {
             "nameTranslation": {
               "ar": "أوروبا",
-              "hi": "यूरोप",
               "bn": "ইউরোপ",
+              "hi": "यूरोप",
               "ru": "Европа"
             },
             "shortNameTranslation": {}
@@ -2559,8 +2342,8 @@
             "fieldTranslations": {
               "nameTranslation": {
                 "ar": "أوروبا",
-                "hi": "यूरोप",
                 "bn": "ইউরোপ",
+                "hi": "यूरोप",
                 "ru": "Европа"
               },
               "shortNameTranslation": {}
@@ -2994,8 +2777,8 @@
           "fieldTranslations": {
             "nameTranslation": {
               "ar": "أوروبا",
-              "hi": "यूरोप",
               "bn": "ইউরোপ",
+              "hi": "यूरोप",
               "ru": "Европа"
             },
             "shortNameTranslation": {}
@@ -3021,8 +2804,8 @@
             "fieldTranslations": {
               "nameTranslation": {
                 "ar": "أوروبا",
-                "hi": "यूरोप",
                 "bn": "ইউরোপ",
+                "hi": "यूरोप",
                 "ru": "Европа"
               },
               "shortNameTranslation": {}
@@ -4610,8 +4393,8 @@
           "fieldTranslations": {
             "nameTranslation": {
               "ar": "أوروبا",
-              "hi": "यूरोप",
               "bn": "ইউরোপ",
+              "hi": "यूरोप",
               "ru": "Европа"
             },
             "shortNameTranslation": {}
@@ -4637,8 +4420,8 @@
             "fieldTranslations": {
               "nameTranslation": {
                 "ar": "أوروبا",
-                "hi": "यूरोप",
                 "bn": "ইউরোপ",
+                "hi": "यूरोप",
                 "ru": "Европа"
               },
               "shortNameTranslation": {}
@@ -5064,8 +4847,8 @@
           "fieldTranslations": {
             "nameTranslation": {
               "ar": "أوروبا",
-              "hi": "यूरोप",
               "bn": "ইউরোপ",
+              "hi": "यूरोप",
               "ru": "Европа"
             },
             "shortNameTranslation": {}
@@ -5091,8 +4874,8 @@
             "fieldTranslations": {
               "nameTranslation": {
                 "ar": "أوروبا",
-                "hi": "यूरोप",
                 "bn": "ইউরোপ",
+                "hi": "यूरोप",
                 "ru": "Европа"
               },
               "shortNameTranslation": {}
@@ -6930,42 +6713,286 @@
           "M"
         ]
       }
+    },
+    {
+      "eventState": {},
+      "tournament": {
+        "name": "Premier League",
+        "slug": "premier-league",
+        "category": {
+          "name": "Azerbaijan",
+          "slug": "azerbaijan",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 0,
+          "country": {
+            "alpha2": "AZ",
+            "alpha3": "AZE",
+            "name": "Azerbaijan",
+            "slug": "azerbaijan"
+          },
+          "id": 297,
+          "flag": "azerbaijan",
+          "alpha2": "AZ",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أذربيجان",
+              "ru": "Азербайджан"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Misli Premier League",
+          "slug": "misli-premier-league",
+          "primaryColorHex": "#3449b2",
+          "secondaryColorHex": "#1b157f",
+          "category": {
+            "name": "Azerbaijan",
+            "slug": "azerbaijan",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "priority": 0,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "id": 297,
+            "flag": "azerbaijan",
+            "alpha2": "AZ",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أذربيجان",
+                "ru": "Азербайджан"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 12732,
+          "hasPerformanceGraphFeature": true,
+          "country": {},
+          "id": 709,
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري ميسلي الممتاز",
+              "bn": "মিসলি প্রিমিয়ার লীগ",
+              "hi": "मिसली प्रीमियर लीग"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "isLive": false,
+        "id": 3590,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الممتاز",
+            "bn": "প্রিমিয়ার লীগ",
+            "hi": "प्रीमियर लीग"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Premier League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 78700
+      },
+      "roundInfo": {
+        "round": 27
+      },
+      "customId": "mucsLFj",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 3,
+      "homeTeam": {
+        "name": "Şamaxı FK",
+        "slug": "samaxi-fk",
+        "shortName": "Şamaxı",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 6203,
+        "nameCode": "SHA",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "country": {
+          "alpha2": "AZ",
+          "alpha3": "AZE",
+          "name": "Azerbaijan",
+          "slug": "azerbaijan"
+        },
+        "id": 24036,
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "شاماخي إف كي",
+            "ru": "Кешла"
+          },
+          "shortNameTranslation": {
+            "ar": "شاماخي",
+            "bn": "সামাক্সি",
+            "hi": "शामक्सी"
+          }
+        }
+      },
+      "awayTeam": {
+        "name": "Qarabağ FK",
+        "slug": "qarabag",
+        "shortName": "Qarabağ",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 299484,
+        "nameCode": "QAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "country": {
+          "alpha2": "AZ",
+          "alpha3": "AZE",
+          "name": "Azerbaijan",
+          "slug": "azerbaijan"
+        },
+        "id": 5962,
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاراباج",
+            "bn": "কারাবাগ",
+            "hi": "करबाख",
+            "ru": "Карабах"
+          },
+          "shortNameTranslation": {
+            "ar": "كاراباج"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "time": {
+        "injuryTime2": 5,
+        "currentPeriodStartTimestamp": 1775913763
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type",
+          "homeScore.period2",
+          "homeScore.normaltime",
+          "awayScore.period2",
+          "awayScore.normaltime",
+          "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1775913767
+      },
+      "hasGlobalHighlights": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14530116,
+      "slug": "samaxi-fk-qarabag",
+      "startTimestamp": 1775907000,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false,
+      "eventFilters": {
+        "category": [
+          "club"
+        ],
+        "level": [
+          "pro"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
     }
   ],
   "last5": {
-    "form": "WDLWW",
-    "w": 3,
-    "d": 1,
+    "form": "DWDLW",
+    "w": 2,
+    "d": 2,
     "l": 1,
-    "gf": 18,
+    "gf": 12,
     "ga": 4,
-    "avg_gf": 3.6,
+    "avg_gf": 2.4,
     "avg_ga": 0.8,
     "count": 5
   },
   "last10": {
-    "form": "WDLWWWDLLW",
-    "w": 5,
-    "d": 2,
+    "form": "DWDLWWWDLL",
+    "w": 4,
+    "d": 3,
     "l": 3,
-    "gf": 28,
+    "gf": 27,
     "ga": 17,
-    "avg_gf": 2.8,
+    "avg_gf": 2.7,
     "avg_ga": 1.7,
     "count": 10
   },
   "passes_avg_last5": {
     "considered": 5,
     "counts_per_metric": {
-      "passes": 4,
-      "accurate": 4,
-      "accuracy_pct": 4
+      "passes": 3,
+      "accurate": 3,
+      "accuracy_pct": 3
     },
-    "avg_passes": 505.5,
-    "avg_accurate": 432.0,
-    "avg_accuracy_pct": 85.192576134515
+    "avg_passes": 530.3333333333334,
+    "avg_accurate": 455.3333333333333,
+    "avg_accuracy_pct": 85.59319509350645
   },
   "passes_events_last5": [
+    {
+      "event_id": 14530116,
+      "startTimestamp": 1775907000,
+      "passes": null,
+      "accurate": null,
+      "accuracy_pct": null
+    },
     {
       "event_id": 14530108,
       "startTimestamp": 1775487600,
@@ -6993,13 +7020,6 @@
       "passes": 538.0,
       "accurate": 470.0,
       "accuracy_pct": 87.36059479553904
-    },
-    {
-      "event_id": 14530085,
-      "startTimestamp": 1772982900,
-      "passes": 431.0,
-      "accurate": 362.0,
-      "accuracy_pct": 83.9907192575406
     }
   ]
 }
