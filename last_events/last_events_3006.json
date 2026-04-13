@@ -4,233 +4,6 @@
   "events": [
     {
       "eventState": {},
-      "correctAiInsight": true,
-      "correctHalftimeAiInsight": true,
-      "tournament": {
-        "name": "Liga Portugal Betclic",
-        "slug": "liga-portugal-betclic",
-        "category": {
-          "name": "Portugal",
-          "slug": "portugal",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "priority": 0,
-          "country": {
-            "alpha2": "PT",
-            "alpha3": "PRT",
-            "name": "Portugal",
-            "slug": "portugal"
-          },
-          "id": 44,
-          "flag": "portugal",
-          "alpha2": "PT",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "البرتغال",
-              "ru": "Португалия"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "Liga Portugal Betclic",
-          "slug": "liga-portugal-betclic",
-          "primaryColorHex": "#ffc501",
-          "secondaryColorHex": "#e6a100",
-          "category": {
-            "name": "Portugal",
-            "slug": "portugal",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "priority": 0,
-            "country": {
-              "alpha2": "PT",
-              "alpha3": "PRT",
-              "name": "Portugal",
-              "slug": "portugal"
-            },
-            "id": 44,
-            "flag": "portugal",
-            "alpha2": "PT",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "البرتغال",
-                "ru": "Португалия"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 154077,
-          "hasPerformanceGraphFeature": true,
-          "country": {},
-          "id": 238,
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "دوري بيتكليك البرتغالي",
-              "bn": "লিগা পর্তুগাল বেটক্লিক",
-              "hi": "लीगा पुर्तगाल बेटक्लिक"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 517,
-        "isGroup": false,
-        "isLive": false,
-        "id": 52,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "الدوري البرتغالي بيتكليك",
-            "bn": "লিগা পর্তুগাল বেটক্লিক",
-            "hi": "लीगा पुर्तगाल बेटक्लिक"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Liga Portugal 25/26",
-        "year": "25/26",
-        "editor": false,
-        "id": 77806
-      },
-      "roundInfo": {
-        "round": 10
-      },
-      "customId": "gkbsjkb",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 2,
-      "homeTeam": {
-        "name": "Vitória SC",
-        "slug": "vitoria-sc",
-        "shortName": "Vitória",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 62996,
-        "nameCode": "VIT",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "country": {
-          "alpha2": "PT",
-          "alpha3": "PRT",
-          "name": "Portugal",
-          "slug": "portugal"
-        },
-        "id": 3009,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ffffff",
-          "secondary": "#000000",
-          "text": "#000000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "فيتوريا إس سي",
-            "ru": "Витория Гимарайнш"
-          },
-          "shortNameTranslation": {
-            "ar": "فيتوريا",
-            "bn": "ভিটোরিয়া",
-            "hi": "विटोरिया"
-          }
-        }
-      },
-      "awayTeam": {
-        "name": "Benfica",
-        "slug": "benfica",
-        "shortName": "Benfica",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 863573,
-        "nameCode": "SLB",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "country": {
-          "alpha2": "PT",
-          "alpha3": "PRT",
-          "name": "Portugal",
-          "slug": "portugal"
-        },
-        "id": 3006,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#cc0000",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "بنفيكا",
-            "bn": "বেনফিকা",
-            "hi": "बेनफिका",
-            "ru": "Бенфика"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "homeScore": {
-        "current": 0,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0
-      },
-      "awayScore": {
-        "current": 3,
-        "display": 3,
-        "period1": 0,
-        "period2": 3,
-        "normaltime": 3
-      },
-      "time": {
-        "injuryTime1": 1,
-        "injuryTime2": 4,
-        "currentPeriodStartTimestamp": 1762033161
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1762036112
-      },
-      "hasGlobalHighlights": true,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 14131949,
-      "homeRedCards": 1,
-      "slug": "vitoria-sc-benfica",
-      "startTimestamp": 1762029000,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "eventState": {},
       "correctAiInsight": false,
       "correctHalftimeAiInsight": false,
       "tournament": {
@@ -7011,28 +6784,260 @@
           "M"
         ]
       }
+    },
+    {
+      "eventState": {},
+      "correctAiInsight": true,
+      "correctHalftimeAiInsight": true,
+      "tournament": {
+        "name": "Liga Portugal Betclic",
+        "slug": "liga-portugal-betclic",
+        "category": {
+          "name": "Portugal",
+          "slug": "portugal",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 0,
+          "country": {
+            "alpha2": "PT",
+            "alpha3": "PRT",
+            "name": "Portugal",
+            "slug": "portugal"
+          },
+          "id": 44,
+          "flag": "portugal",
+          "alpha2": "PT",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "البرتغال",
+              "ru": "Португалия"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Liga Portugal Betclic",
+          "slug": "liga-portugal-betclic",
+          "primaryColorHex": "#ffc501",
+          "secondaryColorHex": "#e6a100",
+          "category": {
+            "name": "Portugal",
+            "slug": "portugal",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "priority": 0,
+            "country": {
+              "alpha2": "PT",
+              "alpha3": "PRT",
+              "name": "Portugal",
+              "slug": "portugal"
+            },
+            "id": 44,
+            "flag": "portugal",
+            "alpha2": "PT",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "البرتغال",
+                "ru": "Португалия"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 154077,
+          "hasPerformanceGraphFeature": true,
+          "country": {},
+          "id": 238,
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري بيتكليك البرتغالي",
+              "bn": "লিগা পর্তুগাল বেটক্লিক",
+              "hi": "लीगा पुर्तगाल बेटक्लिक"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 517,
+        "isGroup": false,
+        "isLive": false,
+        "id": 52,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري البرتغالي بيتكليك",
+            "bn": "লিগা পর্তুগাল বেটক্লিক",
+            "hi": "लीगा पुर्तगाल बेटक्लिक"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Liga Portugal 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 77806
+      },
+      "roundInfo": {
+        "round": 29
+      },
+      "customId": "gkbsnkb",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Benfica",
+        "slug": "benfica",
+        "shortName": "Benfica",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 863573,
+        "nameCode": "SLB",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 3006,
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#cc0000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بنفيكا",
+            "bn": "বেনফিকা",
+            "hi": "बेनफिका",
+            "ru": "Бенфика"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "awayTeam": {
+        "name": "CD Nacional",
+        "slug": "cd-nacional",
+        "shortName": "Nacional",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 19567,
+        "nameCode": "CDN",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "id": 3013,
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناسيونال دي ماديرة",
+            "ru": "Насьонал де Мадейра"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 2,
+        "period2": 0,
+        "normaltime": 2
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "time": {
+        "injuryTime1": 1,
+        "injuryTime2": 4,
+        "currentPeriodStartTimestamp": 1776017014
+      },
+      "changes": {
+        "changes": [
+          "time.injuryTime2"
+        ],
+        "changeTimestamp": 1776019971
+      },
+      "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14288859,
+      "slug": "cd-nacional-benfica",
+      "startTimestamp": 1776013200,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "isEditor": false,
+      "eventFilters": {
+        "category": [
+          "club"
+        ],
+        "level": [
+          "top-competitions",
+          "pro"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
     }
   ],
   "last5": {
-    "form": "DWWDW",
+    "form": "WDWWD",
     "w": 3,
     "d": 2,
     "l": 0,
     "gf": 10,
-    "ga": 5,
+    "ga": 4,
     "avg_gf": 2.0,
-    "avg_ga": 1.0,
+    "avg_ga": 0.8,
     "count": 5
   },
   "last10": {
-    "form": "DWWDWLWLWW",
+    "form": "WDWWDWLWLW",
     "w": 6,
     "d": 2,
     "l": 2,
     "gf": 18,
-    "ga": 10,
+    "ga": 9,
     "avg_gf": 1.8,
-    "avg_ga": 1.0,
+    "avg_ga": 0.9,
     "count": 10
   },
   "passes_avg_last5": {
@@ -7042,11 +7047,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 469.2,
-    "avg_accurate": 390.0,
-    "avg_accuracy_pct": 82.76237872551359
+    "avg_passes": 481.8,
+    "avg_accurate": 409.4,
+    "avg_accuracy_pct": 84.8596077203617
   },
   "passes_events_last5": [
+    {
+      "event_id": 14288859,
+      "startTimestamp": 1776013200,
+      "passes": 467.0,
+      "accurate": 405.0,
+      "accuracy_pct": 86.7237687366167
+    },
     {
       "event_id": 14288848,
       "startTimestamp": 1775504700,
@@ -7074,13 +7086,6 @@
       "passes": 444.0,
       "accurate": 364.0,
       "accuracy_pct": 81.98198198198197
-    },
-    {
-      "event_id": 14288810,
-      "startTimestamp": 1772482500,
-      "passes": 404.0,
-      "accurate": 308.0,
-      "accuracy_pct": 76.23762376237624
     }
   ]
 }
