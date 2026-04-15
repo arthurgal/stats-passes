@@ -7,236 +7,6 @@
       "correctAiInsight": true,
       "correctHalftimeAiInsight": true,
       "tournament": {
-        "name": "Ligue 1",
-        "slug": "ligue-1",
-        "category": {
-          "name": "France",
-          "slug": "france",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "priority": 6,
-          "country": {
-            "alpha2": "FR",
-            "alpha3": "FRA",
-            "name": "France",
-            "slug": "france"
-          },
-          "id": 7,
-          "flag": "france",
-          "alpha2": "FR",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "فرنسا",
-              "bn": "ফ্রান্স",
-              "hi": "फ्रांस",
-              "ru": "Франция"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "Ligue 1",
-          "slug": "ligue-1",
-          "primaryColorHex": "#091c3e",
-          "secondaryColorHex": "#a9c011",
-          "category": {
-            "name": "France",
-            "slug": "france",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "priority": 6,
-            "country": {
-              "alpha2": "FR",
-              "alpha3": "FRA",
-              "name": "France",
-              "slug": "france"
-            },
-            "id": 7,
-            "flag": "france",
-            "alpha2": "FR",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "فرنسا",
-                "bn": "ফ্রান্স",
-                "hi": "फ्रांस",
-                "ru": "Франция"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 425779,
-          "hasPerformanceGraphFeature": true,
-          "country": {},
-          "id": 34,
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "bn": "লীগ 1",
-              "ar": "الدوري الفرنسي",
-              "hi": "लीग 1"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 698,
-        "isGroup": false,
-        "isLive": false,
-        "id": 4,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "bn": "লীগ 1",
-            "hi": "लीग 1",
-            "ar": "الدوري الفرنسي 1"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "Ligue 1 25/26",
-        "year": "25/26",
-        "editor": false,
-        "id": 77356
-      },
-      "roundInfo": {
-        "round": 13
-      },
-      "customId": "UHsmI",
-      "status": {
-        "code": 100,
-        "description": "Ended",
-        "type": "finished"
-      },
-      "winnerCode": 1,
-      "homeTeam": {
-        "name": "Paris Saint-Germain",
-        "slug": "paris-saint-germain",
-        "shortName": "PSG",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 3043472,
-        "nameCode": "PSG",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "country": {
-          "alpha2": "FR",
-          "alpha3": "FRA",
-          "name": "France",
-          "slug": "france"
-        },
-        "id": 1644,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#000066",
-          "secondary": "#ff1541",
-          "text": "#ff1541"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "باريس سان جيرمان",
-            "hi": "पेरिस सेंट-जर्मेन",
-            "ru": "Пари Сен-Жермен"
-          },
-          "shortNameTranslation": {
-            "bn": "পিএসজি",
-            "hi": "पीएसजी"
-          }
-        }
-      },
-      "awayTeam": {
-        "name": "Le Havre",
-        "slug": "le-havre",
-        "shortName": "Le Havre",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 52838,
-        "nameCode": "HAC",
-        "disabled": false,
-        "national": false,
-        "type": 0,
-        "country": {
-          "alpha2": "FR",
-          "alpha3": "FRA",
-          "name": "France",
-          "slug": "france"
-        },
-        "id": 1662,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#3399ff",
-          "secondary": "#3399ff",
-          "text": "#3399ff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "لوهافر",
-            "bn": "লে হাভরে",
-            "hi": "ले हावरे",
-            "ru": "Гавр"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "homeScore": {
-        "current": 3,
-        "display": 3,
-        "period1": 1,
-        "period2": 2,
-        "normaltime": 3
-      },
-      "awayScore": {
-        "current": 0,
-        "display": 0,
-        "period1": 0,
-        "period2": 0,
-        "normaltime": 0
-      },
-      "time": {
-        "injuryTime1": 2,
-        "injuryTime2": 3,
-        "currentPeriodStartTimestamp": 1763845759
-      },
-      "changes": {
-        "changes": [
-          "status.code",
-          "status.description",
-          "status.type"
-        ],
-        "changeTimestamp": 1763848652
-      },
-      "hasGlobalHighlights": true,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 14064416,
-      "slug": "le-havre-paris-saint-germain",
-      "startTimestamp": 1763841900,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "isEditor": false
-    },
-    {
-      "eventState": {},
-      "correctAiInsight": true,
-      "correctHalftimeAiInsight": true,
-      "tournament": {
         "name": "UEFA Champions League",
         "slug": "uefa-champions-league",
         "category": {
@@ -7179,6 +6949,245 @@
           "M"
         ]
       }
+    },
+    {
+      "eventState": {},
+      "correctAiInsight": false,
+      "correctHalftimeAiInsight": false,
+      "tournament": {
+        "name": "UEFA Champions League, Knockout stage",
+        "slug": "uefa-champions-league-knockout-stage",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "priority": 19,
+          "country": {},
+          "id": 1465,
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "bn": "ইউরোপ",
+              "hi": "यूरोप",
+              "ru": "Европа"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "UEFA Champions League",
+          "slug": "uefa-champions-league",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "priority": 19,
+            "country": {},
+            "id": 1465,
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "bn": "ইউরোপ",
+                "hi": "यूरोप",
+                "ru": "Европа"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1258518,
+          "hasPerformanceGraphFeature": false,
+          "country": {},
+          "id": 7,
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ",
+              "ar": "دوري أبطال أوروبا",
+              "hi": "यूईएफए चैंपियंस लीग",
+              "hr": "UEFA Liga prvaka"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 714,
+        "isGroup": false,
+        "isLive": false,
+        "id": 23,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "hi": "यूईएफए चैंपियंस लीग",
+            "ar": "دوري أبطال أوروبا",
+            "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "UEFA Champions League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 76953
+      },
+      "roundInfo": {
+        "round": 27,
+        "name": "Quarterfinals",
+        "slug": "quarterfinals",
+        "cupRoundType": 4
+      },
+      "customId": "UsUH",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 2,
+      "aggregatedWinnerCode": 2,
+      "homeTeam": {
+        "name": "Liverpool",
+        "slug": "liverpool",
+        "shortName": "Liverpool",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 3687453,
+        "nameCode": "LIV",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "id": 44,
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#cc0000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليفربول",
+            "bn": "লিভারপুল",
+            "hi": "लिवरपूल",
+            "ru": "Ливерпуль"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "awayTeam": {
+        "name": "Paris Saint-Germain",
+        "slug": "paris-saint-germain",
+        "shortName": "PSG",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 3043472,
+        "nameCode": "PSG",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "id": 1644,
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000066",
+          "secondary": "#ff1541",
+          "text": "#ff1541"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باريس سان جيرمان",
+            "hi": "पेरिस सेंट-जर्मेन",
+            "ru": "Пари Сен-Жермен"
+          },
+          "shortNameTranslation": {
+            "bn": "পিএসজি",
+            "hi": "पीएसजी"
+          }
+        }
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0,
+        "aggregated": 0
+      },
+      "awayScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 0,
+        "period2": 2,
+        "normaltime": 2,
+        "aggregated": 4
+      },
+      "time": {
+        "injuryTime1": 4,
+        "injuryTime2": 6,
+        "currentPeriodStartTimestamp": 1776197344
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1776200413
+      },
+      "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15632087,
+      "slug": "paris-saint-germain-liverpool",
+      "previousLegEventId": 15632083,
+      "startTimestamp": 1776193200,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "cupMatchesInRound": 2,
+      "isEditor": false,
+      "eventFilters": {
+        "category": [
+          "club"
+        ],
+        "level": [
+          "top-competitions",
+          "pro"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
     }
   ],
   "last5": {
@@ -7186,21 +7195,21 @@
     "w": 5,
     "d": 0,
     "l": 0,
-    "gf": 17,
-    "ga": 3,
-    "avg_gf": 3.4,
-    "avg_ga": 0.6,
+    "gf": 14,
+    "ga": 1,
+    "avg_gf": 2.8,
+    "avg_ga": 0.2,
     "count": 5
   },
   "last10": {
-    "form": "WWWWWLWDWW",
+    "form": "WWWWWWLWDW",
     "w": 8,
     "d": 1,
     "l": 1,
-    "gf": 27,
-    "ga": 10,
-    "avg_gf": 2.7,
-    "avg_ga": 1.0,
+    "gf": 26,
+    "ga": 8,
+    "avg_gf": 2.6,
+    "avg_ga": 0.8,
     "count": 10
   },
   "passes_avg_last5": {
@@ -7210,11 +7219,18 @@
       "accurate": 5,
       "accuracy_pct": 5
     },
-    "avg_passes": 685.6,
-    "avg_accurate": 619.4,
-    "avg_accuracy_pct": 90.10406903499025
+    "avg_passes": 651.8,
+    "avg_accurate": 580.2,
+    "avg_accuracy_pct": 87.86170456721558
   },
   "passes_events_last5": [
+    {
+      "event_id": 15632087,
+      "startTimestamp": 1776193200,
+      "passes": 418.0,
+      "accurate": 322.0,
+      "accuracy_pct": 77.03349282296651
+    },
     {
       "event_id": 15632083,
       "startTimestamp": 1775674800,
@@ -7242,13 +7258,6 @@
       "passes": 552.0,
       "accurate": 482.0,
       "accuracy_pct": 87.31884057971014
-    },
-    {
-      "event_id": 15631341,
-      "startTimestamp": 1773259200,
-      "passes": 587.0,
-      "accurate": 518.0,
-      "accuracy_pct": 88.24531516183987
     }
   ]
 }
