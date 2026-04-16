@@ -6948,12 +6948,15 @@
         "changeTimestamp": 1776182137
       },
       "hasGlobalHighlights": true,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 15866842,
       "slug": "pafos-fc-aris-limassol",
       "startTimestamp": 1776175200,
       "finalResultOnly": false,
-      "feedLocked": false,
+      "feedLocked": true,
       "isEditor": false,
       "eventFilters": {
         "category": [
@@ -6993,21 +6996,21 @@
   "passes_avg_last5": {
     "considered": 5,
     "counts_per_metric": {
-      "passes": 3,
-      "accurate": 3,
-      "accuracy_pct": 3
+      "passes": 4,
+      "accurate": 4,
+      "accuracy_pct": 4
     },
-    "avg_passes": 442.3333333333333,
-    "avg_accurate": 363.6666666666667,
-    "avg_accuracy_pct": 81.6895925133473
+    "avg_passes": 444.0,
+    "avg_accurate": 367.0,
+    "avg_accuracy_pct": 82.25828569904166
   },
   "passes_events_last5": [
     {
       "event_id": 15866842,
       "startTimestamp": 1776175200,
-      "passes": null,
-      "accurate": null,
-      "accuracy_pct": null
+      "passes": 449.0,
+      "accurate": 377.0,
+      "accuracy_pct": 83.96436525612472
     },
     {
       "event_id": 15866437,
