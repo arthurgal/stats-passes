@@ -1,6 +1,6 @@
 // Este arquivo carrega os dados do JSON para a aplicação
 // Definindo a variável jsonData que será usada pelo index.html
-// Atualizado automaticamente em: 08/11/2026 11:57:59
+// Atualizado automaticamente em: 09/11/2026 13:57:28
 jsonData = {
   "Premier League": {
     "erro": "sem standings"
